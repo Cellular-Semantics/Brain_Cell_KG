@@ -38,9 +38,9 @@ This will:
 - Generate CSV reports (`src/cypher/*.cypher` → `reports/*.csv`)
 
 #### Individual Tasks
-- **OWL Generation**: `make templates`
+- **Template Generation**: `make generate-templates` (creates TSV templates from source data)
+- **OWL Generation**: `make owl` (processes TSV templates to OWL files)
 - **Report Generation**: `make reports` (requires Neo4j running)
-- **Template Generation**: `make generate-templates`
 
 ## Adding New Reports
 
@@ -76,7 +76,7 @@ The Makefile automatically discovers all `.cypher` files and generates correspon
 
 3. **Process to OWL**:
    ```bash
-   make templates
+   make owl
    ```
 
 ## Configuration

@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
+     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
+     xmlns:WMB="https://purl.brain-bican.org/taxonomy/CCN20230722/"
+     xmlns:n2o="https://neo4j.com/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_338"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1198"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_335"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1195"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_058"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0259"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0199"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0200"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0203"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_119"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0530"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0533"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0534"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1181"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_333"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1193"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_323"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1175"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1176"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_059"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0257"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_057"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0247"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_101"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0461"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_112"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0504"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017"/>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1184"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_334"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1194"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_057"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_336"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1196"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_326"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1179"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_060"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0262"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0263"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0264"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1184"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1184"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_331"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1191"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_332"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1192"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_215"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0882"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030"/>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_215"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0880"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0887"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_195"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0800"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0801"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_197"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0806"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034"/>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_215"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0883"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0884"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_202"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0829"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_135"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0602"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039">
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_318"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_319"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_054"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0234"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_052"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0212"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_053"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0248"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0261"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_056"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0238"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0239"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_053"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0228"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_055"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0236"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_055"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0236"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_046"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0175"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0177"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_058"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0260"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0267"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0268"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_063"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0281"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0282"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0283"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0284"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_062"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0277"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_062"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0279"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_062"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0279"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_058"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0260"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0271"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0272"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_064"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0285"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0286"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0287"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0288"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0289"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_062"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0274"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0275"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_338"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1201"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_330"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_1188"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_082"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064">
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_135"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_243"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0611"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0974"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_081"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0382"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0383"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_082"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0384"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067">
+        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_044"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0163"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_041"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0151"/>
+        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUPT_0154"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

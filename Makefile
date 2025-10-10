@@ -93,8 +93,9 @@ mock-templates: $(VENV_PYTHON) | $(OWL_DIR)
 		cat $(UTILS_DIR)/prefixes.json >> $$output; \
 	done
 
-.PHONY: templates
+.PHONY: templates owl
 templates: $(GENERATED_TEMPLATES) $(ALL_OWL_OUTPUTS)
+owl: $(GENERATED_TEMPLATES) $(ALL_OWL_OUTPUTS)
 
 # Report generation from Cypher queries
 CYPHER_FILES = $(wildcard $(CYPHER_DIR)/*.cypher)
@@ -149,7 +150,8 @@ help:
 	@echo ""
 	@echo "Targets:"
 	@echo "  all              - Build templates and generate reports"
-	@echo "  templates        - Process ROBOT templates to OWL (requires ROBOT)"
+	@echo "  owl              - Process ROBOT templates to OWL (requires ROBOT)"
+	@echo "  templates        - Same as owl (legacy alias)"
 	@echo "  mock-templates   - Mock template processing for testing"
 	@echo "  reports          - Generate CSV reports from Cypher queries"
 	@echo "  generate-templates - Generate templates from source data"

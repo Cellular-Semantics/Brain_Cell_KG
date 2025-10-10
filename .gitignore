@@ -159,10 +159,7 @@ cython_debug/
 .idea/
 
 # Project specific
-reports/
-build/
-*.owl
-*.log
+
 
 # OS specific
 .DS_Store

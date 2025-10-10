@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
+     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
+     xmlns:WMB="https://purl.brain-bican.org/taxonomy/CCN20230722/"
+     xmlns:n2o="https://neo4j.com/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://neo4j.com/ontology/Confidence -->
+
+    <AnnotationProperty rdf:about="https://neo4j.com/ontology/Confidence"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_151 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_151">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_319"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_151"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_319"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.11</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_210 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_210">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_210"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.88</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_211 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_211">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_211"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.71</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_212 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_212">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_212"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_215 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_215">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_215"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_216 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_216">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_216"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.67</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_219 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_219">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_219"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.51</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_220 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_220">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_060"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_220"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.21</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_220"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_060"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_221 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_221">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_221"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_061"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.34</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_268 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_268">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_268"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.35</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_269 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_269">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_269"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.47</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_270 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_270">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_270"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.45</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_271 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_271">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_271"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_271"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.21</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_272 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_272">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_272"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_272"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.26</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_273 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_273">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_273"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_274 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_274">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_274"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_274"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_050"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_275 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_275">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_275"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.56</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_276 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_276">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_276"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_277 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_277">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_277"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_278 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_278">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_278"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.13</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_279 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_279">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_279"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.38</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_280 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_280">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_280"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_281 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_281">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_281"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.44</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_282 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_282">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_282"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.65</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_283 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_283">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_283"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_283"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_284 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_284">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_284"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.28</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_287 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_287">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_287"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.91</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_288 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_288">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_288"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.87</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_289 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_289">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_289"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_049"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.86</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_292 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_292">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_292"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_047"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_309 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_309">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_315"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_309"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_315"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.96</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_310 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_310">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_310"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_311 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_311">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_311"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.87</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_312 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_312">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_312"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_313 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_313">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_313"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_314"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_315 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_315">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_313"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_315"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_313"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.97</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_367 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_367">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_318"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_367"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_318"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_367"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_327"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.59</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_396 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_396">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_215"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_396"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_215"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.78</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_416 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_416">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_322"/>
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_325"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_416"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_322"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17</n2o:Confidence>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_416"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_325"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.45</n2o:Confidence>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_430 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_430">
+        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_325"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/CS202210140_430"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_SUBC_325"/>
+        <n2o:Confidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</n2o:Confidence>
+    </Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+
