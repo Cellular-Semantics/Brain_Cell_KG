@@ -1,0 +1,51 @@
+human_label	mouse_label	count	similar	which adds more info	completely discordant	notes	worth mentioning / digging into	why
+midbrain-derived inhibitory neuron	GABAergic neuron	12	equivalent 	human	N			
+L5/6 near-projecting glutamatergic neuron	near-projecting glutamatergic cortical neuron	11	equivalent 	human	N			
+hippocampal CA4 neuron	hippocampal CA1-3 neuron	9	equivalent 	neither	N			
+eccentric medium spiny neuron	medium spiny neuron	8	equivalent 	human	N			
+amygdala excitatory neuron	L2/3 intratelencephalic projecting glutamatergic neuron	8	different - location	neither	location	"amygdala vs cortical layer II/III, both are glutamatergic neurons"	yes	"some are supported by a high alignment score, ""Transferred MTG Label"", and ""Top three regions"" where cell is found"
+dentate gyrus granule cell	dentate gyrus of hippocampal formation granule cell	7	equivalent 	neither	N	same exact CL term actually maybe this was a copy paste nomenclature iss		
+molecular layer interneuron	cerebellar neuron	6	equivalent 	human	N			
+eccentric medium spiny neuron	D1/D2-hybrid medium spiny neuron	5	equivalent 	neither	N			
+Lamp5 Lhx6 neuron	lamp5 GABAergic cortical interneuron	4	equivalent 	human	N			
+sst GABAergic cortical interneuron	pvalb GABAergic cortical interneuron	4	equivalent 	neither	N			
+cerebral cortex neuron	L6 corticothalamic-projecting glutamatergic cortical neuron	4	different - level	mouse	level	not really discordant but also very different	yes	"supported by high alignment score and ""Neurotransmitter auto_annotation"""
+intratelencephalic-projecting glutamatergic cortical neuron	L6 intratelencephalic projecting glutamatergic neuron	3	equivalent 	mouse	N		no	low scores
+L2/3 intratelencephalic projecting glutamatergic neuron	L4/5 intratelencephalic projecting glutamatergic neuron	3	equivalent 	neither	N			
+chandelier cell	chandelier pvalb GABAergic cortical interneuron	3	equivalent 	mouse	N		no	"no evidence either is a ""better"" annotation, scores aren't low but aren't very high"
+intratelencephalic-projecting glutamatergic cortical neuron	L4/5 intratelencephalic projecting glutamatergic neuron	3	equivalent 	mouse	N		yes	supported by high alignment score in some clusters and parent_cell_set_name
+L6 intratelencephalic projecting Car3 glutamatergic neuron	glutamatergic neuron	3	different - level	human	level			
+vip GABAergic cortical interneuron	sncg GABAergic cortical interneuron	3	equivalent 	neither	N			
+medium spiny neuron	direct pathway medium spiny neuron	2	equivalent 	mouse	N		no	low scores
+sncg GABAergic cortical interneuron	lamp5 GABAergic cortical interneuron	2	equivalent 	neither	N			
+cerebral cortex neuron	L6b glutamatergic cortical neuron	2	different - level	mouse	level		yes	"supported by high alignment score and ""Neurotransmitter auto_annotation"""
+cerebral cortex neuron	near-projecting glutamatergic cortical neuron	2	different - level	mouse	level		no	low scores
+sst chodl GABAergic cortical interneuron	sst GABAergic cortical interneuron	2	equivalent 	human	N			
+L4 intratelencephalic projecting glutamatergic neuron	L4/5 intratelencephalic projecting glutamatergic neuron	2	equivalent 	neither	N			
+L5 intratelencephalic projecting glutamatergic neuron	L4/5 intratelencephalic projecting glutamatergic neuron	2	equivalent 	neither	N			
+medium spiny neuron	GABAergic neuron	1	different - level	human	level			
+intratelencephalic-projecting glutamatergic cortical neuron	L5 intratelencephalic projecting glutamatergic neuron	1	equivalent 	mouse	N		no	low score
+lamp5 GABAergic cortical interneuron	GABAergic neuron	1	different - level	human	level	honestly human annotation has low support but so does mouse annotation	no	low support for human and mouse annotation
+monocyte	dendritic cell	1	different - immune	neither	immune	both are mononuclear phagocytes 	yes	"to review - alignment score is very very high here (0.95), and the mm_monocyte alignment score to this cluster is lower (0.688)"
+natural killer cell	lymphocyte	1	different - immune	human	immune	no mouse annotations more specific than lymphocyte so all lymphocytes are mapped to here correctly	yes	can just point out that all human lymphocyte clusters were given the mouse annotation lymphocyte because that is the deepest level of annotation for mouse 
+vip GABAergic cortical interneuron	caudal ganglionic eminence derived interneuron	1	equivalent 	human	N			
+thalamic excitatory neuron	glutamatergic neuron	1	equivalent 	neither	N			
+B cell	lymphocyte	1	different - immune	human	immune	no mouse annotations more specific than lymphocyte so all lymphocytes are mapped to here correctly	yes	can just point out that all human lymphocyte clusters were given the mouse annotation lymphocyte because that is the deepest level of annotation for mouse 
+eccentric medium spiny neuron	GABAergic neuron	1	different - level	human	level		no	low score
+hippocampal CA1-3 neuron	oligodendrocyte	1	different - completely	neither	yes		no	low score
+caudal ganglionic eminence derived GABAergic cortical interneuron	lamp5 GABAergic cortical interneuron	1	equivalent 	mouse	N		no	low score
+L5 extratelencephalic projecting glutamatergic cortical neuron	glutamatergic neuron	1	different - level	human	level		no 	low score but also support for human label is pretty meh
+L6b glutamatergic cortical neuron	L6 corticothalamic-projecting glutamatergic cortical neuron	1	equivalent 	neither	N			
+PAX6 GABAergic cortical interneuron	lamp5 GABAergic cortical interneuron	1	equivalent 	neither	N			
+T cell	lymphocyte	1	different - immune	human	immune	no mouse annotations more specific than lymphocyte so all lymphocytes are mapped to here correctly	yes	can just point out that all human lymphocyte clusters were given the mouse annotation lymphocyte because that is the deepest level of annotation for mouse 
+amygdala excitatory neuron	intratelencephalic-projecting glutamatergic cortical neuron	1	different - location	neither	location		yes	decent alignment score maybe it was mislabeled in human
+amygdala excitatory neuron	oligodendrocyte precursor cell	1	different - completely	neither	yes		no	absolutely terrible alignment score
+cerebellar granule cell	cerebellar Golgi cell	1	different - function	neither	function		yes	I think this was annotated incorrectly for human because it should be cerebellar inhibitory not granule cell. Golgi cell would be more appropriate or just cerebellar inhibitory GABAergic interneuron
+hippocampal CA1-3 neuron	glutamatergic neuron	1	different - completely	human	yes		maybe	interesting because the score is very high here but not sure what else we can say about this
+cerebellar inhibitory GABAergic interneuron	cerebellar neuron	1	equivalent 	human	N			
+direct pathway medium spiny neuron	GABAergic neuron	1	different - level	human	level			
+direct pathway medium spiny neuron	Island of Calleja granule cell	1	different - location	neither	location		yes	"score is quite high, definition of island of calleja granule cell is: A DRD1-expressing, medium spiny neuron-like granule cell that is part of an Island of Calleja. Not sure how to confirm but worth looking into if possible"
+hippocampal CA1-3 neuron	L2/3 intratelencephalic projecting glutamatergic neuron	1	different - location	neither	location		maybe	"score is fine but not sure how to demonstrate either annotation is more correct, human one seems fine honestly "
+hippocampal CA1-3 neuron	amygdala excitatory neuron	1	different - location	neither	location		maybe	score is low but majority of expression is in the amygdala so maybe there is something here?
+hippocampal CA1-3 neuron	cerebellar inhibitory GABAergic interneuron	1	different - location	neither	location		no	terrible score
+von Economo neuron	L5 extratelencephalic projecting glutamatergic cortical neuron	1	equivalent 	neither	N			

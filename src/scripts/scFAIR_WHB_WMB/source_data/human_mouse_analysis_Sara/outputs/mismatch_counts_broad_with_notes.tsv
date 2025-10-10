@@ -1,0 +1,16 @@
+human_label	mouse_label	count	Neurotransmitter auto_annotation match	score	notes
+neuron	glutamatergic neuron	51	yes - glut		
+neuron	GABAergic neuron	28	yes - GABA		
+cell	L2/3 intratelencephalic projecting glutamatergic neuron	10	yes - glut	generally okay (around .5)	"could be reasonable, not sure how to verify though"
+neuron	medial ganglionic eminence derived GABAergic cortical interneuron	2	yes - GABA	generally okay (.4 and .8)	"could be reasonable, not sure how to verify though, not similar to other human clusters annotated with similar terms"
+neuron	olfactory granule cell	2	yes - GABA	"for hs_403 this could be a good annotation - alignment score 0.906, expression in human anterior olfactory nucleus"	
+cell	L4/5 intratelencephalic projecting glutamatergic neuron	1	yes - glut	0.58	"could be reasonable, not sure"
+cell	L5 extratelencephalic projecting glutamatergic cortical neuron	1	yes - glut	0.55	"could be reasonable, not sure"
+cell	olfactory granule cell	1	"no - is glut, should be GABA (although maybe multiple different neurotransmitters are allowed, not sure)"	0.496	maybe? Not really sure
+neuron	Cajal-Retzius cell	1	yes - glut	0.38	not sure if this is a good annotation
+neuron	cerebellar granule cell	1	yes - glut	0.33	top location is not the cerebellum so probably not a good annotation? But idk
+neuron	cerebellum glutamatergic neuron	1	yes - glut	0.025	score is bad although it is a glut neuron and top location is cerebellum (97%) so technically might be a good annotation
+neuron	cholinergic neuron	1	yes - chol	0.39	
+neuron	choroid plexus epithelial cell	1	n/a because not a neuron	0.45	"not really sure here - original neuron annotation vs transferred epithelial cell, very different"
+neuron	midbrain dopaminergic neuron	1	yes - first neurotransmitter is dopamine	0.78	yeah seems like a good annoation because top location is midbrain and neurotransmitter is dopamine
+neuron	pinealocyte	1		0.61	"not really sure here - original neuron annotation vs transferred pinealocyte (epithelial cell), very different"

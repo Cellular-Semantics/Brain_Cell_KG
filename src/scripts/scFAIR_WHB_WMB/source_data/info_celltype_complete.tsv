@@ -1,0 +1,351 @@
+cell_type	notes_cell	NTR_details	cellTypeId_	cellTypeName_	cellTypeAnnotationStatus_	cell_type_new	comment_cell
+Astro-Epen: Astro-CB NN	CB: cerebellum 		CL:0002603	astrocyte of the cerebellum	perfect match		
+Astro-Epen: Astro-NT NN	NT: non-telencephalon		CL:0000127	astrocyte	other		
+Astro-Epen: Astro-OLF NN	OLF: olfactory		CL:0012000	astrocyte of the forebrain	other		
+Astro-Epen: Astro-TE NN	TE: telencephalon		CL:0002605	astrocyte of the cerebral cortex	perfect match		
+Astro-Epen: Astroependymal NN			CL:0000683	ependymoglial cell	perfect match		
+Astro-Epen: Bergmann NN			CL:0000644	Bergmann glial cell	perfect match		
+Astro-Epen: CHOR NN	CHOR: choroid plexus		CL:0000706	choroid plexus epithelial cell	perfect match		
+Astro-Epen: Ependymal NN			CL:0000065	ependymal cell	perfect match		
+Astro-Epen: Hypendymal NN			CL:4023181	hypendymal cell	perfect match		
+Astro-Epen: Tanycyte NN	Tanycyte		CL:0002085	tanycyte	perfect match		
+CB GABA: CB PLI Gly-Gaba	"NTR for Gly-Gaba general term or maybe Lugaro cell to be used here
+Purkinje cell layer interneurons"	NTR: Purkinje cell layer interneurons or GABAergic and glycinergic neuron dual transmitter neuron	CL:4023057	cerebellar inhibitory GABAergic interneuron	other		
+CB GABA: CBX Golgi Gly-Gaba			CL:0000119	cerebellar Golgi cell	perfect match		
+CB GABA: CBX MLI Cdh22 Gaba	"NTR since parent of basket + stellate cell is cerebellar neuron, likely should be its own cell type
+MLI: Molecular layer interneurons aka basket cell and stellate cell"	NTR: Molecular layer interneurons (CL:4042035)	CL:1001611	cerebellar neuron	missing child term		
+CB GABA: CBX MLI Megf11 Gaba	"NTR since parent of basket + stellate cell is cerebellar neuron, likely should be its own cell type
+MLI: Molecular layer interneurons aka basket cell and stellate cell"	NTR: Molecular layer interneurons (CL:4042035)	CL:1001611	cerebellar neuron	missing child term		
+CB GABA: CBX Purkinje Gaba			CL:0000121	Purkinje cell	perfect match		
+CB GABA: DCO Il22 Gly-Gaba	"DCO: dorsal cochlear nucleus, cartwheel cell is defined as neuron of the dorsal cochlear nucleus that release GABA and glycine"		CL:4023160	cartwheel cell	perfect match		
+CB Glut: CB Granule Glut			CL:0001031	cerebellar granule cell	perfect match		
+CB Glut: DCO UBC Glut	"DCO: dorsal cochlear nucleus, UBC: unipolar brush cell"		CL:4023161	unipolar brush cell	perfect match		
+CNU-HYa GABA: ACB-BST-FS D1 Gaba	"ACB: nucleus accumbens, BST: bed nuclei of the stria terminalis, FS: fundus of striatum"		CL:4030051	nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron	other		
+CNU-HYa GABA: BST Tac2 Gaba	BST: bed nuclei of the stria terminalis		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: BST-MPN Six3 Nrgn Gaba	"BST: bed nuclei of the stria terminalis, MPN: medial preoptic nucleus"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: BST-SI-AAA Six3 Slc22a3 Gaba	"BST: bed nuclei of the stria terminalis, SI: substantia innominata, AAA: anterior amygdalar area"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: CEA-AAA-BST Six3 Sp9 Gaba	"CEA: central amygdalar nucleus, AAA: anterior amygdalar area, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: CEA-BST Ebf1 Pdyn Gaba	"CEA: central amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: CEA-BST Gal Avp Gaba	"CEA: central amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: CEA-BST Rai14 Pdyn Crh Gaba	"CEA: central amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: CEA-BST Six3 Cyp26b1 Gaba	"CEA: central amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MEA-BST Lhx6 Nfib Gaba	"MEA: medial amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MEA-BST Lhx6 Nr2e1 Gaba	"MEA: medial amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MEA-BST Lhx6 Sp9 Gaba	"MEA: medial amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MEA-BST Sox6 Gaba	"MEA: medial amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MPN-MPO-LPO Lhx6 Zfhx3 Gaba	"MPN: medial preoptic nucleus, MPO: medial preoptic area, LPO: lateral preoptic area"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: MPO-ADP Lhx8 Gaba	"MPO: medial preoptic area, ADP: anterodorsal preoptic nucleus"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: NDB-SI-ant Prdm12 Gaba	"NDB: diagonal band nucleus, SI: substantia innominata"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: PVR Six3 Sox3 Gaba	PVR: periventricular region		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: SI-MA-ACB Ebf1 Bnc2 Gaba	"SI: substantia innominata, MA: magnocellular nucleus, ACB: nucleus accumbens"		CL:0000617	GABAergic neuron	other		
+CNU-HYa GABA: SI-MPO-LPO Lhx8 Gaba	"SI: substantia innominata, MPO: medial preoptic area, LPO: lateral preoptic area"		CL:0000617	GABAergic neuron	other		
+CNU-HYa Glut: ADP-MPO Trp73 Glut	"ADP: anterodorsal preoptic nucleus, MPO: medial preoptic area"		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: AVPV-MEPO-SFO Tbr1 Glut	"AVPV: anteroventral periventricular nucleus, MEPO: medium preoptic nucleus, SFO: subfornical organ"		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: BST-po Iigp1 Glut	BST-po: bed nuclei of the stria terminalis		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: COAa-PAA-MEA Barhl2 Glut	"COAa: cortical amygdalar area, anterior part, PAA: piriform-amygdalar area, MEA: medial amygdalar nucleus, all parts of amygdala so I think it's fair to annotate as amygdala neuron"		CL:4023039	amygdala excitatory neuron	other		
+CNU-HYa Glut: GPi Tbr1 Cngb3 Gaba-Glut	"NTR Gaba-Glut, Gpi: globus pallidus, internal segment, I can't find any terms in CL for GABA-glut, parent of gaba/glut is neuron"	NTR: glutamatergic and GABAergic dual transmitter neuron	CL:0000540	neuron	other		
+CNU-HYa Glut: LHA Barhl2 Glut	LHA: lateral hypothalamic area		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: LHA-MEA Otp Glut	"LHA:  lateral hypothalamic area, MEA: medial amygdalar nucleus "		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: MEA Otp Foxp2 Glut	MEA: medial amygdalar nucleus		CL:4023039	amygdala excitatory neuron	other		
+CNU-HYa Glut: MEA-BST Otp Zic2 Glut	"MEA: medial amygdalar nucleus, BST: bed nuclei of the stria terminalis"		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: MEA-COA-BMA Ccdc42 Glut	"MEA: medial amygdalar nucleus, COA: cortical amygdalar area, BMA: basomedial amygdalar nucleus "		CL:4023039	amygdala excitatory neuron	other		
+CNU-HYa Glut: MS-SF Bsx Glut	"MS: medial septal nucleus, SF: septofimbral nucleus"		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: SI-MA-LPO-LHA Skor1 Glut	"SI: substantia innominata, MA: magnocellular nucleus, LPO: lateral preoptic area, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+CNU-HYa Glut: TRS-BAC Sln Glut	"TRS: triangular nucleus of septum, BAC: bed nucleus of the anterior commissure"		CL:0000679	glutamatergic neuron	other		
+CNU-LGE GABA: GPe-SI Sox6 Cyp26b1 Gaba	"Gpe: globus pallidus external, SI: substantia innominata, also novel group of GABAergic neuronal types that are like medium spiny neurons based on their gene expression profile but also distinct from them based on their spatial location (PMID: 38948843)"		CL:1001474	medium spiny neuron	other		
+CNU-LGE GABA: IA Mgp Gaba	novel group of GABAergic neuronal types that are like medium spiny neurons based on their gene expression profile but also distinct from them based on their spatial location (PMID: 38948843)		CL:1001474	medium spiny neuron	other		
+CNU-LGE GABA: OT D3 Folh1 Gaba	localized in the islands of Calleja in the olfactory tubercle - there are OT MSNs in CL but they are specific to D1/D2 and this subclass isn't specific here (PMID: 38948843)		CL:4030053	Island of Calleja granule cell	perfect match		
+CNU-LGE GABA: STR D1 Gaba	D1 type medium spiny neurons/spiny projection neurons		CL:4023026	direct pathway medium spiny neuron	perfect match		
+CNU-LGE GABA: STR D1 Sema5a Gaba	hybrid MSN D1 neurons that have been described to co-express Drd1a and a shortened variant of the D2 receptor (PMID: 38948843)		CL:4030050	D1/D2-hybrid medium spiny neuron	perfect match		
+CNU-LGE GABA: STR D2 Gaba	D2 type medium spiny neurons/spiny projection neurons		CL:4023029	indirect pathway medium spiny neuron	perfect match		
+CNU-LGE GABA: STR-PAL Chst9 Gaba	novel group of GABAergic neuronal types that are like medium spiny neurons based on their gene expression profile but also distinct from them based on their spatial location (PMID: 38948843)		CL:1001474	medium spiny neuron	other		
+CNU-MGE GABA: NDB-SI-MA-STRv Lhx8 Gaba	MGE internerons  PMID: 38948843		CL:4023069	medial ganglionic eminence derived GABAergic cortical interneuron	other		
+CNU-MGE GABA: PAL-STR Gaba-Chol	"basal forebrain cholinergic neurons, PMID: 38948843 mentions some corelease GABA but not all"	NTR: GABAergic and cholinergic dual transmitter neuron	CL:0000108	cholinergic neuron	other		
+CNU-MGE GABA: STR Lhx8 Gaba	MGE internerons  PMID: 38948843		CL:4023069	medial ganglionic eminence derived GABAergic cortical interneuron	other		
+CNU-MGE GABA: STR Prox1 Lhx6 Gaba	MGE internerons  PMID: 38948843		CL:4023069	medial ganglionic eminence derived GABAergic cortical interneuron	other		
+CNU-MGE GABA: Sst Chodl Gaba			CL:4023121	sst chodl GABAergic cortical interneuron	perfect match		
+CTX-CGE GABA: Lamp5 Gaba			CL:4023011	lamp5 GABAergic cortical interneuron	perfect match		
+CTX-CGE GABA: RHP-COA Ndnf Gaba	parent term is CTX GABA interneuron		CL:4023064	caudal ganglionic eminence derived interneuron	other		
+CTX-CGE GABA: Sncg Gaba			CL:4023015	sncg GABAergic cortical interneuron	perfect match		
+CTX-CGE GABA: Vip Gaba			CL:4023016	vip GABAergic cortical interneuron	perfect match		
+CTX-MGE GABA: Lamp5 Lhx6 Gaba			CL:4042013	Lamp5 Lhx6 neuron	perfect match		
+CTX-MGE GABA: Pvalb Gaba			CL:4023018	pvalb GABAergic cortical interneuron	perfect match		
+CTX-MGE GABA: Pvalb chandelier Gaba			CL:4023036	chandelier pvalb GABAergic cortical interneuron	perfect match		
+CTX-MGE GABA: Sst Gaba			CL:4023017	sst GABAergic cortical interneuron	perfect match		
+DG-IMN Glut: DG Glut			CL:2000089	dentate gyrus granule cell	perfect match		
+DG-IMN Glut: DG-PIR Ex IMN	"NTR
+Ex: excitatory, IMN: immature neurons"	NTR: immature dentate gyrus granule cells	CL:2000089	dentate gyrus granule cell	other		
+HY GABA: AHN Onecut3 Gaba	AHN: anterior hypothalamic nucleus		CL:0000617	GABAergic neuron	other		
+HY GABA: AHN-SBPV-PVHd Pdrm12 Gaba	"AHN: anterior hypothalamic nucleus, SBPV: subparaventricular zone, PVHd: paraventricular hypothalamic nucleus, descending"		CL:0000617	GABAergic neuron	other		
+HY GABA: ARH-PVi Six6 Dopa-Gaba	"NTR: dopa-gaba, 
+ARH: arcuate hypothalamic nucleus, PVi: paraventricular hypothalamic nucleus, intermediate part"	NTR: GABAergic and dopaminergic dual transmitter neuron	CL:0000540	neuron	other		
+HY GABA: ARH-PVp Tbx3 Gaba	"ARH: arcuate hypothalamic nucleus, PVp: paraventricular hypothalamic nucleus, posterior part"		CL:0000617	GABAergic neuron	other		
+HY GABA: DMH Hmx2 Gaba	"DMH: dorsomedial nucleus of the hypothalamus, no convincing papers on Hmx2 DMH neurons"		CL:0000617	GABAergic neuron	other		
+HY GABA: DMH Prdm13 Gaba	"DMH: dorsomedial nucleus of the hypothalamus, no convincing papers on Prdm13 DMH neurons"		CL:0000617	GABAergic neuron	other		
+HY GABA: DMH-LHA Gsx1 Gaba	"DMH: dorsomedial nucleus of the hypothalamus, LHA: lateral hypothalamic area"		CL:0000617	GABAergic neuron	other		
+HY GABA: LGv-ZI Otx2 Gaba	"LGv: ventral part of the lateral geniculate complex, ZI: zona incerta"		CL:0000617	GABAergic neuron	other		
+HY GABA: PVHd Gsc Gaba	"PVHd: paraventricular hypothalamic nucleus, descending"		CL:0000617	GABAergic neuron	other		
+HY GABA: PVHd-DMH Lhx6 Gaba	"PVHd: paraventricular hypothalamic nucleus, descending, DMH: dorsomedial nucleus of the hypothalamus"		CL:0000617	GABAergic neuron	other		
+HY GABA: PVHd-SBPV Six3 Prox1 Gaba	"PVHd: paraventricular hypothalamic nucleus, descending, SBPV: subparaventricular zone"		CL:0000617	GABAergic neuron	other		
+HY GABA: PVpo-VMPO-MPN Hmx2 Gaba	"PVpo: periventricular hypothalamic nucleus, preoptic part, VMPO: ventromedial preoptic nucleus, MPN: medial preoptic nucleus"		CL:0000617	GABAergic neuron	other		
+HY GABA: RT-ZI Gnb3 Gaba	"RT: reticular nucleus of the thalamus, ZI: zona incerta"		CL:0000617	GABAergic neuron	other		
+HY GABA: SBPV-PVa Six6 Satb2 Gaba	"SBPV: subparaventricular zone, PVa: paraventricular hypothalamic nucleus, anterior part"		CL:0000617	GABAergic neuron	other		
+HY GABA: SCH Six6 Cdc14a Gaba	SCH: suprachiasmatic nucleus		CL:0000617	GABAergic neuron	other		
+HY GABA: TMd-DMH Foxd2 Gaba	"TMd: tuberomammillary nucleus, dorsal part, DMH: dorsomedial nucleus of the hypothalamus"		CL:0000617	GABAergic neuron	other		
+HY GABA: TMv-PMv Tbx3 Hist-Gaba	"NTR: hist-gaba, if this NTR request isn't approved then maybe just hist considering lots of literature stating that all histaminergic neurons are found in the tuberomamillary nucleus, TMv: tuberomammillary nucleus, ventral part, PMv: ventral premammillary nucleus"	NTR: GABAergic and histaminergic dual transmitter neuron	CL:0000540	neuron	other		
+HY GABA: TU-ARH Otp Six6 Gaba	"TU: tuberal nucleus, ARH: arcuate hypothalamic nucleus"		CL:0000617	GABAergic neuron	other		
+HY GABA: ZI Pax6 Gaba	ZI: zona incerta		CL:0000617	GABAergic neuron	other		
+HY Glut: AHN-RCH-LHA Otp Fezf1 Glut	"AHN: anterior hypothalamic nucleus, RCH: retrochiasmatic area, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+HY Glut: ARH-PVp Tbx3 Glut	"ARH: arcuate hypothalamic nucleus, PVp: paraventricular hypothalamic nucleus, posterior part"		CL:0000679	glutamatergic neuron	other		
+HY Glut: DMH Hmx2 Glut	DMH: dorsomedial nucleus of the hypothalamus		CL:0000679	glutamatergic neuron	other		
+HY Glut: DMH Nkx2-4 Glut	DMH: dorsomedial nucleus of the hypothalamus		CL:0000679	glutamatergic neuron	other		
+HY Glut: DMH-LHA Vgll2 Glut	"DMH: dorsomedial nucleus of the hypothalamus, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+HY Glut: LHA Pmch Glut	"maybe NTR, for melanin-concentrating hormone neurons, LHA: lateral hypothalamic area, Pmch encodes melanin-concentrating hormone"	NTR: melanin-concentrating hormone neuron (CL:4042036)	CL:0000679	glutamatergic neuron	other		
+HY Glut: LHA-AHN-PVH Otp Trh Glut	"LHA: lateral hypothalamic area, AHN: anterior hypothalamic nucleus, PVH: paraventricular hypothalamic nucleus"	"term review: parvocellular neurosecretory cell (CL:1001505), to review if appropriate here"	CL:0000679	glutamatergic neuron	other		
+HY Glut: MPN-MPO-PVpo Hmx2 Glut	"MPN: medial preoptic nucleus, MPO: medial preoptic area, PVpo: periventricular hypothalamic nucleus, preoptic part"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PH Pitx2 Glut	PH: posterior hypothalamic nucleus		CL:0000679	glutamatergic neuron	other		
+HY Glut: PH-LHA Foxb1 Glut	"PH: posterior hypothalamic nucleus, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PH-SUM Foxa1 Glut	"PH: posterior hypothalamic nucleus, SUM: supramammillary nucleus"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PH-an Pitx2 Glut	PH: posterior hypothalamic nucleus		CL:0000679	glutamatergic neuron	other		
+HY Glut: PH-ant-LHA Otp Bsx Glut	"PH: posterior hypothalamic nucleus, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PMd-LHA Foxb1 Glut	"PMd: dorsal premammillary nucleus, LHA: lateral hypothalamic area"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PMv-TMv Pitx2 Glut	"PMv: ventral premammillary nucleus, TMv: tuberomammillary nucleus, ventral part"		CL:0000679	glutamatergic neuron	other		
+HY Glut: PVH-SO-PVa Otp Glut	"NTR term review would CL:0011003 (magnocellular neurosecretory cell) be more appropriate here? PVH: paraventricular hypothalamic nucleus, SO: supraoptic nucleus, PVa: paraventricular hypothalamic nucleus, anterior part"	"term review: magnocellular neurosecretory cell (CL:0011003), to review if this is appropriate here"	CL:0000679	glutamatergic neuron	other		
+HY Glut: STN-PSTN Pitx2 Glut	"STN: subthalamic nucleus, PSTN: parasubthalamic nucleus"		CL:0000679	glutamatergic neuron	other		
+HY Glut: VMH Fezf1 Glut	VMH: ventromedial hypothalamic nucleus		CL:0000679	glutamatergic neuron	other		
+HY Glut: VMH Nr5a1 Glut	VMH: ventromedial hypothalamic nucleus		CL:0000679	glutamatergic neuron	other		
+HY Gnrh1 Glut: HY Gnrh1 Glut	"hypothalamic Gnrh1 neuronal type developmentally originated from the embryonic olfactory epithelium, but might make more sense to label this glutamatergic "		CL:0011111	gonadotropin-releasing hormone neuron	other		
+HY MM Glut: MM Foxb1 Glut	"NTR here to maybe add parent term to mammillary body neuron, MM: medial mammillary nucleus"	"term review: mammillary body neuron (CL:4023074), to review if glutamatergic neuron (CL:0000679) parent term is appropriate here"	CL:4023074	mammillary body neuron	perfect match		
+HY MM Glut: MM-ant Foxb1 Glut	"NTR here to maybe add parent term to mammillary body neuron, MM: medial mammillary nucleus"	"term review: mammillary body neuron (CL:4023074), to review if glutamatergic neuron (CL:0000679) parent term is appropriate here"	CL:4023074	mammillary body neuron	perfect match		
+IT-ET Glut: CA1-ProS Glut			CL:4023060	hippocampal CA1-3 neuron	missing child term		
+IT-ET Glut: CA2-FC-IG Glut			CL:4023060	hippocampal CA1-3 neuron	missing child term		
+IT-ET Glut: CA3 Glut			CL:4023060	hippocampal CA1-3 neuron	missing child term		
+IT-ET Glut: CLA-EPd-CTX Car3 Glut	"NTR review if CL:4030068 (L6 intratelencephalic projecting Car3 glutamatergic neuron) is more appropriate here? Maybe given PMID: 34004146? CLA: claustrum, EPd: endopiriform nucleus, dorsal part, CTX: cerebral cortex"	"term review: L6 intratelencephalic projecting Car3 glutamatergic neuron (CL:4030068), to review if appropriate here"	CL:0000679	glutamatergic neuron	other		
+IT-ET Glut: COAp Grxcr2 Glut	"COAp: cortical amygdalar area, posterior part, amygdala so annotating as amygdala neuron (parent is glutamergic neuron)"		CL:4023039	amygdala excitatory neuron	other		
+IT-ET Glut: ENTmv-PA-COAp Glut	"ENTmv: entorhinal area, medial part ventral zone, PA: posterior amygdalar nucleus, COAp: cortical amygdalar area, posterior part, amygdala plus part of retrohippocampus, giving more general glutamerigic neuron term"		CL:0000679	glutamatergic neuron	other		
+IT-ET Glut: IT AON-TT-DP Glut			CL:4023008	intratelencephalic-projecting glutamatergic cortical neuron	other		
+IT-ET Glut: IT EP-CLA Glut			CL:4023008	intratelencephalic-projecting glutamatergic cortical neuron	other		
+IT-ET Glut: L2 IT ENT-po Glut			CL:4030060	L2 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2 IT PPP-APr Glut			CL:4030060	L2 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2/3 IT CTX Glut			CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2/3 IT ENT Glut			CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2/3 IT PIR-ENTl Glut			CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2/3 IT PPP Glut			CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L2/3 IT RSP Glut			CL:4030059	L2/3 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L4 RSP-ACA Glut	"RSP: retrosplenial cortex, ACA: anterior cingulate area, mixed IT and ET transcriptomicsignatures, going with glutamatergic neuron which is the parent of IT and ET "		CL:0000679	glutamatergic neuron	missing child term		
+IT-ET Glut: L4/5 IT CTX Glut			CL:4030062	L4/5 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L5 ET CTX Glut			CL:4023041	L5 extratelencephalic projecting glutamatergic cortical neuron	other		
+IT-ET Glut: L5 IT CTX Glut			CL:4030064	L5 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: L5 PPP Glut	"PPP: POST-PRE-parasubiculum, going with glutamergic neuron because PPP doesn't specify IT or ET "		CL:0000679	glutamatergic neuron	other		
+IT-ET Glut: L5/6 IT TPE-ENT Glut			CL:4023008	intratelencephalic-projecting glutamatergic cortical neuron	missing child term		
+IT-ET Glut: L6 IT CTX Glut			CL:4030065	L6 intratelencephalic projecting glutamatergic neuron	other		
+IT-ET Glut: LA-BLA-BMA-PA Glut	"LA: lateral amygdalar nucleus, BLA: basolateral amygdalar nucleus, BMA: basomedial amygdalar nucleus, PA: posterior amygdalar nucleus, these are all parts of amygdala so annotating as amygdala neuron (parent is glutamergic neuron)"		CL:4023039	amygdala excitatory neuron	other		
+IT-ET Glut: MEA Slc17a7 Glut	"MEA: medial amygdalar nucleus, amygdala so annotating as amygdala neuron (parent is glutamergic neuron)"		CL:4023039	amygdala excitatory neuron	other		
+IT-ET Glut: NLOT Rho Glut	"NLOT: nucleus of the lateral olfactory tract, highly distinct IT-ET type located in the nucleus of the lateral olfactory tract"		CL:0000679	glutamatergic neuron	other		
+IT-ET Glut: SUB-ProS Glut	"SUB: subiculum, ProS: prosubiculum"		CL:0000679	glutamatergic neuron	other		
+Immune: BAM NN	border-associated macrophages (BAMs) or CNS-associated macrophages (CAMs)		CL:4042003	border associated macrophage	perfect match		
+Immune: DC NN			CL:0000451	dendritic cell	perfect match		
+Immune: Lymphoid NN			CL:0000542	lymphocyte	perfect match		
+Immune: Microglia NN			CL:0000129	microglial cell	perfect match		
+Immune: Monocytes NN			CL:0000576	monocyte	perfect match		
+LSX GABA: LSX Nkx2-1 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+LSX GABA: LSX Otx2 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+LSX GABA: LSX Prdm12 Slit2 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+LSX GABA: LSX Prdm12 Zeb2 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+LSX GABA: LSX Sall3 Lmo1 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+LSX GABA: LSX Sall3 Pax6 Gaba	"GABAergic neurons found in lateral septal complex, not a CL term, likely shouldn't get a CL term from brief lit review given that this is more of a location term than a cell type term, using GABAergic neuron for all of the LSX terms"		CL:0000617	GABAergic neuron	other		
+MB Dopa: SNc-VTA-RAmb Foxa1 Dopa			CL:2000097	midbrain dopaminergic neuron	perfect match		
+MB GABA: IC Six3 En2 Gaba	IC: inferior colliculus	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: IPN Otp Crisp1 Gaba	IPN: interpeduncular nucleus	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	"LGv: ventral part of lateral geniculate complex, SPFp-SPFm: subparafascicular nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: MRN-PPN-CUN Pax8 Gaba	"MRN: midbrain reticular nucleus, PPN: pedunculopontine nucleus, CUN: cuneiform nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: MRN-VTN-PPN Pax5 Cdh23 Gaba	"MRN: midbrain reticular nucleus, VTN: ventral tegmental nucleus, PPN: pedunculopontine nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PAG-MRN Rln3 Gaba	"PAG: periaqueductal gray, MRN: midbrain reticular nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PAG-MRN-RN Foxa2 Gaba	"PAG: periaqueductal gray, MRN: midbrain reticular nucleus, RN: red nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PAG-ND-PCG Onecut1 Gaba	"PAG: periaqueductal gray, ND: nucleus of Darkschewitsch, PCG: pontine central gray"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PAG-PPN Pax5 Sox21 Gaba	"PAG: periaqueductal gray, PPN: pedunculopontine nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PAG-RN Nkx2-2 Otx1 Gaba	"PAG: periaqueductal gray, RN: red nucleus"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PPN-CUN-PCG Otp En1 Gaba	"PPN: pedunculopontine nucleus, CUN: cuneiform nucleus, PCG: pontine central gray"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PRT Mecom Gaba	PRT: pretectal region	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: PRT Tcf7l2 Gaba	PRT: pretectal region	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SC Lef1 Otx2 Gaba	SC: superior colliculus	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SC Otx2 Gcnt4 Gaba	SC: superior colliculus	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SC Tnnt1 Gli3 Gaba	SC: superior colliculus	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SC-PAG Lef1 Emx2 Gaba	"SC: superior colliculus, PAG: periaqueductal gray"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SCm-PAG Cdh23 Gaba	"SCm: superior colliculus, motor related, PAG: periaqueductal gray"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SCs Dmbx1 Gaba	"SCs: superior colliculus, sensory related"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SCs Lef1 Gli3 Gaba	"SCs: superior colliculus, sensory related"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SCs Pax7 Nfia Gaba	"SCs: superior colliculus, sensory related"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SCsg Gabrr2 Gaba	"SCsg: superior colliculus, superficial gray layer"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SNr Six3 Gaba	"SNr: substantia nigra, reticular part"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB GABA: SNr-VTA Pax5 Npas1 Gaba	"SNr: substantia nigra, VTA: ventral tegmental area"	"term review: midbrain-derived inhibitory neuron (CL:4023079), to review if parent term GABAergic neuron (CL:0000617) should be added"	CL:0000617	GABAergic neuron	other		
+MB Glut: APN C1ql2 Glut	APN: anterior pretectal nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: APN C1ql4 Glut	APN: anterior pretectal nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: CUN Evx2 Lhx2 Glut	CUN: cuneiform nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: CUN-PPN Evx2 Meis2 Glut	"CUN: cuneiform nucleus, PPN: pedunculopontine nucleus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: IC Tfap2d Maf Glut	IC: inferior colliculus		CL:0000679	glutamatergic neuron	other		
+MB Glut: IF-RL-CLI-PAG Foxa1 Glut	"IF: interfascicular nucleus raphe, RL: rostral linear nucleus raphe, CL: central lateral nucleus of the thalamus, PAG: periaqueductal gray"	"term review: raphe nuclei neuron (CL:0002610) vs glutamatergic neuron
+(CL:0000679)"	CL:0000679	glutamatergic neuron	other		
+MB Glut: MB-ant-ve Dmrta2 Glut	midbrain		CL:0000679	glutamatergic neuron	other		
+MB Glut: MEV Ppp1r1c Glut	MEV: midbrain trigeminal nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: MRN Pou3f1 C1ql4 Glut	MRN: midbrain reticular nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: MRN-PAG Nkx6-1 Glut	"MRN: midbrain reticular nucleus, PAG: periaqueductal gray"		CL:0000679	glutamatergic neuron	other		
+MB Glut: ND-INC Foxd2 Glut	"ND: nucleus of Darkschewitsch, INC: interstitial nucleus of cajal"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Pou4f1 Bnc2 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Pou4f1 Ebf2 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Pou4f2 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Pou4f2 Mesi2 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Pou4f3 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Tcf24 Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG Ucn Glut	PAG: periaqueductal gray		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG-MRN Pou3f1 Glut	"PAG: periaqueductal gray, MRN: midbrain reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG-MRN Tfap2b Glut	"PAG: periaqueductal gray, MRN: midbrain reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG-SC Neurod2 Meis2 Glut	"PAG: periaqueductal gray, SC: superior colliculus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PAG-SC Pou4f1 Zic1 Glut	"PAG: periaqueductal gray, SC: superior colliculus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PBG Mtnr1a Glut-Chol	"NTR Glut-Chol, PBG: parabigeminal nucleus"	NTR: glutamatergic and cholinergic dual transmitter neuron	CL:0000540	neuron	other		
+MB Glut: PRC-PAG Pax6 Glut	"PRC: precommissural nucleus, PAG: periaqueductal gray"		CL:0000679	glutamatergic neuron	other		
+MB Glut: PRC-PAG Tcf7l2 Irx2 Glut	"PRC: precommissural nucleus, PAG: periaqueductal gray"		CL:0000679	glutamatergic neuron	other		
+MB Glut: RN Spp1 Glut	RN: red nucleus		CL:0000679	glutamatergic neuron	other		
+MB Glut: SC Bnc2 Glut	SC: superior colliculus		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCdg-PAG Tfap2b Glut	"SCdg: superior colliculus, motor related, deep gray layer, PAG: periaqueductal gray"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCig Foxb1 Glut	"SCig: superior colliculus, motor related, intermediate gray layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCig Foxb1 Otx2 Glut	"SCig: superior colliculus, motor related, intermediate gray layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCig Tfap2b Chrnb3 Glut	"SCig: superior colliculus, motor related, intermediate gray layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCig-an-PPT Foxb1 Glut	"SCig: superior colliculus, motor related, intermediate gray layer, PPT: posterior pretectal nucleus"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCiw Pitx2 Glut	"NTR but I'm not super confident about it, SCiw: superior colliculus, motor related, intermediate white layer"	NTR: Pitx2 glutamatergic superior colliculus neuron	CL:0000679	glutamatergic neuron	other		
+MB Glut: SCop Pou4f2 Neurod2 Glut	"SCop: superior colliculus, optic layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCop Sln Glut	"SCop: superior colliculus, optic layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SCsg Pde5a Glut	"SCsg: superior colliculus, superficial gray layer"		CL:0000679	glutamatergic neuron	other		
+MB Glut: SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	"SPA: subparafascicular area, SPF: subparafascicular nucleus, POL: posterior limiting nucleus of the thalamus, PIL: posterior intralaminar thalamic nucleus, PoT: posterior triangular thalamic nucleus"		CL:0000679	glutamatergic neuron	other		
+MB-HB Sero: MB-MY Tph2 Glut-Sero	"NTR glut sero, MB: midbrain, MY: medulla"	NTR: glutamatergic and serotonergic dual transmitter neuron	CL:0000540	neuron	other		
+MH-LH Glut: LH Pou4f1 Sox1 Glut	lateral habenula		CL:0000679	glutamatergic neuron	other		
+MH-LH Glut: MH Tac2 Glut	medial habenula		CL:0000679	glutamatergic neuron	other		
+MY GABA: CBN Dmbx1 Gaba			CL:0000617	GABAergic neuron	other		
+MY GABA: CU-ECU Pax2 Gly-Gaba	"NTR glycinergic and GABAergic neuron
+cuneate nucleus (and external cuneate nucleus)"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: GRN-IRN-MDRNd Ikzf1 Gly-Gaba	"NTR glycinergic and GABAergic neuron
+gigantocellular reticular nucleus, intermediate reticular nucleus, medullary reticular nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: IRN Dmbx1 Pax2 Gly-Gaba	"NTR glycinergic and GABAergic neuron
+intermediate reticular nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MARN-PPY Ngfr Gly-Gaba	"NTR glycinergic and GABAergic neuron
+magnocellular reticular nucleus, parapyramidal nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MDRN Hoxb5 Ebf2 Gly-Gaba	NTR glycinergic and GABAergic neuron medullary reticular nucleus	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MDRNd Prox1 Pax6 Gly-Gaba	"NTR glycinergic and GABAergic neuron medullary reticular nucleus, dorsal part"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MV Nkx6-1 Gly-Gaba	NTR glycinergic and GABAergic neuron medial vestibular nucleus	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MV Nr4a2 Gly-Gaba	NTR glycinergic and GABAergic neuron medial vestibular nucleus	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MV Pax6 Gly-Gaba	NTR glycinergic and GABAergic neuron medial vestibular nucleus	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MV Xdh Gly-Gaba	NTR glycinergic and GABAergic neuron medial vestibular nucleus	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MV-SPIV-PRP Dmbx1 Gly-Gaba	"NTR glycinergic and GABAergic neuron medial vestibular nucleus, spinal vestibular nucleus, nucleus prepositus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MY Lhx1 Gly-Gaba	"NTR glycinergic and GABAergic neuron, medulla"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: MY Prox1 Lmo7 Gly-Gaba	"NTR glycinergic and GABAergic neuron, medulla"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: NTS-MDRNd Prox1 Zic1 Gly-Gaba	"NTR glycinergic and GABAergic neuron, nucleus of the solitary tract, medullary reticular nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: NTS-PARN Neurod2 Gly-Gaba	"NTR glycinergic and GABAergic neuron, nucleus of the solitary tract, parvicellular reticular nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: PARN-MDRNd-NTS Gbx2 Gly-Gaba	"NTR glycinergic and GABAergic neuron, parvicellular reticular nucleus, medullary reticular nucleus, nucleus of the solitary tract"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: PAS-MV Ebf2 Gly-Gaba	"NTR glycinergic and GABAergic neuron, parasolitary nucleus, medial vestibular nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: PPY-PGRNl Vip Glyc-Gaba	"NTR glycinergic and GABAergic neuron
+paragigantocellular reticular nucleus, parapyramidal nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: PRP Gata3 Slc6a5 Gly-Gaba	"NTR glycinergic and GABAergic neuron, nucleus prepostius "	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: PRP Otp Gly-Gaba	"NTR glycinergic and GABAergic neuron, nucleus prepostius "	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: RO-RPA Pkd2l1 Gaba	"NTR term review - is it better to go with GABA here, vs raphe nuclei neuron, nucleus raphe obscurus, nucleus raphe pallidus"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0002610	raphe nuclei neuron	other		
+MY GABA: RPA Pax6 Hoxb5 Gly-Gaba	"NTR glycinergic and GABAergic neuron, nucleus raphe pallidus"	NTR + term review: raphe nuclei neuron (CL:0002610) vs NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: SPVI-SPVC Sall3 Lhx1 Gly-Gaba	"NTR glycinergic and GABAergic neuron, spinal nucleus of the trigeminal, interpolar part, spinal nucleus of the trigeminal, caudal part"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY GABA: SPVI-SPVC Sall3 Nfib Gly-Gaba	"NTR glycinergic and GABAergic neuron, spinal nucleus of the trigeminal, interpolar part, spinal nucleus of the trigeminal, caudal part"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+MY Glut: CBN Neurod2 Pvalb Glut	cerebellar nuclei - not totally clear why this is in the medulla glut group		CL:2000028	cerebellum glutamatergic neuron	perfect match		
+MY Glut: CU-ECU-SPVI Foxb1 Glut	"cunate nucleus, external cuneate nuclues, spinal nucleus of the trigeminal"		CL:0000679	glutamatergic neuron	other		
+MY Glut: DMX VII Tbx20 Chol	"NTR parasympathetic cholinergic neuron, dorsal motor nucleus of the vagus nerve, facial motor nucleus"	NTR: parasympathetic cholinergic neuron	CL:0000108	cholinergic neuron	missing child term		
+MY Glut: HB Calcb Chol	hindbrain		CL:0000108	cholinergic neuron	missing child term		
+MY Glut: IO Fgl2 Glut	inferior olivary complex		CL:0000679	glutamatergic neuron	other		
+MY Glut: IRN Vip Glut	intermediate reticular nucleus		CL:0000679	glutamatergic neuron	other		
+MY Glut: MARN-GRN Pyy Glut	"magnocellular reticular nucleus, gigantocellular reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+MY Glut: MDRNd Bves Glut	"medullary reticular nucleus, dorsal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: MDRNv Crp Glut	"medullary reticular nucleus, ventral part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: MDRNv Lhx4 Qrfprl Glut	"medullary reticular nucleus, ventral part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: MV-SPIV Phox2b Ebf3 Lbx1 Glut	"NTR maybe for Phox2b glut, medial vestibular nucleus, spinal vestibular nucleus"	NTR: Phox2b glutamatergic neuron	CL:0000679	glutamatergic neuron	other		
+MY Glut: MV-SPIV Slc6a2 Glut	"medial vestibular nucleus, spinal vestibular nucleus"		CL:0000679	glutamatergic neuron	other		
+MY Glut: MV-SPIV Zic4 Neurod2 Glut	"medial vestibular nucleus, spinal vestibular nucleus"		CL:0000679	glutamatergic neuron	other		
+MY Glut: NTS Aldh1a2 Glut	nucleus of the solitary tract		CL:0000679	glutamatergic neuron	other		
+MY Glut: NTS Dbh Glut	nucleus of the solitary tract		CL:0000679	glutamatergic neuron	other		
+MY Glut: NTS Mbnl3 Glut	nucleus of the solitary tract		CL:0000679	glutamatergic neuron	other		
+MY Glut: NTS Phox2b Glut	"NTR maybe for Phox2b glut, nucleus of the solitary tract"	NTR: Phox2b glutamatergic neuron	CL:0000679	glutamatergic neuron	other		
+MY Glut: PGRN-PARN-MDRN Hoxb5 Glut	"paragigantocellular reticular nucleus, parvicellular reticular nucleus, medullary reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+MY Glut: PGRNd Dmbx1 Glut	"paragigantocellular reticular nucleus, dorsal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: PRP-NI-PRNc-GRN Otp Glut	"nucleus prepostius, nucleus incertus, pontine reticular nucleus, gigantocellular reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+MY Glut: SPVC Ccdc172 Glut	"spinal nucleus of the trigeminal, caudal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: SPVC Mafa Glut	"spinal nucleus of the trigeminal, caudal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: SPVC Nmu Glut	"spinal nucleus of the trigeminal, caudal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: SPVI-SPVC Tlx3 Ebf3 Glut	"spinal nucleus of the trigeminal, interpolar part, spinal nucleus of the trigeminal, caudal part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: SPVO Mafa Meis2 Glut	"spinal nucleus of the trigeminal, oral part"		CL:0000679	glutamatergic neuron	other		
+MY Glut: VCO Mafa Meis2 Glut	"ventral cochlear nucleus - there are a number of more specific cell types in VCO (ex. bushy cells, octopus cells) but not enough info to classify this cluster as one of them"		CL:0000679	glutamatergic neuron	other		
+NP-CT-L6b Glut: CT SUB Glut	CT: corticothalamic		CL:4023013	corticothalamic-projecting glutamatergic cortical neuron	other		
+NP-CT-L6b Glut: L5 NP CTX Glut			CL:4023012	near-projecting glutamatergic cortical neuron	missing child term		
+NP-CT-L6b Glut: L6 CT CTX Glut			CL:4023042	L6 corticothalamic-projecting glutamatergic cortical neuron	perfect match		
+NP-CT-L6b Glut: L6b CTX Glut			CL:4023038	L6b glutamatergic cortical neuron	other		
+NP-CT-L6b Glut: L6b EPd Glut			CL:4023038	L6b glutamatergic cortical neuron	other		
+NP-CT-L6b Glut: L6b/CT ENT Glut			CL:4023038	L6b glutamatergic cortical neuron	other		
+NP-CT-L6b Glut: NP PPP Glut	NP: near projecting		CL:4023012	near-projecting glutamatergic cortical neuron	other		
+NP-CT-L6b Glut: NP SUB Glut	NP: near projecting		CL:4023012	near-projecting glutamatergic cortical neuron	other		
+OB-CR Glut: HPF CR Glut	CR: Cajal-Retzius		CL:0000695	Cajal-Retzius cell	perfect match		
+OB-CR Glut: OB Eomes Ms4a15 Glut	"olfactory bulb - likely mitral and tufted cells, both are types of OB interneurons"		CL:1001434	olfactory bulb interneuron	other		
+OB-IMN GABA: OB Dopa-Gaba	NTR (request to update periglomular cell definition) dopaminergic periglomerular cells	"term review: periglomerular cell (CL:1001435), to review if additional parent terms (GABAergic neuron (CL:0000617) or GABAergic interneuron (CL:0011005), dopaminergic neuron (CL:0000700)) should be added"	CL:1001435	periglomerular cell	missing child term		
+OB-IMN GABA: OB Meis2 Thsd7b Gaba	Calb1-positive periglomerular cells (PMID: 38948843)		CL:1001435	periglomerular cell	missing child term		
+OB-IMN GABA: OB Trdn Gaba	Rprm-positive granule cells		CL:0000626	olfactory granule cell	missing child term		
+OB-IMN GABA: OB-STR-CTX Inh IMN	"NTR
+IMN: immature neurons"	NTR: immature olfactory granule cells	CL:0000626	olfactory granule cell	other		
+OB-IMN GABA: OB-in Frmd7 Gaba	granule cells which populate the granule layer		CL:0000626	olfactory granule cell	missing child term		
+OB-IMN GABA: OB-mi Frmd7 Gaba	Pvalb-positive GABAergic OB neurons		CL:4023018	pvalb GABAergic cortical interneuron	perfect match		
+OB-IMN GABA: OB-out Frmd7 Gaba	Calr-positive periglomerular cells (PGC)		CL:1001435	periglomerular cell	missing child term		
+OEC: OEC NN	olfactory ensheathing glia		CL:0011028	olfactory ensheathing cell	perfect match		
+OPC-Oligo: OPC NN	oligodendrocyte precursor cells		CL:0002453	oligodendrocyte precursor cell	perfect match		
+OPC-Oligo: Oligo NN	oligodendrocytes		CL:0000128	oligodendrocyte	perfect match		
+P GABA: CS-PRNr-DR En1 Sox2 Gaba	"CS: superior central nucleus raphe, PRNr: pontine reticular nucleus, DR: dorsal nucleus raphe"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0000617	GABAergic neuron	other		
+P GABA: CS-PRNr-PCG Tmem163 Otp Gaba	"CS: superior central nucleus raphe, PRNr: pontine reticular nucleus, PCG: pontine central gray"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0000617	GABAergic neuron	other		
+P GABA: CS-RPO Meis2 Gaba	"CS: superior central nucleus raphe, RPO: nucleus raphe pontis"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0000617	GABAergic neuron	other		
+P GABA: DTN-LDT-IPN Otp Pax3 Gaba	"DTN: dorsal tegmental nucleus, LDT: laterodorsal tegmental nucleus, IPN: interpeduncular nucleus"		CL:0000617	GABAergic neuron	other		
+P GABA: LDT Fgf7 Gaba	LDT: laterodorsal tegmental nucleus		CL:0000617	GABAergic neuron	other		
+P GABA: LDT-DTN Gata3 Nfix Gaba	"LDT: laterodorsal tegmental nucleus, DTN: dorsal tegmental nucleus"		CL:0000617	GABAergic neuron	other		
+P GABA: LDT-PCG St18 Gaba	"LDT: laterodorsal tegmental nucleus, PCG: pontine central gray"		CL:0000617	GABAergic neuron	other		
+P GABA: LDT-PCG-CS Gata3 Lhx1 Gaba	"LDT: laterodorsal tegmental nucleus, PCG: pontine central gray, CS: superior central nucleus raphe"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0000617	GABAergic neuron	other		
+P GABA: NI-RPO Gata3 Nr4a2 Gaba	"NI: nucleus incertus, RPO: nucleus raphe pontis"	term review: raphe nuclei neuron (CL:0002610) vs GABAergic neuron (CL:0000617)	CL:0000617	GABAergic neuron	other		
+P GABA: NLL Gata3 Gly-Gaba	"NTR glycinergic and GABAergic neuron, NLL: nucleus of the lateral lemniscus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: NLL-po Pax7 Gaba	NLL: nucleus of the lateral lemniscus		CL:0000617	GABAergic neuron	other		
+P GABA: PB Sst Gly-Gaba	"NTR glycinergic and GABAergic neuron, PB: parabrachial nucleus"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: PDTg Otp Olig3 Gaba	PDTg: posterodorsal tegmental nucleus		CL:0000617	GABAergic neuron	other		
+P GABA: PDTg Otp Shroom3 Gaba	PDTg: posterodorsal tegmental nucleus		CL:0000617	GABAergic neuron	other		
+P GABA: PDTg-PCG Pax6 Gaba	"PDTg: posterodorsal tegmental nucleus, PCG: pontine central gray"		CL:0000617	GABAergic neuron	other		
+P GABA: POR Gata3 Gly-Gaba	"NTR glycinergic and GABAergic neuron, POR: superior olivary complex, periolivary region"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: POR Spp1 Gly-Gaba	"NTR glycinergic and GABAergic neuron, POR: superior olivary complex, periolivary region"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: PRNc Otp Gly-Gaba	"NTR glycinergic and GABAergic neuron, PRNc: pontine reticular nucleus, caudal part"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: PRNc Prox1 Brs3 Gly-Gaba	"NTR glycinergic and GABAergic neuron, PRNc: pontine reticular nucleus, caudal part"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P GABA: PSV Pax2 Gly-Gaba	"NTR glycinergic and GABAergic neuron, PSV: principal sensory nucleus of the trigeminal"	NTR: GABAergic and glycinergic neuron dual transmitter neuron	CL:0000540	neuron	missing child term		
+P Glut: B-PB Nr4a2 Glut	"B: barrington's nucleus, PB: parabrachial nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: IPN-LDT Vsx2 Nkx6-1 Glut	"IPN: interpeduncular nucleus, LDT: laterodorsal tegmental nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: LDT Vsx2 Nkx6-1 Nfib Glut	LDT: laterodorsal tegmental nucleus		CL:0000679	glutamatergic neuron	other		
+P Glut: LDT-PCG Vsx2 Lhx4 Glut	"LDT: laterodorsal tegmental nucleus, PCG: pontine central gray"		CL:0000679	glutamatergic neuron	other		
+P Glut: NLL-SOC Spp1 Glut	"NLL: nucleus of the lateral lemniscus, SOC: superior olivary complex"		CL:0000679	glutamatergic neuron	other		
+P Glut: PB Evx2 Glut	PB: parabrachial nucleus		CL:0000679	glutamatergic neuron	other		
+P Glut: PB Lmx1a Glut	PB: parabrachial nucleus		CL:0000679	glutamatergic neuron	other		
+P Glut: PB Pax5 Glut	PB: parabrachial nucleus		CL:0000679	glutamatergic neuron	other		
+P Glut: PB-NTS Phox2b Ebf3 Lmx1b Glut	"NTR maybe for Phox2b glut, PB: parabrachial nucleus, NTS: nucleus of the solitary tract"	NTR: Phox2b glutamatergic neuron	CL:0000679	glutamatergic neuron	other		
+P Glut: PB-PSV Phox2b Glut	"NTR maybe for Phox2b glut, PB: parabrachial nucleus, PSV: principal sensory nucleus of the trigeminal"	NTR: Phox2b glutamatergic neuron	CL:0000679	glutamatergic neuron	other		
+P Glut: PB-SUT Tlx3 Lhx2 Glut	"PB: parabrachial nucleus, SUT: supratrigeminal nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: PCG-PRNr Vsx2 Nkx6-1 Glut	"PCG: pontine central gray, PRNr: pontine reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: PG-TRN-LRN Fat2 Glut	"PG: pontine gray, TRN: tegmental reticular nucleus, LRN: lateral reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut	"PRNc: pontine reticular nucleus, caudal part, NI: nucleus incertus, SG: supragenual nucleus, RPO: nucleus raphe pontis"	term review: raphe nuclei neuron (CL:0002610) vs glutamatergic neuron (CL:0000679)	CL:0000679	glutamatergic neuron	other		
+P Glut: PRNc-PARN Tlx1 Glut	"PRNc: pontine reticular nucleus, caudal part, PARN: parvicellular reticular nucleus"		CL:0000679	glutamatergic neuron	other		
+P Glut: PRNr Otp Nfib Glut	PRNr: pontine reticular nucleus		CL:0000679	glutamatergic neuron	other		
+P Glut: PSV Lmx1a Trpv6 Glut	PSV: principal sensory nucleus of the trigeminal		CL:0000679	glutamatergic neuron	other		
+P Glut: PSV Pvalb Lhx2 Glut	PSV: principal sensory nucleus of the trigeminal		CL:0000679	glutamatergic neuron	other		
+Pineal Glut: Pineal Crx Glut	likely represents the pinealocytes (PMID: 37034735)		CL:0000652	pinealocyte	perfect match		
+TH Glut: AD Serpinb7 Glut	AD: anterodorsal nucleus		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: AV Col27a1 Glut	AV: anteroventral nucleus of the thalamus		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: CM-IAD-CL-PCN Sema5b Glut	"CM: central medial nucleus of the thalamus, IAD: interanterodorsal nucleus of the thalamus, CL: central lateral nucleus of the thalamus, PCN: paracentral nucleus"		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: MG-POL-SGN Nts Glut	"MG: medial geniculate complex, POL: posterior limiting nucleus of the thalamus, SGN: suprageniculate nucleus"		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: PF Fzd5 Glut	"NTR? Fzd5 expressing glutamatergic neuron, PF: parafascicular nucleus"	NTR: Fzd5 glutamatergic parafascicular nucleus neuron	CL:4023068	thalamic excitatory neuron	other		
+TH Glut: PVT-PT Ntrk1 Glut	"PVT: paraventricular nucleus of the thalamus, PT: parataenial nucleus"		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: RE-Xi Nox4 Glut	"RE: nucleus of reuniens, Xi: xiphoid thalamic nucleus"		CL:4023068	thalamic excitatory neuron	other		
+TH Glut: TH Prkcd Grin2c Glut	TH: thalamus		CL:4023068	thalamic excitatory neuron	other		
+Vascular: ABC NN	arachnoid barrier cell		CL:4023097	arachnoid barrier cell	perfect match		
+Vascular: Endo NN	endothelial cells		CL:0000115	endothelial cell	perfect match		
+Vascular: Peri NN	pericytes		CL:2000043	brain pericyte	perfect match		
+Vascular: SMC NN	smooth muscle cells		CL:0000359	vascular associated smooth muscle cell	perfect match		
+Vascular: VLMC NN	vascular leptomeningeal cells		CL:4023051	vascular leptomeningeal cell	perfect match		
