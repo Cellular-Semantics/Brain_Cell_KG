@@ -34,7 +34,7 @@ This starts the Neo4j database on localhost:7687 required for report generation.
 make all
 ```
 This will:
-- Process ROBOT templates (`templates/*.tsv` → `build/*.owl`)
+- Process ROBOT templates (`src/templates/*.tsv` → `owl/*.owl`)
 - Generate CSV reports (`src/cypher/*.cypher` → `reports/*.csv`)
 
 #### Individual Tasks
@@ -96,7 +96,7 @@ Neo4j connection settings (override with `make VAR=value`):
 │   ├── utils/          # Shared utilities and tools
 │   └── source_data/    # Source datasets with data/ and code/ subfolders
 ├── reports/            # Generated CSV reports
-├── build/              # Generated OWL files
+├── owl/                # Generated OWL files
 └── config/             # OBASK configuration (DO NOT EDIT)
 ```
 

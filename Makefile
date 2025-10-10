@@ -15,6 +15,7 @@ UTILS_DIR = $(SRC_DIR)/utils
 SOURCE_DATA_DIR = $(SRC_DIR)/source_data
 REPORTS_DIR = reports
 BUILD_DIR = build
+OWL_DIR = owl
 
 # Python environment
 PYTHON = python3
@@ -39,9 +40,22 @@ $(BUILD_DIR):
 $(REPORTS_DIR):
 	mkdir -p $@
 
+$(OWL_DIR):
+	mkdir -p $@
+
 # Template processing targets
-TEMPLATE_FILES = $(wildcard $(TEMPLATES_DIR)/*.tsv)
-ROBOT_OUTPUTS = $(TEMPLATE_FILES:$(TEMPLATES_DIR)/%.tsv=$(BUILD_DIR)/%.owl)
+# Generated template files (static list)
+GENERATED_TEMPLATES = $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv
+
+# Corresponding OWL outputs
+GENERATED_OWL = $(OWL_DIR)/scFAIR_WHB2WMB_template.owl $(OWL_DIR)/BG2WMB_AT_map_template.owl
+
+# Static templates (if any exist)
+STATIC_TEMPLATE_FILES = $(wildcard $(TEMPLATES_DIR)/*.tsv)
+STATIC_OWL = $(STATIC_TEMPLATE_FILES:$(TEMPLATES_DIR)/%.tsv=$(OWL_DIR)/%.owl)
+
+# All OWL outputs
+ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL)
 
 # Generate scFAIR template from source data
 $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv: src/scripts/scFAIR_WHB_WMB/source_data/scFAIR_Siletti_AT_map.tsv $(VENV_PYTHON)
@@ -61,7 +75,7 @@ $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv: src/scripts/BG_WMB_AT/source_data/M
 		--output $@
 
 # Process ROBOT templates with prefixes
-$(BUILD_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(BUILD_DIR)
+$(OWL_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \
@@ -69,10 +83,10 @@ $(BUILD_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(BUILD_
 
 # Mock build target for testing without ROBOT
 .PHONY: mock-templates
-mock-templates: $(VENV_PYTHON) | $(BUILD_DIR)
+mock-templates: $(VENV_PYTHON) | $(OWL_DIR)
 	@echo "Mock processing templates (ROBOT not required)..."
 	@for template in $(TEMPLATE_FILES); do \
-		output=$$(echo $$template | sed 's|$(TEMPLATES_DIR)|$(BUILD_DIR)|' | sed 's|\.tsv$$|.owl|'); \
+		output=$$(echo $$template | sed 's|$(TEMPLATES_DIR)|$(OWL_DIR)|' | sed 's|\.tsv$$|.owl|'); \
 		echo "Mock: $$template -> $$output"; \
 		echo "# Mock OWL file generated from $$template" > $$output; \
 		echo "# Prefixes would be applied from $(UTILS_DIR)/prefixes.json" >> $$output; \
@@ -80,7 +94,7 @@ mock-templates: $(VENV_PYTHON) | $(BUILD_DIR)
 	done
 
 .PHONY: templates
-templates: $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv $(ROBOT_OUTPUTS)
+templates: $(GENERATED_TEMPLATES) $(ALL_OWL_OUTPUTS)
 
 # Report generation from Cypher queries
 CYPHER_FILES = $(wildcard $(CYPHER_DIR)/*.cypher)
@@ -114,6 +128,7 @@ generate-templates: $(VENV_PYTHON)
 clean:
 	rm -rf $(BUILD_DIR)
 	rm -rf $(REPORTS_DIR)
+	rm -rf $(OWL_DIR)
 
 # Clean everything including venv
 .PHONY: distclean
