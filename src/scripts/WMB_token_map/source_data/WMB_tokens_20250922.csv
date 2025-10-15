@@ -1,0 +1,512 @@
+token,simplified_type,type,name,primary_identifier,secondary_identifier,tertiary_identifier
+AAA,anatomical,structure,Anterior amygdalar area,MBA:23,UBERON:0002890,
+ABC,cell type,cell_type,arachnoid barrier cell,CL:4023097,,
+ACA,anatomical,structure,Anterior cingulate area,MBA:31,UBERON:0009835,
+ACB,anatomical,structure,Nucleus accumbens,MBA:56,UBERON:0001882,
+AD,anatomical,structure,Anterodorsal nucleus,MBA:64,UBERON:0002679,
+ADP,anatomical,structure,Anterodorsal preoptic nucleus,MBA:72,,
+AHN,anatomical,structure,Anterior hypothalamic nucleus,MBA:88,UBERON:0002634,
+Aldh1a2,gene,gene,"aldehyde dehydrogenase family 1, subfamily A2",ENSEMBL:ENSMUSG00000013584,NCBIGene:19378,ABAGene:19141
+AON,anatomical,structure,Anterior olfactory nucleus,MBA:159,UBERON:0002266,
+APN,anatomical,structure,Anterior pretectal nucleus,MBA:215,,
+APr,anatomical,structure,Area prostriata,MBA:484682508,,
+ARH,anatomical,structure,Arcuate hypothalamic nucleus,MBA:223,UBERON:0001932,
+Astro,cell type,cell_type,astrocyte,CL:0000127,,
+Astroependymal,cell type,cell_type,astroependymal cell,KB:0000015,,
+AV,anatomical,structure,Anteroventral nucleus of thalamus,MBA:255,UBERON:0002685,
+Avp,gene,gene,arginine vasopressin,ENSEMBL:ENSMUSG00000037727,NCBIGene:11998,ABAGene:11784
+AVPV,anatomical,structure,Anteroventral periventricular nucleus,MBA:272,UBERON:0002690,
+B,anatomical,structure,Barrington's nucleus,MBA:280,UBERON:0007632,
+BAC,anatomical,structure,Bed nucleus of the anterior commissure,MBA:287,UBERON:0002933,
+BAM,cell type,cell_type,border-associated macrophage,CL:4042003,,
+Barhl2,gene,gene,BarH like homeobox 2,ENSEMBL:ENSMUSG00000034384,NCBIGene:104382,ABAGene:68547
+B-cells,cell type,cell_type,B cell,CL:0000236,,
+Bergmann,cell type,cell_type,Bergmann glial cell,CL:0000644,,
+BLA,anatomical,structure,Basolateral amygdalar nucleus,MBA:295,UBERON:0002887,
+BMA,anatomical,structure,Basomedial amygdalar nucleus,MBA:319,UBERON:0002889,
+Bnc2,gene,gene,basonuclin 2,ENSEMBL:ENSMUSG00000028487,NCBIGene:242509,ABAGene:88962
+Brs3,gene,gene,bombesin-like receptor 3,ENSEMBL:ENSMUSG00000031130,NCBIGene:12209,ABAGene:11995
+BST,anatomical,structure,Bed nuclei of the stria terminalis,MBA:351,UBERON:0001880,
+BST-po,anatomical,anatomical,"Bed nuclei of the stria terminalis, posterior part",,,
+Bsx,gene,gene,brain specific homeobox,ENSEMBL:ENSMUSG00000054360,NCBIGene:244813,ABAGene:89289
+Bves,gene,gene,blood vessel epicardial substance,ENSEMBL:ENSMUSG00000071317,NCBIGene:23828,ABAGene:23581
+C1ql2,gene,gene,"complement component 1, q subcomponent-like 2",ENSEMBL:ENSMUSG00000036907,NCBIGene:226359,ABAGene:86401
+C1ql4,gene,gene,"complement component 1, q subcomponent-like 4",ENSEMBL:ENSMUSG00000001076,NCBIGene:239659,ABAGene:88602
+CA1,anatomical,structure,Field CA1,MBA:382,UBERON:0003881,
+CA2,anatomical,structure,Field CA2,MBA:423,UBERON:0003882,
+CA3,anatomical,structure,Field CA3,MBA:463,UBERON:0003883,
+Calcb,gene,gene,"calcitonin-related polypeptide, beta",ENSEMBL:ENSMUSG00000030666,NCBIGene:116903,ABAGene:78211
+Car3,gene,gene,carbonic anhydrase 3,ENSEMBL:ENSMUSG00000027559,NCBIGene:12350,ABAGene:12135
+CB,anatomical,structure,Cerebellum,MBA:512,UBERON:0002037,
+CBN,anatomical,structure,Cerebellar nuclei,MBA:519,UBERON:0002130,
+CBX,anatomical,structure,Cerebellar cortex,MBA:528,UBERON:0002129,
+Ccdc172,gene,gene,coiled-coil domain containing 172,ENSEMBL:ENSMUSG00000025090,NCBIGene:75645,ABAGene:51486
+Ccdc42,gene,gene,coiled-coil domain containing 42,ENSEMBL:ENSMUSG00000045915,NCBIGene:276920,ABAGene:93142
+Cdc14a,gene,gene,CDC14 cell division cycle 14A,ENSEMBL:ENSMUSG00000033502,NCBIGene:229776,ABAGene:86941
+Cdh22,gene,gene,cadherin 22,ENSEMBL:ENSMUSG00000053166,NCBIGene:104010,ABAGene:68177
+Cdh23,gene,gene,cadherin 23 (otocadherin),ENSEMBL:ENSMUSG00000012819,NCBIGene:22295,ABAGene:22052
+CEA,anatomical,structure,Central amygdalar nucleus,MBA:536,UBERON:0002883,
+CGE,anatomical,transient_structure,caudal ganglionic eminence,UBERON:0004026,,
+chandelier,cell type,cell_type,chandelier cell,CL:4023083,,
+Chodl,gene,gene,chondrolectin,ENSEMBL:ENSMUSG00000022860,NCBIGene:246048,ABAGene:89578
+Chol,cell type,neurotransmission,cholinergic neuron,CL:0000108,,
+CHOR,cell type,cell_type,choroid plexus epithelial cell,CL:0000706,,
+Chrnb3,gene,gene,"cholinergic receptor, nicotinic, beta polypeptide 3",ENSEMBL:ENSMUSG00000031492,NCBIGene:108043,ABAGene:72205
+Chst9,gene,gene,carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9,ENSEMBL:ENSMUSG00000047161,NCBIGene:71367,ABAGene:47208
+CL,anatomical,structure,Central lateral nucleus of the thalamus,MBA:575,UBERON:0003036,
+CLA,anatomical,structure,Claustrum,MBA:583,UBERON:0002023,
+CLI,anatomical,structure,Central linear nucleus raphe,MBA:591,,
+CM,anatomical,structure,Central medial nucleus of the thalamus,MBA:599,UBERON:0001923,
+Cngb3,gene,gene,cyclic nucleotide gated channel beta 3,ENSEMBL:ENSMUSG00000056494,NCBIGene:30952,ABAGene:29942
+CNU,anatomical,structure,Cerebral nuclei,MBA:623,UBERON:8440012,
+COA,anatomical,structure,Cortical amygdalar area,MBA:631,UBERON:0002891,
+COAa,anatomical,structure,"Cortical amygdalar area, anterior part",MBA:639,,
+COAp,anatomical,structure,"Cortical amygdalar area, posterior part",MBA:647,,
+Col27a1,gene,gene,"collagen, type XXVII, alpha 1",ENSEMBL:ENSMUSG00000045672,NCBIGene:373864,ABAGene:119453
+COP,cell type,cell_type,committed oligodendrocyte precursor,CL:4023059,,
+CR,cell type,cell_type,Cajal-Retzius cell,CL:0000695,,
+Crh,gene,gene,corticotropin releasing hormone,ENSEMBL:ENSMUSG00000049796,NCBIGene:12918,ABAGene:12701
+Crisp1,gene,gene,cysteine-rich secretory protein 1,ENSEMBL:ENSMUSG00000025431,NCBIGene:11571,ABAGene:11358
+Crp,gene,gene,"C-reactive protein, pentraxin-related",ENSEMBL:ENSMUSG00000037942,NCBIGene:12944,ABAGene:12727
+Crx,gene,gene,cone-rod homeobox,ENSEMBL:ENSMUSG00000041578,NCBIGene:12951,ABAGene:12734
+CS,anatomical,structure,Superior central nucleus raphe,MBA:679,UBERON:0003004,
+CT,cell type,projection_type,corticothalamic-projecting glutamatergic cortical neuron,CL:4023013,,
+CTX,anatomical,structure,Cerebral cortex,MBA:688,UBERON:0000956,
+CU,anatomical,structure,Cuneate nucleus,MBA:711,UBERON:0002045,
+CUN,anatomical,structure,Cuneiform nucleus,MBA:616,UBERON:0002696,
+Cyp26b1,gene,gene,"cytochrome P450, family 26, subfamily b, polypeptide 1",ENSEMBL:ENSMUSG00000063415,NCBIGene:232174,ABAGene:87382
+D1,cell type,cell_type,D1 medium spiny neuron,KB:0000001,,
+D2,cell type,cell_type,D2 medium spiny neuron,KB:0000002,,
+D3,cell type,cell_type,D3 dopamine receptor expressing cell,KB:0000004,,
+Dbh,gene,gene,dopamine beta hydroxylase,ENSEMBL:ENSMUSG00000000889,NCBIGene:13166,ABAGene:12946
+DC,cell type,cell_type,dendritic cell,CL:0000451,,
+DCO,anatomical,structure,Dorsal cochlear nucleus,MBA:96,UBERON:0002829,
+DG,anatomical,structure,Dentate gyrus,MBA:726,UBERON:0001885,
+Dmbx1,gene,gene,diencephalon/mesencephalon homeobox 1,ENSEMBL:ENSMUSG00000028707,NCBIGene:140477,ABAGene:79890
+DMH,anatomical,structure,Dorsomedial nucleus of the hypothalamus,MBA:830,UBERON:0001934,
+Dmrta2,gene,gene,doublesex and mab-3 related transcription factor like family A2,ENSEMBL:ENSMUSG00000047143,NCBIGene:242620,
+DMX,anatomical,structure,Dorsal motor nucleus of the vagus nerve,MBA:839,UBERON:0002870,
+Dopa,cell type,neurotransmission,dopaminergic neuron,CL:0000700,,
+DP,anatomical,structure,Dorsal peduncular area,MBA:814,UBERON:8440040,
+DR,anatomical,structure,Dorsal nucleus raphe,MBA:872,UBERON:0002043,
+DTN,anatomical,structure,Dorsal tegmental nucleus,MBA:880,UBERON:0002143,
+Ebf1,gene,gene,early B cell factor 1,ENSEMBL:ENSMUSG00000057098,NCBIGene:13591,ABAGene:13369
+Ebf2,gene,gene,early B cell factor 2,ENSEMBL:ENSMUSG00000022053,NCBIGene:13592,ABAGene:13370
+Ebf3,gene,gene,early B cell factor 3,ENSEMBL:ENSMUSG00000010476,NCBIGene:13593,ABAGene:13371
+ECU,anatomical,structure,External cuneate nucleus,MBA:903,UBERON:0002864,
+Emx2,gene,gene,empty spiracles homeobox 2,ENSEMBL:ENSMUSG00000043969,NCBIGene:13797,ABAGene:13575
+En1,gene,gene,engrailed 1,ENSEMBL:ENSMUSG00000058665,NCBIGene:13798,ABAGene:13576
+En2,gene,gene,engrailed 2,ENSEMBL:ENSMUSG00000039095,NCBIGene:13799,ABAGene:13577
+Endo,cell type,cell_type,endothelial cell,CL:0000115,,
+ENT,anatomical,structure,Entorhinal area,MBA:909,UBERON:0002728,
+ENTl,anatomical,structure,"Entorhinal area, lateral part",MBA:918,UBERON:0007225,
+ENTmv,anatomical,structure,"Entorhinal area, medial part, ventral zone",MBA:934,,
+ENT-po,anatomical,anatomical,"Entorhinal area, posterior part",,,
+Eomes,gene,gene,eomesodermin,ENSEMBL:ENSMUSG00000032446,NCBIGene:13813,ABAGene:13591
+EP,anatomical,structure,Endopiriform nucleus,MBA:942,UBERON:0014284,
+EPd,anatomical,structure,"Endopiriform nucleus, dorsal part",MBA:952,,
+Epen,cell type,cell_type,ependymal cell,CL:0000065,,
+Ependymal,cell type,cell_type,ependymal cell,CL:0000065,,
+ET,cell type,projection_type,extratelencephalic-projecting glutamatergic cortical neuron,CL:4023009,,
+Evx2,gene,gene,even-skipped homeobox 2,ENSEMBL:ENSMUSG00000001815,NCBIGene:14029,ABAGene:13806
+Ex,cell type,cell_type,excitatory neuron,KB:0000006,,
+Fat2,gene,gene,FAT atypical cadherin 2,ENSEMBL:ENSMUSG00000055333,NCBIGene:245827,
+FC,anatomical,structure,Fasciola cinerea,MBA:982,UBERON:8440013,
+Fezf1,gene,gene,Fez family zinc finger 1,ENSEMBL:ENSMUSG00000029697,NCBIGene:73191,ABAGene:49032
+Fgf7,gene,gene,fibroblast growth factor 7,ENSEMBL:ENSMUSG00000027208,NCBIGene:14178,ABAGene:13955
+Fgl2,gene,gene,fibrinogen-like protein 2,ENSEMBL:ENSMUSG00000039899,NCBIGene:14190,ABAGene:13967
+Folh1,gene,gene,folate hydrolase 1,ENSEMBL:ENSMUSG00000001773,NCBIGene:53320,ABAGene:32800
+Foxa1,gene,gene,forkhead box A1,ENSEMBL:ENSMUSG00000035451,NCBIGene:15375,ABAGene:15150
+Foxa2,gene,gene,forkhead box A2,ENSEMBL:ENSMUSG00000037025,NCBIGene:15376,ABAGene:15151
+Foxb1,gene,gene,forkhead box B1,ENSEMBL:ENSMUSG00000059246,NCBIGene:64290,ABAGene:40891
+Foxd2,gene,gene,forkhead box D2,ENSEMBL:ENSMUSG00000055210,NCBIGene:17301,ABAGene:17070
+Foxp2,gene,gene,forkhead box P2,ENSEMBL:ENSMUSG00000029563,NCBIGene:114142,ABAGene:76994
+Frmd7,gene,gene,FERM domain containing 7,ENSEMBL:ENSMUSG00000036131,NCBIGene:385354,
+FS,anatomical,structure,Fundus of striatum,MBA:998,UBERON:0014605,
+Fzd5,gene,gene,frizzled class receptor 5,ENSEMBL:ENSMUSG00000045005,NCBIGene:14367,ABAGene:14143
+Gaba,cell type,neurotransmission,GABAergic neuron,CL:0000617,,
+GABA,cell type,neurotransmission,GABAergic neuron,CL:0000617,,
+Gabrr2,gene,gene,"gamma-aminobutyric acid (GABA) C receptor, subunit rho 2",ENSEMBL:ENSMUSG00000023267,NCBIGene:14409,ABAGene:14185
+Gal,gene,gene,galanin and GMAP prepropeptide,ENSEMBL:ENSMUSG00000024907,NCBIGene:14419,ABAGene:14195
+Gata3,gene,gene,GATA binding protein 3,ENSEMBL:ENSMUSG00000015619,NCBIGene:14462,ABAGene:14238
+Gbx2,gene,gene,gastrulation brain homeobox 2,ENSEMBL:ENSMUSG00000034486,NCBIGene:14472,ABAGene:14248
+Gcnt4,gene,gene,"glucosaminyl (N-acetyl) transferase 4, core 2 (beta-1,6-N-acetylglucosaminyltransferase)",ENSEMBL:ENSMUSG00000091387,NCBIGene:218476,
+Gli3,gene,gene,GLI-Kruppel family member GLI3,ENSEMBL:ENSMUSG00000021318,NCBIGene:14634,ABAGene:14410
+Glut,cell type,neurotransmission,glutamatergic neuron,CL:0000679,,
+Gly,cell type,neurotransmission,glycinergic neuron,CL:1001509,,
+Glyc,cell type,neurotransmission,glycinergic neuron,CL:1001509,,
+Gnb3,gene,gene,"guanine nucleotide binding protein (G protein), beta 3",ENSEMBL:ENSMUSG00000023439,NCBIGene:14695,ABAGene:14471
+Gnrh1,gene,gene,gonadotropin releasing hormone 1,ENSEMBL:ENSMUSG00000015812,NCBIGene:14714,ABAGene:14490
+Golgi,cell type,cell_type,cerebellar Golgi cell,CL:0000119,,
+GPe,anatomical,structure,"Globus pallidus, external segment",MBA:1022,UBERON:0002476,
+GPi,anatomical,structure,"Globus pallidus, internal segment",MBA:1031,UBERON:0002477,
+Granule,cell type,cell_type,granule cell,CL:0000120,,
+Grin2c,gene,gene,"glutamate receptor, ionotropic, NMDA2C (epsilon 3)",ENSEMBL:ENSMUSG00000020734,NCBIGene:14813,ABAGene:14589
+GRN,anatomical,structure,Gigantocellular reticular nucleus,MBA:1048,UBERON:0002155,
+Grxcr2,gene,gene,"glutaredoxin, cysteine rich 2",ENSEMBL:ENSMUSG00000073574,NCBIGene:332309,ABAGene:109118
+Gsc,gene,gene,goosecoid homeobox,ENSEMBL:ENSMUSG00000021095,NCBIGene:14836,ABAGene:14612
+Gsx1,gene,gene,GS homeobox 1,ENSEMBL:ENSMUSG00000053129,NCBIGene:14842,ABAGene:14618
+HB,anatomical,structure,Hindbrain,MBA:1065,UBERON:0002028,
+Hist,cell type,neurotransmission,histaminergic neuron,CL:0011110,,
+Hmx2,gene,gene,H6 homeobox 2,ENSEMBL:ENSMUSG00000050100,NCBIGene:15372,ABAGene:15147
+Hoxb5,gene,gene,homeobox B5,ENSEMBL:ENSMUSG00000038700,NCBIGene:15413,ABAGene:15188
+HPF,anatomical,structure,Hippocampal formation,MBA:1089,UBERON:0002421,
+HY,anatomical,structure,Hypothalamus,MBA:1097,UBERON:0001898,
+HYa,anatomical,structure,"Hypothalamus, anterior part",,,
+Hypendymal,cell type,cell_type,hypendymal ,CL:4023181,,
+IA,anatomical,structure,Intercalated amygdalar nucleus,MBA:1105,UBERON:0002884,
+IAD,anatomical,structure,Interanterodorsal nucleus of the thalamus,MBA:1113,UBERON:0035972,
+IC,anatomical,structure,Inferior colliculus,MBA:4,UBERON:0001946,
+IF,anatomical,structure,Interfascicular nucleus raphe,MBA:12,UBERON:0013736,
+IG,anatomical,structure,Induseum griseum,MBA:19,UBERON:0015793,
+Iigp1,gene,gene,interferon inducible GTPase 1,ENSEMBL:ENSMUSG00000054072,NCBIGene:60440,ABAGene:37900
+Ikzf1,gene,gene,IKAROS family zinc finger 1,ENSEMBL:ENSMUSG00000018654,NCBIGene:22778,ABAGene:22535
+Il22,gene,gene,interleukin 22,ENSEMBL:ENSMUSG00000074695,NCBIGene:50929,
+ILC,cell type,cell_type,innate lymphoid cell,CL:0001065,,
+Immune,cell type,cell_type,leukocyte,CL:0000738,,
+IMN,cell type,cell_type,immature neuron,KB:0000011,,
+INC,anatomical,structure,Interstitial nucleus of Cajal,MBA:67,UBERON:0002551,
+Inh,cell type,cell_type,inhibitory interneuron,CL:0000498,,
+IO,anatomical,structure,Inferior olivary complex,MBA:83,UBERON:0002127,
+IPN,anatomical,structure,Interpeduncular nucleus,MBA:100,UBERON:0002145,
+IRN,anatomical,structure,Intermediate reticular nucleus,MBA:136,UBERON:0009777,
+Irx2,gene,gene,Iroquois homeobox 2,ENSEMBL:ENSMUSG00000001504,NCBIGene:16372,ABAGene:16145
+IT,cell type,projection_type,intratelencephalic-projecting glutamatergic cortical neuron,CL:4023008,,
+L2,anatomical,anatomical,cortical layer 2,UBERON:0005391,,
+L3,anatomical,anatomical,cortical layer 3,UBERON:0005392,,
+L4,anatomical,anatomical,cortical layer 4,UBERON:0005393,,
+L5,anatomical,anatomical,cortical layer 5,UBERON:0005394,,
+L6,anatomical,anatomical,cortical layer 6,UBERON:0005395,,
+L6b,anatomical,anatomical,cortical layer 6b,UBERON:8440003,,
+LA,anatomical,structure,Lateral amygdalar nucleus,MBA:131,UBERON:0002886,
+Lamp5,gene,gene,"lysosomal-associated membrane protein family, member 5",ENSEMBL:ENSMUSG00000027270,NCBIGene:76161,ABAGene:52002
+Lbx1,gene,gene,ladybird homeobox 1,ENSEMBL:ENSMUSG00000025216,NCBIGene:16814,ABAGene:16585
+LDT,anatomical,structure,Laterodorsal tegmental nucleus,MBA:162,UBERON:0002267,
+Lef1,gene,gene,lymphoid enhancer binding factor 1,ENSEMBL:ENSMUSG00000027985,NCBIGene:16842,ABAGene:16613
+LGE,anatomical,transient_structure,lateral ganglionic eminence,UBERON:0004025,,
+LGv,anatomical,structure,Ventral part of the lateral geniculate complex,MBA:178,UBERON:0002480,
+LH,anatomical,structure,Lateral habenula,MBA:186,UBERON:0001941,
+LHA,anatomical,structure,Lateral hypothalamic area,MBA:194,UBERON:0002430,
+Lhx1,gene,gene,LIM homeobox protein 1,ENSEMBL:ENSMUSG00000018698,NCBIGene:16869,ABAGene:16640
+Lhx2,gene,gene,LIM homeobox protein 2,ENSEMBL:ENSMUSG00000000247,NCBIGene:16870,ABAGene:16641
+Lhx4,gene,gene,LIM homeobox protein 4,ENSEMBL:ENSMUSG00000026468,NCBIGene:16872,ABAGene:16643
+Lhx6,gene,gene,LIM homeobox protein 6,ENSEMBL:ENSMUSG00000026890,NCBIGene:16874,ABAGene:16645
+Lhx8,gene,gene,LIM homeobox protein 8,ENSEMBL:ENSMUSG00000096225,NCBIGene:16875,ABAGene:16646
+Lmo1,gene,gene,LIM domain only 1,ENSEMBL:ENSMUSG00000036111,NCBIGene:109594,ABAGene:73752
+Lmo7,gene,gene,LIM domain only 7,ENSEMBL:ENSMUSG00000033060,NCBIGene:380928,ABAGene:119997
+Lmx1a,gene,gene,LIM homeobox transcription factor 1 alpha,ENSEMBL:ENSMUSG00000026686,NCBIGene:110648,ABAGene:74804
+Lmx1b,gene,gene,LIM homeobox transcription factor 1 beta,ENSEMBL:ENSMUSG00000038765,NCBIGene:16917,ABAGene:16687
+LPO,anatomical,structure,Lateral preoptic area,MBA:226,UBERON:0001931,
+LRN,anatomical,structure,Lateral reticular nucleus,MBA:235,UBERON:0002154,
+LSX,anatomical,structure,Lateral septal complex,MBA:275,UBERON:0007628,
+Lymphoid,cell type,cell_type,lymphocyte,CL:0000542,,
+MA,anatomical,structure,Magnocellular nucleus,MBA:298,,
+Maf,gene,gene,avian musculoaponeurotic fibrosarcoma oncogene homolog,ENSEMBL:ENSMUSG00000055435,NCBIGene:17132,
+Mafa,gene,gene,"v-maf musculoaponeurotic fibrosarcoma oncogene family, protein A (avian)",ENSEMBL:ENSMUSG00000047591,NCBIGene:378435,
+MARN,anatomical,structure,Magnocellular reticular nucleus,MBA:307,UBERON:8440073,
+MB,anatomical,structure,Midbrain,MBA:313,UBERON:0001891,
+MB-ant-ve,anatomical,anatomical,"Midbrain, anterior-ventral part",,,
+Mbnl3,gene,gene,muscleblind like splicing factor 3,ENSEMBL:ENSMUSG00000036109,NCBIGene:171170,ABAGene:82363
+MDRN,anatomical,structure,Medullary reticular nucleus,MBA:395,UBERON:0002559,
+MDRNd,anatomical,structure,"Medullary reticular nucleus, dorsal part",MBA:1098,,
+MDRNv,anatomical,structure,"Medullary reticular nucleus, ventral part",MBA:1107,,
+MEA,anatomical,structure,Medial amygdalar nucleus,MBA:403,UBERON:0002892,
+Mecom,gene,gene,MDS1 and EVI1 complex locus,ENSEMBL:ENSMUSG00000027684,NCBIGene:14013,ABAGene:13790
+Megf11,gene,gene,multiple EGF-like-domains 11,ENSEMBL:ENSMUSG00000036466,NCBIGene:214058,ABAGene:84622
+Meis2,gene,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,NCBIGene:17536,ABAGene:17303
+MEPO,anatomical,structure,Median preoptic nucleus,MBA:452,UBERON:0002625,
+Mesi2,gene,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,NCBIGene:17536,ABAGene:17303
+MEV,anatomical,structure,Midbrain trigeminal nucleus,MBA:460,UBERON:0001718,
+MFOL,cell type,cell_type,myelin-forming oligodendrocyte,KB:0000007,,
+MG,anatomical,structure,Medial geniculate complex,MBA:475,UBERON:0001927,
+MGE,anatomical,transient_structure,medial ganglionic eminence,UBERON:0004024,,
+Mgp,gene,gene,matrix Gla protein,ENSEMBL:ENSMUSG00000030218,NCBIGene:17313,ABAGene:17082
+MH,anatomical,structure,Medial habenula,MBA:483,UBERON:0001942,
+Microglia,cell type,cell_type,microglial cell,CL:0000129,,
+MLI,anatomical,anatomical,molecular layer of cerebellar cortex,UBERON:0002974,,
+MM,anatomical,structure,Medial mammillary nucleus,MBA:491,UBERON:0001939,
+MM-ant,anatomical,anatomical,"Medial mammillary nucleus, anterior part",,,
+MOL,cell type,cell_type,mature oligodendrocyte,KB:0000008,,
+Monocytes,cell type,cell_type,monocyte,CL:0000576,,
+MPN,anatomical,structure,Medial preoptic nucleus,MBA:515,UBERON:0002035,
+MPO,anatomical,structure,Medial preoptic area,MBA:523,UBERON:0007769,
+MRN,anatomical,structure,Midbrain reticular nucleus,MBA:128,UBERON:0007415,
+MS,anatomical,structure,Medial septal nucleus,MBA:564,UBERON:0001877,
+Ms4a15,gene,gene,"membrane-spanning 4-domains, subfamily A, member 15",ENSEMBL:ENSMUSG00000067571,NCBIGene:545279,
+Mtnr1a,gene,gene,melatonin receptor 1A,ENSEMBL:ENSMUSG00000054764,NCBIGene:17773,ABAGene:17540
+MV,anatomical,structure,Medial vestibular nucleus,MBA:202,UBERON:0001722,
+MY,anatomical,structure,Medulla,MBA:354,UBERON:0001896,
+ND,anatomical,structure,Nucleus of Darkschewitsch,MBA:587,UBERON:0002044,
+NDB,anatomical,structure,Diagonal band nucleus,MBA:596,UBERON:0001879,
+Ndnf,gene,gene,neuron-derived neurotrophic factor,ENSEMBL:ENSMUSG00000049001,NCBIGene:68169,ABAGene:44012
+Neurod2,gene,gene,neurogenic differentiation 2,ENSEMBL:ENSMUSG00000038255,NCBIGene:18013,ABAGene:17780
+Nfia,gene,gene,nuclear factor I/A,ENSEMBL:ENSMUSG00000028565,NCBIGene:18027,ABAGene:17794
+Nfib,gene,gene,nuclear factor I/B,ENSEMBL:ENSMUSG00000008575,NCBIGene:18028,ABAGene:17795
+Nfix,gene,gene,nuclear factor I/X,ENSEMBL:ENSMUSG00000001911,NCBIGene:18032,ABAGene:17799
+NFOL,cell type,cell_type,newly formed oligodendrocyte,KB:0000009,,
+Ngfr,gene,gene,"nerve growth factor receptor (TNFR superfamily, member 16)",ENSEMBL:ENSMUSG00000000120,NCBIGene:18053,ABAGene:17820
+NI,anatomical,structure,Nucleus incertus,MBA:604,UBERON:0035973,
+NK-cells,cell type,cell_type,natural killer cell,CL:0000623,,
+Nkx2-1,gene,gene,NK2 homeobox 1,ENSEMBL:ENSMUSG00000001496,NCBIGene:21869,ABAGene:21628
+Nkx2-2,gene,gene,NK2 homeobox 2,ENSEMBL:ENSMUSG00000027434,NCBIGene:18088,ABAGene:17855
+Nkx2-4,gene,gene,NK2 homeobox 4,ENSEMBL:ENSMUSG00000054160,NCBIGene:228731,
+Nkx6-1,gene,gene,NK6 homeobox 1,ENSEMBL:ENSMUSG00000035187,NCBIGene:18096,ABAGene:17863
+NLL,anatomical,structure,Nucleus of the lateral lemniscus,MBA:612,UBERON:0006840,
+NLL-po,anatomical,anatomical,"Nucleus of the lateral lemniscus, posterior part",,,
+NLOT,anatomical,structure,Nucleus of the lateral olfactory tract,MBA:619,UBERON:0002893,
+Nmu,gene,gene,neuromedin U,ENSEMBL:ENSMUSG00000029236,NCBIGene:56183,ABAGene:35466
+NN,cell type,cell_type,non-neuronal cell,KB:0000010,,
+Nox4,gene,gene,NADPH oxidase 4,ENSEMBL:ENSMUSG00000030562,NCBIGene:50490,ABAGene:29980
+NP,cell type,projection_type,near-projecting glutamatergic cortical neuron,KB:0000005,,
+Npas1,gene,gene,neuronal PAS domain protein 1,ENSEMBL:ENSMUSG00000001988,NCBIGene:18142,ABAGene:17909
+Nr2e1,gene,gene,"nuclear receptor subfamily 2, group E, member 1",ENSEMBL:ENSMUSG00000019803,NCBIGene:21907,ABAGene:21664
+Nr4a2,gene,gene,"nuclear receptor subfamily 4, group A, member 2",ENSEMBL:ENSMUSG00000026826,NCBIGene:18227,ABAGene:17994
+Nr5a1,gene,gene,"nuclear receptor subfamily 5, group A, member 1",ENSEMBL:ENSMUSG00000026751,NCBIGene:26423,ABAGene:26171
+Nrgn,gene,gene,neurogranin,ENSEMBL:ENSMUSG00000053310,NCBIGene:64011,ABAGene:40644
+NT,anatomical,anatomical,non-telencephalon,,,
+Ntrk1,gene,gene,"neurotrophic tyrosine kinase, receptor, type 1",ENSEMBL:ENSMUSG00000028072,NCBIGene:18211,ABAGene:17978
+Nts,gene,gene,neurotensin,ENSEMBL:ENSMUSG00000019890,NCBIGene:67405,ABAGene:43248
+NTS,anatomical,structure,Nucleus of the solitary tract,MBA:651,UBERON:0009050,
+OB,anatomical,anatomical,olfactory bulb,UBERON:0002264,,
+OB-in,anatomical,anatomical,"olfactory blub, inner layers (mitral cell, internal plexiform  and granule cell layers) ",,,
+OB-mi,anatomical,anatomical,"olfactory blub, mid layer (external plexiform layer)",,,
+OB-out,anatomical,anatomical,"olfactory blub, outer layer (glomerular layer) ",,,
+OEC,cell type,cell_type,olfactory ensheathing cell,CL:0011028,,
+OLF,anatomical,structure,Olfactory areas,MBA:698,UBERON:0002894,
+Olig3,gene,gene,oligodendrocyte transcription factor 3,ENSEMBL:ENSMUSG00000045591,NCBIGene:94222,ABAGene:60856
+Oligo,cell type,cell_type,oligodendrocyte,CL:0000128,,
+Onecut1,gene,gene,"one cut domain, family member 1",ENSEMBL:ENSMUSG00000043013,NCBIGene:15379,ABAGene:15154
+Onecut3,gene,gene,"one cut domain, family member 3",ENSEMBL:ENSMUSG00000045518,NCBIGene:246086,ABAGene:89612
+OPC,cell type,cell_type,oligodendrocyte precursor cell,CL:0002453,,
+OT,anatomical,structure,Olfactory tubercle,MBA:754,UBERON:0001883,
+Otp,gene,gene,orthopedia homeobox,ENSEMBL:ENSMUSG00000021685,NCBIGene:18420,ABAGene:18187
+Otx1,gene,gene,orthodenticle homeobox 1,ENSEMBL:ENSMUSG00000005917,NCBIGene:18423,ABAGene:18190
+Otx2,gene,gene,orthodenticle homeobox 2,ENSEMBL:ENSMUSG00000021848,NCBIGene:18424,ABAGene:18191
+P,anatomical,structure,Pons,MBA:771,UBERON:0000988,
+PA,anatomical,structure,Posterior amygdalar nucleus,MBA:780,UBERON:0022229,
+PAA,anatomical,structure,Piriform-amygdalar area,MBA:788,UBERON:8440039,
+PAG,anatomical,structure,Periaqueductal gray,MBA:795,UBERON:0003040,
+PAL,anatomical,structure,Pallidum,MBA:803,UBERON:0006514,
+PARN,anatomical,structure,Parvicellular reticular nucleus,MBA:852,UBERON:0016633,
+PAS,anatomical,structure,Parasolitary nucleus,MBA:859,UBERON:0002877,
+Pax2,gene,gene,paired box 2,ENSEMBL:ENSMUSG00000004231,NCBIGene:18504,ABAGene:18270
+Pax3,gene,gene,paired box 3,ENSEMBL:ENSMUSG00000004872,NCBIGene:18505,ABAGene:18271
+Pax5,gene,gene,paired box 5,ENSEMBL:ENSMUSG00000014030,NCBIGene:18507,ABAGene:18273
+Pax6,gene,gene,paired box 6,ENSEMBL:ENSMUSG00000027168,NCBIGene:18508,ABAGene:18274
+Pax7,gene,gene,paired box 7,ENSEMBL:ENSMUSG00000028736,NCBIGene:18509,ABAGene:18275
+Pax8,gene,gene,paired box 8,ENSEMBL:ENSMUSG00000026976,NCBIGene:18510,ABAGene:18276
+PB,anatomical,structure,Parabrachial nucleus,MBA:867,UBERON:0007634,
+PBG,anatomical,structure,Parabigeminal nucleus,MBA:874,UBERON:0002140,
+PCG,anatomical,structure,Pontine central gray,MBA:898,UBERON:0002968,
+PCN,anatomical,structure,Paracentral nucleus,MBA:907,UBERON:0001924,
+Pde5a,gene,gene,"phosphodiesterase 5A, cGMP-specific",ENSEMBL:ENSMUSG00000053965,NCBIGene:242202,ABAGene:88926
+PDTg,anatomical,structure,Posterodorsal tegmental nucleus,MBA:599626927,,
+Pdyn,gene,gene,prodynorphin,ENSEMBL:ENSMUSG00000027400,NCBIGene:18610,ABAGene:18376
+Peri,cell type,cell_type,pericyte,CL:0000669,,
+PF,anatomical,structure,Parafascicular nucleus,MBA:930,UBERON:0001922,
+PG,anatomical,structure,Pontine gray,MBA:931,UBERON:0002151,
+PGRN,anatomical,structure,Paragigantocellular reticular nucleus,MBA:938,UBERON:0016635,
+PGRNd,anatomical,structure,"Paragigantocellular reticular nucleus, dorsal part",MBA:970,UBERON:0016825,
+PGRNl,anatomical,structure,"Paragigantocellular reticular nucleus, lateral part",MBA:978,UBERON:0016824,
+PH,anatomical,structure,Posterior hypothalamic nucleus,MBA:946,UBERON:0002706,
+PH-an,anatomical,anatomical,"Posterior hypothalamic nucleus, anterior part",,,
+PH-ant,anatomical,anatomical,"Posterior hypothalamic nucleus, anterior part",,,
+Phox2b,gene,gene,paired-like homeobox 2b,ENSEMBL:ENSMUSG00000012520,NCBIGene:18935,ABAGene:18698
+PIL,anatomical,structure,Posterior intralaminar thalamic nucleus,MBA:560581563,,
+Pineal,anatomical,anatomical,pineal body,UBERON:0001905,,
+PIR,anatomical,structure,Piriform area,MBA:961,,
+Pitx2,gene,gene,paired-like homeodomain transcription factor 2,ENSEMBL:ENSMUSG00000028023,NCBIGene:18741,ABAGene:18505
+Pkd2l1,gene,gene,polycystic kidney disease 2-like 1,ENSEMBL:ENSMUSG00000037578,NCBIGene:329064,ABAGene:108594
+PLI,cell type,cell_type,Purkinje layer interneuron,KB:0000003,,
+Pmch,gene,gene,pro-melanin-concentrating hormone,ENSEMBL:ENSMUSG00000035383,NCBIGene:110312,ABAGene:74469
+PMd,anatomical,structure,Dorsal premammillary nucleus,MBA:980,UBERON:0007767,
+PMv,anatomical,structure,Ventral premammillary nucleus,MBA:1004,UBERON:0007768,
+POL,anatomical,structure,Posterior limiting nucleus of the thalamus,MBA:1029,,
+POR,anatomical,structure,"Superior olivary complex, periolivary region",MBA:122,UBERON:0002971,
+PoT,anatomical,structure,Posterior triangular thalamic nucleus,MBA:563807435,,
+Pou3f1,gene,gene,"POU domain, class 3, transcription factor 1",ENSEMBL:ENSMUSG00000090125,NCBIGene:18991,
+Pou4f1,gene,gene,"POU domain, class 4, transcription factor 1",ENSEMBL:ENSMUSG00000048349,NCBIGene:18996,ABAGene:18759
+Pou4f2,gene,gene,"POU domain, class 4, transcription factor 2",ENSEMBL:ENSMUSG00000031688,NCBIGene:18997,ABAGene:18760
+Pou4f3,gene,gene,"POU domain, class 4, transcription factor 3",ENSEMBL:ENSMUSG00000024497,NCBIGene:18998,ABAGene:18761
+PPN,anatomical,structure,Pedunculopontine nucleus,MBA:1052,UBERON:0002142,
+Ppp1r1c,gene,gene,"protein phosphatase 1, regulatory inhibitor subunit 1C",ENSEMBL:ENSMUSG00000034683,NCBIGene:75276,ABAGene:51117
+PPT,anatomical,structure,Posterior pretectal nucleus,MBA:1061,UBERON:0006848,
+PPY,anatomical,structure,Parapyramidal nucleus,MBA:1069,UBERON:8440025,
+PRC,anatomical,structure,Precommissural nucleus,MBA:50,,
+Prdm12,gene,gene,PR domain containing 12,ENSEMBL:ENSMUSG00000079466,NCBIGene:381359,
+Prdm13,gene,gene,PR domain containing 13,ENSEMBL:ENSMUSG00000040478,NCBIGene:230025,
+Prkcd,gene,gene,"protein kinase C, delta",ENSEMBL:ENSMUSG00000021948,NCBIGene:18753,ABAGene:18517
+PRNc,anatomical,structure,"Pontine reticular nucleus, caudal part",MBA:1093,UBERON:0002963,
+PRNr,anatomical,structure,Pontine reticular nucleus,MBA:146,UBERON:0007413,
+ProS,anatomical,structure,Prosubiculum,MBA:484682470,,
+Prox1,gene,gene,prospero homeobox 1,ENSEMBL:ENSMUSG00000010175,NCBIGene:19130,ABAGene:18893
+PRP,anatomical,structure,Nucleus prepositus,MBA:169,UBERON:0002160,
+PRT,anatomical,structure,Pretectal region,MBA:1100,UBERON:0001944,
+PSTN,anatomical,structure,Parasubthalamic nucleus,MBA:364,,
+PSV,anatomical,structure,Principal sensory nucleus of the trigeminal,MBA:7,UBERON:0002597,
+PT,anatomical,structure,Parataenial nucleus,MBA:15,UBERON:0002992,
+Purkinje,cell type,cell_type,Purkinje cell,CL:0000121,,
+PVa,anatomical,structure,"Periventricular hypothalamic nucleus, anterior part",MBA:30,UBERON:8440007,
+Pvalb,gene,gene,parvalbumin,ENSEMBL:ENSMUSG00000005716,NCBIGene:19293,ABAGene:19056
+PVH,anatomical,structure,Paraventricular hypothalamic nucleus,MBA:38,UBERON:0001930,
+PVHd,anatomical,structure,"Paraventricular hypothalamic nucleus, descending division",MBA:63,UBERON:0014602,
+PVi,anatomical,structure,"Periventricular hypothalamic nucleus, intermediate part",MBA:118,UBERON:8440008,
+PVp,anatomical,structure,"Periventricular hypothalamic nucleus, posterior part",MBA:126,UBERON:0002708,
+PVpo,anatomical,structure,"Periventricular hypothalamic nucleus, preoptic part",MBA:133,UBERON:0002622,
+PVR,anatomical,structure,Periventricular region,MBA:141,,
+PVT,anatomical,structure,Paraventricular nucleus of the thalamus,MBA:149,UBERON:0001920,
+Pyy,gene,gene,peptide YY,ENSEMBL:ENSMUSG00000017311,NCBIGene:217212,ABAGene:85147
+Qrfprl,gene,gene,pyroglutamylated RFamide peptide receptor like,ENSEMBL:ENSMUSG00000029917,NCBIGene:243407,ABAGene:89081
+Rai14,gene,gene,retinoic acid induced 14,ENSEMBL:ENSMUSG00000022246,NCBIGene:75646,ABAGene:51487
+RAmb,anatomical,structure,Midbrain raphe nuclei,MBA:165,UBERON:0007412,
+RCH,anatomical,structure,Retrochiasmatic area,MBA:173,UBERON:0001933,
+RE,anatomical,structure,Nucleus of reuniens,MBA:181,UBERON:0001921,
+Rho,gene,gene,rhodopsin,ENSEMBL:ENSMUSG00000030324,NCBIGene:212541,ABAGene:84437
+RHP,anatomical,structure,Retrohippocampal region,MBA:822,UBERON:0022230,
+RL,anatomical,structure,Rostral linear nucleus raphe,MBA:197,UBERON:0013734,
+Rln3,gene,gene,relaxin 3,ENSEMBL:ENSMUSG00000045232,NCBIGene:212108,ABAGene:84379
+RN,anatomical,structure,Red nucleus,MBA:214,UBERON:0001947,
+RO,anatomical,structure,Nucleus raphe obscurus,MBA:222,UBERON:0002684,
+RPA,anatomical,structure,Nucleus raphe pallidus,MBA:230,UBERON:0002157,
+RPO,anatomical,structure,Nucleus raphe pontis,MBA:238,UBERON:0002047,
+RSP,anatomical,structure,Retrosplenial area,MBA:254,UBERON:0013531,
+RT,anatomical,structure,Reticular nucleus of the thalamus,MBA:262,UBERON:0001903,
+Sall3,gene,gene,spalt like transcription factor 3,ENSEMBL:ENSMUSG00000024565,NCBIGene:20689,ABAGene:20451
+Satb2,gene,gene,special AT-rich sequence binding protein 2,ENSEMBL:ENSMUSG00000038331,NCBIGene:212712,ABAGene:84457
+SBPV,anatomical,structure,Subparaventricular zone,MBA:347,UBERON:0007626,
+SC,anatomical,anatomical,superior colliculus,UBERON:0001945,,
+SCdg,anatomical,structure,"Superior colliculus, motor related, deep gray layer",MBA:26,,
+SCH,anatomical,structure,Suprachiasmatic nucleus,MBA:286,UBERON:0002034,
+SCig,anatomical,structure,"Superior colliculus, motor related, intermediate gray layer",MBA:10,,
+SCig-an,anatomical,anatomical,"Superior colliculus, motor related, intermediate gray layer, anterior part",,,
+SCiw,anatomical,structure,"Superior colliculus, motor related, intermediate white layer",MBA:17,,
+SCm,anatomical,structure,"Superior colliculus, motor related",MBA:294,,
+SCop,anatomical,structure,"Superior colliculus, optic layer",MBA:851,UBERON:0006779,
+SCs,anatomical,structure,"Superior colliculus, sensory related",MBA:302,,
+SCsg,anatomical,structure,"Superior colliculus, superficial gray layer",MBA:842,UBERON:0006120,
+Sema5a,gene,gene,"sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5A",ENSEMBL:ENSMUSG00000022231,NCBIGene:20356,ABAGene:20119
+Sema5b,gene,gene,"sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5B",ENSEMBL:ENSMUSG00000052133,NCBIGene:20357,ABAGene:20120
+Sero,cell type,neurotransmission,serotonergic neuron,CL:0000850,,
+Serpinb7,gene,gene,"serine (or cysteine) peptidase inhibitor, clade B, member 7",ENSEMBL:ENSMUSG00000067001,NCBIGene:116872,ABAGene:78180
+SF,anatomical,structure,Septofimbrial nucleus,MBA:310,UBERON:0001878,
+SFO,anatomical,structure,Subfornical organ,MBA:338,UBERON:0002219,
+SG,anatomical,structure,Supragenual nucleus,MBA:318,,
+SGN,anatomical,structure,Suprageniculate nucleus,MBA:325,UBERON:0003033,
+Shroom3,gene,gene,shroom family member 3,ENSEMBL:ENSMUSG00000029381,NCBIGene:27428,ABAGene:27172
+SI,anatomical,structure,Substantia innominata,MBA:342,UBERON:0003017,
+SI-ant,anatomical,anatomical,"Substantia innominata, anterior part",,,
+Six3,gene,gene,sine oculis-related homeobox 3,ENSEMBL:ENSMUSG00000038805,NCBIGene:20473,ABAGene:20235
+Six6,gene,gene,sine oculis-related homeobox 6,ENSEMBL:ENSMUSG00000021099,NCBIGene:20476,ABAGene:20238
+Skor1,gene,gene,SKI family transcriptional corepressor 1,ENSEMBL:ENSMUSG00000022245,NCBIGene:207667,ABAGene:83882
+Slc17a7,gene,gene,"solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7",ENSEMBL:ENSMUSG00000070570,NCBIGene:72961,ABAGene:48802
+Slc22a3,gene,gene,"solute carrier family 22 (organic cation transporter), member 3",ENSEMBL:ENSMUSG00000023828,NCBIGene:20519,ABAGene:20281
+Slc6a2,gene,gene,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",ENSEMBL:ENSMUSG00000055368,NCBIGene:20538,ABAGene:20300
+Slc6a5,gene,gene,"solute carrier family 6 (neurotransmitter transporter, glycine), member 5",ENSEMBL:ENSMUSG00000039728,NCBIGene:104245,ABAGene:68410
+Slit2,gene,gene,slit guidance ligand 2,ENSEMBL:ENSMUSG00000031558,NCBIGene:20563,ABAGene:20325
+Sln,gene,gene,sarcolipin,ENSEMBL:ENSMUSG00000042045,NCBIGene:66402,ABAGene:42245
+SMC,cell type,cell_type,smooth muscle cell,CL:0000192,,
+SNc,anatomical,structure,"Substantia nigra, compact part",MBA:374,UBERON:0001965,
+Sncg,gene,gene,"synuclein, gamma",ENSEMBL:ENSMUSG00000023064,NCBIGene:20618,ABAGene:20380
+SNr,anatomical,structure,"Substantia nigra, reticular part",MBA:381,UBERON:0001966,
+SO,anatomical,structure,Supraoptic nucleus,MBA:390,UBERON:0001929,
+SOC,anatomical,structure,Superior olivary complex,MBA:398,UBERON:0002128,
+Sox1,gene,gene,SRY (sex determining region Y)-box 1,ENSEMBL:ENSMUSG00000096014,NCBIGene:20664,
+Sox2,gene,gene,SRY (sex determining region Y)-box 2,ENSEMBL:ENSMUSG00000074637,NCBIGene:20674,ABAGene:20436
+Sox21,gene,gene,SRY (sex determining region Y)-box 21,ENSEMBL:ENSMUSG00000061517,NCBIGene:223227,ABAGene:85888
+Sox3,gene,gene,SRY (sex determining region Y)-box 3,ENSEMBL:ENSMUSG00000045179,NCBIGene:20675,ABAGene:20437
+Sox6,gene,gene,SRY (sex determining region Y)-box 6,ENSEMBL:ENSMUSG00000051910,NCBIGene:20679,ABAGene:20441
+Sp9,gene,gene,trans-acting transcription factor 9,ENSEMBL:ENSMUSG00000068859,NCBIGene:381373,
+SPA,anatomical,structure,Subparafascicular area,MBA:609,,
+SPFm,anatomical,structure,"Subparafascicular nucleus, magnocellular part",MBA:414,,
+SPFp,anatomical,structure,"Subparafascicular nucleus, parvicellular part",MBA:422,,
+SPIV,anatomical,structure,Spinal vestibular nucleus,MBA:225,UBERON:0001721,
+Spp1,gene,gene,secreted phosphoprotein 1,ENSEMBL:ENSMUSG00000029304,NCBIGene:20750,ABAGene:20512
+SPVC,anatomical,structure,"Spinal nucleus of the trigeminal, caudal part",MBA:429,UBERON:0002866,
+SPVI,anatomical,structure,"Spinal nucleus of the trigeminal, interpolar part",MBA:437,UBERON:0002873,
+SPVO,anatomical,structure,"Spinal nucleus of the trigeminal, oral part",MBA:445,UBERON:0002591,
+Sst,gene,gene,somatostatin,ENSEMBL:ENSMUSG00000004366,NCBIGene:20604,ABAGene:20366
+St18,gene,gene,suppression of tumorigenicity 18,ENSEMBL:ENSMUSG00000033740,NCBIGene:240690,ABAGene:88752
+STN,anatomical,structure,Subthalamic nucleus,MBA:470,UBERON:0001906,
+STR,anatomical,structure,Striatum,MBA:477,UBERON:0002435,
+STRv,anatomical,structure,Striatum ventral region,MBA:493,UBERON:0005403,
+SUB,anatomical,structure,Subiculum,MBA:502,UBERON:0002191,
+SUM,anatomical,structure,Supramammillary nucleus,MBA:525,UBERON:0001940,
+SUT,anatomical,structure,Supratrigeminal nucleus,MBA:534,UBERON:8440036,
+Tac2,gene,gene,tachykinin 2,ENSEMBL:ENSMUSG00000025400,NCBIGene:21334,ABAGene:21095
+Tanycyte,cell type,cell_type,tanycyte,CL:0002085,,
+Tbr1,gene,gene,T-box brain gene 1,ENSEMBL:ENSMUSG00000035033,NCBIGene:21375,ABAGene:21136
+Tbx20,gene,gene,T-box 20,ENSEMBL:ENSMUSG00000031965,NCBIGene:57246,ABAGene:36522
+Tbx3,gene,gene,T-box 3,ENSEMBL:ENSMUSG00000018604,NCBIGene:21386,ABAGene:21147
+T-cells,cell type,cell_type,T cell,CL:0000084,,
+Tcf24,gene,gene,transcription factor 24,ENSEMBL:ENSMUSG00000099032,NCBIGene:100039596,
+Tcf7l2,gene,gene,"transcription factor 7 like 2, T cell specific, HMG box",ENSEMBL:ENSMUSG00000024985,NCBIGene:21416,ABAGene:21177
+TE,anatomical,anatomical,telencephalon,UBERON:0001893,,
+Tfap2b,gene,gene,transcription factor AP-2 beta,ENSEMBL:ENSMUSG00000025927,NCBIGene:21419,ABAGene:21180
+Tfap2d,gene,gene,"transcription factor AP-2, delta",ENSEMBL:ENSMUSG00000042596,NCBIGene:226896,ABAGene:86489
+TH,anatomical,structure,Thalamus,MBA:549,UBERON:0001897,
+Thsd7b,gene,gene,"thrombospondin, type I, domain containing 7B",ENSEMBL:ENSMUSG00000042581,NCBIGene:210417,ABAGene:84202
+Tlx1,gene,gene,"T cell leukemia, homeobox 1",ENSEMBL:ENSMUSG00000025215,NCBIGene:21908,ABAGene:21665
+Tlx3,gene,gene,"T cell leukemia, homeobox 3",ENSEMBL:ENSMUSG00000040610,NCBIGene:27140,ABAGene:26885
+TMd,anatomical,structure,"Tuberomammillary nucleus, dorsal part",MBA:1126,UBERON:0014593,
+Tmem163,gene,gene,transmembrane protein 163,ENSEMBL:ENSMUSG00000026347,NCBIGene:72160,ABAGene:48001
+TMv,anatomical,structure,"Tuberomammillary nucleus, ventral part",MBA:1,UBERON:0014594,
+Tnnt1,gene,gene,"troponin T1, skeletal, slow",ENSEMBL:ENSMUSG00000064179,NCBIGene:21955,ABAGene:21712
+Tph2,gene,gene,tryptophan hydroxylase 2,ENSEMBL:ENSMUSG00000006764,NCBIGene:216343,ABAGene:84950
+Trdn,gene,gene,triadin,ENSEMBL:ENSMUSG00000019787,NCBIGene:76757,ABAGene:52597
+Trh,gene,gene,thyrotropin releasing hormone,ENSEMBL:ENSMUSG00000005892,NCBIGene:22044,ABAGene:21801
+TRN,anatomical,structure,Tegmental reticular nucleus,MBA:574,UBERON:0002147,
+Trp73,gene,gene,transformation related protein 73,ENSEMBL:ENSMUSG00000029026,NCBIGene:22062,ABAGene:21819
+Trpv6,gene,gene,"transient receptor potential cation channel, subfamily V, member 6",ENSEMBL:ENSMUSG00000029868,NCBIGene:64177,ABAGene:40810
+TRS,anatomical,structure,Triangular nucleus of septum,MBA:581,UBERON:0002977,
+TT,anatomical,structure,Taenia tecta,MBA:589,UBERON:0015800,
+TU,anatomical,structure,Tuberal nucleus,MBA:614,UBERON:0002620,
+UBC,cell type,cell_type,unipolar brush cell,CL:4023161,,
+Ucn,gene,gene,urocortin,ENSEMBL:ENSMUSG00000038676,NCBIGene:22226,ABAGene:21983
+Vascular,anatomical,anatomical,vascular system,UBERON:0007798,,
+VCO,anatomical,structure,Ventral cochlear nucleus,MBA:101,UBERON:0002828,
+Vgll2,gene,gene,vestigial like family member 2,ENSEMBL:ENSMUSG00000049641,NCBIGene:215031,ABAGene:84762
+VII,anatomical,structure,Facial motor nucleus,MBA:661,UBERON:0003011,
+Vip,gene,gene,vasoactive intestinal polypeptide,ENSEMBL:ENSMUSG00000019772,NCBIGene:22353,ABAGene:22110
+VLMC,cell type,cell_type,vascular leptomeningeal cell,CL:4023051,,
+VMH,anatomical,structure,Ventromedial hypothalamic nucleus,MBA:693,UBERON:0001935,
+VMPO,anatomical,structure,Ventromedial preoptic nucleus,MBA:576073699,,
+Vsx2,gene,gene,visual system homeobox 2,ENSEMBL:ENSMUSG00000021239,NCBIGene:12677,ABAGene:12462
+VTA,anatomical,structure,Ventral tegmental area,MBA:749,UBERON:0002691,
+VTN,anatomical,structure,Ventral tegmental nucleus,MBA:757,UBERON:0002438,
+Xdh,gene,gene,xanthine dehydrogenase,ENSEMBL:ENSMUSG00000024066,NCBIGene:22436,ABAGene:22193
+Xi,anatomical,structure,Xiphoid thalamic nucleus,MBA:560581559,,
+Zeb2,gene,gene,zinc finger E-box binding homeobox 2,ENSEMBL:ENSMUSG00000026872,NCBIGene:24136,ABAGene:23887
+Zfhx3,gene,gene,zinc finger homeobox 3,ENSEMBL:ENSMUSG00000038872,NCBIGene:11906,ABAGene:11693
+ZI,anatomical,structure,Zona incerta,MBA:797,UBERON:0001907,
+Zic1,gene,gene,zinc finger protein of the cerebellum 1,ENSEMBL:ENSMUSG00000032368,NCBIGene:22771,ABAGene:22528
+Zic2,gene,gene,zinc finger protein of the cerebellum 2,ENSEMBL:ENSMUSG00000061524,NCBIGene:22772,ABAGene:22529
+Zic4,gene,gene,zinc finger protein of the cerebellum 4,ENSEMBL:ENSMUSG00000036972,NCBIGene:22774,ABAGene:22531
+TEa,anatomical,structure,Temporal association areas,MBA:541,UBERON:0035013,
+PERI,anatomical,structure,Perirhinal area,MBA:922,UBERON:0006083,
+ECT,anatomical,structure,Ectorhinal area,MBA:895,,
+PAR,anatomical,structure,Parasubiculum,MBA:843,UBERON:0004683,
+POST,anatomical,structure,Postsubiculum,MBA:1037,UBERON:0035971,
+PRE,anatomical,structure,Presubiculum,MBA:1084,UBERON:0001953,
+A10,cell type,cell_type,dopaminergic cell group A10,KB:0000019,,
+A11,cell type,cell_type,dopaminergic cell group A11,KB:0000020,,
+A12,cell type,cell_type,dopaminergic cell group A12,KB:0000021,,
+A14,cell type,cell_type,dopaminergic cell group A14,KB:0000022,,
+A15,cell type,cell_type,dopaminergic cell group A15,KB:0000023,,
+A16,cell type,cell_type,dopaminergic cell group A16,KB:0000024,,
+A8,cell type,cell_type,dopaminergic cell group A8,KB:0000025,,
+A9,cell type,cell_type,dopaminergic cell group A9,KB:0000026,,
+Nora,cell type,neurotransmission,noradrenergic cell,CL:0000459,,
+EA,anatomical,anatomical,extended amygdala,KB:0000027,,
+GC,cell type,cell_type,granule cell,CL:0000120,,
+Pallium,anatomical,anatomical,pallium,UBERON:0000203,,
+Subpallium,anatomical,anatomical,subpallium,UBERON:0000204,,
+EPI,anatomical,structure,Epithalamus,MBA:958,UBERON:0001899,
+WholeBrain,anatomical,anatomical,brain,UBERON:0000955,,
+CHOL,cell type,neurotransmission,cholinergic neuron,CL:0000108,,
+VGLUT1,cell type,neurotransmission,VGLUT1 expressing glutamatergic neuron,KB:0000016,,
+VGLUT2,cell type,neurotransmission,VGLUT2 expressing glutamatergic neuron,KB:0000017,,
+VGLUT3,cell type,neurotransmission,VGLUT3 expressing glutamatergic neuron,KB:0000018,,
+DA,cell type,neurotransmission,dopaminergic neuron,CL:0000700,,
+HDC,cell type,neurotransmission,histaminergic neuron,CL:0011110,,
+GLY,cell type,neurotransmission,glycinergic neuron,CL:1001509,,
+SER,cell type,neurotransmission,serotonergic neuron,CL:0000850,,

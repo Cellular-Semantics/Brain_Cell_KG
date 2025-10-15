@@ -1,0 +1,35 @@
+token_text,issue_type,token_type,primary_identifier,usage_count,cluster_count,example_clusters
+NN,kg_not_found,cell type,KB:0000010,185,185,1157 Bergmann NN_1 | 1158 Astro-CB NN_1 | 1159 Astro-NT NN_1
+L2/3,unknown_token,unknown,,108,108,0029 L2/3 IT CTX Glut_1 | 0030 L2/3 IT CTX Glut_2 | 0031 L2/3 IT CTX Glut_3
+ant,unknown_token,unknown,,88,88,0295 NDB-SI-ant Prdm12 Gaba_1 | 0296 NDB-SI-ant Prdm12 Gaba_2 | 0297 NDB-SI-ant Prdm12 Gaba_3
+D1,kg_not_found,cell type,KB:0000001,63,63,0265 STR D1 Gaba_1 | 0266 STR D1 Gaba_2 | 0267 STR D1 Gaba_3
+IMN,kg_not_found,cell type,KB:0000011,51,51,0140 DG-PIR Ex IMN_1 | 0141 DG-PIR Ex IMN_2 | 0142 DG-PIR Ex IMN_3
+in,unknown_token,unknown,,45,45,0150 OB-in Frmd7 Gaba_1 | 0151 OB-in Frmd7 Gaba_2 | 0152 OB-in Frmd7 Gaba_3
+Pdrm12,unknown_token,unknown,,44,44,0446 AHN-SBPV-PVHd Pdrm12 Gaba_1 | 0447 AHN-SBPV-PVHd Pdrm12 Gaba_2 | 0448 AHN-SBPV-PVHd Pdrm12 Gaba_3
+L4/5,unknown_token,unknown,,44,44,0023 L4/5 IT CTX Glut_1 | 0024 L4/5 IT CTX Glut_2 | 0025 L4/5 IT CTX Glut_3
+PPP,unknown_token,unknown,,41,41,0080 L2 IT PPP-APr Glut_1 | 0081 L2 IT PPP-APr Glut_2 | 0082 L2 IT PPP-APr Glut_3
+NP,kg_not_found,cell type,KB:0000005,37,37,0122 L5 NP CTX Glut_1 | 0123 L5 NP CTX Glut_2 | 0124 L5 NP CTX Glut_3
+D2,kg_not_found,cell type,KB:0000002,33,33,0274 STR D2 Gaba_1 | 0275 STR D2 Gaba_2 | 0276 STR D2 Gaba_3
+an,unknown_token,unknown,,23,23,0608 PH-an Pitx2 Glut_1 | 0609 PH-an Pitx2 Glut_2 | 0764 SCig-an-PPT Foxb1 Glut_1
+L6b/CT,unknown_token,unknown,,19,19,0106 L6b/CT ENT Glut_1 | 0107 L6b/CT ENT Glut_2 | 0108 L6b/CT ENT Glut_3
+L5/6,unknown_token,unknown,,17,17,0007 L5/6 IT TPE-ENT Glut_1 | 0008 L5/6 IT TPE-ENT Glut_2 | 0009 L5/6 IT TPE-ENT Glut_3
+po,unknown_token,unknown,,17,17,0051 L2 IT ENT-po Glut_1 | 0052 L2 IT ENT-po Glut_2 | 0053 L2 IT ENT-po Glut_3
+TPE,unknown_token,unknown,,17,17,0007 L5/6 IT TPE-ENT Glut_1 | 0008 L5/6 IT TPE-ENT Glut_2 | 0009 L5/6 IT TPE-ENT Glut_3
+out,unknown_token,unknown,,15,15,0158 OB-out Frmd7 Gaba_1 | 0159 OB-out Frmd7 Gaba_2 | 0160 OB-out Frmd7 Gaba_3
+PLI,kg_not_found,cell type,KB:0000003,14,14,1144 CB PLI Gly-Gaba_1 | 1145 CB PLI Gly-Gaba_2 | 1146 CB PLI Gly-Gaba_3
+ENTmv,kg_not_found,anatomical,MBA:934,13,13,0066 ENTmv-PA-COAp Glut_1 | 0067 ENTmv-PA-COAp Glut_2 | 0068 ENTmv-PA-COAp Glut_3
+NT,kg_not_found,anatomical,,13,13,1159 Astro-NT NN_1 | 1160 Astro-NT NN_2 | 318 Astro-NT NN
+Ex,kg_not_found,cell type,KB:0000006,11,11,0140 DG-PIR Ex IMN_1 | 0141 DG-PIR Ex IMN_2 | 0142 DG-PIR Ex IMN_3
+ve,unknown_token,unknown,,11,11,0681 MB-ant-ve Dmrta2 Glut_1 | 156 MB-ant-ve Dmrta2 Glut | 2752 MB-ant-ve Dmrta2 Glut_1
+Astroependymal,kg_not_found,cell type,KB:0000015,10,10,1169 Astroependymal NN_1 | 1170 Astroependymal NN_2 | 1171 Astroependymal NN_3
+D3,kg_not_found,cell type,KB:0000004,8,8,0262 OT D3 Folh1 Gaba_1 | 0263 OT D3 Folh1 Gaba_2 | 0264 OT D3 Folh1 Gaba_3
+Crp,kg_not_found,gene,ENSEMBL:ENSMUSG00000037942,6,6,1024 MDRNv Crp Glut_1 | 260 MDRNv Crp Glut | 4597 MDRNv Crp Glut_1
+MOL,kg_not_found,cell type,KB:0000008,6,6,1184 MOL NN_4 | 5284 MOL NN_4 | 5285 MOL NN_4
+cells,unknown_token,unknown,,6,6,1198 B cells NN_1 | 1200 NK cells NN_3 | 1201 T cells NN_4
+NFOL,kg_not_found,cell type,KB:0000009,5,5,1182 NFOL NN_2 | 5278 NFOL NN_2 | 5279 NFOL NN_2
+mi,unknown_token,unknown,,5,5,0161 OB-mi Frmd7 Gaba_1 | 043 OB-mi Frmd7 Gaba | 0579 OB-mi Frmd7 Gaba_1
+MFOL,kg_not_found,cell type,KB:0000007,3,3,1183 MFOL NN_3 | 5282 MFOL NN_3 | 5283 MFOL NN_3
+MEV,kg_not_found,anatomical,MBA:460,3,3,0952 MEV Ppp1r1c Glut_1 | 234 MEV Ppp1r1c Glut | 4197 MEV Ppp1r1c Glut_1
+T,unknown_token,unknown,,2,2,1201 T cells NN_4 | 5322 T cells NN_4
+HYa,kg_not_found,anatomical,,2,2,11 CNU-HYa GABA | 13 CNU-HYa Glut
+NK,unknown_token,unknown,,2,2,1200 NK cells NN_3 | 5321 NK cells NN_3

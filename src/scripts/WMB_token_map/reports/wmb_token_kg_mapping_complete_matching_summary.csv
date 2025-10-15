@@ -1,0 +1,5 @@
+token_type,total_mappings,successful_matches,match_percentage,unique_tokens
+anatomical,12183,12152,99.74554707379136,218
+gene,7903,7897,99.92407946349488,194
+cell type,8318,7892,94.87857658090887,54
+unknown,504,0,0.0,17

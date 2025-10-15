@@ -1,5 +1,7 @@
 import json
 import csv
+import logging
+from io import StringIO
 from neo4j import GraphDatabase, basic_auth
 
 class Neo4jBoltQueryWrapper:
@@ -41,19 +43,46 @@ class Neo4jBoltQueryWrapper:
             self.connect()
         with self.driver.session() as session:
             result = session.run(query, parameters or {})
+
+            # Collect records first
             records = [record.data() for record in result]
+
+            # Then consume summary
+            summary = result.consume()
+
+            # Get execution statistics
+            stats = {
+                'nodes_created': summary.counters.nodes_created,
+                'nodes_deleted': summary.counters.nodes_deleted,
+                'relationships_created': summary.counters.relationships_created,
+                'relationships_deleted': summary.counters.relationships_deleted,
+                'properties_set': summary.counters.properties_set,
+                'labels_added': summary.counters.labels_added,
+                'labels_removed': summary.counters.labels_removed,
+                'indexes_added': summary.counters.indexes_added,
+                'indexes_removed': summary.counters.indexes_removed,
+                'constraints_added': summary.counters.constraints_added,
+                'constraints_removed': summary.counters.constraints_removed,
+                'result_available_after': summary.result_available_after,
+                'result_consumed_after': summary.result_consumed_after
+            }
+
             if return_type == "json":
                 return json.dumps(records, indent=2)
             elif return_type == "csv":
                 if records:
                     keys = records[0].keys()
-                    output = csv.StringIO()
+                    output = StringIO()
                     writer = csv.DictWriter(output, fieldnames=keys)
                     writer.writeheader()
                     writer.writerows(records)
                     return output.getvalue()
                 else:
                     return ""
+            elif return_type == "summary":
+                return stats
+            elif return_type == "records_and_summary":
+                return {'records': records, 'stats': stats}
             else:
                 return records
 

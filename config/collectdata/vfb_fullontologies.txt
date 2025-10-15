@@ -1,7 +1,8 @@
 https://github.com/Cellular-Semantics/whole_mouse_brain_ontology/releases/download/v2025-05-09/wmbo-full.owl
 https://github.com/Cellular-Semantics/hmba_basal_ganglia_ontology/raw/refs/heads/main/bgo-full.owl
-https://raw.githubusercontent.com/Cellular-Semantics/WMB_BG_KG/refs/heads/main/OWL/BG2WMB.owl
-https://raw.githubusercontent.com/Cellular-Semantics/WMB_BG_KG/refs/heads/main/OWL/scFAIR_WHB_WMB.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/BG2WMB_AT_map_template.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/scFAIR_WHB2WMB_template.owl
 https://raw.githubusercontent.com/brain-bican/human-brain-cell-atlas_v1_non-neuronal/refs/heads/main/CS202210140_non_neuronal.owl
 https://github.com/brain-bican/human-brain-cell-atlas_v1_neurons/raw/refs/heads/main/CS202210140_neurons.owl
 https://github.com/brain-bican/whole_mouse_brain_taxonomy/raw/refs/heads/main/CCN20230722.rdf
+https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.rdf

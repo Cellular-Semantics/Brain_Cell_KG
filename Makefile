@@ -11,6 +11,7 @@ NEO4J_PASS ?= neo
 SRC_DIR = src
 TEMPLATES_DIR = $(SRC_DIR)/templates
 CYPHER_DIR = $(SRC_DIR)/cypher
+CYPHER_UPDATES_DIR = $(SRC_DIR)/cypher_updates
 UTILS_DIR = $(SRC_DIR)/utils
 SOURCE_DATA_DIR = $(SRC_DIR)/source_data
 REPORTS_DIR = reports
@@ -120,9 +121,54 @@ generate-templates: $(VENV_PYTHON)
 	@for source in $(wildcard $(SOURCE_DATA_DIR)/*/); do \
 		if [ -f "$$source/code/generate.py" ]; then \
 			echo "Processing $$source"; \
-			cd "$$source/code" && $(VENV_PYTHON) generate.py; \
+			cd "$$source/code" && ../../../../$(VENV_PYTHON) generate.py || echo "Error in $$source - continuing..."; \
 		fi; \
 	done
+	@for source in $(wildcard $(SRC_DIR)/scripts/*/); do \
+		if [ -f "$$source/scripts/generate.py" ]; then \
+			echo "Processing $$source"; \
+			cd "$$source/scripts" && ../../../../$(VENV_PYTHON) generate.py || echo "Error in $$source - continuing..."; \
+		fi; \
+	done
+
+# WMB token mapping generation
+.PHONY: wmb-token-mapping
+wmb-token-mapping: $(VENV_PYTHON)
+	@echo "Generating WMB token mapping reports..."
+	cd $(SRC_DIR)/scripts/WMB_token_map/scripts && ../../../../$(VENV_PYTHON) generate.py
+
+# Knowledge graph updates from Cypher statements
+.PHONY: update-kg
+update-kg: $(VENV_PYTHON)
+	$(VENV_PYTHON) $(UTILS_DIR)/update_kg.py \
+		--updates-dir $(CYPHER_UPDATES_DIR) \
+		--host $(NEO4J_HOST) \
+		--port $(NEO4J_PORT) \
+		--user $(NEO4J_USER) \
+		--password $(NEO4J_PASS) \
+		--log-file kg_updates.log
+
+# Dry run for knowledge graph updates (shows what would be executed)
+.PHONY: update-kg-dry-run
+update-kg-dry-run: $(VENV_PYTHON)
+	$(VENV_PYTHON) $(UTILS_DIR)/update_kg.py \
+		--updates-dir $(CYPHER_UPDATES_DIR) \
+		--host $(NEO4J_HOST) \
+		--port $(NEO4J_PORT) \
+		--user $(NEO4J_USER) \
+		--password $(NEO4J_PASS) \
+		--dry-run
+
+# Continue executing updates even if some fail
+.PHONY: update-kg-continue
+update-kg-continue: $(VENV_PYTHON)
+	$(VENV_PYTHON) $(UTILS_DIR)/update_kg.py \
+		--updates-dir $(CYPHER_UPDATES_DIR) \
+		--host $(NEO4J_HOST) \
+		--port $(NEO4J_PORT) \
+		--user $(NEO4J_USER) \
+		--password $(NEO4J_PASS) \
+		--continue-on-error
 
 # Clean build artifacts
 .PHONY: clean
@@ -155,6 +201,9 @@ help:
 	@echo "  mock-templates   - Mock template processing for testing"
 	@echo "  reports          - Generate CSV reports from Cypher queries"
 	@echo "  generate-templates - Generate templates from source data"
+	@echo "  wmb-token-mapping - Generate WMB cell cluster token mapping reports"
+	@echo "  update-kg        - Execute knowledge graph update statements"
+	@echo "  update-kg-dry-run - Show what KG updates would be executed"
 	@echo "  test-neo4j       - Test Neo4j database connection"
 	@echo "  clean            - Remove build artifacts"
 	@echo "  distclean        - Remove all generated files including venv"
