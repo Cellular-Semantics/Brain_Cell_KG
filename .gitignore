@@ -169,3 +169,4 @@ cython_debug/
 .Trashes
 ehthumbs.db
 Thumbs.db
+config/updatetriplestore/rdf4j.txt
