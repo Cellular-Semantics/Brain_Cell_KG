@@ -7,102 +7,70 @@ batch_size: 100000000
 relation_type_threshold: 0.95
 represent_values_and_annotations_as_json:
   iris:
-    - "http://purl.obolibrary.org/obo/IAO_0000115"
-    - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
-    - "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
-    - "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
-    - "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
-
+  - http://purl.obolibrary.org/obo/IAO_0000115
+  - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+  - http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+  - http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+  - http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
 neo_node_labelling:
-  - classes:
-      - CL:0000000
-    label: Cell
-  - classes:
-      - PCL:0010001
-    label: Cell_cluster
-#  - classes:
-#      - sc:Dataset
-#    label: Dataset
-#  - classes:
-#      - HANCESTRO:0004
-#    label: Race
-#    description: a term that refers to the ancestry of a Homo sapiens
-#  - classes:
-#      - MONDO:0000001
-#    label: Disease
-#    description: a disease or disorder, plus 'normal' (latter pulled from SPARQL query)
-#  - classes:
-#      - UBERON:0000105
-#      - MmusDv:0000000
-#      - HsapDv:0000000
-#    label: Developmental_stage
-#    description: a term that refers to a life cycle stage
-#  - classes:
-#      - NCBITaxon:9606
-#    label: Homo_sapiens
-#    description: an organism that belongs to the species H. sapiens or a term that is applicable to H. sapiens
-#  - classes:
-#      - NCBITaxon:10090
-#    label: Mus_musculus
-#    description: an organism that belongs to the species M. musculus (house mouse) or a term that is applicable to M. musculus
-  - classes:
-      - UBERON:0010000
-      - UBERON:0000178
-    label: Multicellular_anatomical_structure
-  - classes:
-      - GO:0008150
-    label: Biological_process
-  - classes:
-      - GO:0005575
-    label: Cellular_component
-  - classes:
-      - PR:000000001
-    label: Protein
-  - classes:
-      - SO:0000704
-    label: Gene
-
-
-
+- classes:
+  - CL:0000000
+  label: Cell
+- classes:
+  - PCL:0010001
+  label: Cell_cluster
+- classes:
+  - UBERON:0010000
+  - UBERON:0000178
+  label: Multicellular_anatomical_structure
+- classes:
+  - GO:0008150
+  label: Biological_process
+- classes:
+  - GO:0005575
+  label: Cellular_component
+- classes:
+  - PR:000000001
+  label: Protein
+- classes:
+  - SO:0000704
+  label: Gene
 curie_map:
+  CL: http://purl.obolibrary.org/obo/CL_
+  GO: http://purl.obolibrary.org/obo/GO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  PR: http://purl.obolibrary.org/obo/PR_
+  RO: http://purl.obolibrary.org/obo/RO_
+  SO: http://purl.obolibrary.org/obo/SO_
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+  BG: https://purl.brain-bican.org/ontology/CS20250428/
+  WMB: https://purl.brain-bican.org/taxonomy/CCN20230722/
+  WHB: https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/
+  PCL: http://purl.obolibrary.org/obo/PCL_
+  MBA: https://purl.brain-bican.org/ontology/mbao/MBA_
+  ensembl: http://identifiers.org/ensembl/
+  NCBIGene: http://identifiers.org/ncbigene/
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  UniProtKB: https://identifiers.org/uniprot/
+  MmusDv: http://purl.obolibrary.org/obo/MmusDv_
+  HsapDv: http://purl.obolibrary.org/obo/HsapDv_
+  HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
+  skos: http://www.w3.org/2004/02/skos/core#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  PMID: http://www.ncbi.nlm.nih.gov/pubmed/
+  doi: https://doi.org/
+  orcid: https://orcid.org/
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
-  PMID: http://www.ncbi.nlm.nih.gov/pubmed/
-  orcid: https://orcid.org/
-  doi: https://doi.org/
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  NCBIGene: http://identifiers.org/ncbigene/
   cc: http://creativecommons.org/ns#
+  sc: https://schema.org/
+  n2o: http://n2o.neo/custom/
+  ILX: http://uri.interlex.org/base/ilx_
   pato_rel: http://purl.obolibrary.org/obo/pato#
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
-  owl: http://www.w3.org/2002/07/owl#
-  skos: http://www.w3.org/2004/02/skos/core#
-  ensembl: http://identifiers.org/ensembl/
-  RO: http://purl.obolibrary.org/obo/RO_
-  UBERON: http://purl.obolibrary.org/obo/UBERON_
-  CL: http://purl.obolibrary.org/obo/CL_
-  n2o: http://n2o.neo/custom/
-  ILX: http://uri.interlex.org/base/ilx_
-  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
-  PR: http://purl.obolibrary.org/obo/PR_
-  SO: http://purl.obolibrary.org/obo/SO_
-  OBI: http://purl.obolibrary.org/obo/OBI_
-  PCL: http://purl.obolibrary.org/obo/PCL_
-  sc: https://schema.org/
-  HANCESTRO: http://purl.obolibrary.org/obo/HANCESTRO_
-  MONDO: http://purl.obolibrary.org/obo/MONDO_
-  MmusDv: http://purl.obolibrary.org/obo/MmusDv_
-  HsapDv: http://purl.obolibrary.org/obo/HsapDv_
-  GO: http://purl.obolibrary.org/obo/GO_
-  UniProtKB: https://identifiers.org/uniprot/
-  skos: http://www.w3.org/2004/02/skos/core#
-  IAO: http://purl.obolibrary.org/obo/IAO_
-  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
-  BG: https://purl.brain-bican.org/ontology/CS20250428/
-  WMB: https://purl.brain-bican.org/taxonomy/CCN20230722/
-  MBA: https://purl.brain-bican.org/ontology/mbao/MBA_
-  
-  
-
-

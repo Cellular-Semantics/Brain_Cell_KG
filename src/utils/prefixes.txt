@@ -1,6 +1,0 @@
-# Common prefixes for ROBOT template processing
-# Format: PREFIX: URL
-BG: https://purl.brain-bican.org/ontology/CS20250428/
-WMB: https://purl.brain-bican.org/taxonomy/CCN20230722/
-WHB: https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/
-n2o: https://neo4j.com/ontology/

@@ -75,8 +75,8 @@ CTX,anatomical,structure,Cerebral cortex,MBA:688,UBERON:0000956,
 CU,anatomical,structure,Cuneate nucleus,MBA:711,UBERON:0002045,
 CUN,anatomical,structure,Cuneiform nucleus,MBA:616,UBERON:0002696,
 Cyp26b1,gene,gene,"cytochrome P450, family 26, subfamily b, polypeptide 1",ENSEMBL:ENSMUSG00000063415,NCBIGene:232174,ABAGene:87382
-D1,cell type,cell_type,D1 medium spiny neuron,KB:0000001,,
-D2,cell type,cell_type,D2 medium spiny neuron,KB:0000002,,
+D1,cell type,cell_type,D1 medium spiny neuron,CL:4023026,,
+D2,cell type,cell_type,D2 medium spiny neuron,CL:4023029,,
 D3,cell type,cell_type,D3 dopamine receptor expressing cell,KB:0000004,,
 Dbh,gene,gene,dopamine beta hydroxylase,ENSEMBL:ENSMUSG00000000889,NCBIGene:13166,ABAGene:12946
 DC,cell type,cell_type,dendritic cell,CL:0000451,,
@@ -164,7 +164,7 @@ Ikzf1,gene,gene,IKAROS family zinc finger 1,ENSEMBL:ENSMUSG00000018654,NCBIGene:
 Il22,gene,gene,interleukin 22,ENSEMBL:ENSMUSG00000074695,NCBIGene:50929,
 ILC,cell type,cell_type,innate lymphoid cell,CL:0001065,,
 Immune,cell type,cell_type,leukocyte,CL:0000738,,
-IMN,cell type,cell_type,immature neuron,KB:0000011,,
+IMN,cell type,cell_type,immature neuron,CL:4042028,,
 INC,anatomical,structure,Interstitial nucleus of Cajal,MBA:67,UBERON:0002551,
 Inh,cell type,cell_type,inhibitory interneuron,CL:0000498,,
 IO,anatomical,structure,Inferior olivary complex,MBA:83,UBERON:0002127,
@@ -217,7 +217,7 @@ Meis2,gene,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,NCBIGene:17536,ABAGen
 MEPO,anatomical,structure,Median preoptic nucleus,MBA:452,UBERON:0002625,
 Mesi2,gene,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,NCBIGene:17536,ABAGene:17303
 MEV,anatomical,structure,Midbrain trigeminal nucleus,MBA:460,UBERON:0001718,
-MFOL,cell type,cell_type,myelin-forming oligodendrocyte,KB:0000007,,
+MFOL,cell type,cell_type,myelin-forming oligodendrocyte,CL:4072002,,
 MG,anatomical,structure,Medial geniculate complex,MBA:475,UBERON:0001927,
 MGE,anatomical,transient_structure,medial ganglionic eminence,UBERON:0004024,,
 Mgp,gene,gene,matrix Gla protein,ENSEMBL:ENSMUSG00000030218,NCBIGene:17313,ABAGene:17082
@@ -243,7 +243,7 @@ Neurod2,gene,gene,neurogenic differentiation 2,ENSEMBL:ENSMUSG00000038255,NCBIGe
 Nfia,gene,gene,nuclear factor I/A,ENSEMBL:ENSMUSG00000028565,NCBIGene:18027,ABAGene:17794
 Nfib,gene,gene,nuclear factor I/B,ENSEMBL:ENSMUSG00000008575,NCBIGene:18028,ABAGene:17795
 Nfix,gene,gene,nuclear factor I/X,ENSEMBL:ENSMUSG00000001911,NCBIGene:18032,ABAGene:17799
-NFOL,cell type,cell_type,newly formed oligodendrocyte,KB:0000009,,
+NFOL,cell type,cell_type,newly formed oligodendrocyte,CL:4072001,,
 Ngfr,gene,gene,"nerve growth factor receptor (TNFR superfamily, member 16)",ENSEMBL:ENSMUSG00000000120,NCBIGene:18053,ABAGene:17820
 NI,anatomical,structure,Nucleus incertus,MBA:604,UBERON:0035973,
 NK-cells,cell type,cell_type,natural killer cell,CL:0000623,,
@@ -317,7 +317,7 @@ Pineal,anatomical,anatomical,pineal body,UBERON:0001905,,
 PIR,anatomical,structure,Piriform area,MBA:961,,
 Pitx2,gene,gene,paired-like homeodomain transcription factor 2,ENSEMBL:ENSMUSG00000028023,NCBIGene:18741,ABAGene:18505
 Pkd2l1,gene,gene,polycystic kidney disease 2-like 1,ENSEMBL:ENSMUSG00000037578,NCBIGene:329064,ABAGene:108594
-PLI,cell type,cell_type,Purkinje layer interneuron,KB:0000003,,
+PLI,cell type,cell_type,Purkinje layer interneuron,CL:4072102,,
 Pmch,gene,gene,pro-melanin-concentrating hormone,ENSEMBL:ENSMUSG00000035383,NCBIGene:110312,ABAGene:74469
 PMd,anatomical,structure,Dorsal premammillary nucleus,MBA:980,UBERON:0007767,
 PMv,anatomical,structure,Ventral premammillary nucleus,MBA:1004,UBERON:0007768,

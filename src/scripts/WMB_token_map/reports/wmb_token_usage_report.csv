@@ -1,484 +1,498 @@
 token_text,token_type,token_name,primary_identifier,usage_count,cluster_count,kg_entity_found,kg_entity_curie,kg_entity_label
-Glut,cell type,glutamatergic neuron,CL:0000679,3381,3381,True,CL:0000679,glutamatergic neuron
-Gaba,cell type,GABAergic neuron,CL:0000617,3194,3194,True,CL:0000617,GABAergic neuron
-PAG,anatomical,Periaqueductal gray,MBA:795,606,606,True,ns3:MBA_795,Periaqueductal gray
+Glut,cell type,glutamatergic neuron,CL:0000679,3378,3378,True,CL:0000679,glutamatergic neuron
+Gaba,cell type,GABAergic neuron,CL:0000617,3186,3186,True,CL:0000617,GABAergic neuron
+PAG,anatomical,Periaqueductal gray,MBA:795,606,606,True,MBA:795,Periaqueductal gray
 Gly,cell type,glycinergic neuron,CL:1001509,526,526,True,CL:1001509,glycinergic neuron
 Otp,gene,orthopedia homeobox,ENSEMBL:ENSMUSG00000021685,392,392,True,ensembl:ENSMUSG00000021685,Otp (Mmus)
-BST,anatomical,Bed nuclei of the stria terminalis,MBA:351,356,356,True,ns3:MBA_351,Bed nuclei of the stria terminalis
-LHA,anatomical,Lateral hypothalamic area,MBA:194,309,309,True,ns3:MBA_194,Lateral hypothalamic area
+BST,anatomical,Bed nuclei of the stria terminalis,MBA:351,356,356,True,MBA:351,Bed nuclei of the stria terminalis
+LHA,anatomical,Lateral hypothalamic area,MBA:194,309,309,True,MBA:194,Lateral hypothalamic area
 IT,cell type,intratelencephalic-projecting glutamatergic cortical neuron,CL:4023008,290,290,True,CL:4023008,intratelencephalic-projecting glutamatergic cortical neuron
-MEA,anatomical,Medial amygdalar nucleus,MBA:403,286,286,True,ns3:MBA_403,Medial amygdalar nucleus
-NTS,anatomical,Nucleus of the solitary tract,MBA:651,276,276,True,ns3:MBA_651,Nucleus of the solitary tract
-CTX,anatomical,Cerebral cortex,MBA:688,269,269,True,ns3:MBA_688,Cerebral cortex
-SI,anatomical,Substantia innominata,MBA:342,245,245,True,ns3:MBA_342,Substantia innominata
+MEA,anatomical,Medial amygdalar nucleus,MBA:403,286,286,True,MBA:403,Medial amygdalar nucleus
+NTS,anatomical,Nucleus of the solitary tract,MBA:651,276,276,True,MBA:651,Nucleus of the solitary tract
+CTX,anatomical,Cerebral cortex,MBA:688,269,269,True,MBA:688,Cerebral cortex
+SI,anatomical,Substantia innominata,MBA:342,245,245,True,MBA:342,Substantia innominata
 Six3,gene,sine oculis-related homeobox 3,ENSEMBL:ENSMUSG00000038805,240,240,True,ensembl:ENSMUSG00000038805,Six3 (Mmus)
-PARN,anatomical,Parvicellular reticular nucleus,MBA:852,224,224,True,ns3:MBA_852,Parvicellular reticular nucleus
-PCG,anatomical,Pontine central gray,MBA:898,209,209,True,ns3:MBA_898,Pontine central gray
-PB,anatomical,Parabrachial nucleus,MBA:867,199,199,True,ns3:MBA_867,Parabrachial nucleus
-LSX,anatomical,Lateral septal complex,MBA:275,191,191,True,ns3:MBA_275,Lateral septal complex
-NN,cell type,non-neuronal cell,KB:0000010,185,185,False,,
-STR,anatomical,Striatum,MBA:477,183,183,True,ns3:MBA_477,Striatum
+PARN,anatomical,Parvicellular reticular nucleus,MBA:852,224,224,True,MBA:852,Parvicellular reticular nucleus
+PCG,anatomical,Pontine central gray,MBA:898,209,209,True,MBA:898,Pontine central gray
+PB,anatomical,Parabrachial nucleus,MBA:867,199,199,True,MBA:867,Parabrachial nucleus
+LSX,anatomical,Lateral septal complex,MBA:275,191,191,True,MBA:275,Lateral septal complex
+STR,anatomical,Striatum,MBA:477,183,183,True,MBA:477,Striatum
 Sp9,gene,trans-acting transcription factor 9,ENSEMBL:ENSMUSG00000068859,168,168,True,ensembl:ENSMUSG00000068859,Sp9 (Mmus)
 Pax6,gene,paired box 6,ENSEMBL:ENSMUSG00000027168,165,165,True,ensembl:ENSMUSG00000027168,Pax6 (Mmus)
-DMH,anatomical,Dorsomedial nucleus of the hypothalamus,MBA:830,164,164,True,ns3:MBA_830,Dorsomedial nucleus of the hypothalamus
-LDT,anatomical,Laterodorsal tegmental nucleus,MBA:162,164,164,True,ns3:MBA_162,Laterodorsal tegmental nucleus
-MRN,anatomical,Midbrain reticular nucleus,MBA:128,164,164,True,ns3:MBA_128,Midbrain reticular nucleus
-MA,anatomical,Magnocellular nucleus,MBA:298,162,162,True,ns3:MBA_298,Magnocellular nucleus
+DMH,anatomical,Dorsomedial nucleus of the hypothalamus,MBA:830,164,164,True,MBA:830,Dorsomedial nucleus of the hypothalamus
+LDT,anatomical,Laterodorsal tegmental nucleus,MBA:162,164,164,True,MBA:162,Laterodorsal tegmental nucleus
+MRN,anatomical,Midbrain reticular nucleus,MBA:128,164,164,True,MBA:128,Midbrain reticular nucleus
+MA,anatomical,Magnocellular nucleus,MBA:298,162,162,True,MBA:298,Magnocellular nucleus
 OB,anatomical,olfactory bulb,UBERON:0002264,161,161,True,UBERON:0002264,olfactory bulb
 Lhx6,gene,LIM homeobox protein 6,ENSEMBL:ENSMUSG00000026890,161,161,True,ensembl:ENSMUSG00000026890,Lhx6 (Mmus)
 Hmx2,gene,H6 homeobox 2,ENSEMBL:ENSMUSG00000050100,157,157,True,ensembl:ENSMUSG00000050100,Hmx2 (Mmus)
 Evx2,gene,even-skipped homeobox 2,ENSEMBL:ENSMUSG00000001815,156,156,True,ensembl:ENSMUSG00000001815,Evx2 (Mmus)
 Lhx8,gene,LIM homeobox protein 8,ENSEMBL:ENSMUSG00000096225,156,156,True,ensembl:ENSMUSG00000096225,Lhx8 (Mmus)
+MPO,anatomical,Medial preoptic area,MBA:523,154,154,True,MBA:523,Medial preoptic area
 Foxb1,gene,forkhead box B1,ENSEMBL:ENSMUSG00000059246,154,154,True,ensembl:ENSMUSG00000059246,Foxb1 (Mmus)
-MPO,anatomical,Medial preoptic area,MBA:523,154,154,True,ns3:MBA_523,Medial preoptic area
-PH,anatomical,Posterior hypothalamic nucleus,MBA:946,147,147,True,ns3:MBA_946,Posterior hypothalamic nucleus
-MPN,anatomical,Medial preoptic nucleus,MBA:515,144,144,True,ns3:MBA_515,Medial preoptic nucleus
-MY,anatomical,Medulla,MBA:354,144,144,True,ns3:MBA_354,Medulla
+PH,anatomical,Posterior hypothalamic nucleus,MBA:946,147,147,True,MBA:946,Posterior hypothalamic nucleus
+MPN,anatomical,Medial preoptic nucleus,MBA:515,144,144,True,MBA:515,Medial preoptic nucleus
+MY,anatomical,Medulla,MBA:354,144,144,True,MBA:354,Medulla
 Phox2b,gene,paired-like homeobox 2b,ENSEMBL:ENSMUSG00000012520,140,140,True,ensembl:ENSMUSG00000012520,Phox2b (Mmus)
-SPFp,anatomical,"Subparafascicular nucleus, parvicellular part",MBA:422,139,139,True,ns3:MBA_422,"Subparafascicular nucleus, parvicellular part"
-SPFm,anatomical,"Subparafascicular nucleus, magnocellular part",MBA:414,139,139,True,ns3:MBA_414,"Subparafascicular nucleus, magnocellular part"
-ZI,anatomical,Zona incerta,MBA:797,139,139,True,ns3:MBA_797,Zona incerta
-LPO,anatomical,Lateral preoptic area,MBA:226,138,138,True,ns3:MBA_226,Lateral preoptic area
+SPFm,anatomical,"Subparafascicular nucleus, magnocellular part",MBA:414,139,139,True,MBA:414,"Subparafascicular nucleus, magnocellular part"
+SPFp,anatomical,"Subparafascicular nucleus, parvicellular part",MBA:422,139,139,True,MBA:422,"Subparafascicular nucleus, parvicellular part"
+NN,cell type,non-neuronal cell,KB:0000010,139,139,False,,
+ZI,anatomical,Zona incerta,MBA:797,139,139,True,MBA:797,Zona incerta
 Lhx1,gene,LIM homeobox protein 1,ENSEMBL:ENSMUSG00000018698,138,138,True,ensembl:ENSMUSG00000018698,Lhx1 (Mmus)
+LPO,anatomical,Lateral preoptic area,MBA:226,138,138,True,MBA:226,Lateral preoptic area
 Pou4f1,gene,"POU domain, class 4, transcription factor 1",ENSEMBL:ENSMUSG00000048349,134,134,True,ensembl:ENSMUSG00000048349,Pou4f1 (Mmus)
 SC,anatomical,superior colliculus,UBERON:0001945,132,132,True,UBERON:0001945,superior colliculus
 Vsx2,gene,visual system homeobox 2,ENSEMBL:ENSMUSG00000021239,128,128,True,ensembl:ENSMUSG00000021239,Vsx2 (Mmus)
-MV,anatomical,Medial vestibular nucleus,MBA:202,127,127,True,ns3:MBA_202,Medial vestibular nucleus
-SPVC,anatomical,"Spinal nucleus of the trigeminal, caudal part",MBA:429,127,127,True,ns3:MBA_429,"Spinal nucleus of the trigeminal, caudal part"
 Meis2,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,127,127,True,ensembl:ENSMUSG00000027210,Meis2 (Mmus)
-SPVI,anatomical,"Spinal nucleus of the trigeminal, interpolar part",MBA:437,126,126,True,ns3:MBA_437,"Spinal nucleus of the trigeminal, interpolar part"
+MV,anatomical,Medial vestibular nucleus,MBA:202,127,127,True,MBA:202,Medial vestibular nucleus
+SPVC,anatomical,"Spinal nucleus of the trigeminal, caudal part",MBA:429,127,127,True,MBA:429,"Spinal nucleus of the trigeminal, caudal part"
+SPVI,anatomical,"Spinal nucleus of the trigeminal, interpolar part",MBA:437,126,126,True,MBA:437,"Spinal nucleus of the trigeminal, interpolar part"
 Sst,gene,somatostatin,ENSEMBL:ENSMUSG00000004366,126,126,True,ensembl:ENSMUSG00000004366,Sst (Mmus)
-Neurod2,gene,neurogenic differentiation 2,ENSEMBL:ENSMUSG00000038255,121,121,True,ensembl:ENSMUSG00000038255,Neurod2 (Mmus)
 Tcf7l2,gene,"transcription factor 7 like 2, T cell specific, HMG box",ENSEMBL:ENSMUSG00000024985,121,121,True,ensembl:ENSMUSG00000024985,Tcf7l2 (Mmus)
+Neurod2,gene,neurogenic differentiation 2,ENSEMBL:ENSMUSG00000038255,121,121,True,ensembl:ENSMUSG00000038255,Neurod2 (Mmus)
 Hoxb5,gene,homeobox B5,ENSEMBL:ENSMUSG00000038700,118,118,True,ensembl:ENSMUSG00000038700,Hoxb5 (Mmus)
-PPN,anatomical,Pedunculopontine nucleus,MBA:1052,117,117,True,ns3:MBA_1052,Pedunculopontine nucleus
-AHN,anatomical,Anterior hypothalamic nucleus,MBA:88,116,116,True,ns3:MBA_88,Anterior hypothalamic nucleus
-CUN,anatomical,Cuneiform nucleus,MBA:616,110,110,True,ns3:MBA_616,Cuneiform nucleus
+PPN,anatomical,Pedunculopontine nucleus,MBA:1052,117,117,True,MBA:1052,Pedunculopontine nucleus
+AHN,anatomical,Anterior hypothalamic nucleus,MBA:88,116,116,True,MBA:88,Anterior hypothalamic nucleus
+CUN,anatomical,Cuneiform nucleus,MBA:616,110,110,True,MBA:616,Cuneiform nucleus
 Pitx2,gene,paired-like homeodomain transcription factor 2,ENSEMBL:ENSMUSG00000028023,110,110,True,ensembl:ENSMUSG00000028023,Pitx2 (Mmus)
-MDRN,anatomical,Medullary reticular nucleus,MBA:395,109,109,True,ns3:MBA_395,Medullary reticular nucleus
+MDRN,anatomical,Medullary reticular nucleus,MBA:395,109,109,True,MBA:395,Medullary reticular nucleus
 L2/3,unknown,Unknown token: L2/3,,108,108,False,,
 Foxa1,gene,forkhead box A1,ENSEMBL:ENSMUSG00000035451,107,107,True,ensembl:ENSMUSG00000035451,Foxa1 (Mmus)
-CEA,anatomical,Central amygdalar nucleus,MBA:536,105,105,True,ns3:MBA_536,Central amygdalar nucleus
-POL,anatomical,Posterior limiting nucleus of the thalamus,MBA:1029,104,104,True,ns3:MBA_1029,Posterior limiting nucleus of the thalamus
-PGRN,anatomical,Paragigantocellular reticular nucleus,MBA:938,101,101,True,ns3:MBA_938,Paragigantocellular reticular nucleus
-PVHd,anatomical,"Paraventricular hypothalamic nucleus, descending division",MBA:63,101,101,True,ns3:MBA_63,"Paraventricular hypothalamic nucleus, descending division"
-IC,anatomical,Inferior colliculus,MBA:4,97,97,True,ns3:MBA_4,Inferior colliculus
-PRNc,anatomical,"Pontine reticular nucleus, caudal part",MBA:1093,95,95,True,ns3:MBA_1093,"Pontine reticular nucleus, caudal part"
-PIL,anatomical,Posterior intralaminar thalamic nucleus,MBA:560581563,95,95,True,ns3:MBA_560581563,Posterior intralaminar thalamic nucleus
-PoT,anatomical,Posterior triangular thalamic nucleus,MBA:563807435,95,95,True,ns3:MBA_563807435,Posterior triangular thalamic nucleus
-SPA,anatomical,Subparafascicular area,MBA:609,95,95,True,ns3:MBA_609,Subparafascicular area
-CS,anatomical,Superior central nucleus raphe,MBA:679,95,95,True,ns3:MBA_679,Superior central nucleus raphe
+CEA,anatomical,Central amygdalar nucleus,MBA:536,105,105,True,MBA:536,Central amygdalar nucleus
+POL,anatomical,Posterior limiting nucleus of the thalamus,MBA:1029,104,104,True,MBA:1029,Posterior limiting nucleus of the thalamus
+PVHd,anatomical,"Paraventricular hypothalamic nucleus, descending division",MBA:63,101,101,True,MBA:63,"Paraventricular hypothalamic nucleus, descending division"
+PGRN,anatomical,Paragigantocellular reticular nucleus,MBA:938,101,101,True,MBA:938,Paragigantocellular reticular nucleus
+IC,anatomical,Inferior colliculus,MBA:4,97,97,True,MBA:4,Inferior colliculus
+PRNc,anatomical,"Pontine reticular nucleus, caudal part",MBA:1093,95,95,True,MBA:1093,"Pontine reticular nucleus, caudal part"
+PoT,anatomical,Posterior triangular thalamic nucleus,MBA:563807435,95,95,True,MBA:563807435,Posterior triangular thalamic nucleus
+SPA,anatomical,Subparafascicular area,MBA:609,95,95,True,MBA:609,Subparafascicular area
+CS,anatomical,Superior central nucleus raphe,MBA:679,95,95,True,MBA:679,Superior central nucleus raphe
+PIL,anatomical,Posterior intralaminar thalamic nucleus,MBA:560581563,95,95,True,MBA:560581563,Posterior intralaminar thalamic nucleus
 Prdm12,gene,PR domain containing 12,ENSEMBL:ENSMUSG00000079466,94,94,True,ensembl:ENSMUSG00000079466,Prdm12 (Mmus)
-PVpo,anatomical,"Periventricular hypothalamic nucleus, preoptic part",MBA:133,92,92,True,ns3:MBA_133,"Periventricular hypothalamic nucleus, preoptic part"
-PRP,anatomical,Nucleus prepositus,MBA:169,89,89,True,ns3:MBA_169,Nucleus prepositus
-SBPV,anatomical,Subparaventricular zone,MBA:347,89,89,True,ns3:MBA_347,Subparaventricular zone
+PVpo,anatomical,"Periventricular hypothalamic nucleus, preoptic part",MBA:133,92,92,True,MBA:133,"Periventricular hypothalamic nucleus, preoptic part"
 Nkx2-2,gene,NK2 homeobox 2,ENSEMBL:ENSMUSG00000027434,89,89,True,ensembl:ENSMUSG00000027434,Nkx2-2 (Mmus)
+PRP,anatomical,Nucleus prepositus,MBA:169,89,89,True,MBA:169,Nucleus prepositus
+SBPV,anatomical,Subparaventricular zone,MBA:347,89,89,True,MBA:347,Subparaventricular zone
+NDB,anatomical,Diagonal band nucleus,MBA:596,88,88,True,MBA:596,Diagonal band nucleus
 ant,unknown,Unknown token: ant,,88,88,False,,
-NDB,anatomical,Diagonal band nucleus,MBA:596,88,88,True,ns3:MBA_596,Diagonal band nucleus
-Ebf3,gene,early B cell factor 3,ENSEMBL:ENSMUSG00000010476,85,85,True,ensembl:ENSMUSG00000010476,Ebf3 (Mmus)
 Nfib,gene,nuclear factor I/B,ENSEMBL:ENSMUSG00000008575,85,85,True,ensembl:ENSMUSG00000008575,Nfib (Mmus)
+Ebf3,gene,early B cell factor 3,ENSEMBL:ENSMUSG00000010476,85,85,True,ensembl:ENSMUSG00000010476,Ebf3 (Mmus)
 L5,anatomical,cortical layer 5,UBERON:0005394,83,83,True,UBERON:0005394,cortical layer V
 Sall3,gene,spalt like transcription factor 3,ENSEMBL:ENSMUSG00000024565,82,82,True,ensembl:ENSMUSG00000024565,Sall3 (Mmus)
-SPIV,anatomical,Spinal vestibular nucleus,MBA:225,81,81,True,ns3:MBA_225,Spinal vestibular nucleus
 Ebf2,gene,early B cell factor 2,ENSEMBL:ENSMUSG00000022053,81,81,True,ensembl:ENSMUSG00000022053,Ebf2 (Mmus)
-MDRNd,anatomical,"Medullary reticular nucleus, dorsal part",MBA:1098,80,80,True,ns3:MBA_1098,"Medullary reticular nucleus, dorsal part"
-Skor1,gene,SKI family transcriptional corepressor 1,ENSEMBL:ENSMUSG00000022245,79,79,True,ensembl:ENSMUSG00000022245,Skor1 (Mmus)
+SPIV,anatomical,Spinal vestibular nucleus,MBA:225,81,81,True,MBA:225,Spinal vestibular nucleus
+MDRNd,anatomical,"Medullary reticular nucleus, dorsal part",MBA:1098,80,80,True,MBA:1098,"Medullary reticular nucleus, dorsal part"
 Gata3,gene,GATA binding protein 3,ENSEMBL:ENSMUSG00000015619,79,79,True,ensembl:ENSMUSG00000015619,Gata3 (Mmus)
+Skor1,gene,SKI family transcriptional corepressor 1,ENSEMBL:ENSMUSG00000022245,79,79,True,ensembl:ENSMUSG00000022245,Skor1 (Mmus)
 Pou4f2,gene,"POU domain, class 4, transcription factor 2",ENSEMBL:ENSMUSG00000031688,78,78,True,ensembl:ENSMUSG00000031688,Pou4f2 (Mmus)
-PRNr,anatomical,Pontine reticular nucleus,MBA:146,77,77,True,ns3:MBA_146,Pontine reticular nucleus
-RN,anatomical,Red nucleus,MBA:214,76,76,True,ns3:MBA_214,Red nucleus
-Nkx6-1,gene,NK6 homeobox 1,ENSEMBL:ENSMUSG00000035187,76,76,True,ensembl:ENSMUSG00000035187,Nkx6-1 (Mmus)
+PRNr,anatomical,Pontine reticular nucleus,MBA:146,77,77,True,MBA:146,Pontine reticular nucleus
 Dopa,cell type,dopaminergic neuron,CL:0000700,76,76,True,CL:0000700,dopaminergic neuron
+RN,anatomical,Red nucleus,MBA:214,76,76,True,MBA:214,Red nucleus
+Nkx6-1,gene,NK6 homeobox 1,ENSEMBL:ENSMUSG00000035187,76,76,True,ensembl:ENSMUSG00000035187,Nkx6-1 (Mmus)
 Otx2,gene,orthodenticle homeobox 2,ENSEMBL:ENSMUSG00000021848,74,74,True,ensembl:ENSMUSG00000021848,Otx2 (Mmus)
 Six6,gene,sine oculis-related homeobox 6,ENSEMBL:ENSMUSG00000021099,72,72,True,ensembl:ENSMUSG00000021099,Six6 (Mmus)
-RPO,anatomical,Nucleus raphe pontis,MBA:238,72,72,True,ns3:MBA_238,Nucleus raphe pontis
-ENT,anatomical,Entorhinal area,MBA:909,71,71,True,ns3:MBA_909,Entorhinal area
+RPO,anatomical,Nucleus raphe pontis,MBA:238,72,72,True,MBA:238,Nucleus raphe pontis
+ENT,anatomical,Entorhinal area,MBA:909,71,71,True,MBA:909,Entorhinal area
 Bsx,gene,brain specific homeobox,ENSEMBL:ENSMUSG00000054360,71,71,True,ensembl:ENSMUSG00000054360,Bsx (Mmus)
-STRv,anatomical,Striatum ventral region,MBA:493,69,69,True,ns3:MBA_493,Striatum ventral region
 Sox6,gene,SRY (sex determining region Y)-box 6,ENSEMBL:ENSMUSG00000051910,69,69,True,ensembl:ENSMUSG00000051910,Sox6 (Mmus)
+STRv,anatomical,Striatum ventral region,MBA:493,69,69,True,MBA:493,Striatum ventral region
 Barhl2,gene,BarH like homeobox 2,ENSEMBL:ENSMUSG00000034384,68,68,True,ensembl:ENSMUSG00000034384,Barhl2 (Mmus)
-PRT,anatomical,Pretectal region,MBA:1100,68,68,True,ns3:MBA_1100,Pretectal region
-LGv,anatomical,Ventral part of the lateral geniculate complex,MBA:178,67,67,True,ns3:MBA_178,Ventral part of the lateral geniculate complex
-ARH,anatomical,Arcuate hypothalamic nucleus,MBA:223,67,67,True,ns3:MBA_223,Arcuate hypothalamic nucleus
-PRC,anatomical,Precommissural nucleus,MBA:50,66,66,True,ns3:MBA_50,Precommissural nucleus
-Frmd7,gene,FERM domain containing 7,ENSEMBL:ENSMUSG00000036131,65,65,True,ensembl:ENSMUSG00000036131,Frmd7 (Mmus)
-NI,anatomical,Nucleus incertus,MBA:604,65,65,True,ns3:MBA_604,Nucleus incertus
-Pax5,gene,paired box 5,ENSEMBL:ENSMUSG00000014030,65,65,True,ensembl:ENSMUSG00000014030,Pax5 (Mmus)
+PRT,anatomical,Pretectal region,MBA:1100,68,68,True,MBA:1100,Pretectal region
+LGv,anatomical,Ventral part of the lateral geniculate complex,MBA:178,67,67,True,MBA:178,Ventral part of the lateral geniculate complex
+ARH,anatomical,Arcuate hypothalamic nucleus,MBA:223,67,67,True,MBA:223,Arcuate hypothalamic nucleus
+PRC,anatomical,Precommissural nucleus,MBA:50,66,66,True,MBA:50,Precommissural nucleus
+NI,anatomical,Nucleus incertus,MBA:604,65,65,True,MBA:604,Nucleus incertus
 Vip,gene,vasoactive intestinal polypeptide,ENSEMBL:ENSMUSG00000019772,65,65,True,ensembl:ENSMUSG00000019772,Vip (Mmus)
+Frmd7,gene,FERM domain containing 7,ENSEMBL:ENSMUSG00000036131,65,65,True,ensembl:ENSMUSG00000036131,Frmd7 (Mmus)
 Prox1,gene,prospero homeobox 1,ENSEMBL:ENSMUSG00000010175,65,65,True,ensembl:ENSMUSG00000010175,Prox1 (Mmus)
-VTA,anatomical,Ventral tegmental area,MBA:749,64,64,True,ns3:MBA_749,Ventral tegmental area
-D1,cell type,D1 medium spiny neuron,KB:0000001,63,63,False,,
-ProS,anatomical,Prosubiculum,MBA:484682470,61,61,True,ns3:MBA_484682470,Prosubiculum
+Pax5,gene,paired box 5,ENSEMBL:ENSMUSG00000014030,65,65,True,ensembl:ENSMUSG00000014030,Pax5 (Mmus)
+VTA,anatomical,Ventral tegmental area,MBA:749,64,64,True,MBA:749,Ventral tegmental area
+D1,cell type,D1 medium spiny neuron,CL:4023026,63,63,True,CL:4023026,direct pathway medium spiny neuron
 Lmx1a,gene,LIM homeobox transcription factor 1 alpha,ENSEMBL:ENSMUSG00000026686,61,61,True,ensembl:ENSMUSG00000026686,Lmx1a (Mmus)
-SCig,anatomical,"Superior colliculus, motor related, intermediate gray layer",MBA:10,60,60,True,ns3:MBA_10,"Superior colliculus, motor related, intermediate gray layer"
-BMA,anatomical,Basomedial amygdalar nucleus,MBA:319,59,59,True,ns3:MBA_319,Basomedial amygdalar nucleus
+ProS,anatomical,Prosubiculum,MBA:484682470,61,61,True,MBA:484682470,Prosubiculum
+SCig,anatomical,"Superior colliculus, motor related, intermediate gray layer",MBA:10,60,60,True,MBA:10,"Superior colliculus, motor related, intermediate gray layer"
 Dmbx1,gene,diencephalon/mesencephalon homeobox 1,ENSEMBL:ENSMUSG00000028707,59,59,True,ensembl:ENSMUSG00000028707,Dmbx1 (Mmus)
-IPN,anatomical,Interpeduncular nucleus,MBA:100,59,59,True,ns3:MBA_100,Interpeduncular nucleus
-TH,anatomical,Thalamus,MBA:549,58,58,True,ns3:MBA_549,Thalamus
-SCs,anatomical,"Superior colliculus, sensory related",MBA:302,57,57,True,ns3:MBA_302,"Superior colliculus, sensory related"
-Prkcd,gene,"protein kinase C, delta",ENSEMBL:ENSMUSG00000021948,57,57,True,ensembl:ENSMUSG00000021948,Prkcd (Mmus)
+BMA,anatomical,Basomedial amygdalar nucleus,MBA:319,59,59,True,MBA:319,Basomedial amygdalar nucleus
+IPN,anatomical,Interpeduncular nucleus,MBA:100,59,59,True,MBA:100,Interpeduncular nucleus
+TH,anatomical,Thalamus,MBA:549,58,58,True,MBA:549,Thalamus
 L6,anatomical,cortical layer 6,UBERON:0005395,57,57,True,UBERON:0005395,cortical layer VI
+Prkcd,gene,"protein kinase C, delta",ENSEMBL:ENSMUSG00000021948,57,57,True,ensembl:ENSMUSG00000021948,Prkcd (Mmus)
+SCs,anatomical,"Superior colliculus, sensory related",MBA:302,57,57,True,MBA:302,"Superior colliculus, sensory related"
 Grin2c,gene,"glutamate receptor, ionotropic, NMDA2C (epsilon 3)",ENSEMBL:ENSMUSG00000020734,57,57,True,ensembl:ENSMUSG00000020734,Grin2c (Mmus)
 Gbx2,gene,gastrulation brain homeobox 2,ENSEMBL:ENSMUSG00000034486,56,56,True,ensembl:ENSMUSG00000034486,Gbx2 (Mmus)
+ADP,anatomical,Anterodorsal preoptic nucleus,MBA:72,56,56,True,MBA:72,Anterodorsal preoptic nucleus
 Lhx4,gene,LIM homeobox protein 4,ENSEMBL:ENSMUSG00000026468,56,56,True,ensembl:ENSMUSG00000026468,Lhx4 (Mmus)
-ADP,anatomical,Anterodorsal preoptic nucleus,MBA:72,56,56,True,ns3:MBA_72,Anterodorsal preoptic nucleus
 Tfap2b,gene,transcription factor AP-2 beta,ENSEMBL:ENSMUSG00000025927,55,55,True,ensembl:ENSMUSG00000025927,Tfap2b (Mmus)
-MB,anatomical,Midbrain,MBA:313,55,55,True,ns3:MBA_313,Midbrain
-Nr4a2,gene,"nuclear receptor subfamily 4, group A, member 2",ENSEMBL:ENSMUSG00000026826,54,54,True,ensembl:ENSMUSG00000026826,Nr4a2 (Mmus)
+MB,anatomical,Midbrain,MBA:313,55,55,True,MBA:313,Midbrain
 Lef1,gene,lymphoid enhancer binding factor 1,ENSEMBL:ENSMUSG00000027985,54,54,True,ensembl:ENSMUSG00000027985,Lef1 (Mmus)
 Pvalb,gene,parvalbumin,ENSEMBL:ENSMUSG00000005716,54,54,True,ensembl:ENSMUSG00000005716,Pvalb (Mmus)
+Nr4a2,gene,"nuclear receptor subfamily 4, group A, member 2",ENSEMBL:ENSMUSG00000026826,54,54,True,ensembl:ENSMUSG00000026826,Nr4a2 (Mmus)
 Nkx2-1,gene,NK2 homeobox 1,ENSEMBL:ENSMUSG00000001496,53,53,True,ensembl:ENSMUSG00000001496,Nkx2-1 (Mmus)
-VMPO,anatomical,Ventromedial preoptic nucleus,MBA:576073699,53,53,True,ns3:MBA_576073699,Ventromedial preoptic nucleus
-SNc,anatomical,"Substantia nigra, compact part",MBA:374,52,52,True,ns3:MBA_374,"Substantia nigra, compact part"
-En2,gene,engrailed 2,ENSEMBL:ENSMUSG00000039095,52,52,True,ensembl:ENSMUSG00000039095,En2 (Mmus)
+VMPO,anatomical,Ventromedial preoptic nucleus,MBA:576073699,53,53,True,MBA:576073699,Ventromedial preoptic nucleus
+RAmb,anatomical,Midbrain raphe nuclei,MBA:165,52,52,True,MBA:165,Midbrain raphe nuclei
 Bnc2,gene,basonuclin 2,ENSEMBL:ENSMUSG00000028487,52,52,True,ensembl:ENSMUSG00000028487,Bnc2 (Mmus)
-RAmb,anatomical,Midbrain raphe nuclei,MBA:165,52,52,True,ns3:MBA_165,Midbrain raphe nuclei
-IMN,cell type,immature neuron,KB:0000011,51,51,False,,
-PA,anatomical,Posterior amygdalar nucleus,MBA:780,51,51,True,ns3:MBA_780,Posterior amygdalar nucleus
-SCsg,anatomical,"Superior colliculus, superficial gray layer",MBA:842,51,51,True,ns3:MBA_842,"Superior colliculus, superficial gray layer"
+En2,gene,engrailed 2,ENSEMBL:ENSMUSG00000039095,52,52,True,ensembl:ENSMUSG00000039095,En2 (Mmus)
+SNc,anatomical,"Substantia nigra, compact part",MBA:374,52,52,True,MBA:374,"Substantia nigra, compact part"
+IMN,cell type,immature neuron,CL:4042028,51,51,True,CL:4042028,immature neuron
+PA,anatomical,Posterior amygdalar nucleus,MBA:780,51,51,True,MBA:780,Posterior amygdalar nucleus
+SCsg,anatomical,"Superior colliculus, superficial gray layer",MBA:842,51,51,True,MBA:842,"Superior colliculus, superficial gray layer"
 Pou3f1,gene,"POU domain, class 3, transcription factor 1",ENSEMBL:ENSMUSG00000090125,51,51,True,ensembl:ENSMUSG00000090125,Pou3f1 (Mmus)
-PVH,anatomical,Paraventricular hypothalamic nucleus,MBA:38,51,51,True,ns3:MBA_38,Paraventricular hypothalamic nucleus
-COAa,anatomical,"Cortical amygdalar area, anterior part",MBA:639,50,50,True,ns3:MBA_639,"Cortical amygdalar area, anterior part"
-PAA,anatomical,Piriform-amygdalar area,MBA:788,50,50,True,ns3:MBA_788,Piriform-amygdalar area
+PVH,anatomical,Paraventricular hypothalamic nucleus,MBA:38,51,51,True,MBA:38,Paraventricular hypothalamic nucleus
+COAa,anatomical,"Cortical amygdalar area, anterior part",MBA:639,50,50,True,MBA:639,"Cortical amygdalar area, anterior part"
 Lhx2,gene,LIM homeobox protein 2,ENSEMBL:ENSMUSG00000000247,50,50,True,ensembl:ENSMUSG00000000247,Lhx2 (Mmus)
-PVa,anatomical,"Periventricular hypothalamic nucleus, anterior part",MBA:30,49,49,True,ns3:MBA_30,"Periventricular hypothalamic nucleus, anterior part"
-COA,anatomical,Cortical amygdalar area,MBA:631,48,48,True,ns3:MBA_631,Cortical amygdalar area
+PAA,anatomical,Piriform-amygdalar area,MBA:788,50,50,True,MBA:788,Piriform-amygdalar area
+PVa,anatomical,"Periventricular hypothalamic nucleus, anterior part",MBA:30,49,49,True,MBA:30,"Periventricular hypothalamic nucleus, anterior part"
 Tlx3,gene,"T cell leukemia, homeobox 3",ENSEMBL:ENSMUSG00000040610,48,48,True,ensembl:ENSMUSG00000040610,Tlx3 (Mmus)
-PIR,anatomical,Piriform area,MBA:961,47,47,True,ns3:MBA_961,Piriform area
-Zic1,gene,zinc finger protein of the cerebellum 1,ENSEMBL:ENSMUSG00000032368,46,46,True,ensembl:ENSMUSG00000032368,Zic1 (Mmus)
-Fezf1,gene,Fez family zinc finger 1,ENSEMBL:ENSMUSG00000029697,46,46,True,ensembl:ENSMUSG00000029697,Fezf1 (Mmus)
-Ebf1,gene,early B cell factor 1,ENSEMBL:ENSMUSG00000057098,46,46,True,ensembl:ENSMUSG00000057098,Ebf1 (Mmus)
+COA,anatomical,Cortical amygdalar area,MBA:631,48,48,True,MBA:631,Cortical amygdalar area
+PIR,anatomical,Piriform area,MBA:961,47,47,True,MBA:961,Piriform area
 Astro,cell type,astrocyte,CL:0000127,46,46,True,CL:0000127,astrocyte
-in,unknown,Unknown token: in,,45,45,False,,
-PVR,anatomical,Periventricular region,MBA:141,45,45,True,ns3:MBA_141,Periventricular region
-Otx1,gene,orthodenticle homeobox 1,ENSEMBL:ENSMUSG00000005917,45,45,True,ensembl:ENSMUSG00000005917,Otx1 (Mmus)
-Tfap2d,gene,"transcription factor AP-2, delta",ENSEMBL:ENSMUSG00000042596,45,45,True,ensembl:ENSMUSG00000042596,Tfap2d (Mmus)
-Maf,gene,avian musculoaponeurotic fibrosarcoma oncogene homolog,ENSEMBL:ENSMUSG00000055435,45,45,True,ensembl:ENSMUSG00000055435,Maf (Mmus)
+Ebf1,gene,early B cell factor 1,ENSEMBL:ENSMUSG00000057098,46,46,True,ensembl:ENSMUSG00000057098,Ebf1 (Mmus)
+Fezf1,gene,Fez family zinc finger 1,ENSEMBL:ENSMUSG00000029697,46,46,True,ensembl:ENSMUSG00000029697,Fezf1 (Mmus)
+Zic1,gene,zinc finger protein of the cerebellum 1,ENSEMBL:ENSMUSG00000032368,46,46,True,ensembl:ENSMUSG00000032368,Zic1 (Mmus)
 Sox3,gene,SRY (sex determining region Y)-box 3,ENSEMBL:ENSMUSG00000045179,45,45,True,ensembl:ENSMUSG00000045179,Sox3 (Mmus)
+Tfap2d,gene,"transcription factor AP-2, delta",ENSEMBL:ENSMUSG00000042596,45,45,True,ensembl:ENSMUSG00000042596,Tfap2d (Mmus)
+PVR,anatomical,Periventricular region,MBA:141,45,45,True,MBA:141,Periventricular region
+Maf,gene,avian musculoaponeurotic fibrosarcoma oncogene homolog,ENSEMBL:ENSMUSG00000055435,45,45,True,ensembl:ENSMUSG00000055435,Maf (Mmus)
+Otx1,gene,orthodenticle homeobox 1,ENSEMBL:ENSMUSG00000005917,45,45,True,ensembl:ENSMUSG00000005917,Otx1 (Mmus)
+in,unknown,Unknown token: in,,45,45,False,,
+L4/5,unknown,Unknown token: L4/5,,44,44,False,,
+AAA,anatomical,Anterior amygdalar area,MBA:23,44,44,True,MBA:23,Anterior amygdalar area
 Pdrm12,unknown,Unknown token: Pdrm12,,44,44,False,,
 Slit2,gene,slit guidance ligand 2,ENSEMBL:ENSMUSG00000031558,44,44,True,ensembl:ENSMUSG00000031558,Slit2 (Mmus)
-L4/5,unknown,Unknown token: L4/5,,44,44,False,,
-AAA,anatomical,Anterior amygdalar area,MBA:23,44,44,True,ns3:MBA_23,Anterior amygdalar area
 En1,gene,engrailed 1,ENSEMBL:ENSMUSG00000058665,44,44,True,ensembl:ENSMUSG00000058665,En1 (Mmus)
 Chol,cell type,cholinergic neuron,CL:0000108,43,43,True,CL:0000108,cholinergic neuron
 Cdh23,gene,cadherin 23 (otocadherin),ENSEMBL:ENSMUSG00000012819,43,43,True,ensembl:ENSMUSG00000012819,Cdh23 (Mmus)
-DTN,anatomical,Dorsal tegmental nucleus,MBA:880,43,43,True,ns3:MBA_880,Dorsal tegmental nucleus
+DTN,anatomical,Dorsal tegmental nucleus,MBA:880,43,43,True,MBA:880,Dorsal tegmental nucleus
 Tbx3,gene,T-box 3,ENSEMBL:ENSMUSG00000018604,42,42,True,ensembl:ENSMUSG00000018604,Tbx3 (Mmus)
-CA1,anatomical,Field CA1,MBA:382,42,42,True,ns3:MBA_382,Field CA1
+CA1,anatomical,Field CA1,MBA:382,42,42,True,MBA:382,Field CA1
 ET,cell type,extratelencephalic-projecting glutamatergic cortical neuron,CL:4023009,42,42,True,CL:4023009,extratelencephalic-projecting glutamatergic cortical neuron
+VMH,anatomical,Ventromedial hypothalamic nucleus,MBA:693,41,41,True,MBA:693,Ventromedial hypothalamic nucleus
+PAL,anatomical,Pallidum,MBA:803,41,41,True,MBA:803,Pallidum
 Sero,cell type,serotonergic neuron,CL:0000850,41,41,True,CL:0000850,serotonergic neuron
-VMH,anatomical,Ventromedial hypothalamic nucleus,MBA:693,41,41,True,ns3:MBA_693,Ventromedial hypothalamic nucleus
-PAL,anatomical,Pallidum,MBA:803,41,41,True,ns3:MBA_803,Pallidum
 PPP,unknown,Unknown token: PPP,,41,41,False,,
-Tac2,gene,tachykinin 2,ENSEMBL:ENSMUSG00000025400,40,40,True,ensembl:ENSMUSG00000025400,Tac2 (Mmus)
 Tph2,gene,tryptophan hydroxylase 2,ENSEMBL:ENSMUSG00000006764,40,40,True,ensembl:ENSMUSG00000006764,Tph2 (Mmus)
-PSTN,anatomical,Parasubthalamic nucleus,MBA:364,39,39,True,ns3:MBA_364,Parasubthalamic nucleus
-STN,anatomical,Subthalamic nucleus,MBA:470,39,39,True,ns3:MBA_470,Subthalamic nucleus
-Nrgn,gene,neurogranin,ENSEMBL:ENSMUSG00000053310,39,39,True,ensembl:ENSMUSG00000053310,Nrgn (Mmus)
+Tac2,gene,tachykinin 2,ENSEMBL:ENSMUSG00000025400,40,40,True,ensembl:ENSMUSG00000025400,Tac2 (Mmus)
+STN,anatomical,Subthalamic nucleus,MBA:470,39,39,True,MBA:470,Subthalamic nucleus
+PSTN,anatomical,Parasubthalamic nucleus,MBA:364,39,39,True,MBA:364,Parasubthalamic nucleus
 Pdyn,gene,prodynorphin,ENSEMBL:ENSMUSG00000027400,39,39,True,ensembl:ENSMUSG00000027400,Pdyn (Mmus)
+Nrgn,gene,neurogranin,ENSEMBL:ENSMUSG00000053310,39,39,True,ensembl:ENSMUSG00000053310,Nrgn (Mmus)
+CS20230722_CLUS,unknown,Unknown token: CS20230722_CLUS,,39,39,False,,
 Inh,cell type,inhibitory interneuron,CL:0000498,38,38,True,CL:0000498,inhibitory interneuron
-LA,anatomical,Lateral amygdalar nucleus,MBA:131,38,38,True,ns3:MBA_131,Lateral amygdalar nucleus
-BLA,anatomical,Basolateral amygdalar nucleus,MBA:295,38,38,True,ns3:MBA_295,Basolateral amygdalar nucleus
+BLA,anatomical,Basolateral amygdalar nucleus,MBA:295,38,38,True,MBA:295,Basolateral amygdalar nucleus
+LA,anatomical,Lateral amygdalar nucleus,MBA:131,38,38,True,MBA:131,Lateral amygdalar nucleus
+ND,anatomical,Nucleus of Darkschewitsch,MBA:587,37,37,True,MBA:587,Nucleus of Darkschewitsch
 Tbr1,gene,T-box brain gene 1,ENSEMBL:ENSMUSG00000035033,37,37,True,ensembl:ENSMUSG00000035033,Tbr1 (Mmus)
 Gabrr2,gene,"gamma-aminobutyric acid (GABA) C receptor, subunit rho 2",ENSEMBL:ENSMUSG00000023267,37,37,True,ensembl:ENSMUSG00000023267,Gabrr2 (Mmus)
 NP,cell type,near-projecting glutamatergic cortical neuron,KB:0000005,37,37,False,,
-ND,anatomical,Nucleus of Darkschewitsch,MBA:587,37,37,True,ns3:MBA_587,Nucleus of Darkschewitsch
-ENTl,anatomical,"Entorhinal area, lateral part",MBA:918,36,36,True,ns3:MBA_918,"Entorhinal area, lateral part"
-CT,cell type,corticothalamic-projecting glutamatergic cortical neuron,CL:4023013,36,36,True,CL:4023013,CL_4023013
 Cyp26b1,gene,"cytochrome P450, family 26, subfamily b, polypeptide 1",ENSEMBL:ENSMUSG00000063415,36,36,True,ensembl:ENSMUSG00000063415,Cyp26b1 (Mmus)
-SUM,anatomical,Supramammillary nucleus,MBA:525,35,35,True,ns3:MBA_525,Supramammillary nucleus
-ECU,anatomical,External cuneate nucleus,MBA:903,35,35,True,ns3:MBA_903,External cuneate nucleus
-CU,anatomical,Cuneate nucleus,MBA:711,35,35,True,ns3:MBA_711,Cuneate nucleus
+CT,cell type,corticothalamic-projecting glutamatergic cortical neuron,CL:4023013,36,36,True,CL:4023013,corticothalamic-projecting glutamatergic cortical neuron
+ENTl,anatomical,"Entorhinal area, lateral part",MBA:918,36,36,True,MBA:918,"Entorhinal area, lateral part"
+ECU,anatomical,External cuneate nucleus,MBA:903,35,35,True,MBA:903,External cuneate nucleus
+CU,anatomical,Cuneate nucleus,MBA:711,35,35,True,MBA:711,Cuneate nucleus
+SUM,anatomical,Supramammillary nucleus,MBA:525,35,35,True,MBA:525,Supramammillary nucleus
 Mesi2,gene,Meis homeobox 2,ENSEMBL:ENSMUSG00000027210,34,34,True,ensembl:ENSMUSG00000027210,Meis2 (Mmus)
-SUB,anatomical,Subiculum,MBA:502,34,34,True,ns3:MBA_502,Subiculum
-Irx2,gene,Iroquois homeobox 2,ENSEMBL:ENSMUSG00000001504,34,34,True,ensembl:ENSMUSG00000001504,Irx2 (Mmus)
 Emx2,gene,empty spiracles homeobox 2,ENSEMBL:ENSMUSG00000043969,34,34,True,ensembl:ENSMUSG00000043969,Emx2 (Mmus)
-Zic4,gene,zinc finger protein of the cerebellum 4,ENSEMBL:ENSMUSG00000036972,33,33,True,ensembl:ENSMUSG00000036972,Zic4 (Mmus)
+Irx2,gene,Iroquois homeobox 2,ENSEMBL:ENSMUSG00000001504,34,34,True,ensembl:ENSMUSG00000001504,Irx2 (Mmus)
+SUB,anatomical,Subiculum,MBA:502,34,34,True,MBA:502,Subiculum
+D2,cell type,D2 medium spiny neuron,CL:4023029,33,33,True,CL:4023029,indirect pathway medium spiny neuron
 Dbh,gene,dopamine beta hydroxylase,ENSEMBL:ENSMUSG00000000889,33,33,True,ensembl:ENSMUSG00000000889,Dbh (Mmus)
-GRN,anatomical,Gigantocellular reticular nucleus,MBA:1048,33,33,True,ns3:MBA_1048,Gigantocellular reticular nucleus
 Lamp5,gene,"lysosomal-associated membrane protein family, member 5",ENSEMBL:ENSMUSG00000027270,33,33,True,ensembl:ENSMUSG00000027270,Lamp5 (Mmus)
-D2,cell type,D2 medium spiny neuron,KB:0000002,33,33,False,,
-MEPO,anatomical,Median preoptic nucleus,MBA:452,32,32,True,ns3:MBA_452,Median preoptic nucleus
+Zic4,gene,zinc finger protein of the cerebellum 4,ENSEMBL:ENSMUSG00000036972,33,33,True,ensembl:ENSMUSG00000036972,Zic4 (Mmus)
+GRN,anatomical,Gigantocellular reticular nucleus,MBA:1048,33,33,True,MBA:1048,Gigantocellular reticular nucleus
 Onecut1,gene,"one cut domain, family member 1",ENSEMBL:ENSMUSG00000043013,32,32,True,ensembl:ENSMUSG00000043013,Onecut1 (Mmus)
-PVp,anatomical,"Periventricular hypothalamic nucleus, posterior part",MBA:126,32,32,True,ns3:MBA_126,"Periventricular hypothalamic nucleus, posterior part"
 Gsx1,gene,GS homeobox 1,ENSEMBL:ENSMUSG00000053129,32,32,True,ensembl:ENSMUSG00000053129,Gsx1 (Mmus)
-SFO,anatomical,Subfornical organ,MBA:338,32,32,True,ns3:MBA_338,Subfornical organ
-AVPV,anatomical,Anteroventral periventricular nucleus,MBA:272,32,32,True,ns3:MBA_272,Anteroventral periventricular nucleus
+AVPV,anatomical,Anteroventral periventricular nucleus,MBA:272,32,32,True,MBA:272,Anteroventral periventricular nucleus
+SFO,anatomical,Subfornical organ,MBA:338,32,32,True,MBA:338,Subfornical organ
+MEPO,anatomical,Median preoptic nucleus,MBA:452,32,32,True,MBA:452,Median preoptic nucleus
+PVp,anatomical,"Periventricular hypothalamic nucleus, posterior part",MBA:126,32,32,True,MBA:126,"Periventricular hypothalamic nucleus, posterior part"
 Pax3,gene,paired box 3,ENSEMBL:ENSMUSG00000004872,31,31,True,ensembl:ENSMUSG00000004872,Pax3 (Mmus)
-RCH,anatomical,Retrochiasmatic area,MBA:173,31,31,True,ns3:MBA_173,Retrochiasmatic area
+RT,anatomical,Reticular nucleus of the thalamus,MBA:262,31,31,True,MBA:262,Reticular nucleus of the thalamus
+Sncg,gene,"synuclein, gamma",ENSEMBL:ENSMUSG00000023064,31,31,True,ensembl:ENSMUSG00000023064,Sncg (Mmus)
 Zeb2,gene,zinc finger E-box binding homeobox 2,ENSEMBL:ENSMUSG00000026872,31,31,True,ensembl:ENSMUSG00000026872,Zeb2 (Mmus)
 Gnb3,gene,"guanine nucleotide binding protein (G protein), beta 3",ENSEMBL:ENSMUSG00000023439,31,31,True,ensembl:ENSMUSG00000023439,Gnb3 (Mmus)
-Sncg,gene,"synuclein, gamma",ENSEMBL:ENSMUSG00000023064,31,31,True,ensembl:ENSMUSG00000023064,Sncg (Mmus)
-RT,anatomical,Reticular nucleus of the thalamus,MBA:262,31,31,True,ns3:MBA_262,Reticular nucleus of the thalamus
-SO,anatomical,Supraoptic nucleus,MBA:390,30,30,True,ns3:MBA_390,Supraoptic nucleus
+RCH,anatomical,Retrochiasmatic area,MBA:173,31,31,True,MBA:173,Retrochiasmatic area
 Mafa,gene,"v-maf musculoaponeurotic fibrosarcoma oncogene family, protein A (avian)",ENSEMBL:ENSMUSG00000047591,30,30,True,ensembl:ENSMUSG00000047591,Mafa (Mmus)
-CLA,anatomical,Claustrum,MBA:583,30,30,True,ns3:MBA_583,Claustrum
-ACB,anatomical,Nucleus accumbens,MBA:56,29,29,True,ns3:MBA_56,Nucleus accumbens
+CLA,anatomical,Claustrum,MBA:583,30,30,True,MBA:583,Claustrum
+SO,anatomical,Supraoptic nucleus,MBA:390,30,30,True,MBA:390,Supraoptic nucleus
+ACB,anatomical,Nucleus accumbens,MBA:56,29,29,True,MBA:56,Nucleus accumbens
 L6b,anatomical,cortical layer 6b,UBERON:8440003,29,29,True,UBERON:8440003,cortical layer VIb
-PMv,anatomical,Ventral premammillary nucleus,MBA:1004,28,28,True,ns3:MBA_1004,Ventral premammillary nucleus
-TMv,anatomical,"Tuberomammillary nucleus, ventral part",MBA:1,28,28,True,ns3:MBA_1,"Tuberomammillary nucleus, ventral part"
+PMv,anatomical,Ventral premammillary nucleus,MBA:1004,28,28,True,MBA:1004,Ventral premammillary nucleus
+TU,anatomical,Tuberal nucleus,MBA:614,28,28,True,MBA:614,Tuberal nucleus
 C1ql4,gene,"complement component 1, q subcomponent-like 4",ENSEMBL:ENSMUSG00000001076,28,28,True,ensembl:ENSMUSG00000001076,C1ql4 (Mmus)
-PSV,anatomical,Principal sensory nucleus of the trigeminal,MBA:7,28,28,True,ns3:MBA_7,Principal sensory nucleus of the trigeminal
-CA3,anatomical,Field CA3,MBA:463,28,28,True,ns3:MBA_463,Field CA3
-TU,anatomical,Tuberal nucleus,MBA:614,28,28,True,ns3:MBA_614,Tuberal nucleus
-MH,anatomical,Medial habenula,MBA:483,28,28,True,ns3:MBA_483,Medial habenula
+MH,anatomical,Medial habenula,MBA:483,28,28,True,MBA:483,Medial habenula
+TMv,anatomical,"Tuberomammillary nucleus, ventral part",MBA:1,28,28,True,MBA:1,"Tuberomammillary nucleus, ventral part"
+PSV,anatomical,Principal sensory nucleus of the trigeminal,MBA:7,28,28,True,MBA:7,Principal sensory nucleus of the trigeminal
 Foxa2,gene,forkhead box A2,ENSEMBL:ENSMUSG00000037025,28,28,True,ensembl:ENSMUSG00000037025,Foxa2 (Mmus)
+CA3,anatomical,Field CA3,MBA:463,28,28,True,MBA:463,Field CA3
+CB,anatomical,Cerebellum,MBA:512,27,27,True,MBA:512,Cerebellum
 Ndnf,gene,neuron-derived neurotrophic factor,ENSEMBL:ENSMUSG00000049001,27,27,True,ensembl:ENSMUSG00000049001,Ndnf (Mmus)
-L2,anatomical,cortical layer 2,UBERON:0005391,27,27,True,UBERON:0005391,cortical layer II
-CB,anatomical,Cerebellum,MBA:512,27,27,True,ns3:MBA_512,Cerebellum
-RHP,anatomical,Retrohippocampal region,MBA:822,27,27,True,ns3:MBA_822,Retrohippocampal region
 Slc17a7,gene,"solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7",ENSEMBL:ENSMUSG00000070570,27,27,True,ensembl:ENSMUSG00000070570,Slc17a7 (Mmus)
+RHP,anatomical,Retrohippocampal region,MBA:822,27,27,True,MBA:822,Retrohippocampal region
+L2,anatomical,cortical layer 2,UBERON:0005391,27,27,True,UBERON:0005391,cortical layer II
+TT,anatomical,Taenia tecta,MBA:589,26,26,True,MBA:589,Taenia tecta
+DP,anatomical,Dorsal peduncular area,MBA:814,26,26,True,MBA:814,Dorsal peduncular area
+DG,anatomical,Dentate gyrus,MBA:726,26,26,True,MBA:726,Dentate gyrus
 Nr5a1,gene,"nuclear receptor subfamily 5, group A, member 1",ENSEMBL:ENSMUSG00000026751,26,26,True,ensembl:ENSMUSG00000026751,Nr5a1 (Mmus)
-DP,anatomical,Dorsal peduncular area,MBA:814,26,26,True,ns3:MBA_814,Dorsal peduncular area
-AON,anatomical,Anterior olfactory nucleus,MBA:159,26,26,True,ns3:MBA_159,Anterior olfactory nucleus
-TT,anatomical,Taenia tecta,MBA:589,26,26,True,ns3:MBA_589,Taenia tecta
-SCm,anatomical,"Superior colliculus, motor related",MBA:294,26,26,True,ns3:MBA_294,"Superior colliculus, motor related"
-DG,anatomical,Dentate gyrus,MBA:726,26,26,True,ns3:MBA_726,Dentate gyrus
-Chodl,gene,chondrolectin,ENSEMBL:ENSMUSG00000022860,25,25,True,ensembl:ENSMUSG00000022860,Chodl (Mmus)
+SCm,anatomical,"Superior colliculus, motor related",MBA:294,26,26,True,MBA:294,"Superior colliculus, motor related"
+AON,anatomical,Anterior olfactory nucleus,MBA:159,26,26,True,MBA:159,Anterior olfactory nucleus
 Mecom,gene,MDS1 and EVI1 complex locus,ENSEMBL:ENSMUSG00000027684,25,25,True,ensembl:ENSMUSG00000027684,Mecom (Mmus)
-Trp73,gene,transformation related protein 73,ENSEMBL:ENSMUSG00000029026,24,24,True,ensembl:ENSMUSG00000029026,Trp73 (Mmus)
+Chodl,gene,chondrolectin,ENSEMBL:ENSMUSG00000022860,25,25,True,ensembl:ENSMUSG00000022860,Chodl (Mmus)
 Sox21,gene,SRY (sex determining region Y)-box 21,ENSEMBL:ENSMUSG00000061517,24,24,True,ensembl:ENSMUSG00000061517,Sox21 (Mmus)
-Pax7,gene,paired box 7,ENSEMBL:ENSMUSG00000028736,23,23,True,ensembl:ENSMUSG00000028736,Pax7 (Mmus)
-SCiw,anatomical,"Superior colliculus, motor related, intermediate white layer",MBA:17,23,23,True,ns3:MBA_17,"Superior colliculus, motor related, intermediate white layer"
-Ntrk1,gene,"neurotrophic tyrosine kinase, receptor, type 1",ENSEMBL:ENSMUSG00000028072,23,23,True,ensembl:ENSMUSG00000028072,Ntrk1 (Mmus)
-Gli3,gene,GLI-Kruppel family member GLI3,ENSEMBL:ENSMUSG00000021318,23,23,True,ensembl:ENSMUSG00000021318,Gli3 (Mmus)
-PT,anatomical,Parataenial nucleus,MBA:15,23,23,True,ns3:MBA_15,Parataenial nucleus
-PDTg,anatomical,Posterodorsal tegmental nucleus,MBA:599626927,23,23,True,ns3:MBA_599626927,Posterodorsal tegmental nucleus
-PVT,anatomical,Paraventricular nucleus of the thalamus,MBA:149,23,23,True,ns3:MBA_149,Paraventricular nucleus of the thalamus
+Trp73,gene,transformation related protein 73,ENSEMBL:ENSMUSG00000029026,24,24,True,ensembl:ENSMUSG00000029026,Trp73 (Mmus)
 an,unknown,Unknown token: an,,23,23,False,,
-COAp,anatomical,"Cortical amygdalar area, posterior part",MBA:647,22,22,True,ns3:MBA_647,"Cortical amygdalar area, posterior part"
-EP,anatomical,Endopiriform nucleus,MBA:942,22,22,True,ns3:MBA_942,Endopiriform nucleus
-PCN,anatomical,Paracentral nucleus,MBA:907,21,21,True,ns3:MBA_907,Paracentral nucleus
-CL,anatomical,Central lateral nucleus of the thalamus,MBA:575,21,21,True,ns3:MBA_575,Central lateral nucleus of the thalamus
-CBX,anatomical,Cerebellar cortex,MBA:528,21,21,True,ns3:MBA_528,Cerebellar cortex
-Lmo1,gene,LIM domain only 1,ENSEMBL:ENSMUSG00000036111,21,21,True,ensembl:ENSMUSG00000036111,Lmo1 (Mmus)
-Sox2,gene,SRY (sex determining region Y)-box 2,ENSEMBL:ENSMUSG00000074637,21,21,True,ensembl:ENSMUSG00000074637,Sox2 (Mmus)
-MS,anatomical,Medial septal nucleus,MBA:564,21,21,True,ns3:MBA_564,Medial septal nucleus
-NLL,anatomical,Nucleus of the lateral lemniscus,MBA:612,21,21,True,ns3:MBA_612,Nucleus of the lateral lemniscus
-Lbx1,gene,ladybird homeobox 1,ENSEMBL:ENSMUSG00000025216,21,21,True,ensembl:ENSMUSG00000025216,Lbx1 (Mmus)
-DR,anatomical,Dorsal nucleus raphe,MBA:872,21,21,True,ns3:MBA_872,Dorsal nucleus raphe
-Sln,gene,sarcolipin,ENSEMBL:ENSMUSG00000042045,21,21,True,ensembl:ENSMUSG00000042045,Sln (Mmus)
-SF,anatomical,Septofimbrial nucleus,MBA:310,21,21,True,ns3:MBA_310,Septofimbrial nucleus
-Chst9,gene,carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9,ENSEMBL:ENSMUSG00000047161,21,21,True,ensembl:ENSMUSG00000047161,Chst9 (Mmus)
-Ccdc42,gene,coiled-coil domain containing 42,ENSEMBL:ENSMUSG00000045915,21,21,True,ensembl:ENSMUSG00000045915,Ccdc42 (Mmus)
+NN_1,unknown,Unknown token: NN_1,,23,23,False,,
+SCiw,anatomical,"Superior colliculus, motor related, intermediate white layer",MBA:17,23,23,True,MBA:17,"Superior colliculus, motor related, intermediate white layer"
+PVT,anatomical,Paraventricular nucleus of the thalamus,MBA:149,23,23,True,MBA:149,Paraventricular nucleus of the thalamus
+PT,anatomical,Parataenial nucleus,MBA:15,23,23,True,MBA:15,Parataenial nucleus
+Gli3,gene,GLI-Kruppel family member GLI3,ENSEMBL:ENSMUSG00000021318,23,23,True,ensembl:ENSMUSG00000021318,Gli3 (Mmus)
+Ntrk1,gene,"neurotrophic tyrosine kinase, receptor, type 1",ENSEMBL:ENSMUSG00000028072,23,23,True,ensembl:ENSMUSG00000028072,Ntrk1 (Mmus)
+Pax7,gene,paired box 7,ENSEMBL:ENSMUSG00000028736,23,23,True,ensembl:ENSMUSG00000028736,Pax7 (Mmus)
+PDTg,anatomical,Posterodorsal tegmental nucleus,MBA:599626927,23,23,True,MBA:599626927,Posterodorsal tegmental nucleus
+EP,anatomical,Endopiriform nucleus,MBA:942,22,22,True,MBA:942,Endopiriform nucleus
+COAp,anatomical,"Cortical amygdalar area, posterior part",MBA:647,22,22,True,MBA:647,"Cortical amygdalar area, posterior part"
+SF,anatomical,Septofimbrial nucleus,MBA:310,21,21,True,MBA:310,Septofimbrial nucleus
 Trh,gene,thyrotropin releasing hormone,ENSEMBL:ENSMUSG00000005892,21,21,True,ensembl:ENSMUSG00000005892,Trh (Mmus)
 Sema5b,gene,"sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5B",ENSEMBL:ENSMUSG00000052133,21,21,True,ensembl:ENSMUSG00000052133,Sema5b (Mmus)
-IAD,anatomical,Interanterodorsal nucleus of the thalamus,MBA:1113,21,21,True,ns3:MBA_1113,Interanterodorsal nucleus of the thalamus
 Tmem163,gene,transmembrane protein 163,ENSEMBL:ENSMUSG00000026347,21,21,True,ensembl:ENSMUSG00000026347,Tmem163 (Mmus)
-CM,anatomical,Central medial nucleus of the thalamus,MBA:599,21,21,True,ns3:MBA_599,Central medial nucleus of the thalamus
-CLI,anatomical,Central linear nucleus raphe,MBA:591,20,20,True,ns3:MBA_591,Central linear nucleus raphe
+Sln,gene,sarcolipin,ENSEMBL:ENSMUSG00000042045,21,21,True,ensembl:ENSMUSG00000042045,Sln (Mmus)
+Sox2,gene,SRY (sex determining region Y)-box 2,ENSEMBL:ENSMUSG00000074637,21,21,True,ensembl:ENSMUSG00000074637,Sox2 (Mmus)
+PCN,anatomical,Paracentral nucleus,MBA:907,21,21,True,MBA:907,Paracentral nucleus
+NLL,anatomical,Nucleus of the lateral lemniscus,MBA:612,21,21,True,MBA:612,Nucleus of the lateral lemniscus
+DR,anatomical,Dorsal nucleus raphe,MBA:872,21,21,True,MBA:872,Dorsal nucleus raphe
+Lbx1,gene,ladybird homeobox 1,ENSEMBL:ENSMUSG00000025216,21,21,True,ensembl:ENSMUSG00000025216,Lbx1 (Mmus)
+MS,anatomical,Medial septal nucleus,MBA:564,21,21,True,MBA:564,Medial septal nucleus
+CL,anatomical,Central lateral nucleus of the thalamus,MBA:575,21,21,True,MBA:575,Central lateral nucleus of the thalamus
+CBX,anatomical,Cerebellar cortex,MBA:528,21,21,True,MBA:528,Cerebellar cortex
+Ccdc42,gene,coiled-coil domain containing 42,ENSEMBL:ENSMUSG00000045915,21,21,True,ensembl:ENSMUSG00000045915,Ccdc42 (Mmus)
+Chst9,gene,carbohydrate (N-acetylgalactosamine 4-0) sulfotransferase 9,ENSEMBL:ENSMUSG00000047161,21,21,True,ensembl:ENSMUSG00000047161,Chst9 (Mmus)
+Lmo1,gene,LIM domain only 1,ENSEMBL:ENSMUSG00000036111,21,21,True,ensembl:ENSMUSG00000036111,Lmo1 (Mmus)
+CM,anatomical,Central medial nucleus of the thalamus,MBA:599,21,21,True,MBA:599,Central medial nucleus of the thalamus
+IAD,anatomical,Interanterodorsal nucleus of the thalamus,MBA:1113,21,21,True,MBA:1113,Interanterodorsal nucleus of the thalamus
+RL,anatomical,Rostral linear nucleus raphe,MBA:197,20,20,True,MBA:197,Rostral linear nucleus raphe
 Onecut3,gene,"one cut domain, family member 3",ENSEMBL:ENSMUSG00000045518,20,20,True,ensembl:ENSMUSG00000045518,Onecut3 (Mmus)
-APN,anatomical,Anterior pretectal nucleus,MBA:215,20,20,True,ns3:MBA_215,Anterior pretectal nucleus
-PAS,anatomical,Parasolitary nucleus,MBA:859,20,20,True,ns3:MBA_859,Parasolitary nucleus
-DCO,anatomical,Dorsal cochlear nucleus,MBA:96,20,20,True,ns3:MBA_96,Dorsal cochlear nucleus
-Lmx1b,gene,LIM homeobox transcription factor 1 beta,ENSEMBL:ENSMUSG00000038765,20,20,True,ensembl:ENSMUSG00000038765,Lmx1b (Mmus)
-IF,anatomical,Interfascicular nucleus raphe,MBA:12,20,20,True,ns3:MBA_12,Interfascicular nucleus raphe
 Nfia,gene,nuclear factor I/A,ENSEMBL:ENSMUSG00000028565,20,20,True,ensembl:ENSMUSG00000028565,Nfia (Mmus)
-RL,anatomical,Rostral linear nucleus raphe,MBA:197,20,20,True,ns3:MBA_197,Rostral linear nucleus raphe
-LH,anatomical,Lateral habenula,MBA:186,20,20,True,ns3:MBA_186,Lateral habenula
-Sox1,gene,SRY (sex determining region Y)-box 1,ENSEMBL:ENSMUSG00000096014,19,19,True,ensembl:ENSMUSG00000096014,Sox1 (Mmus)
-Xi,anatomical,Xiphoid thalamic nucleus,MBA:560581559,19,19,True,ns3:MBA_560581559,Xiphoid thalamic nucleus
+IF,anatomical,Interfascicular nucleus raphe,MBA:12,20,20,True,MBA:12,Interfascicular nucleus raphe
+CLI,anatomical,Central linear nucleus raphe,MBA:591,20,20,True,MBA:591,Central linear nucleus raphe
+Lmx1b,gene,LIM homeobox transcription factor 1 beta,ENSEMBL:ENSMUSG00000038765,20,20,True,ensembl:ENSMUSG00000038765,Lmx1b (Mmus)
+DCO,anatomical,Dorsal cochlear nucleus,MBA:96,20,20,True,MBA:96,Dorsal cochlear nucleus
+APN,anatomical,Anterior pretectal nucleus,MBA:215,20,20,True,MBA:215,Anterior pretectal nucleus
+LH,anatomical,Lateral habenula,MBA:186,20,20,True,MBA:186,Lateral habenula
+PAS,anatomical,Parasolitary nucleus,MBA:859,20,20,True,MBA:859,Parasolitary nucleus
 L6b/CT,unknown,Unknown token: L6b/CT,,19,19,False,,
-RE,anatomical,Nucleus of reuniens,MBA:181,19,19,True,ns3:MBA_181,Nucleus of reuniens
-EPd,anatomical,"Endopiriform nucleus, dorsal part",MBA:952,19,19,True,ns3:MBA_952,"Endopiriform nucleus, dorsal part"
-PF,anatomical,Parafascicular nucleus,MBA:930,19,19,True,ns3:MBA_930,Parafascicular nucleus
-Nox4,gene,NADPH oxidase 4,ENSEMBL:ENSMUSG00000030562,19,19,True,ensembl:ENSMUSG00000030562,Nox4 (Mmus)
-MM,anatomical,Medial mammillary nucleus,MBA:491,19,19,True,ns3:MBA_491,Medial mammillary nucleus
+RE,anatomical,Nucleus of reuniens,MBA:181,19,19,True,MBA:181,Nucleus of reuniens
+Sox1,gene,SRY (sex determining region Y)-box 1,ENSEMBL:ENSMUSG00000096014,19,19,True,ensembl:ENSMUSG00000096014,Sox1 (Mmus)
+MM,anatomical,Medial mammillary nucleus,MBA:491,19,19,True,MBA:491,Medial mammillary nucleus
 Satb2,gene,special AT-rich sequence binding protein 2,ENSEMBL:ENSMUSG00000038331,19,19,True,ensembl:ENSMUSG00000038331,Satb2 (Mmus)
 TE,anatomical,telencephalon,UBERON:0001893,19,19,True,UBERON:0001893,telencephalon
 Fzd5,gene,frizzled class receptor 5,ENSEMBL:ENSMUSG00000045005,19,19,True,ensembl:ENSMUSG00000045005,Fzd5 (Mmus)
+EPd,anatomical,"Endopiriform nucleus, dorsal part",MBA:952,19,19,True,MBA:952,"Endopiriform nucleus, dorsal part"
+PF,anatomical,Parafascicular nucleus,MBA:930,19,19,True,MBA:930,Parafascicular nucleus
 Pou4f3,gene,"POU domain, class 4, transcription factor 3",ENSEMBL:ENSMUSG00000024497,19,19,True,ensembl:ENSMUSG00000024497,Pou4f3 (Mmus)
-SNr,anatomical,"Substantia nigra, reticular part",MBA:381,18,18,True,ns3:MBA_381,"Substantia nigra, reticular part"
-SCop,anatomical,"Superior colliculus, optic layer",MBA:851,18,18,True,ns3:MBA_851,"Superior colliculus, optic layer"
-SG,anatomical,Supragenual nucleus,MBA:318,18,18,True,ns3:MBA_318,Supragenual nucleus
-IA,anatomical,Intercalated amygdalar nucleus,MBA:1105,18,18,True,ns3:MBA_1105,Intercalated amygdalar nucleus
-Cdc14a,gene,CDC14 cell division cycle 14A,ENSEMBL:ENSMUSG00000033502,18,18,True,ensembl:ENSMUSG00000033502,Cdc14a (Mmus)
-PMd,anatomical,Dorsal premammillary nucleus,MBA:980,18,18,True,ns3:MBA_980,Dorsal premammillary nucleus
+Nox4,gene,NADPH oxidase 4,ENSEMBL:ENSMUSG00000030562,19,19,True,ensembl:ENSMUSG00000030562,Nox4 (Mmus)
+Xi,anatomical,Xiphoid thalamic nucleus,MBA:560581559,19,19,True,MBA:560581559,Xiphoid thalamic nucleus
+SNr,anatomical,"Substantia nigra, reticular part",MBA:381,18,18,True,MBA:381,"Substantia nigra, reticular part"
 Mgp,gene,matrix Gla protein,ENSEMBL:ENSMUSG00000030218,18,18,True,ensembl:ENSMUSG00000030218,Mgp (Mmus)
-SCH,anatomical,Suprachiasmatic nucleus,MBA:286,18,18,True,ns3:MBA_286,Suprachiasmatic nucleus
-Thsd7b,gene,"thrombospondin, type I, domain containing 7B",ENSEMBL:ENSMUSG00000042581,17,17,True,ensembl:ENSMUSG00000042581,Thsd7b (Mmus)
-po,unknown,Unknown token: po,,17,17,False,,
-IRN,anatomical,Intermediate reticular nucleus,MBA:136,17,17,True,ns3:MBA_136,Intermediate reticular nucleus
-Eomes,gene,eomesodermin,ENSEMBL:ENSMUSG00000032446,17,17,True,ensembl:ENSMUSG00000032446,Eomes (Mmus)
-VTN,anatomical,Ventral tegmental nucleus,MBA:757,17,17,True,ns3:MBA_757,Ventral tegmental nucleus
-TPE,unknown,Unknown token: TPE,,17,17,False,,
+SG,anatomical,Supragenual nucleus,MBA:318,18,18,True,MBA:318,Supragenual nucleus
+CS20230722_SUPT,unknown,Unknown token: CS20230722_SUPT,,18,18,False,,
+SCop,anatomical,"Superior colliculus, optic layer",MBA:851,18,18,True,MBA:851,"Superior colliculus, optic layer"
+IA,anatomical,Intercalated amygdalar nucleus,MBA:1105,18,18,True,MBA:1105,Intercalated amygdalar nucleus
+PMd,anatomical,Dorsal premammillary nucleus,MBA:980,18,18,True,MBA:980,Dorsal premammillary nucleus
+SCH,anatomical,Suprachiasmatic nucleus,MBA:286,18,18,True,MBA:286,Suprachiasmatic nucleus
+Cdc14a,gene,CDC14 cell division cycle 14A,ENSEMBL:ENSMUSG00000033502,18,18,True,ensembl:ENSMUSG00000033502,Cdc14a (Mmus)
+VTN,anatomical,Ventral tegmental nucleus,MBA:757,17,17,True,MBA:757,Ventral tegmental nucleus
 L5/6,unknown,Unknown token: L5/6,,17,17,False,,
+Eomes,gene,eomesodermin,ENSEMBL:ENSMUSG00000032446,17,17,True,ensembl:ENSMUSG00000032446,Eomes (Mmus)
+IRN,anatomical,Intermediate reticular nucleus,MBA:136,17,17,True,MBA:136,Intermediate reticular nucleus
+TPE,unknown,Unknown token: TPE,,17,17,False,,
+po,unknown,Unknown token: po,,17,17,False,,
+Thsd7b,gene,"thrombospondin, type I, domain containing 7B",ENSEMBL:ENSMUSG00000042581,17,17,True,ensembl:ENSMUSG00000042581,Thsd7b (Mmus)
 Ms4a15,gene,"membrane-spanning 4-domains, subfamily A, member 15",ENSEMBL:ENSMUSG00000067571,17,17,True,ensembl:ENSMUSG00000067571,Ms4a15 (Mmus)
-APr,anatomical,Area prostriata,MBA:484682508,16,16,True,ns3:MBA_484682508,Area prostriata
+APr,anatomical,Area prostriata,MBA:484682508,16,16,True,MBA:484682508,Area prostriata
+Sema5a,gene,"sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5A",ENSEMBL:ENSMUSG00000022231,16,16,True,ensembl:ENSMUSG00000022231,Sema5a (Mmus)
 Nr2e1,gene,"nuclear receptor subfamily 2, group E, member 1",ENSEMBL:ENSMUSG00000019803,16,16,True,ensembl:ENSMUSG00000019803,Nr2e1 (Mmus)
 Foxd2,gene,forkhead box D2,ENSEMBL:ENSMUSG00000055210,16,16,True,ensembl:ENSMUSG00000055210,Foxd2 (Mmus)
-Sema5a,gene,"sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5A",ENSEMBL:ENSMUSG00000022231,16,16,True,ensembl:ENSMUSG00000022231,Sema5a (Mmus)
 Ependymal,cell type,ependymal cell,CL:0000065,15,15,True,CL:0000065,ependymal cell
-Pax8,gene,paired box 8,ENSEMBL:ENSMUSG00000026976,15,15,True,ensembl:ENSMUSG00000026976,Pax8 (Mmus)
 St18,gene,suppression of tumorigenicity 18,ENSEMBL:ENSMUSG00000033740,15,15,True,ensembl:ENSMUSG00000033740,St18 (Mmus)
-FS,anatomical,Fundus of striatum,MBA:998,15,15,True,ns3:MBA_998,Fundus of striatum
+FS,anatomical,Fundus of striatum,MBA:998,15,15,True,MBA:998,Fundus of striatum
+Pax8,gene,paired box 8,ENSEMBL:ENSMUSG00000026976,15,15,True,ensembl:ENSMUSG00000026976,Pax8 (Mmus)
 out,unknown,Unknown token: out,,15,15,False,,
-Zic2,gene,zinc finger protein of the cerebellum 2,ENSEMBL:ENSMUSG00000061524,14,14,True,ensembl:ENSMUSG00000061524,Zic2 (Mmus)
-Il22,gene,interleukin 22,ENSEMBL:ENSMUSG00000074695,14,14,True,ensembl:ENSMUSG00000074695,Il22 (Mmus)
-RPA,anatomical,Nucleus raphe pallidus,MBA:230,14,14,True,ns3:MBA_230,Nucleus raphe pallidus
 Pde5a,gene,"phosphodiesterase 5A, cGMP-specific",ENSEMBL:ENSMUSG00000053965,14,14,True,ensembl:ENSMUSG00000053965,Pde5a (Mmus)
+RPA,anatomical,Nucleus raphe pallidus,MBA:230,14,14,True,MBA:230,Nucleus raphe pallidus
+PLI,cell type,Purkinje layer interneuron,CL:4072102,14,14,True,CL:4072102,Purkinje layer interneuron
 Pax2,gene,paired box 2,ENSEMBL:ENSMUSG00000004231,14,14,True,ensembl:ENSMUSG00000004231,Pax2 (Mmus)
-PLI,cell type,Purkinje layer interneuron,KB:0000003,14,14,False,,
-VCO,anatomical,Ventral cochlear nucleus,MBA:101,14,14,True,ns3:MBA_101,Ventral cochlear nucleus
-VLMC,cell type,vascular leptomeningeal cell,CL:4023051,13,13,True,CL:4023051,vascular leptomeningeal cell
-ENTmv,anatomical,"Entorhinal area, medial part, ventral zone",MBA:934,13,13,False,,
-Zfhx3,gene,zinc finger homeobox 3,ENSEMBL:ENSMUSG00000038872,13,13,True,ensembl:ENSMUSG00000038872,Zfhx3 (Mmus)
-B,anatomical,Barrington's nucleus,MBA:280,13,13,True,ns3:MBA_280,Barrington's nucleus
-Crisp1,gene,cysteine-rich secretory protein 1,ENSEMBL:ENSMUSG00000025431,13,13,True,ensembl:ENSMUSG00000025431,Crisp1 (Mmus)
-PPT,anatomical,Posterior pretectal nucleus,MBA:1061,13,13,True,ns3:MBA_1061,Posterior pretectal nucleus
+Zic2,gene,zinc finger protein of the cerebellum 2,ENSEMBL:ENSMUSG00000061524,14,14,True,ensembl:ENSMUSG00000061524,Zic2 (Mmus)
+VCO,anatomical,Ventral cochlear nucleus,MBA:101,14,14,True,MBA:101,Ventral cochlear nucleus
+Il22,gene,interleukin 22,ENSEMBL:ENSMUSG00000074695,14,14,True,ensembl:ENSMUSG00000074695,Il22 (Mmus)
+NN_2,unknown,Unknown token: NN_2,,13,13,False,,
+PPT,anatomical,Posterior pretectal nucleus,MBA:1061,13,13,True,MBA:1061,Posterior pretectal nucleus
 NT,anatomical,non-telencephalon,,13,13,False,,
-Nfix,gene,nuclear factor I/X,ENSEMBL:ENSMUSG00000001911,12,12,True,ensembl:ENSMUSG00000001911,Nfix (Mmus)
-Tanycyte,cell type,tanycyte,CL:0002085,12,12,True,CL:0002085,tanycyte
-HB,anatomical,Hindbrain,MBA:1065,12,12,True,ns3:MBA_1065,Hindbrain
-RSP,anatomical,Retrosplenial area,MBA:254,12,12,True,ns3:MBA_254,Retrosplenial area
-GABA,cell type,GABAergic neuron,CL:0000617,12,12,True,CL:0000617,GABAergic neuron
-Npas1,gene,neuronal PAS domain protein 1,ENSEMBL:ENSMUSG00000001988,12,12,True,ensembl:ENSMUSG00000001988,Npas1 (Mmus)
+ENTmv,anatomical,"Entorhinal area, medial part, ventral zone",MBA:934,13,13,False,,
+B,anatomical,Barrington's nucleus,MBA:280,13,13,True,MBA:280,Barrington's nucleus
+VLMC,cell type,vascular leptomeningeal cell,CL:4023051,13,13,True,CL:4023051,vascular leptomeningeal cell
+Crisp1,gene,cysteine-rich secretory protein 1,ENSEMBL:ENSMUSG00000025431,13,13,True,ensembl:ENSMUSG00000025431,Crisp1 (Mmus)
+Zfhx3,gene,zinc finger homeobox 3,ENSEMBL:ENSMUSG00000038872,13,13,True,ensembl:ENSMUSG00000038872,Zfhx3 (Mmus)
 Tlx1,gene,"T cell leukemia, homeobox 1",ENSEMBL:ENSMUSG00000025215,12,12,True,ensembl:ENSMUSG00000025215,Tlx1 (Mmus)
+Tanycyte,cell type,tanycyte,CL:0002085,12,12,True,CL:0002085,tanycyte
+Npas1,gene,neuronal PAS domain protein 1,ENSEMBL:ENSMUSG00000001988,12,12,True,ensembl:ENSMUSG00000001988,Npas1 (Mmus)
+Nfix,gene,nuclear factor I/X,ENSEMBL:ENSMUSG00000001911,12,12,True,ensembl:ENSMUSG00000001911,Nfix (Mmus)
+HB,anatomical,Hindbrain,MBA:1065,12,12,True,MBA:1065,Hindbrain
+GABA,cell type,GABAergic neuron,CL:0000617,12,12,True,CL:0000617,GABAergic neuron
+RSP,anatomical,Retrosplenial area,MBA:254,12,12,True,MBA:254,Retrosplenial area
 Spp1,gene,secreted phosphoprotein 1,ENSEMBL:ENSMUSG00000029304,11,11,True,ensembl:ENSMUSG00000029304,Spp1 (Mmus)
-Ccdc172,gene,coiled-coil domain containing 172,ENSEMBL:ENSMUSG00000025090,11,11,True,ensembl:ENSMUSG00000025090,Ccdc172 (Mmus)
-TMd,anatomical,"Tuberomammillary nucleus, dorsal part",MBA:1126,11,11,True,ns3:MBA_1126,"Tuberomammillary nucleus, dorsal part"
+Ex,cell type,excitatory neuron,KB:0000006,11,11,False,,
 Calcb,gene,"calcitonin-related polypeptide, beta",ENSEMBL:ENSMUSG00000030666,11,11,True,ensembl:ENSMUSG00000030666,Calcb (Mmus)
+Ccdc172,gene,coiled-coil domain containing 172,ENSEMBL:ENSMUSG00000025090,11,11,True,ensembl:ENSMUSG00000025090,Ccdc172 (Mmus)
+Dmrta2,gene,doublesex and mab-3 related transcription factor like family A2,ENSEMBL:ENSMUSG00000047143,11,11,True,ensembl:ENSMUSG00000047143,Dmrta2 (Mmus)
+TMd,anatomical,"Tuberomammillary nucleus, dorsal part",MBA:1126,11,11,True,MBA:1126,"Tuberomammillary nucleus, dorsal part"
 Tnnt1,gene,"troponin T1, skeletal, slow",ENSEMBL:ENSMUSG00000064179,11,11,True,ensembl:ENSMUSG00000064179,Tnnt1 (Mmus)
 ve,unknown,Unknown token: ve,,11,11,False,,
-Dmrta2,gene,doublesex and mab-3 related transcription factor like family A2,ENSEMBL:ENSMUSG00000047143,11,11,True,ensembl:ENSMUSG00000047143,Dmrta2 (Mmus)
-Ex,cell type,excitatory neuron,KB:0000006,11,11,False,,
-Nmu,gene,neuromedin U,ENSEMBL:ENSMUSG00000029236,10,10,True,ensembl:ENSMUSG00000029236,Nmu (Mmus)
-OLF,anatomical,Olfactory areas,MBA:698,10,10,True,ns3:MBA_698,Olfactory areas
-MLI,anatomical,molecular layer of cerebellar cortex,UBERON:0002974,10,10,True,UBERON:0002974,molecular layer of cerebellar cortex
-Astroependymal,cell type,astroependymal cell,KB:0000015,10,10,False,,
-Vgll2,gene,vestigial like family member 2,ENSEMBL:ENSMUSG00000049641,10,10,True,ensembl:ENSMUSG00000049641,Vgll2 (Mmus)
-OPC,cell type,oligodendrocyte precursor cell,CL:0002453,10,10,True,CL:0002453,oligodendrocyte precursor cell
-CBN,anatomical,Cerebellar nuclei,MBA:519,10,10,True,ns3:MBA_519,Cerebellar nuclei
-Hist,cell type,histaminergic neuron,CL:0011110,10,10,True,CL:0011110,histaminergic neuron
+OLF,anatomical,Olfactory areas,MBA:698,10,10,True,MBA:698,Olfactory areas
 Slc22a3,gene,"solute carrier family 22 (organic cation transporter), member 3",ENSEMBL:ENSMUSG00000023828,10,10,True,ensembl:ENSMUSG00000023828,Slc22a3 (Mmus)
-Nts,gene,neurotensin,ENSEMBL:ENSMUSG00000019890,9,9,True,ensembl:ENSMUSG00000019890,Nts (Mmus)
-MG,anatomical,Medial geniculate complex,MBA:475,9,9,True,ns3:MBA_475,Medial geniculate complex
-Grxcr2,gene,"glutaredoxin, cysteine rich 2",ENSEMBL:ENSMUSG00000073574,9,9,True,ensembl:ENSMUSG00000073574,Grxcr2 (Mmus)
-Nkx2-4,gene,NK2 homeobox 4,ENSEMBL:ENSMUSG00000054160,9,9,True,ensembl:ENSMUSG00000054160,Nkx2-4 (Mmus)
-SGN,anatomical,Suprageniculate nucleus,MBA:325,9,9,True,ns3:MBA_325,Suprageniculate nucleus
-SCdg,anatomical,"Superior colliculus, motor related, deep gray layer",MBA:26,9,9,True,ns3:MBA_26,"Superior colliculus, motor related, deep gray layer"
-PPY,anatomical,Parapyramidal nucleus,MBA:1069,9,9,True,ns3:MBA_1069,Parapyramidal nucleus
-DMX,anatomical,Dorsal motor nucleus of the vagus nerve,MBA:839,9,9,True,ns3:MBA_839,Dorsal motor nucleus of the vagus nerve
-VII,anatomical,Facial motor nucleus,MBA:661,9,9,True,ns3:MBA_661,Facial motor nucleus
+Vgll2,gene,vestigial like family member 2,ENSEMBL:ENSMUSG00000049641,10,10,True,ensembl:ENSMUSG00000049641,Vgll2 (Mmus)
+Hist,cell type,histaminergic neuron,CL:0011110,10,10,True,CL:0011110,histaminergic neuron
+MLI,anatomical,molecular layer of cerebellar cortex,UBERON:0002974,10,10,True,UBERON:0002974,molecular layer of cerebellar cortex
+CS20230722_SUBC,unknown,Unknown token: CS20230722_SUBC,,10,10,False,,
+CBN,anatomical,Cerebellar nuclei,MBA:519,10,10,True,MBA:519,Cerebellar nuclei
+Astroependymal,cell type,astroependymal cell,KB:0000015,10,10,False,,
+OPC,cell type,oligodendrocyte precursor cell,CL:0002453,10,10,True,CL:0002453,oligodendrocyte precursor cell
+Nmu,gene,neuromedin U,ENSEMBL:ENSMUSG00000029236,10,10,True,ensembl:ENSMUSG00000029236,Nmu (Mmus)
+MDRNv,anatomical,"Medullary reticular nucleus, ventral part",MBA:1107,9,9,True,MBA:1107,"Medullary reticular nucleus, ventral part"
 C1ql2,gene,"complement component 1, q subcomponent-like 2",ENSEMBL:ENSMUSG00000036907,9,9,True,ensembl:ENSMUSG00000036907,C1ql2 (Mmus)
-Prdm13,gene,PR domain containing 13,ENSEMBL:ENSMUSG00000040478,9,9,True,ensembl:ENSMUSG00000040478,Prdm13 (Mmus)
 Tbx20,gene,T-box 20,ENSEMBL:ENSMUSG00000031965,9,9,True,ensembl:ENSMUSG00000031965,Tbx20 (Mmus)
-MDRNv,anatomical,"Medullary reticular nucleus, ventral part",MBA:1107,9,9,True,ns3:MBA_1107,"Medullary reticular nucleus, ventral part"
-OT,anatomical,Olfactory tubercle,MBA:754,8,8,True,ns3:MBA_754,Olfactory tubercle
-GPe,anatomical,"Globus pallidus, external segment",MBA:1022,8,8,True,ns3:MBA_1022,"Globus pallidus, external segment"
+VII,anatomical,Facial motor nucleus,MBA:661,9,9,True,MBA:661,Facial motor nucleus
+SGN,anatomical,Suprageniculate nucleus,MBA:325,9,9,True,MBA:325,Suprageniculate nucleus
+PPY,anatomical,Parapyramidal nucleus,MBA:1069,9,9,True,MBA:1069,Parapyramidal nucleus
+MG,anatomical,Medial geniculate complex,MBA:475,9,9,True,MBA:475,Medial geniculate complex
+DMX,anatomical,Dorsal motor nucleus of the vagus nerve,MBA:839,9,9,True,MBA:839,Dorsal motor nucleus of the vagus nerve
+Nts,gene,neurotensin,ENSEMBL:ENSMUSG00000019890,9,9,True,ensembl:ENSMUSG00000019890,Nts (Mmus)
+SCdg,anatomical,"Superior colliculus, motor related, deep gray layer",MBA:26,9,9,True,MBA:26,"Superior colliculus, motor related, deep gray layer"
+Prdm13,gene,PR domain containing 13,ENSEMBL:ENSMUSG00000040478,9,9,True,ensembl:ENSMUSG00000040478,Prdm13 (Mmus)
+Nkx2-4,gene,NK2 homeobox 4,ENSEMBL:ENSMUSG00000054160,9,9,True,ensembl:ENSMUSG00000054160,Nkx2-4 (Mmus)
+Grxcr2,gene,"glutaredoxin, cysteine rich 2",ENSEMBL:ENSMUSG00000073574,9,9,True,ensembl:ENSMUSG00000073574,Grxcr2 (Mmus)
+BAC,anatomical,Bed nucleus of the anterior commissure,MBA:287,8,8,True,MBA:287,Bed nucleus of the anterior commissure
 Folh1,gene,folate hydrolase 1,ENSEMBL:ENSMUSG00000001773,8,8,True,ensembl:ENSMUSG00000001773,Folh1 (Mmus)
-Slc6a2,gene,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",ENSEMBL:ENSMUSG00000055368,8,8,True,ensembl:ENSMUSG00000055368,Slc6a2 (Mmus)
+OT,anatomical,Olfactory tubercle,MBA:754,8,8,True,MBA:754,Olfactory tubercle
 Slc6a5,gene,"solute carrier family 6 (neurotransmitter transporter, glycine), member 5",ENSEMBL:ENSMUSG00000039728,8,8,True,ensembl:ENSMUSG00000039728,Slc6a5 (Mmus)
-Pmch,gene,pro-melanin-concentrating hormone,ENSEMBL:ENSMUSG00000035383,8,8,True,ensembl:ENSMUSG00000035383,Pmch (Mmus)
-Lmo7,gene,LIM domain only 7,ENSEMBL:ENSMUSG00000033060,8,8,True,ensembl:ENSMUSG00000033060,Lmo7 (Mmus)
-Car3,gene,carbonic anhydrase 3,ENSEMBL:ENSMUSG00000027559,8,8,True,ensembl:ENSMUSG00000027559,Car3 (Mmus)
 Granule,cell type,granule cell,CL:0000120,8,8,True,CL:0000120,granule cell
-BAC,anatomical,Bed nucleus of the anterior commissure,MBA:287,8,8,True,ns3:MBA_287,Bed nucleus of the anterior commissure
-TRS,anatomical,Triangular nucleus of septum,MBA:581,8,8,True,ns3:MBA_581,Triangular nucleus of septum
+TRS,anatomical,Triangular nucleus of septum,MBA:581,8,8,True,MBA:581,Triangular nucleus of septum
+GPe,anatomical,"Globus pallidus, external segment",MBA:1022,8,8,True,MBA:1022,"Globus pallidus, external segment"
 D3,cell type,D3 dopamine receptor expressing cell,KB:0000004,8,8,False,,
+Slc6a2,gene,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",ENSEMBL:ENSMUSG00000055368,8,8,True,ensembl:ENSMUSG00000055368,Slc6a2 (Mmus)
+Pmch,gene,pro-melanin-concentrating hormone,ENSEMBL:ENSMUSG00000035383,8,8,True,ensembl:ENSMUSG00000035383,Pmch (Mmus)
+Car3,gene,carbonic anhydrase 3,ENSEMBL:ENSMUSG00000027559,8,8,True,ensembl:ENSMUSG00000027559,Car3 (Mmus)
 CR,cell type,Cajal-Retzius cell,CL:0000695,8,8,True,CL:0000695,Cajal-Retzius cell
-OEC,cell type,olfactory ensheathing cell,CL:0011028,7,7,True,CL:0011028,olfactory ensheathing cell
-Crh,gene,corticotropin releasing hormone,ENSEMBL:ENSMUSG00000049796,7,7,True,ensembl:ENSMUSG00000049796,Crh (Mmus)
-PVi,anatomical,"Periventricular hypothalamic nucleus, intermediate part",MBA:118,7,7,True,ns3:MBA_118,"Periventricular hypothalamic nucleus, intermediate part"
+Lmo7,gene,LIM domain only 7,ENSEMBL:ENSMUSG00000033060,8,8,True,ensembl:ENSMUSG00000033060,Lmo7 (Mmus)
 COP,cell type,committed oligodendrocyte precursor,CL:4023059,7,7,True,CL:4023059,committed oligodendrocyte precursor
+Megf11,gene,multiple EGF-like-domains 11,ENSEMBL:ENSMUSG00000036466,7,7,True,ensembl:ENSMUSG00000036466,Megf11 (Mmus)
 Foxp2,gene,forkhead box P2,ENSEMBL:ENSMUSG00000029563,7,7,True,ensembl:ENSMUSG00000029563,Foxp2 (Mmus)
 Purkinje,cell type,Purkinje cell,CL:0000121,7,7,True,CL:0000121,Purkinje cell
-MARN,anatomical,Magnocellular reticular nucleus,MBA:307,7,7,True,ns3:MBA_307,Magnocellular reticular nucleus
-Rai14,gene,retinoic acid induced 14,ENSEMBL:ENSMUSG00000022246,7,7,True,ensembl:ENSMUSG00000022246,Rai14 (Mmus)
-Megf11,gene,multiple EGF-like-domains 11,ENSEMBL:ENSMUSG00000036466,7,7,True,ensembl:ENSMUSG00000036466,Megf11 (Mmus)
+HPF,anatomical,Hippocampal formation,MBA:1089,7,7,True,MBA:1089,Hippocampal formation
+Crh,gene,corticotropin releasing hormone,ENSEMBL:ENSMUSG00000049796,7,7,True,ensembl:ENSMUSG00000049796,Crh (Mmus)
+PVi,anatomical,"Periventricular hypothalamic nucleus, intermediate part",MBA:118,7,7,True,MBA:118,"Periventricular hypothalamic nucleus, intermediate part"
+OEC,cell type,olfactory ensheathing cell,CL:0011028,7,7,True,CL:0011028,olfactory ensheathing cell
 Gcnt4,gene,"glucosaminyl (N-acetyl) transferase 4, core 2 (beta-1,6-N-acetylglucosaminyltransferase)",ENSEMBL:ENSMUSG00000091387,7,7,True,ensembl:ENSMUSG00000091387,Gcnt4 (Mmus)
-HY,anatomical,Hypothalamus,MBA:1097,7,7,True,ns3:MBA_1097,Hypothalamus
-HPF,anatomical,Hippocampal formation,MBA:1089,7,7,True,ns3:MBA_1089,Hippocampal formation
-POR,anatomical,"Superior olivary complex, periolivary region",MBA:122,6,6,True,ns3:MBA_122,"Superior olivary complex, periolivary region"
-UBC,cell type,unipolar brush cell,CL:4023161,6,6,True,CL:4023161,unipolar brush cell
+Rai14,gene,retinoic acid induced 14,ENSEMBL:ENSMUSG00000022246,7,7,True,ensembl:ENSMUSG00000022246,Rai14 (Mmus)
+MARN,anatomical,Magnocellular reticular nucleus,MBA:307,7,7,True,MBA:307,Magnocellular reticular nucleus
+HY,anatomical,Hypothalamus,MBA:1097,7,7,True,MBA:1097,Hypothalamus
+POR,anatomical,"Superior olivary complex, periolivary region",MBA:122,6,6,True,MBA:122,"Superior olivary complex, periolivary region"
 Chrnb3,gene,"cholinergic receptor, nicotinic, beta polypeptide 3",ENSEMBL:ENSMUSG00000031492,6,6,True,ensembl:ENSMUSG00000031492,Chrnb3 (Mmus)
-Trdn,gene,triadin,ENSEMBL:ENSMUSG00000019787,6,6,True,ensembl:ENSMUSG00000019787,Trdn (Mmus)
-MOL,cell type,mature oligodendrocyte,KB:0000008,6,6,False,,
-CA2,anatomical,Field CA2,MBA:423,6,6,True,ns3:MBA_423,Field CA2
 Crp,gene,"C-reactive protein, pentraxin-related",ENSEMBL:ENSMUSG00000037942,6,6,False,,
-FC,anatomical,Fasciola cinerea,MBA:982,6,6,True,ns3:MBA_982,Fasciola cinerea
-Trpv6,gene,"transient receptor potential cation channel, subfamily V, member 6",ENSEMBL:ENSMUSG00000029868,6,6,True,ensembl:ENSMUSG00000029868,Trpv6 (Mmus)
-Aldh1a2,gene,"aldehyde dehydrogenase family 1, subfamily A2",ENSEMBL:ENSMUSG00000013584,6,6,True,ensembl:ENSMUSG00000013584,Aldh1a2 (Mmus)
-IG,anatomical,Induseum griseum,MBA:19,6,6,True,ns3:MBA_19,Induseum griseum
 cells,unknown,Unknown token: cells,,6,6,False,,
-Glyc,cell type,glycinergic neuron,CL:1001509,5,5,True,CL:1001509,glycinergic neuron
-NFOL,cell type,newly formed oligodendrocyte,KB:0000009,5,5,False,,
-GPi,anatomical,"Globus pallidus, internal segment",MBA:1031,5,5,True,ns3:MBA_1031,"Globus pallidus, internal segment"
-LRN,anatomical,Lateral reticular nucleus,MBA:235,5,5,True,ns3:MBA_235,Lateral reticular nucleus
-ABC,cell type,arachnoid barrier cell,CL:4023097,5,5,True,CL:4023097,arachnoid barrier cell
-TRN,anatomical,Tegmental reticular nucleus,MBA:574,5,5,True,ns3:MBA_574,Tegmental reticular nucleus
-Bves,gene,blood vessel epicardial substance,ENSEMBL:ENSMUSG00000071317,5,5,True,ensembl:ENSMUSG00000071317,Bves (Mmus)
-PG,anatomical,Pontine gray,MBA:931,5,5,True,ns3:MBA_931,Pontine gray
-SOC,anatomical,Superior olivary complex,MBA:398,5,5,True,ns3:MBA_398,Superior olivary complex
-Rln3,gene,relaxin 3,ENSEMBL:ENSMUSG00000045232,5,5,True,ensembl:ENSMUSG00000045232,Rln3 (Mmus)
-DC,cell type,dendritic cell,CL:0000451,5,5,True,CL:0000451,dendritic cell
-Endo,cell type,endothelial cell,CL:0000115,5,5,True,CL:0000115,endothelial cell
-Ikzf1,gene,IKAROS family zinc finger 1,ENSEMBL:ENSMUSG00000018654,5,5,True,ensembl:ENSMUSG00000018654,Ikzf1 (Mmus)
-SMC,cell type,smooth muscle cell,CL:0000192,5,5,True,CL:0000192,smooth muscle cell
-RO,anatomical,Nucleus raphe obscurus,MBA:222,5,5,True,ns3:MBA_222,Nucleus raphe obscurus
-PGRNl,anatomical,"Paragigantocellular reticular nucleus, lateral part",MBA:978,5,5,True,ns3:MBA_978,"Paragigantocellular reticular nucleus, lateral part"
-Olig3,gene,oligodendrocyte transcription factor 3,ENSEMBL:ENSMUSG00000045591,5,5,True,ensembl:ENSMUSG00000045591,Olig3 (Mmus)
+NN_3,unknown,Unknown token: NN_3,,6,6,False,,
+MOL,cell type,mature oligodendrocyte,KB:0000008,6,6,False,,
+Aldh1a2,gene,"aldehyde dehydrogenase family 1, subfamily A2",ENSEMBL:ENSMUSG00000013584,6,6,True,ensembl:ENSMUSG00000013584,Aldh1a2 (Mmus)
+UBC,cell type,unipolar brush cell,CL:4023161,6,6,True,CL:4023161,unipolar brush cell
+Trpv6,gene,"transient receptor potential cation channel, subfamily V, member 6",ENSEMBL:ENSMUSG00000029868,6,6,True,ensembl:ENSMUSG00000029868,Trpv6 (Mmus)
+Trdn,gene,triadin,ENSEMBL:ENSMUSG00000019787,6,6,True,ensembl:ENSMUSG00000019787,Trdn (Mmus)
+CA2,anatomical,Field CA2,MBA:423,6,6,True,MBA:423,Field CA2
+IG,anatomical,Induseum griseum,MBA:19,6,6,True,MBA:19,Induseum griseum
+FC,anatomical,Fasciola cinerea,MBA:982,6,6,True,MBA:982,Fasciola cinerea
 mi,unknown,Unknown token: mi,,5,5,False,,
-Cngb3,gene,cyclic nucleotide gated channel beta 3,ENSEMBL:ENSMUSG00000056494,5,5,True,ensembl:ENSMUSG00000056494,Cngb3 (Mmus)
-Fat2,gene,FAT atypical cadherin 2,ENSEMBL:ENSMUSG00000055333,5,5,True,ensembl:ENSMUSG00000055333,Fat2 (Mmus)
-Fgf7,gene,fibroblast growth factor 7,ENSEMBL:ENSMUSG00000027208,5,5,True,ensembl:ENSMUSG00000027208,Fgf7 (Mmus)
+TRN,anatomical,Tegmental reticular nucleus,MBA:574,5,5,True,MBA:574,Tegmental reticular nucleus
+PG,anatomical,Pontine gray,MBA:931,5,5,True,MBA:931,Pontine gray
+ABC,cell type,arachnoid barrier cell,CL:4023097,5,5,True,CL:4023097,arachnoid barrier cell
+Olig3,gene,oligodendrocyte transcription factor 3,ENSEMBL:ENSMUSG00000045591,5,5,True,ensembl:ENSMUSG00000045591,Olig3 (Mmus)
+Bves,gene,blood vessel epicardial substance,ENSEMBL:ENSMUSG00000071317,5,5,True,ensembl:ENSMUSG00000071317,Bves (Mmus)
+NFOL,cell type,newly formed oligodendrocyte,CL:4072001,5,5,True,CL:4072001,newly formed oligodendrocyte
 Pkd2l1,gene,polycystic kidney disease 2-like 1,ENSEMBL:ENSMUSG00000037578,5,5,True,ensembl:ENSMUSG00000037578,Pkd2l1 (Mmus)
-INC,anatomical,Interstitial nucleus of Cajal,MBA:67,5,5,True,ns3:MBA_67,Interstitial nucleus of Cajal
-PGRNd,anatomical,"Paragigantocellular reticular nucleus, dorsal part",MBA:970,5,5,True,ns3:MBA_970,"Paragigantocellular reticular nucleus, dorsal part"
-Pineal,anatomical,pineal body,UBERON:0001905,4,4,True,UBERON:0001905,pineal body
-Col27a1,gene,"collagen, type XXVII, alpha 1",ENSEMBL:ENSMUSG00000045672,4,4,True,ensembl:ENSMUSG00000045672,Col27a1 (Mmus)
-Avp,gene,arginine vasopressin,ENSEMBL:ENSMUSG00000037727,4,4,True,ensembl:ENSMUSG00000037727,Avp (Mmus)
+Cngb3,gene,cyclic nucleotide gated channel beta 3,ENSEMBL:ENSMUSG00000056494,5,5,True,ensembl:ENSMUSG00000056494,Cngb3 (Mmus)
+Rln3,gene,relaxin 3,ENSEMBL:ENSMUSG00000045232,5,5,True,ensembl:ENSMUSG00000045232,Rln3 (Mmus)
+Endo,cell type,endothelial cell,CL:0000115,5,5,True,CL:0000115,endothelial cell
+INC,anatomical,Interstitial nucleus of Cajal,MBA:67,5,5,True,MBA:67,Interstitial nucleus of Cajal
+Gaba_1,unknown,Unknown token: Gaba_1,,5,5,False,,
+Fat2,gene,FAT atypical cadherin 2,ENSEMBL:ENSMUSG00000055333,5,5,True,ensembl:ENSMUSG00000055333,Fat2 (Mmus)
+LRN,anatomical,Lateral reticular nucleus,MBA:235,5,5,True,MBA:235,Lateral reticular nucleus
+Glyc,cell type,glycinergic neuron,CL:1001509,5,5,True,CL:1001509,glycinergic neuron
+RO,anatomical,Nucleus raphe obscurus,MBA:222,5,5,True,MBA:222,Nucleus raphe obscurus
+GPi,anatomical,"Globus pallidus, internal segment",MBA:1031,5,5,True,MBA:1031,"Globus pallidus, internal segment"
+SOC,anatomical,Superior olivary complex,MBA:398,5,5,True,MBA:398,Superior olivary complex
+DC,cell type,dendritic cell,CL:0000451,5,5,True,CL:0000451,dendritic cell
+Fgf7,gene,fibroblast growth factor 7,ENSEMBL:ENSMUSG00000027208,5,5,True,ensembl:ENSMUSG00000027208,Fgf7 (Mmus)
+Ikzf1,gene,IKAROS family zinc finger 1,ENSEMBL:ENSMUSG00000018654,5,5,True,ensembl:ENSMUSG00000018654,Ikzf1 (Mmus)
+PGRNl,anatomical,"Paragigantocellular reticular nucleus, lateral part",MBA:978,5,5,True,MBA:978,"Paragigantocellular reticular nucleus, lateral part"
+PGRNd,anatomical,"Paragigantocellular reticular nucleus, dorsal part",MBA:970,5,5,True,MBA:970,"Paragigantocellular reticular nucleus, dorsal part"
+SMC,cell type,smooth muscle cell,CL:0000192,5,5,True,CL:0000192,smooth muscle cell
 Peri,cell type,pericyte,CL:0000669,4,4,True,CL:0000669,pericyte
-ACA,anatomical,Anterior cingulate area,MBA:31,4,4,True,ns3:MBA_31,Anterior cingulate area
-Gnrh1,gene,gonadotropin releasing hormone 1,ENSEMBL:ENSMUSG00000015812,4,4,True,ensembl:ENSMUSG00000015812,Gnrh1 (Mmus)
-chandelier,cell type,chandelier cell,CL:4023083,4,4,True,CL:4023083,chandelier cell
-Golgi,cell type,cerebellar Golgi cell,CL:0000119,4,4,True,CL:0000119,cerebellar Golgi cell
-CNU,anatomical,Cerebral nuclei,MBA:623,4,4,True,ns3:MBA_623,Cerebral nuclei
-Shroom3,gene,shroom family member 3,ENSEMBL:ENSMUSG00000029381,4,4,True,ensembl:ENSMUSG00000029381,Shroom3 (Mmus)
 Serpinb7,gene,"serine (or cysteine) peptidase inhibitor, clade B, member 7",ENSEMBL:ENSMUSG00000067001,4,4,True,ensembl:ENSMUSG00000067001,Serpinb7 (Mmus)
-Ngfr,gene,"nerve growth factor receptor (TNFR superfamily, member 16)",ENSEMBL:ENSMUSG00000000120,4,4,True,ensembl:ENSMUSG00000000120,Ngfr (Mmus)
-SUT,anatomical,Supratrigeminal nucleus,MBA:534,4,4,True,ns3:MBA_534,Supratrigeminal nucleus
-SPVO,anatomical,"Spinal nucleus of the trigeminal, oral part",MBA:445,4,4,True,ns3:MBA_445,"Spinal nucleus of the trigeminal, oral part"
-CHOR,cell type,choroid plexus epithelial cell,CL:0000706,4,4,True,CL:0000706,choroid plexus epithelial cell
-AV,anatomical,Anteroventral nucleus of thalamus,MBA:255,4,4,True,ns3:MBA_255,Anteroventral nucleus of thalamus
+Shroom3,gene,shroom family member 3,ENSEMBL:ENSMUSG00000029381,4,4,True,ensembl:ENSMUSG00000029381,Shroom3 (Mmus)
 BAM,cell type,border-associated macrophage,CL:4042003,4,4,True,CL:4042003,border associated macrophage
-AD,anatomical,Anterodorsal nucleus,MBA:64,4,4,True,ns3:MBA_64,Anterodorsal nucleus
-L4,anatomical,cortical layer 4,UBERON:0005393,4,4,True,UBERON:0005393,cortical layer IV
 Gal,gene,galanin and GMAP prepropeptide,ENSEMBL:ENSMUSG00000024907,4,4,True,ensembl:ENSMUSG00000024907,Gal (Mmus)
-Gsc,gene,goosecoid homeobox,ENSEMBL:ENSMUSG00000021095,3,3,True,ensembl:ENSMUSG00000021095,Gsc (Mmus)
-Iigp1,gene,interferon inducible GTPase 1,ENSEMBL:ENSMUSG00000054072,3,3,True,ensembl:ENSMUSG00000054072,Iigp1 (Mmus)
-Ucn,gene,urocortin,ENSEMBL:ENSMUSG00000038676,3,3,True,ensembl:ENSMUSG00000038676,Ucn (Mmus)
-Xdh,gene,xanthine dehydrogenase,ENSEMBL:ENSMUSG00000024066,3,3,True,ensembl:ENSMUSG00000024066,Xdh (Mmus)
-Hypendymal,cell type,hypendymal ,CL:4023181,3,3,True,CL:4023181,hypendymal cell
-Ppp1r1c,gene,"protein phosphatase 1, regulatory inhibitor subunit 1C",ENSEMBL:ENSMUSG00000034683,3,3,True,ensembl:ENSMUSG00000034683,Ppp1r1c (Mmus)
-NLOT,anatomical,Nucleus of the lateral olfactory tract,MBA:619,3,3,True,ns3:MBA_619,Nucleus of the lateral olfactory tract
-Brs3,gene,bombesin-like receptor 3,ENSEMBL:ENSMUSG00000031130,3,3,True,ensembl:ENSMUSG00000031130,Brs3 (Mmus)
-Cdh22,gene,cadherin 22,ENSEMBL:ENSMUSG00000053166,3,3,True,ensembl:ENSMUSG00000053166,Cdh22 (Mmus)
-Pyy,gene,peptide YY,ENSEMBL:ENSMUSG00000017311,3,3,True,ensembl:ENSMUSG00000017311,Pyy (Mmus)
-Qrfprl,gene,pyroglutamylated RFamide peptide receptor like,ENSEMBL:ENSMUSG00000029917,3,3,True,ensembl:ENSMUSG00000029917,Qrfprl (Mmus)
-Crx,gene,cone-rod homeobox,ENSEMBL:ENSMUSG00000041578,3,3,True,ensembl:ENSMUSG00000041578,Crx (Mmus)
-Rho,gene,rhodopsin,ENSEMBL:ENSMUSG00000030324,3,3,True,ensembl:ENSMUSG00000046768,Rhoj (Mmus)
-PBG,anatomical,Parabigeminal nucleus,MBA:874,3,3,True,ns3:MBA_874,Parabigeminal nucleus
-Fgl2,gene,fibrinogen-like protein 2,ENSEMBL:ENSMUSG00000039899,3,3,True,ensembl:ENSMUSG00000039899,Fgl2 (Mmus)
-Tcf24,gene,transcription factor 24,ENSEMBL:ENSMUSG00000099032,3,3,True,ensembl:ENSMUSG00000099032,Tcf24 (Mmus)
-Mtnr1a,gene,melatonin receptor 1A,ENSEMBL:ENSMUSG00000054764,3,3,True,ensembl:ENSMUSG00000054764,Mtnr1a (Mmus)
-IO,anatomical,Inferior olivary complex,MBA:83,3,3,True,ns3:MBA_83,Inferior olivary complex
-Bergmann,cell type,Bergmann glial cell,CL:0000644,3,3,True,CL:0000644,Bergmann glial cell
-Monocytes,cell type,monocyte,CL:0000576,3,3,True,CL:0000576,monocyte
+Avp,gene,arginine vasopressin,ENSEMBL:ENSMUSG00000037727,4,4,True,ensembl:ENSMUSG00000037727,Avp (Mmus)
+AV,anatomical,Anteroventral nucleus of thalamus,MBA:255,4,4,True,MBA:255,Anteroventral nucleus of thalamus
+Gnrh1,gene,gonadotropin releasing hormone 1,ENSEMBL:ENSMUSG00000015812,4,4,True,ensembl:ENSMUSG00000015812,Gnrh1 (Mmus)
+AD,anatomical,Anterodorsal nucleus,MBA:64,4,4,True,MBA:64,Anterodorsal nucleus
+Golgi,cell type,cerebellar Golgi cell,CL:0000119,4,4,True,CL:0000119,cerebellar Golgi cell
+chandelier,cell type,chandelier cell,CL:4023083,4,4,True,CL:4023083,chandelier cell
+ACA,anatomical,Anterior cingulate area,MBA:31,4,4,True,MBA:31,Anterior cingulate area
+Ngfr,gene,"nerve growth factor receptor (TNFR superfamily, member 16)",ENSEMBL:ENSMUSG00000000120,4,4,True,ensembl:ENSMUSG00000000120,Ngfr (Mmus)
+CHOR,cell type,choroid plexus epithelial cell,CL:0000706,4,4,True,CL:0000706,choroid plexus epithelial cell
+Pineal,anatomical,pineal body,UBERON:0001905,4,4,True,UBERON:0001905,pineal body
+SPVO,anatomical,"Spinal nucleus of the trigeminal, oral part",MBA:445,4,4,True,MBA:445,"Spinal nucleus of the trigeminal, oral part"
+Col27a1,gene,"collagen, type XXVII, alpha 1",ENSEMBL:ENSMUSG00000045672,4,4,True,ensembl:ENSMUSG00000045672,Col27a1 (Mmus)
+CNU,anatomical,Cerebral nuclei,MBA:623,4,4,True,MBA:623,Cerebral nuclei
+SUT,anatomical,Supratrigeminal nucleus,MBA:534,4,4,True,MBA:534,Supratrigeminal nucleus
+L4,anatomical,cortical layer 4,UBERON:0005393,4,4,True,UBERON:0005393,cortical layer IV
 MEV,anatomical,Midbrain trigeminal nucleus,MBA:460,3,3,False,,
-MFOL,cell type,myelin-forming oligodendrocyte,KB:0000007,3,3,False,,
-Mbnl3,gene,muscleblind like splicing factor 3,ENSEMBL:ENSMUSG00000036109,3,3,True,ensembl:ENSMUSG00000036109,Mbnl3 (Mmus)
+Monocytes,cell type,monocyte,CL:0000576,3,3,True,CL:0000576,monocyte
+Qrfprl,gene,pyroglutamylated RFamide peptide receptor like,ENSEMBL:ENSMUSG00000029917,3,3,True,ensembl:ENSMUSG00000029917,Qrfprl (Mmus)
+PBG,anatomical,Parabigeminal nucleus,MBA:874,3,3,True,MBA:874,Parabigeminal nucleus
+Xdh,gene,xanthine dehydrogenase,ENSEMBL:ENSMUSG00000024066,3,3,True,ensembl:ENSMUSG00000024066,Xdh (Mmus)
+Pyy,gene,peptide YY,ENSEMBL:ENSMUSG00000017311,3,3,True,ensembl:ENSMUSG00000017311,Pyy (Mmus)
+MFOL,cell type,myelin-forming oligodendrocyte,CL:4072002,3,3,True,CL:4072002,myelin-forming oligodendrocyte
 Microglia,cell type,microglial cell,CL:0000129,3,3,True,CL:0000129,microglial cell
-ILC,cell type,innate lymphoid cell,CL:0001065,2,2,True,CL:0001065,innate lymphoid cell
-T,unknown,Unknown token: T,,2,2,False,,
-NK,unknown,Unknown token: NK,,2,2,False,,
+NLOT,anatomical,Nucleus of the lateral olfactory tract,MBA:619,3,3,True,MBA:619,Nucleus of the lateral olfactory tract
+Ucn,gene,urocortin,ENSEMBL:ENSMUSG00000038676,3,3,True,ensembl:ENSMUSG00000038676,Ucn (Mmus)
+Ppp1r1c,gene,"protein phosphatase 1, regulatory inhibitor subunit 1C",ENSEMBL:ENSMUSG00000034683,3,3,True,ensembl:ENSMUSG00000034683,Ppp1r1c (Mmus)
+Cdh22,gene,cadherin 22,ENSEMBL:ENSMUSG00000053166,3,3,True,ensembl:ENSMUSG00000053166,Cdh22 (Mmus)
+Crx,gene,cone-rod homeobox,ENSEMBL:ENSMUSG00000041578,3,3,True,ensembl:ENSMUSG00000041578,Crx (Mmus)
+Gsc,gene,goosecoid homeobox,ENSEMBL:ENSMUSG00000021095,3,3,True,ensembl:ENSMUSG00000021095,Gsc (Mmus)
+Mtnr1a,gene,melatonin receptor 1A,ENSEMBL:ENSMUSG00000054764,3,3,True,ensembl:ENSMUSG00000054764,Mtnr1a (Mmus)
+Bergmann,cell type,Bergmann glial cell,CL:0000644,3,3,True,CL:0000644,Bergmann glial cell
+Fgl2,gene,fibrinogen-like protein 2,ENSEMBL:ENSMUSG00000039899,3,3,True,ensembl:ENSMUSG00000039899,Fgl2 (Mmus)
+Mbnl3,gene,muscleblind like splicing factor 3,ENSEMBL:ENSMUSG00000036109,3,3,True,ensembl:ENSMUSG00000036109,Mbnl3 (Mmus)
+IO,anatomical,Inferior olivary complex,MBA:83,3,3,True,MBA:83,Inferior olivary complex
+Tcf24,gene,transcription factor 24,ENSEMBL:ENSMUSG00000099032,3,3,True,ensembl:ENSMUSG00000099032,Tcf24 (Mmus)
+Iigp1,gene,interferon inducible GTPase 1,ENSEMBL:ENSMUSG00000054072,3,3,True,ensembl:ENSMUSG00000054072,Iigp1 (Mmus)
+Brs3,gene,bombesin-like receptor 3,ENSEMBL:ENSMUSG00000031130,3,3,True,ensembl:ENSMUSG00000031130,Brs3 (Mmus)
+CS20230722_CLAS,unknown,Unknown token: CS20230722_CLAS,,3,3,False,,
+Rho,gene,rhodopsin,ENSEMBL:ENSMUSG00000030324,3,3,True,ensembl:ENSMUSG00000046768,Rhoj (Mmus)
+Hypendymal,cell type,hypendymal ,CL:4023181,3,3,True,CL:4023181,hypendymal cell
+NN_5,unknown,Unknown token: NN_5,,2,2,False,,
+NN_4,unknown,Unknown token: NN_4,,2,2,False,,
 Oligo,cell type,oligodendrocyte,CL:0000128,2,2,True,CL:0000128,oligodendrocyte
-MGE,anatomical,medial ganglionic eminence,UBERON:0004024,2,2,True,UBERON:0004024,medial ganglionic eminence
+P,anatomical,Pons,MBA:771,2,2,True,MBA:771,Pons
+ILC,cell type,innate lymphoid cell,CL:0001065,2,2,True,CL:0001065,innate lymphoid cell
+Gaba_2,unknown,Unknown token: Gaba_2,,2,2,False,,
+Glut_1,unknown,Unknown token: Glut_1,,2,2,False,,
 HYa,anatomical,"Hypothalamus, anterior part",,2,2,False,,
-P,anatomical,Pons,MBA:771,2,2,True,ns3:MBA_771,Pons
-Vascular,anatomical,vascular system,UBERON:0007798,1,1,True,UBERON:0007798,vascular system
-Immune,cell type,leukocyte,CL:0000738,1,1,True,CL:0000738,leukocyte
+NK,unknown,Unknown token: NK,,2,2,False,,
+MGE,anatomical,medial ganglionic eminence,UBERON:0004024,2,2,True,UBERON:0004024,medial ganglionic eminence
+T,unknown,Unknown token: T,,2,2,False,,
 Epen,cell type,ependymal cell,CL:0000065,1,1,True,CL:0000065,ependymal cell
+Immune,cell type,leukocyte,CL:0000738,1,1,True,CL:0000738,leukocyte
 CGE,anatomical,caudal ganglionic eminence,UBERON:0004026,1,1,True,UBERON:0004026,caudal ganglionic eminence
-LGE,anatomical,lateral ganglionic eminence,UBERON:0004025,1,1,True,UBERON:0004025,lateral ganglionic eminence
 Lymphoid,cell type,lymphocyte,CL:0000542,1,1,True,CL:0000542,lymphocyte
+Vascular,anatomical,vascular system,UBERON:0007798,1,1,True,UBERON:0007798,vascular system
+Gaba_3,unknown,Unknown token: Gaba_3,,1,1,False,,
+LGE,anatomical,lateral ganglionic eminence,UBERON:0004025,1,1,True,UBERON:0004025,lateral ganglionic eminence
+Glut_2,unknown,Unknown token: Glut_2,,1,1,False,,

@@ -137,6 +137,45 @@ wmb-token-mapping: $(VENV_PYTHON)
 	@echo "Generating WMB token mapping reports..."
 	cd $(SRC_DIR)/scripts/WMB_token_map/scripts && ../../../../$(VENV_PYTHON) generate.py
 
+# WMB additional hierarchical reports
+.PHONY: wmb-additional-reports
+wmb-additional-reports: wmb-token-mapping update-kg $(VENV_PYTHON)
+	@echo "Generating WMB additional hierarchical reports..."
+	cd $(SRC_DIR)/scripts/WMB_token_map/scripts && ../../../../$(VENV_PYTHON) generate_additional_reports.py --output-dir ../reports
+
+# WMB ROBOT template generation
+.PHONY: wmb-robot-templates
+wmb-robot-templates: wmb-additional-reports $(VENV_PYTHON)
+	@echo "Generating ROBOT templates from WMB token mapping..."
+	cd $(SRC_DIR)/scripts/WMB_token_map/scripts && ../../../../$(VENV_PYTHON) generate_robot_templates.py \
+		--report-file ../reports/wmb_most_general_terms_report.csv \
+		--output-dir ../../../../templates
+
+# CURIE prefix management
+.PHONY: update-neo4j-prefixes
+update-neo4j-prefixes: $(VENV_PYTHON)
+	@echo "Updating Neo4j CURIE prefixes from prefixes.json..."
+	$(VENV_PYTHON) -c "import json, yaml; prefixes = json.load(open('$(UTILS_DIR)/prefixes.json'))['@context']; prefixes.pop('@version', None); config = yaml.safe_load(open('config/dumps/neo4j2owl-config.yaml')); config['curie_map'] = prefixes; yaml.dump(config, open('config/dumps/neo4j2owl-config.yaml', 'w'), default_flow_style=False, sort_keys=False)"
+	@echo "Neo4j CURIE prefixes updated from $(UTILS_DIR)/prefixes.json"
+
+# Namespace detection and resolution
+.PHONY: detect-missing-namespaces
+detect-missing-namespaces: $(VENV_PYTHON) | $(REPORTS_DIR)
+	@echo "Detecting missing CURIE namespaces in knowledge graph..."
+	$(VENV_PYTHON) $(UTILS_DIR)/namespace_detective.py \
+		--output $(REPORTS_DIR)/missing_namespaces_report.csv \
+		--host $(NEO4J_HOST) --port $(NEO4J_PORT) \
+		--user $(NEO4J_USER) --password $(NEO4J_PASS)
+
+.PHONY: suggest-missing-prefixes
+suggest-missing-prefixes: detect-missing-namespaces $(VENV_PYTHON)
+	@echo "Generating prefix suggestions from namespace analysis..."
+	$(VENV_PYTHON) $(UTILS_DIR)/namespace_detective.py \
+		--output $(REPORTS_DIR)/missing_namespaces_report.csv \
+		--host $(NEO4J_HOST) --port $(NEO4J_PORT) \
+		--user $(NEO4J_USER) --password $(NEO4J_PASS) \
+		--suggest
+
 # Knowledge graph updates from Cypher statements
 .PHONY: update-kg
 update-kg: $(VENV_PYTHON)
@@ -202,6 +241,11 @@ help:
 	@echo "  reports          - Generate CSV reports from Cypher queries"
 	@echo "  generate-templates - Generate templates from source data"
 	@echo "  wmb-token-mapping - Generate WMB cell cluster token mapping reports"
+	@echo "  wmb-additional-reports - Generate WMB hierarchical analysis reports"
+	@echo "  wmb-robot-templates - Generate ROBOT templates from WMB mapping results"
+	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
+	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"
+	@echo "  update-neo4j-prefixes - Update Neo4j config from prefixes.json"
 	@echo "  update-kg        - Execute knowledge graph update statements"
 	@echo "  update-kg-dry-run - Show what KG updates would be executed"
 	@echo "  test-neo4j       - Test Neo4j database connection"

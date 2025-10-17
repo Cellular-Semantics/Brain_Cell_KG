@@ -1,0 +1,1308 @@
+parent_curie,parent_label,parent_labelset,cluster_count,is_consistent,consistent_neurotransmitters,pattern_variety,all_patterns
+WMB:CS20230722_SUPT_0946,0946 IPN-LDT Vsx2 Nkx6-1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0947,0947 IPN-LDT Vsx2 Nkx6-1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0944,0944 PB-NTS Phox2b Ebf3 Lmx1b Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0945,0945 PRNr Otp Nfib Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0943,0943 PB-NTS Phox2b Ebf3 Lmx1b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0940,0940 PSV Pvalb Lhx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0948,0948 LDT Vsx2 Nkx6-1 Nfib Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0960,0960 NTS Phox2b Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0961,0961 NTS Phox2b Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0957,0957 PRP-NI-PRNc-GRN Otp Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0958,0958 PRP-NI-PRNc-GRN Otp Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0955,0955 PRP-NI-PRNc-GRN Otp Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0956,0956 PRP-NI-PRNc-GRN Otp Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0953,0953 PG-TRN-LRN Fat2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0954,0954 IRN Vip Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0959,0959 NTS Phox2b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0925,0925 PCG-PRNr Vsx2 Nkx6-1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0922,0922 PB Evx2 Glut_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0923,0923 B-PB Nr4a2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0920,0920 PB Evx2 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0921,0921 PB Evx2 Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0929,0929 PCG-PRNr Vsx2 Nkx6-1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0926,0926 PCG-PRNr Vsx2 Nkx6-1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0927,0927 PCG-PRNr Vsx2 Nkx6-1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0935,0935 PRNc-PARN Tlx1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0936,0936 PRNc-PARN Tlx1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0933,0933 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0934,0934 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0931,0931 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0932,0932 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0930,0930 PCG-PRNr Vsx2 Nkx6-1 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,2,Glut-Glyc|Glut
+WMB:CS20230722_SUPT_0939,0939 PSV Pvalb Lhx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0937,0937 PRNc-PARN Tlx1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0938,0938 PB-PSV Phox2b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0992,0992 MV-SPIV Phox2b Ebf3 Lbx1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0990,0990 CU-ECU-SPVI Foxb1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0988,0988 CU-ECU-SPVI Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",20,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0989,0989 CU-ECU-SPVI Foxb1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0986,0986 SPVI-SPVC Tlx3 Ebf3 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0987,0987 SPVI-SPVC Tlx3 Ebf3 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0984,0984 SPVI-SPVC Tlx3 Ebf3 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0985,0985 SPVI-SPVC Tlx3 Ebf3 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0999,0999 MV-SPIV Zic4 Neurod2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0997,0997 MV-SPIV Zic4 Neurod2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0998,0998 MV-SPIV Zic4 Neurod2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0972,0972 PGRNd Dmbx1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0968,0968 NTS Phox2b Glut_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0966,0966 NTS Phox2b Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0967,0967 NTS Phox2b Glut_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0964,0964 NTS Phox2b Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0965,0965 NTS Phox2b Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0962,0962 NTS Phox2b Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0963,0963 NTS Phox2b Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0982,0982 SPVI-SPVC Tlx3 Ebf3 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0983,0983 SPVI-SPVC Tlx3 Ebf3 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0980,0980 MV-SPIV Slc6a2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0981,0981 SPVI-SPVC Tlx3 Ebf3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0979,0979 PGRN-PARN-MDRN Hoxb5 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0977,0977 PGRN-PARN-MDRN Hoxb5 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",14,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0978,0978 PGRN-PARN-MDRN Hoxb5 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0975,0975 PGRN-PARN-MDRN Hoxb5 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0976,0976 PGRN-PARN-MDRN Hoxb5 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0973,0973 PGRN-PARN-MDRN Hoxb5 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",20,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0974,0974 PGRN-PARN-MDRN Hoxb5 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",15,True,Glut,3,Glut-GABA|Glut-Chol|Glut
+WMB:CS20230722_SUPT_0902,0902 PSV Lmx1a Trpv6 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0903,0903 PB-SUT Tlx3 Lhx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0900,0900 PB Lmx1a Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,2,Glut-Glyc|Glut
+WMB:CS20230722_SUPT_0901,0901 PB Lmx1a Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0908,0908 LDT-PCG Vsx2 Lhx4 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0909,0909 LDT-PCG Vsx2 Lhx4 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0906,0906 LDT-PCG Vsx2 Lhx4 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0907,0907 LDT-PCG Vsx2 Lhx4 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0904,0904 PB Pax5 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0905,0905 PB Pax5 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0913,0913 LDT-PCG Vsx2 Lhx4 Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0914,0914 PB Evx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0911,0911 LDT-PCG Vsx2 Lhx4 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0912,0912 LDT-PCG Vsx2 Lhx4 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0910,0910 LDT-PCG Vsx2 Lhx4 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0919,0919 PB Evx2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0917,0917 PB Evx2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0918,0918 PB Evx2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0915,0915 PB Evx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0916,0916 PB Evx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",16,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0553,0553 DMH Hmx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0554,0554 ARH-PVp Tbx3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0551,0551 MPN-MPO-PVpo Hmx2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0552,0552 DMH Hmx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0550,0550 MPN-MPO-PVpo Hmx2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0548,0548 MPN-MPO-PVpo Hmx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0549,0549 MPN-MPO-PVpo Hmx2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0546,0546 MPN-MPO-PVpo Hmx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0547,0547 MPN-MPO-PVpo Hmx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0545,0545 DMH Nkx2-4 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0564,0564 VMH Fezf1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0565,0565 VMH Fezf1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0563,0563 VMH Fezf1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0561,0561 DMH-LHA Vgll2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0555,0555 ARH-PVp Tbx3 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,2,Glut|Glut-GABA
+WMB:CS20230722_SUPT_0556,0556 ARH-PVp Tbx3 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0531,0531 SI-MA-LPO-LHA Skor1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0532,0532 SI-MA-LPO-LHA Skor1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0530,0530 SI-MA-LPO-LHA Skor1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0528,0528 ADP-MPO Trp73 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0529,0529 ADP-MPO Trp73 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0527,0527 ADP-MPO Trp73 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0524,0524 LHA Barhl2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0525,0525 LHA Barhl2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0522,0522 AVPV-MEPO-SFO Tbr1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0523,0523 AVPV-MEPO-SFO Tbr1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0542,0542 LHA-MEA Otp Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0540,0540 MEA-BST Otp Zic2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0539,0539 MEA-BST Otp Zic2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0537,0537 SI-MA-LPO-LHA Skor1 Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0538,0538 MEA Otp Foxp2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0535,0535 SI-MA-LPO-LHA Skor1 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0536,0536 SI-MA-LPO-LHA Skor1 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0533,0533 SI-MA-LPO-LHA Skor1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0534,0534 SI-MA-LPO-LHA Skor1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0597,0597 PH-ant-LHA Otp Bsx Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0598,0598 STN-PSTN Pitx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0595,0595 PH-ant-LHA Otp Bsx Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0596,0596 PH-ant-LHA Otp Bsx Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0593,0593 PH-ant-LHA Otp Bsx Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0594,0594 PH-ant-LHA Otp Bsx Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0591,0591 PH-ant-LHA Otp Bsx Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0592,0592 PH-ant-LHA Otp Bsx Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0588,0588 PVH-SO-PVa Otp Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0589,0589 PVH-SO-PVa Otp Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0599,0599 STN-PSTN Pitx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0575,0575 LHA-AHN-PVH Otp Trh Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0576,0576 LHA-AHN-PVH Otp Trh Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0573,0573 LHA Pmch Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0574,0574 LHA-AHN-PVH Otp Trh Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0572,0572 LHA Pmch Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0570,0570 VMH Nr5a1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0568,0568 VMH Nr5a1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0569,0569 VMH Nr5a1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0566,0566 VMH Nr5a1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0567,0567 VMH Nr5a1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0586,0586 PVH-SO-PVa Otp Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0587,0587 PVH-SO-PVa Otp Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0584,0584 AHN-RCH-LHA Otp Fezf1 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0585,0585 PVH-SO-PVa Otp Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0582,0582 AHN-RCH-LHA Otp Fezf1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0580,0580 AHN-RCH-LHA Otp Fezf1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0581,0581 AHN-RCH-LHA Otp Fezf1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0579,0579 AHN-RCH-LHA Otp Fezf1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0577,0577 LHA-AHN-PVH Otp Trh Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0510,0510 COAa-PAA-MEA Barhl2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0507,0507 MEA-COA-BMA Ccdc42 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0504,0504 GPi Tbr1 Cngb3 Gaba-Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut|GABA,1,Glut-GABA
+WMB:CS20230722_SUPT_0505,0505 MEA-COA-BMA Ccdc42 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0502,0502 TRS-BAC Sln Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0503,0503 TRS-BAC Sln Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0500,0500 LGv-ZI Otx2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0508,0508 MEA-COA-BMA Ccdc42 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0509,0509 COAa-PAA-MEA Barhl2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0520,0520 AVPV-MEPO-SFO Tbr1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0521,0521 AVPV-MEPO-SFO Tbr1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0518,0518 MS-SF Bsx Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",19,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0515,0515 COAa-PAA-MEA Barhl2 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0516,0516 COAa-PAA-MEA Barhl2 Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0513,0513 COAa-PAA-MEA Barhl2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0514,0514 COAa-PAA-MEA Barhl2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0511,0511 COAa-PAA-MEA Barhl2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0512,0512 COAa-PAA-MEA Barhl2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0519,0519 AVPV-MEPO-SFO Tbr1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0490,0490 DMH Hmx2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0491,0491 DMH Hmx2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0499,0499 LGv-ZI Otx2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0496,0496 LGv-ZI Otx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0497,0497 LGv-ZI Otx2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0494,0494 ARH-PVp Tbx3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0495,0495 ARH-PVp Tbx3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0492,0492 DMH Hmx2 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0493,0493 ARH-PVp Tbx3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0489,0489 DMH Hmx2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUPT_0674,0674 PF Fzd5 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0675,0675 PF Fzd5 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0672,0672 MG-POL-SGN Nts Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0673,0673 MG-POL-SGN Nts Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0670,0670 RE-Xi Nox4 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0669,0669 RE-Xi Nox4 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0667,0667 TH Prkcd Grin2c Glut_14,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0668,0668 RE-Xi Nox4 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0665,0665 TH Prkcd Grin2c Glut_12,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0666,0666 TH Prkcd Grin2c Glut_13,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0685,0685 IF-RL-CLI-PAG Foxa1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,2,Glut-Dopa|Glut
+WMB:CS20230722_SUPT_0686,0686 IF-RL-CLI-PAG Foxa1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0683,0683 MRN-PAG Nkx6-1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,2,Glut|Glut-GABA
+WMB:CS20230722_SUPT_0684,0684 MRN-PAG Nkx6-1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0681,0681 MB-ant-ve Dmrta2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0678,0678 PRC-PAG Pax6 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0679,0679 PRC-PAG Pax6 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0676,0676 PRC-PAG Pax6 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0677,0677 PRC-PAG Pax6 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0652,0652 CM-IAD-CL-PCN Sema5b Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0653,0653 CM-IAD-CL-PCN Sema5b Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0650,0650 CM-IAD-CL-PCN Sema5b Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0651,0651 CM-IAD-CL-PCN Sema5b Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0649,0649 CM-IAD-CL-PCN Sema5b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0647,0647 PVT-PT Ntrk1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0645,0645 PVT-PT Ntrk1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0646,0646 PVT-PT Ntrk1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0643,0643 PVT-PT Ntrk1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0644,0644 PVT-PT Ntrk1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0663,0663 TH Prkcd Grin2c Glut_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0664,0664 TH Prkcd Grin2c Glut_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0661,0661 TH Prkcd Grin2c Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0662,0662 TH Prkcd Grin2c Glut_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0660,0660 TH Prkcd Grin2c Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0658,0658 TH Prkcd Grin2c Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0659,0659 TH Prkcd Grin2c Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0656,0656 TH Prkcd Grin2c Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0657,0657 TH Prkcd Grin2c Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0654,0654 TH Prkcd Grin2c Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0696,0696 PAG Pou4f3 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0697,0697 CUN Evx2 Lhx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0694,0694 PAG Pou4f3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0695,0695 PAG Pou4f3 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0693,0693 PAG-SC Neurod2 Meis2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0690,0690 PAG-SC Neurod2 Meis2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0691,0691 PAG-SC Neurod2 Meis2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0687,0687 IF-RL-CLI-PAG Foxa1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0688,0688 IF-RL-CLI-PAG Foxa1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,2,Glut|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0698,0698 CUN Evx2 Lhx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0699,0699 CUN Evx2 Lhx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0630,0630 MM Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0631,0631 MM Foxb1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0627,0627 PH-SUM Foxa1 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0625,0625 PH-SUM Foxa1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0626,0626 PH-SUM Foxa1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,2,Glut|Glut-GABA
+WMB:CS20230722_SUPT_0623,0623 PH-SUM Foxa1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUPT_0624,0624 PH-SUM Foxa1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0621,0621 PMd-LHA Foxb1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0622,0622 PH-SUM Foxa1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0629,0629 MM-ant Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0641,0641 AD Serpinb7 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0642,0642 AV Col27a1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0640,0640 LH Pou4f1 Sox1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0638,0638 LH Pou4f1 Sox1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0639,0639 LH Pou4f1 Sox1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0636,0636 MH Tac2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0637,0637 LH Pou4f1 Sox1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0634,0634 MH Tac2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0635,0635 MH Tac2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0632,0632 MH Tac2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut|Chol,1,Glut-Chol
+WMB:CS20230722_SUPT_0633,0633 MH Tac2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0605,0605 PMv-TMv Pitx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0606,0606 PMv-TMv Pitx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0603,0603 STN-PSTN Pitx2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0601,0601 STN-PSTN Pitx2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0602,0602 STN-PSTN Pitx2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0600,0600 STN-PSTN Pitx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0609,0609 PH-an Pitx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0607,0607 PMv-TMv Pitx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0608,0608 PH-an Pitx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0620,0620 PMd-LHA Foxb1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0616,0616 PH-LHA Foxb1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0614,0614 PH-LHA Foxb1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0615,0615 PH-LHA Foxb1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0612,0612 PH-LHA Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0613,0613 PH-LHA Foxb1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0610,0610 PH Pitx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0611,0611 PH Pitx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,Glut,2,Glut-Dopa|Glut
+WMB:CS20230722_SUPT_0618,0618 PH-LHA Foxb1 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0619,0619 PMd-LHA Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0795,0795 MRN-PPN-CUN Pax8 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0796,0796 MRN-PPN-CUN Pax8 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0793,0793 PPN-CUN-PCG Otp En1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0794,0794 PPN-CUN-PCG Otp En1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0791,0791 PAG-MRN Rln3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0792,0792 PPN-CUN-PCG Otp En1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0790,0790 ND-INC Foxd2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0788,0788 SCop Sln Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0786,0786 SCsg Pde5a Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0787,0787 SCsg Pde5a Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0799,0799 MRN-VTN-PPN Pax5 Cdh23 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0798,0798 MRN-VTN-PPN Pax5 Cdh23 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0773,0773 IC Tfap2d Maf Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0771,0771 IC Tfap2d Maf Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0772,0772 IC Tfap2d Maf Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0770,0770 IC Tfap2d Maf Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0768,0768 SCiw Pitx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0769,0769 SCiw Pitx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0766,0766 SCdg-PAG Tfap2b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0767,0767 SCiw Pitx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0764,0764 SCig-an-PPT Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0765,0765 SCig Foxb1 Otx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0784,0784 SCop Pou4f2 Neurod2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0785,0785 SCsg Pde5a Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0783,0783 SCig Tfap2b Chrnb3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0780,0780 CUN-PPN Evx2 Meis2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0779,0779 CUN-PPN Evx2 Meis2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,2,Glut-Dopa|Glut
+WMB:CS20230722_SUPT_0777,0777 CUN-PPN Evx2 Meis2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0778,0778 CUN-PPN Evx2 Meis2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Chol,2,Glut-Chol|Chol
+WMB:CS20230722_SUPT_0775,0775 IC Tfap2d Maf Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0776,0776 CUN-PPN Evx2 Meis2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",16,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0704,0704 PAG-MRN Pou3f1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0702,0702 APN C1ql2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0703,0703 APN C1ql4 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0700,0700 CUN Evx2 Lhx2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0701,0701 CUN Evx2 Lhx2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0708,0708 PAG-MRN Pou3f1 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0709,0709 PAG-MRN Pou3f1 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0707,0707 PAG-MRN Pou3f1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0715,0715 PRC-PAG Tcf7l2 Irx2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0713,0713 PRC-PAG Tcf7l2 Irx2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0714,0714 PRC-PAG Tcf7l2 Irx2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0711,0711 MRN Pou3f1 C1ql4 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0712,0712 MRN Pou3f1 C1ql4 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0710,0710 MRN Pou3f1 C1ql4 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0719,0719 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0717,0717 PRC-PAG Tcf7l2 Irx2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0718,0718 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0751,0751 PAG Pou4f2 Mesi2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0752,0752 PAG Pou4f2 Mesi2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0750,0750 PAG Pou4f2 Mesi2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0748,0748 PAG Pou4f2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0749,0749 PAG Pou4f2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0746,0746 PAG Pou4f2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0747,0747 PAG Pou4f2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0745,0745 PAG Pou4f2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0742,0742 PAG Pou4f1 Ebf2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0743,0743 PAG Pou4f1 Ebf2 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0762,0762 SCig Foxb1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0763,0763 SCig Foxb1 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0760,0760 SCig Foxb1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0761,0761 SCig Foxb1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0759,0759 SC Bnc2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0757,0757 SC Bnc2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0758,0758 SC Bnc2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0755,0755 PAG Pou4f2 Mesi2 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0753,0753 PAG Pou4f2 Mesi2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0754,0754 PAG Pou4f2 Mesi2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0730,0730 PAG-SC Pou4f1 Zic1 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",14,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0726,0726 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0727,0727 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0724,0724 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0725,0725 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0722,0722 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0723,0723 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0720,0720 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0721,0721 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0728,0728 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0729,0729 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut_12,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0740,0740 PAG Pou4f1 Ebf2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0741,0741 PAG Pou4f1 Ebf2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0737,0737 PAG Pou4f1 Ebf2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0738,0738 PAG Pou4f1 Ebf2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0735,0735 PAG Pou4f1 Bnc2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0736,0736 PAG Pou4f1 Bnc2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0733,0733 PAG-MRN Tfap2b Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",32,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0734,0734 PAG-MRN Tfap2b Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0731,0731 PAG-SC Pou4f1 Zic1 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",14,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0732,0732 PAG-SC Pou4f1 Zic1 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0739,0739 PAG Pou4f1 Ebf2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0895,0895 PB Lmx1a Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",14,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0892,0892 MB-MY Tph2 Glut-Sero_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,3,Glut-GABA-Sero|Glut|Glut-Sero
+WMB:CS20230722_SUPT_0890,0890 MB-MY Tph2 Glut-Sero_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,2,Glut-GABA-Sero|Glut
+WMB:CS20230722_SUPT_0891,0891 MB-MY Tph2 Glut-Sero_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Sero,3,Glut-GABA-Sero|Glut-Sero|Sero
+WMB:CS20230722_SUPT_0889,0889 MB-MY Tph2 Glut-Sero_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,3,Glut-GABA-Sero|Glut-Sero|Glut
+WMB:CS20230722_SUPT_0887,0887 SNc-VTA-RAmb Foxa1 Dopa_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut|GABA,2,Glut-GABA|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0888,0888 MB-MY Tph2 Glut-Sero_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Sero,3,GABA-Sero|Glut-GABA-Sero|Glut-Sero
+WMB:CS20230722_SUPT_0885,0885 SNc-VTA-RAmb Foxa1 Dopa_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Dopa,3,GABA-Dopa|Glut-Dopa|Dopa
+WMB:CS20230722_SUPT_0886,0886 SNc-VTA-RAmb Foxa1 Dopa_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Dopa,2,Glut-Dopa|Dopa
+WMB:CS20230722_SUPT_0898,0898 PB Lmx1a Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0899,0899 PB Lmx1a Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUPT_0897,0897 PB Lmx1a Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0825,0825 PAG-RN Nkx2-2 Otx1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0826,0826 PAG-RN Nkx2-2 Otx1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_0823,0823 PAG-RN Nkx2-2 Otx1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0824,0824 PAG-RN Nkx2-2 Otx1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0822,0822 PAG-ND-PCG Onecut1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_0820,0820 PAG-ND-PCG Onecut1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0829,0829 PRT Tcf7l2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0827,0827 PAG-RN Nkx2-2 Otx1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0828,0828 PAG-RN Nkx2-2 Otx1 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0840,0840 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0836,0836 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0837,0837 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0834,0834 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0835,0835 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0832,0832 PRT Tcf7l2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0833,0833 PRT Tcf7l2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0830,0830 PRT Tcf7l2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0831,0831 PRT Tcf7l2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0838,0838 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0839,0839 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0803,0803 PAG-PPN Pax5 Sox21 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0804,0804 PAG-PPN Pax5 Sox21 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0802,0802 PAG-PPN Pax5 Sox21 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0800,0800 SNr-VTA Pax5 Npas1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0809,0809 IC Six3 En2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0807,0807 IC Six3 En2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0808,0808 IC Six3 En2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0805,0805 PAG-PPN Pax5 Sox21 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0806,0806 SNr Six3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0814,0814 PAG-MRN-RN Foxa2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0815,0815 PAG-MRN-RN Foxa2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0812,0812 IC Six3 En2 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0813,0813 IC Six3 En2 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0810,0810 IC Six3 En2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0811,0811 IC Six3 En2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0818,0818 PAG-ND-PCG Onecut1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0819,0819 PAG-ND-PCG Onecut1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0816,0816 PAG-MRN-RN Foxa2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0817,0817 PAG-MRN-RN Foxa2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0872,0872 SCsg Gabrr2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0873,0873 SCsg Gabrr2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0870,0870 SCs Lef1 Gli3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0871,0871 SCs Lef1 Gli3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0869,0869 SCs Lef1 Gli3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0867,0867 SC Tnnt1 Gli3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0868,0868 SC Tnnt1 Gli3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0865,0865 PRT Mecom Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0866,0866 PRT Mecom Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0864,0864 PRT Mecom Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_0883,0883 SNc-VTA-RAmb Foxa1 Dopa_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut|Dopa,2,Glut-GABA-Dopa|Glut-Dopa
+WMB:CS20230722_SUPT_0884,0884 SNc-VTA-RAmb Foxa1 Dopa_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Dopa,2,Glut-Dopa|Dopa
+WMB:CS20230722_SUPT_0881,0881 SNc-VTA-RAmb Foxa1 Dopa_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Dopa,2,GABA-Dopa|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0882,0882 SNc-VTA-RAmb Foxa1 Dopa_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA|Dopa,2,GABA-Dopa|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0880,0880 SNc-VTA-RAmb Foxa1 Dopa_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,3,Glut-Dopa|Glut-GABA|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0878,0878 IPN Otp Crisp1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0876,0876 SCsg Gabrr2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0877,0877 IPN Otp Crisp1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0874,0874 SCsg Gabrr2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0875,0875 SCsg Gabrr2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0850,0850 SCm-PAG Cdh23 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0851,0851 SCm-PAG Cdh23 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0847,0847 SC-PAG Lef1 Emx2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0848,0848 SCm-PAG Cdh23 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0845,0845 SC-PAG Lef1 Emx2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0846,0846 SC-PAG Lef1 Emx2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0843,0843 SC-PAG Lef1 Emx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0844,0844 SC-PAG Lef1 Emx2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0841,0841 SC Otx2 Gcnt4 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0849,0849 SCm-PAG Cdh23 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0861,0861 SCs Pax7 Nfia Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0860,0860 SCs Pax7 Nfia Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0859,0859 SCs Pax7 Nfia Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0857,0857 SC Lef1 Otx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0854,0854 SCs Dmbx1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0855,0855 SCs Dmbx1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0852,0852 SCs Dmbx1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0853,0853 SCs Dmbx1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0114,0114 L6 CT CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0111,0111 L6b CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0112,0112 L6b CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0110,0110 L6b CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0108,0108 L6b/CT ENT Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0109,0109 L6b/CT ENT Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0106,0106 L6b/CT ENT Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0107,0107 L6b/CT ENT Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0104,0104 L6b EPd Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0105,0105 L6b EPd Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0124,0124 L5 NP CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0125,0125 L5 NP CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0122,0122 L5 NP CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0123,0123 L5 NP CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0121,0121 CT SUB Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0118,0118 L6 CT CTX Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0115,0115 L6 CT CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0116,0116 L6 CT CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0103,0103 L6b EPd Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0101,0101 CA2-FC-IG Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0094,0094 L5 ET CTX Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0095,0095 L5 ET CTX Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0092,0092 L5 ET CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0093,0093 L5 ET CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0090,0090 L5 ET CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0091,0091 L5 ET CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0098,0098 SUB-ProS Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0096,0096 SUB-ProS Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0097,0097 SUB-ProS Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0036,0036 L2/3 IT ENT Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0037,0037 L2/3 IT ENT Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0034,0034 L2/3 IT ENT Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0035,0035 L2/3 IT ENT Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0032,0032 L2/3 IT CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0033,0033 L2/3 IT ENT Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0030,0030 L2/3 IT CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0031,0031 L2/3 IT CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0029,0029 L2/3 IT CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0027,0027 L4/5 IT CTX Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0028,0028 L4/5 IT CTX Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0040,0040 L2/3 IT PIR-ENTl Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0047,0047 IT AON-TT-DP Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0048,0048 IT AON-TT-DP Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0045,0045 L2/3 IT PIR-ENTl Glut_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0046,0046 IT AON-TT-DP Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0044,0044 L2/3 IT PIR-ENTl Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0041,0041 L2/3 IT PIR-ENTl Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0042,0042 L2/3 IT PIR-ENTl Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0038,0038 L2/3 IT ENT Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0039,0039 L2/3 IT PIR-ENTl Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0014,0014 L6 IT CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0015,0015 L6 IT CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0013,0013 L6 IT CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0007,0007 L5/6 IT TPE-ENT Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0008,0008 L5/6 IT TPE-ENT Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0005,0005 IT EP-CLA Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0006,0006 IT EP-CLA Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0025,0025 L4/5 IT CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0026,0026 L4/5 IT CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0023,0023 L4/5 IT CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0024,0024 L4/5 IT CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0021,0021 L5 IT CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0020,0020 L5 IT CTX Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0018,0018 L5 IT CTX Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0019,0019 L5 IT CTX Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0016,0016 L6 IT CTX Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0017,0017 L6 IT CTX Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0072,0072 CA1-ProS Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0073,0073 CA1-ProS Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0070,0070 CA1-ProS Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0071,0071 CA1-ProS Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0078,0078 CA3 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0079,0079 CA3 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0076,0076 CA3 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0077,0077 CA3 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0074,0074 CA1-ProS Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0075,0075 CA3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0084,0084 L2/3 IT PPP Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0081,0081 L2 IT PPP-APr Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0082,0082 L2 IT PPP-APr Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0080,0080 L2 IT PPP-APr Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0089,0089 L4 RSP-ACA Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0088,0088 L2/3 IT RSP Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0085,0085 L2/3 IT PPP Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0086,0086 L2/3 IT PPP Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0050,0050 IT AON-TT-DP Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0051,0051 L2 IT ENT-po Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0059,0059 COAp Grxcr2 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0056,0056 MEA Slc17a7 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0057,0057 MEA Slc17a7 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0055,0055 MEA Slc17a7 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0052,0052 L2 IT ENT-po Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0049,0049 IT AON-TT-DP Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0061,0061 LA-BLA-BMA-PA Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0062,0062 LA-BLA-BMA-PA Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0060,0060 LA-BLA-BMA-PA Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0069,0069 CA1-ProS Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0067,0067 ENTmv-PA-COAp Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0068,0068 ENTmv-PA-COAp Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0065,0065 LA-BLA-BMA-PA Glut_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0066,0066 ENTmv-PA-COAp Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0063,0063 LA-BLA-BMA-PA Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0064,0064 LA-BLA-BMA-PA Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0201,0201 Lamp5 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0202,0202 Lamp5 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0200,0200 Lamp5 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0234,0234 STR Prox1 Lhx6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0235,0235 STR Prox1 Lhx6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0232,0232 Sst Gaba_19,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0233,0233 STR Prox1 Lhx6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0230,0230 Sst Gaba_17,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0231,0231 Sst Gaba_18,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0229,0229 Sst Gaba_16,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0227,0227 Sst Gaba_14,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0228,0228 Sst Gaba_15,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0225,0225 Sst Gaba_12,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0226,0226 Sst Gaba_13,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0245,0245 NDB-SI-MA-STRv Lhx8 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0246,0246 NDB-SI-MA-STRv Lhx8 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0244,0244 NDB-SI-MA-STRv Lhx8 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0241,0241 Sst Chodl Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0242,0242 Sst Chodl Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0240,0240 Sst Chodl Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0238,0238 Sst Chodl Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0239,0239 Sst Chodl Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0236,0236 STR Lhx8 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0237,0237 STR Lhx8 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0210,0210 Pvalb Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0209,0209 Pvalb Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0207,0207 Pvalb Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0208,0208 Pvalb Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0205,0205 Pvalb Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0206,0206 Pvalb Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0203,0203 Lamp5 Lhx6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0204,0204 Pvalb chandelier Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0223,0223 Sst Gaba_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0224,0224 Sst Gaba_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0221,0221 Sst Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0222,0222 Sst Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0220,0220 Sst Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0218,0218 Sst Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0219,0219 Sst Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0216,0216 Sst Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0217,0217 Sst Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0214,0214 Sst Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0215,0215 Sst Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0150,0150 OB-in Frmd7 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0158,0158 OB-out Frmd7 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0153,0153 OB-in Frmd7 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0154,0154 OB-in Frmd7 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0151,0151 OB-in Frmd7 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0152,0152 OB-in Frmd7 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0149,0149 OB Trdn Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0161,0161 OB-mi Frmd7 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0168,0168 OB-STR-CTX Inh IMN_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0169,0169 OB-STR-CTX Inh IMN_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0167,0167 OB-STR-CTX Inh IMN_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0162,0162 OB Dopa-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,2,GABA-Dopa|GABA
+WMB:CS20230722_SUPT_0159,0159 OB-out Frmd7 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0135,0135 HPF CR Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0136,0136 DG Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0134,0134 OB Eomes Ms4a15 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0131,0131 OB Eomes Ms4a15 Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0132,0132 OB Eomes Ms4a15 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0130,0130 OB Eomes Ms4a15 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0128,0128 NP SUB Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0129,0129 NP PPP Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0126,0126 L5 NP CTX Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0127,0127 NP SUB Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0147,0147 OB Meis2 Thsd7b Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0144,0144 OB Meis2 Thsd7b Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0142,0142 DG-PIR Ex IMN_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0143,0143 OB Meis2 Thsd7b Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0141,0141 DG-PIR Ex IMN_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0137,0137 DG Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0138,0138 DG Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0193,0193 RHP-COA Ndnf Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0194,0194 RHP-COA Ndnf Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0192,0192 Sncg Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0199,0199 Lamp5 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0197,0197 RHP-COA Ndnf Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0198,0198 RHP-COA Ndnf Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0195,0195 RHP-COA Ndnf Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0196,0196 RHP-COA Ndnf Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0170,0170 OB-STR-CTX Inh IMN_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0179,0179 Vip Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0177,0177 Vip Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0178,0178 Vip Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0175,0175 Vip Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0176,0176 Vip Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0173,0173 Vip Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0174,0174 Vip Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0182,0182 Vip Gaba_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0183,0183 Vip Gaba_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0180,0180 Vip Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0181,0181 Vip Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0189,0189 Sncg Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0186,0186 Sncg Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0187,0187 Sncg Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0184,0184 Vip Gaba_12,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0185,0185 Sncg Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0311,0311 LSX Nkx2-1 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0312,0312 LSX Nkx2-1 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0310,0310 LSX Nkx2-1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0308,0308 LSX Nkx2-1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0309,0309 LSX Nkx2-1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0306,0306 LSX Nkx2-1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0307,0307 LSX Nkx2-1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,GABA,2,GABA|GABA-Chol
+WMB:CS20230722_SUPT_0304,0304 LSX Otx2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0305,0305 LSX Otx2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0302,0302 LSX Otx2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0303,0303 LSX Otx2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0322,0322 LSX Prdm12 Slit2 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0323,0323 LSX Prdm12 Slit2 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0320,0320 LSX Prdm12 Slit2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0321,0321 LSX Prdm12 Slit2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0319,0319 LSX Prdm12 Slit2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0317,0317 LSX Prdm12 Slit2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0318,0318 LSX Prdm12 Slit2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0316,0316 LSX Nkx2-1 Gaba_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0313,0313 LSX Nkx2-1 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0300,0300 LSX Sall3 Pax6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0301,0301 LSX Otx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0355,0355 MEA-BST Lhx6 Nr2e1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0353,0353 MEA-BST Lhx6 Sp9 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0354,0354 MEA-BST Lhx6 Nr2e1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0351,0351 MEA-BST Lhx6 Sp9 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0352,0352 MEA-BST Lhx6 Sp9 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0350,0350 MEA-BST Lhx6 Sp9 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0348,0348 MEA-BST Lhx6 Sp9 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0349,0349 MEA-BST Lhx6 Sp9 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0346,0346 MEA-BST Sox6 Gaba_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0347,0347 MEA-BST Lhx6 Sp9 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0366,0366 SI-MA-ACB Ebf1 Bnc2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0367,0367 CEA-BST Six3 Cyp26b1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0364,0364 SI-MA-ACB Ebf1 Bnc2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0365,0365 SI-MA-ACB Ebf1 Bnc2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0362,0362 MEA-BST Lhx6 Nfib Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0363,0363 CEA-BST Gal Avp Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0360,0360 MEA-BST Lhx6 Nfib Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0361,0361 MEA-BST Lhx6 Nfib Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0359,0359 MEA-BST Lhx6 Nfib Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0357,0357 MEA-BST Lhx6 Nfib Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0358,0358 MEA-BST Lhx6 Nfib Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0333,0333 LSX Sall3 Lmo1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0331,0331 LSX Sall3 Lmo1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0332,0332 LSX Sall3 Lmo1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0330,0330 LSX Prdm12 Zeb2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0328,0328 LSX Prdm12 Zeb2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0329,0329 LSX Prdm12 Zeb2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0326,0326 LSX Prdm12 Zeb2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0327,0327 LSX Prdm12 Zeb2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0344,0344 MEA-BST Sox6 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0345,0345 MEA-BST Sox6 Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0342,0342 MEA-BST Sox6 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0343,0343 MEA-BST Sox6 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0340,0340 MEA-BST Sox6 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0341,0341 MEA-BST Sox6 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0339,0339 MEA-BST Sox6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0337,0337 MEA-BST Sox6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0338,0338 MEA-BST Sox6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0335,0335 LSX Sall3 Lmo1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0336,0336 LSX Sall3 Lmo1 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0270,0270 STR D1 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0278,0278 STR D2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0279,0279 STR D2 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0277,0277 STR D2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0274,0274 STR D2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0275,0275 STR D2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0272,0272 STR D1 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0269,0269 STR D1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0281,0281 STR D1 Sema5a Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0282,0282 STR D1 Sema5a Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0289,0289 STR-PAL Chst9 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0287,0287 STR-PAL Chst9 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0288,0288 STR-PAL Chst9 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0285,0285 STR-PAL Chst9 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0286,0286 STR-PAL Chst9 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0283,0283 STR D1 Sema5a Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0284,0284 STR D1 Sema5a Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0252,0252 NDB-SI-MA-STRv Lhx8 Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0253,0253 NDB-SI-MA-STRv Lhx8 Gaba_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0250,0250 NDB-SI-MA-STRv Lhx8 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0251,0251 NDB-SI-MA-STRv Lhx8 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0249,0249 NDB-SI-MA-STRv Lhx8 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0247,0247 NDB-SI-MA-STRv Lhx8 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0248,0248 NDB-SI-MA-STRv Lhx8 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0260,0260 PAL-STR Gaba-Chol_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Chol,2,Glut-Chol|Chol
+WMB:CS20230722_SUPT_0267,0267 STR D1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0268,0268 STR D1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0265,0265 STR D1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0266,0266 STR D1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0264,0264 OT D3 Folh1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0261,0261 PAL-STR Gaba-Chol_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0258,0258 GPe-SI Sox6 Cyp26b1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0259,0259 PAL-STR Gaba-Chol_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Chol,2,Glut-GABA-Chol|GABA-Chol
+WMB:CS20230722_SUPT_0292,0292 IA Mgp Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0290,0290 IA Mgp Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0291,0291 IA Mgp Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0299,0299 LSX Sall3 Pax6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0297,0297 NDB-SI-ant Prdm12 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0294,0294 IA Mgp Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0295,0295 NDB-SI-ant Prdm12 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0432,0432 RT-ZI Gnb3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0433,0433 RT-ZI Gnb3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0430,0430 TMv-PMv Tbx3 Hist-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0431,0431 RT-ZI Gnb3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0429,0429 TMv-PMv Tbx3 Hist-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Hist,1,GABA-Hist
+WMB:CS20230722_SUPT_0427,0427 ARH-PVi Six6 Dopa-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Dopa,1,GABA-Dopa
+WMB:CS20230722_SUPT_0425,0425 BST-MPN Six3 Nrgn Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0426,0426 BST-MPN Six3 Nrgn Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0423,0423 BST-MPN Six3 Nrgn Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0424,0424 BST-MPN Six3 Nrgn Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0443,0443 PVHd-SBPV Six3 Prox1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0444,0444 PVHd-SBPV Six3 Prox1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0442,0442 PVHd-SBPV Six3 Prox1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0440,0440 DMH Prdm13 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0438,0438 SCH Six6 Cdc14a Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0439,0439 DMH Prdm13 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0436,0436 SCH Six6 Cdc14a Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0437,0437 SCH Six6 Cdc14a Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0434,0434 RT-ZI Gnb3 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0435,0435 RT-ZI Gnb3 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0410,0410 BST Tac2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0411,0411 PVR Six3 Sox3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0407,0407 MPN-MPO-LPO Lhx6 Zfhx3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0408,0408 MPN-MPO-LPO Lhx6 Zfhx3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0405,0405 MPO-ADP Lhx8 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0406,0406 MPO-ADP Lhx8 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0403,0403 MPO-ADP Lhx8 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0404,0404 MPO-ADP Lhx8 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUPT_0402,0402 MPO-ADP Lhx8 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0409,0409 BST Tac2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0422,0422 BST-MPN Six3 Nrgn Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0420,0420 BST-MPN Six3 Nrgn Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0418,0418 PVR Six3 Sox3 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0419,0419 PVR Six3 Sox3 Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUPT_0417,0417 PVR Six3 Sox3 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0414,0414 PVR Six3 Sox3 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0415,0415 PVR Six3 Sox3 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0412,0412 PVR Six3 Sox3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0413,0413 PVR Six3 Sox3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0476,0476 PVHd-DMH Lhx6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0477,0477 PVHd-DMH Lhx6 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0474,0474 PVHd-DMH Lhx6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0475,0475 PVHd-DMH Lhx6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0473,0473 DMH-LHA Gsx1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0470,0470 DMH-LHA Gsx1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0471,0471 DMH-LHA Gsx1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",15,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0469,0469 ZI Pax6 Gaba_11,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0467,0467 ZI Pax6 Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0468,0468 ZI Pax6 Gaba_10,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0480,0480 TU-ARH Otp Six6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0487,0487 DMH Hmx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0488,0488 DMH Hmx2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0485,0485 PVpo-VMPO-MPN Hmx2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA-Dopa|GABA
+WMB:CS20230722_SUPT_0486,0486 PVpo-VMPO-MPN Hmx2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA-Dopa
+WMB:CS20230722_SUPT_0483,0483 PVpo-VMPO-MPN Hmx2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",16,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0484,0484 PVpo-VMPO-MPN Hmx2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUPT_0481,0481 TMd-DMH Foxd2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0482,0482 PVpo-VMPO-MPN Hmx2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",18,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0478,0478 TU-ARH Otp Six6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0479,0479 TU-ARH Otp Six6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0454,0454 SBPV-PVa Six6 Satb2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0455,0455 SBPV-PVa Six6 Satb2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0452,0452 AHN-SBPV-PVHd Pdrm12 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0453,0453 SBPV-PVa Six6 Satb2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA-Dopa|GABA
+WMB:CS20230722_SUPT_0450,0450 AHN-SBPV-PVHd Pdrm12 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0451,0451 AHN-SBPV-PVHd Pdrm12 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,2,GABA-Dopa|GABA
+WMB:CS20230722_SUPT_0449,0449 AHN-SBPV-PVHd Pdrm12 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0447,0447 AHN-SBPV-PVHd Pdrm12 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0448,0448 AHN-SBPV-PVHd Pdrm12 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0445,0445 PVHd-SBPV Six3 Prox1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0446,0446 AHN-SBPV-PVHd Pdrm12 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0465,0465 ZI Pax6 Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0466,0466 ZI Pax6 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0463,0463 ZI Pax6 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0464,0464 ZI Pax6 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0461,0461 ZI Pax6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0462,0462 ZI Pax6 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0460,0460 ZI Pax6 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUPT_0458,0458 AHN Onecut3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0459,0459 ZI Pax6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0456,0456 AHN Onecut3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0457,0457 AHN Onecut3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0400,0400 SI-MPO-LPO Lhx8 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0391,0391 CEA-BST Ebf1 Pdyn Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0392,0392 CEA-BST Rai14 Pdyn Crh Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0399,0399 SI-MPO-LPO Lhx8 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0397,0397 SI-MPO-LPO Lhx8 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",10,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0398,0398 SI-MPO-LPO Lhx8 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0395,0395 BST-SI-AAA Six3 Slc22a3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0396,0396 SI-MPO-LPO Lhx8 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0393,0393 CEA-BST Rai14 Pdyn Crh Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0394,0394 BST-SI-AAA Six3 Slc22a3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0370,0370 CEA-BST Six3 Cyp26b1 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0375,0375 CEA-AAA-BST Six3 Sp9 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0376,0376 CEA-AAA-BST Six3 Sp9 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0373,0373 CEA-AAA-BST Six3 Sp9 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0374,0374 CEA-AAA-BST Six3 Sp9 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0371,0371 CEA-BST Six3 Cyp26b1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0372,0372 CEA-BST Six3 Cyp26b1 Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0368,0368 CEA-BST Six3 Cyp26b1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0369,0369 CEA-BST Six3 Cyp26b1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0380,0380 CEA-AAA-BST Six3 Sp9 Gaba_8,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0381,0381 ACB-BST-FS D1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0388,0388 CEA-BST Ebf1 Pdyn Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0389,0389 CEA-BST Ebf1 Pdyn Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0386,0386 CEA-BST Ebf1 Pdyn Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0387,0387 CEA-BST Ebf1 Pdyn Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0384,0384 CEA-BST Ebf1 Pdyn Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0385,0385 CEA-BST Ebf1 Pdyn Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0382,0382 ACB-BST-FS D1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_0383,0383 ACB-BST-FS D1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_0003,0003 IT EP-CLA Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0004,0004 IT EP-CLA Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_0001,0001 CLA-EPd-CTX Car3 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_CLAS_30,30 Astro-Epen,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",3,True,Glut,1,Glut
+WMB:CS20230722_CLAS_26,26 P GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",206,False,,5,GABA|Glut|GABA-Glyc|Glut-GABA|Glyc
+WMB:CS20230722_CLAS_27,27 MY GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",353,True,GABA,5,GABA|Glut-GABA-Glyc|GABA-Glyc-Chol|GABA-Glyc|GABA-Glyc-Dopa
+WMB:CS20230722_CLAS_24,24 MY Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",406,False,,9,Glut|Glut-Chol|Glut-Glyc|Glut-Nora|GABA-Nora|Glut-GABA-Nora|Chol|Chol-Dopa|Glut-GABA
+WMB:CS20230722_CLAS_28,28 CB GABA CS20230722_CLAS_28,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",30,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_CLAS_29,29 CB Glut CS20230722_CLAS_29,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",9,True,Glut,1,Glut
+WMB:CS20230722_CLAS_22,22 MB-HB Sero,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",32,False,,5,Glut|GABA-Sero|Glut-Sero|Sero|Glut-GABA-Sero
+WMB:CS20230722_CLAS_23,23 P Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",288,True,Glut,4,Glut-GABA|Glut-Chol|Glut-Glyc|Glut
+WMB:CS20230722_CLAS_20,20 MB GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",451,True,GABA,3,GABA|GABA-Glyc|Glut-GABA
+WMB:CS20230722_CLAS_21,21 MB Dopa,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",43,False,,5,Dopa|Glut-GABA-Dopa|Glut-Dopa|GABA-Dopa|Glut-GABA
+WMB:CS20230722_CLAS_16,16 HY MM Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",13,True,Glut,1,Glut
+WMB:CS20230722_CLAS_13,13 CNU-HYa Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",236,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_CLAS_14,14 HY Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",338,True,Glut,3,Glut-Dopa|Glut-GABA|Glut
+WMB:CS20230722_CLAS_19,19 MB Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",661,False,,6,Glut|Glut-Dopa|Glut-GABA-Dopa|Chol|Glut-Chol|Glut-GABA
+WMB:CS20230722_CLAS_17,17 MH-LH Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",35,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_CLAS_18,18 TH Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",113,True,Glut,1,Glut
+WMB:CS20230722_CLAS_11,11 CNU-HYa GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",395,True,GABA,3,GABA|GABA-Dopa|Glut-GABA
+WMB:CS20230722_CLAS_12,12 HY GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",420,True,GABA,6,GABA|GABA-Chol|Glut-GABA-Dopa|GABA-Dopa|GABA-Hist|Glut-GABA
+WMB:CS20230722_CLAS_10,10 LSX GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",146,True,GABA,2,GABA|GABA-Chol
+WMB:CS20230722_CLAS_04,04 DG-IMN Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",14,True,Glut,1,Glut
+WMB:CS20230722_CLAS_05,05 OB-IMN GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",94,True,GABA,3,GABA|GABA-Dopa|Glut-GABA
+WMB:CS20230722_CLAS_02,02 NP-CT-L6b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",83,True,Glut,1,Glut
+WMB:CS20230722_CLAS_03,03 OB-CR Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",16,True,Glut,1,Glut
+WMB:CS20230722_CLAS_08,08 CNU-MGE GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",105,False,,5,GABA|Glut-GABA-Chol|GABA-Chol|Chol|Glut-Chol
+WMB:CS20230722_CLAS_09,09 CNU-LGE GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",94,True,GABA,1,GABA
+WMB:CS20230722_CLAS_06,06 CTX-CGE GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",101,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_CLAS_07,07 CTX-MGE GABA,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",105,True,GABA,1,GABA
+WMB:CS20230722_CLAS_01,01 IT-ET Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'class']",402,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1084,1084 PRP Otp Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1085,1085 PRP Otp Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1083,1083 PRP Otp Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1088,1088 GRN-IRN-MDRNd Ikzf1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1089,1089 MY Lhx1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",23,True,GABA,3,GABA|GABA-Glyc|GABA-Glyc-Chol
+WMB:CS20230722_SUPT_1086,1086 PRP Otp Gly-Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1087,1087 PRP Otp Gly-Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1095,1095 MY Lhx1 Gly-Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1093,1093 MY Lhx1 Gly-Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1094,1094 MY Lhx1 Gly-Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1091,1091 MY Lhx1 Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",14,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1092,1092 MY Lhx1 Gly-Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1090,1090 MY Lhx1 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",19,True,GABA|Glyc,2,GABA-Glyc|Glut-GABA-Glyc
+WMB:CS20230722_SUPT_1099,1099 MV-SPIV-PRP Dmbx1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,3,GABA|GABA-Glyc|Glut-GABA-Glyc
+WMB:CS20230722_SUPT_1097,1097 MY Lhx1 Gly-Gaba_9,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1098,1098 PPY-PGRNl Vip Glyc-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1063,1063 PDTg-PCG Pax6 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1060,1060 LDT-PCG-CS Gata3 Lhx1 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1061,1061 PDTg-PCG Pax6 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1068,1068 LDT-PCG St18 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1069,1069 DTN-LDT-IPN Otp Pax3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1066,1066 PDTg Otp Olig3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1067,1067 LDT-PCG St18 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1064,1064 PDTg-PCG Pax6 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut|GABA,1,Glut-GABA
+WMB:CS20230722_SUPT_1065,1065 PDTg Otp Shroom3 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1073,1073 DTN-LDT-IPN Otp Pax3 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1074,1074 NLL Gata3 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1071,1071 DTN-LDT-IPN Otp Pax3 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1072,1072 DTN-LDT-IPN Otp Pax3 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1070,1070 DTN-LDT-IPN Otp Pax3 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1004,1004 NTS Dbh Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,Glut,2,Glut-Nora|Glut
+WMB:CS20230722_SUPT_1005,1005 NTS Dbh Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,2,Glut-Nora|Glut
+WMB:CS20230722_SUPT_1002,1002 NTS Aldh1a2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1003,1003 CBN Neurod2 Pvalb Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1000,1000 MV-SPIV Zic4 Neurod2 Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,2,Glut-Glyc|Glut
+WMB:CS20230722_SUPT_1001,1001 MV-SPIV Zic4 Neurod2 Glut_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1015,1015 VCO Mafa Meis2 Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1013,1013 VCO Mafa Meis2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1010,1010 DMX VII Tbx20 Chol_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Chol,2,Chol-Dopa|Chol
+WMB:CS20230722_SUPT_1006,1006 NTS Dbh Glut_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,2,Glut-GABA-Nora|Glut
+WMB:CS20230722_SUPT_1007,1007 NTS Dbh Glut_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,False,,2,GABA-Nora|Glut
+WMB:CS20230722_SUPT_1040,1040 PRNc Otp Gly-Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1041,1041 PB Sst Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1048,1048 CS-PRNr-DR En1 Sox2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1049,1049 LDT Fgf7 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1047,1047 CS-PRNr-DR En1 Sox2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1044,1044 CS-PRNr-PCG Tmem163 Otp Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",13,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1045,1045 CS-PRNr-PCG Tmem163 Otp Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1039,1039 PRNc Otp Gly-Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1051,1051 LDT-DTN Gata3 Nfix Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1052,1052 NI-RPO Gata3 Nr4a2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_1050,1050 LDT-DTN Gata3 Nfix Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1057,1057 LDT-PCG-CS Gata3 Lhx1 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1058,1058 LDT-PCG-CS Gata3 Lhx1 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_1055,1055 NI-RPO Gata3 Nr4a2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,False,,3,GABA|Glut|Glut-GABA
+WMB:CS20230722_SUPT_1056,1056 LDT-PCG-CS Gata3 Lhx1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_1053,1053 NI-RPO Gata3 Nr4a2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,False,,3,GABA|Glut|Glut-GABA
+WMB:CS20230722_SUPT_1024,1024 MDRNv Crp Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1022,1022 SPVC Nmu Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1023,1023 MDRNd Bves Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1020,1020 SPVC Ccdc172 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1021,1021 SPVC Nmu Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1019,1019 SPVC Mafa Glut_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1017,1017 SPVO Mafa Meis2 Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1018,1018 SPVC Mafa Glut_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1037,1037 PRNc Otp Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1038,1038 PRNc Otp Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1035,1035 CS-RPO Meis2 Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1036,1036 PRNc Otp Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1033,1033 CS-RPO Meis2 Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUPT_1034,1034 CS-RPO Meis2 Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1031,1031 CS-RPO Meis2 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1032,1032 CS-RPO Meis2 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1125,1125 PARN-MDRNd-NTS Gbx2 Gly-Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1126,1126 PARN-MDRNd-NTS Gbx2 Gly-Gaba_7,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1123,1123 PARN-MDRNd-NTS Gbx2 Gly-Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1124,1124 PARN-MDRNd-NTS Gbx2 Gly-Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1121,1121 PARN-MDRNd-NTS Gbx2 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",11,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1122,1122 PARN-MDRNd-NTS Gbx2 Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1120,1120 PARN-MDRNd-NTS Gbx2 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",9,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1118,1118 PRP Gata3 Slc6a5 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1119,1119 MARN-PPY Ngfr Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1116,1116 RPA Pax6 Hoxb5 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1136,1136 SPVI-SPVC Sall3 Nfib Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",17,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1137,1137 SPVI-SPVC Sall3 Nfib Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",7,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1134,1134 NTS-PARN Neurod2 Gly-Gaba_5,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1135,1135 NTS-PARN Neurod2 Gly-Gaba_6,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1132,1132 NTS-PARN Neurod2 Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1133,1133 NTS-PARN Neurod2 Gly-Gaba_4,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1130,1130 NTS-PARN Neurod2 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1131,1131 NTS-PARN Neurod2 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1129,1129 IRN Dmbx1 Pax2 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1103,1103 MDRNd Prox1 Pax6 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1104,1104 MY Prox1 Lmo7 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1101,1101 MV-SPIV-PRP Dmbx1 Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1102,1102 MDRN Hoxb5 Ebf2 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1100,1100 MV-SPIV-PRP Dmbx1 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1114,1114 MV Pax6 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1115,1115 CBN Dmbx1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1113,1113 MV Pax6 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1110,1110 PAS-MV Ebf2 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1111,1111 PAS-MV Ebf2 Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1109,1109 PAS-MV Ebf2 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1107,1107 MV Nkx6-1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1108,1108 MV Nkx6-1 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1105,1105 NTS-MDRNd Prox1 Zic1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1106,1106 NTS-MDRNd Prox1 Zic1 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1140,1140 RO-RPA Pkd2l1 Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1148,1148 CBX Golgi Gly-Gaba_1 CS20230722_SUPT_1148,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1145,1145 CB PLI Gly-Gaba_2 CS20230722_SUPT_1145,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1146,1146 CB PLI Gly-Gaba_3,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1143,1143 DCO Il22 Gly-Gaba_3 CS20230722_SUPT_1143,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1144,1144 CB PLI Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1141,1141 DCO Il22 Gly-Gaba_1 CS20230722_SUPT_1141,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUPT_1138,1138 SPVI-SPVC Sall3 Lhx1 Gly-Gaba_1,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",8,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1139,1139 SPVI-SPVC Sall3 Lhx1 Gly-Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",12,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUPT_1150,1150 CBX MLI Megf11 Gaba_2,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1156,1156 DCO UBC Glut_1 CS20230722_SUPT_1156,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",4,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1154,1154 CB Granule Glut_1 CS20230722_SUPT_1154,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",3,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1155,1155 CB Granule Glut_2 CS20230722_SUPT_1155,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,Glut,1,Glut
+WMB:CS20230722_SUPT_1152,1152 CBX Purkinje Gaba_1 CS20230722_SUPT_1152,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1153,1153 CBX Purkinje Gaba_2 CS20230722_SUPT_1153,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUPT_1149,1149 CBX MLI Megf11 Gaba_1 CS20230722_SUPT_1149,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'supertype']",2,True,GABA,1,GABA
+WMB:CS20230722_SUBC_180,180 SCiw Pitx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,Glut,1,Glut
+WMB:CS20230722_SUBC_181,181 IC Tfap2d Maf Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",38,True,Glut,1,Glut
+WMB:CS20230722_SUBC_182,182 CUN-PPN Evx2 Meis2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",32,False,,4,Glut-Dopa|Glut-Chol|Glut|Chol
+WMB:CS20230722_SUBC_185,185 SCig Tfap2b Chrnb3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_186,186 SCop Pou4f2 Neurod2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_187,187 SCsg Pde5a Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,Glut,1,Glut
+WMB:CS20230722_SUBC_188,188 SCop Sln Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut
+WMB:CS20230722_SUBC_190,190 ND-INC Foxd2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_191,191 PAG-MRN Rln3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_192,192 PPN-CUN-PCG Otp En1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_193,193 MRN-PPN-CUN Pax8 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,3,GABA|GABA-Glyc|Glut-GABA
+WMB:CS20230722_SUBC_194,194 MRN-VTN-PPN Pax5 Cdh23 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,GABA,1,GABA
+WMB:CS20230722_SUBC_195,195 SNr-VTA Pax5 Npas1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,1,GABA
+WMB:CS20230722_SUBC_196,196 PAG-PPN Pax5 Sox21 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,GABA,1,GABA
+WMB:CS20230722_SUBC_197,197 SNr Six3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_198,198 IC Six3 En2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",44,True,GABA,1,GABA
+WMB:CS20230722_SUBC_199,199 PAG-MRN-RN Foxa2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",23,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_160,160 PAG-SC Neurod2 Meis2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,Glut,1,Glut
+WMB:CS20230722_SUBC_161,161 PAG Pou4f3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,Glut,1,Glut
+WMB:CS20230722_SUBC_162,162 CUN Evx2 Lhx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",28,True,Glut,1,Glut
+WMB:CS20230722_SUBC_163,163 APN C1ql2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_164,164 APN C1ql4 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_165,165 PAG-MRN Pou3f1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",27,True,Glut,1,Glut
+WMB:CS20230722_SUBC_166,166 MRN Pou3f1 C1ql4 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",13,True,Glut,1,Glut
+WMB:CS20230722_SUBC_167,167 PRC-PAG Tcf7l2 Irx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",28,True,Glut,1,Glut
+WMB:CS20230722_SUBC_168,168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",82,True,Glut,1,Glut
+WMB:CS20230722_SUBC_169,169 PAG-SC Pou4f1 Zic1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",33,True,Glut,1,Glut
+WMB:CS20230722_SUBC_170,170 PAG-MRN Tfap2b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",37,True,Glut,1,Glut
+WMB:CS20230722_SUBC_171,171 PAG Pou4f1 Bnc2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,Glut,1,Glut
+WMB:CS20230722_SUBC_172,172 PAG Pou4f1 Ebf2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",44,True,Glut,1,Glut
+WMB:CS20230722_SUBC_173,173 PAG Pou4f2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",33,True,Glut,1,Glut
+WMB:CS20230722_SUBC_174,174 PAG Pou4f2 Mesi2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",27,True,Glut,1,Glut
+WMB:CS20230722_SUBC_175,175 SC Bnc2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,Glut,1,Glut
+WMB:CS20230722_SUBC_176,176 SCig Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",30,True,Glut,1,Glut
+WMB:CS20230722_SUBC_177,177 SCig-an-PPT Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut
+WMB:CS20230722_SUBC_178,178 SCig Foxb1 Otx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_179,179 SCdg-PAG Tfap2b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_260,260 MDRNv Crp Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_261,261 HB Calcb Chol,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Chol,1,Chol
+WMB:CS20230722_SUBC_263,263 CS-RPO Meis2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,True,GABA,3,GABA|GABA-Glyc|Glut-GABA
+WMB:CS20230722_SUBC_264,264 PRNc Otp Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_265,265 PB Sst Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_267,267 CS-PRNr-PCG Tmem163 Otp Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,GABA,1,GABA
+WMB:CS20230722_SUBC_268,268 CS-PRNr-DR En1 Sox2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",18,True,GABA,1,GABA
+WMB:CS20230722_SUBC_269,269 LDT Fgf7 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_270,270 LDT-DTN Gata3 Nfix Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,1,GABA
+WMB:CS20230722_SUBC_271,271 NI-RPO Gata3 Nr4a2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,False,,3,GABA|Glut|Glut-GABA
+WMB:CS20230722_SUBC_272,272 LDT-PCG-CS Gata3 Lhx1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_273,273 PDTg-PCG Pax6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_274,274 PDTg Otp Shroom3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA,1,GABA
+WMB:CS20230722_SUBC_275,275 PDTg Otp Olig3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_276,276 LDT-PCG St18 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",12,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_277,277 DTN-LDT-IPN Otp Pax3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",25,True,GABA,1,GABA
+WMB:CS20230722_SUBC_278,278 NLL Gata3 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_279,279 PSV Pax2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glyc,2,GABA-Glyc|Glyc
+WMB:CS20230722_SUBC_242,242 PGRNd Dmbx1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUBC_243,243 PGRN-PARN-MDRN Hoxb5 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",93,True,Glut,3,Glut-GABA|Glut-Chol|Glut
+WMB:CS20230722_SUBC_244,244 MV-SPIV Slc6a2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_245,245 SPVI-SPVC Tlx3 Ebf3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",36,True,Glut,1,Glut
+WMB:CS20230722_SUBC_246,246 CU-ECU-SPVI Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",27,True,Glut,1,Glut
+WMB:CS20230722_SUBC_247,247 MV-SPIV Phox2b Ebf3 Lbx1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,Glut,1,Glut
+WMB:CS20230722_SUBC_248,248 MV-SPIV Zic4 Neurod2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",27,True,Glut,3,Glut-Chol|Glut-Glyc|Glut
+WMB:CS20230722_SUBC_249,249 NTS Aldh1a2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_250,250 CBN Neurod2 Pvalb Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_251,251 NTS Dbh Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,False,,4,Glut-Nora|Glut-GABA-Nora|Glut|GABA-Nora
+WMB:CS20230722_SUBC_252,252 DMX VII Tbx20 Chol,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Chol,2,Chol-Dopa|Chol
+WMB:CS20230722_SUBC_254,254 VCO Mafa Meis2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_255,255 SPVO Mafa Meis2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_256,256 SPVC Mafa Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_257,257 SPVC Ccdc172 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_258,258 SPVC Nmu Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_259,259 MDRNd Bves Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_228,228 PSV Pvalb Lhx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_229,229 PB-NTS Phox2b Ebf3 Lmx1b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,Glut,1,Glut
+WMB:CS20230722_SUBC_220,220 PB Pax5 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_221,221 LDT-PCG Vsx2 Lhx4 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",44,True,Glut,1,Glut
+WMB:CS20230722_SUBC_222,222 PB Evx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",74,True,Glut,3,Glut-GABA|Glut-Chol|Glut
+WMB:CS20230722_SUBC_223,223 B-PB Nr4a2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,Glut,1,Glut
+WMB:CS20230722_SUBC_224,224 PCG-PRNr Vsx2 Nkx6-1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",23,True,Glut,2,Glut-Glyc|Glut
+WMB:CS20230722_SUBC_225,225 PRNc-NI-SG-RPO Vsx2 Nr4a2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",13,True,Glut,1,Glut
+WMB:CS20230722_SUBC_226,226 PRNc-PARN Tlx1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,Glut,1,Glut
+WMB:CS20230722_SUBC_227,227 PB-PSV Phox2b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_230,230 PRNr Otp Nfib Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_231,231 IPN-LDT Vsx2 Nkx6-1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",12,True,Glut,1,Glut
+WMB:CS20230722_SUBC_232,232 LDT Vsx2 Nkx6-1 Nfib Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_233,233 NLL-SOC Spp1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_235,235 PG-TRN-LRN Fat2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_236,236 IRN Vip Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_237,237 PRP-NI-PRNc-GRN Otp Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",20,True,Glut,1,Glut
+WMB:CS20230722_SUBC_238,238 NTS Phox2b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",83,True,Glut,1,Glut
+WMB:CS20230722_SUBC_206,206 SCm-PAG Cdh23 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",21,True,GABA,1,GABA
+WMB:CS20230722_SUBC_207,207 SCs Dmbx1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,GABA,1,GABA
+WMB:CS20230722_SUBC_208,208 SC Lef1 Otx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,GABA,1,GABA
+WMB:CS20230722_SUBC_209,209 SCs Pax7 Nfia Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,GABA,1,GABA
+WMB:CS20230722_SUBC_200,200 PAG-ND-PCG Onecut1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_201,201 PAG-RN Nkx2-2 Otx1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",38,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_202,202 PRT Tcf7l2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",37,True,GABA,1,GABA
+WMB:CS20230722_SUBC_203,203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",36,True,GABA,1,GABA
+WMB:CS20230722_SUBC_204,204 SC Otx2 Gcnt4 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_205,205 SC-PAG Lef1 Emx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",28,True,GABA,1,GABA
+WMB:CS20230722_SUBC_217,217 PB Lmx1a Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",47,True,Glut,3,Glut-Chol|Glut-Glyc|Glut
+WMB:CS20230722_SUBC_218,218 PSV Lmx1a Trpv6 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_219,219 PB-SUT Tlx3 Lhx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_210,210 PRT Mecom Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",21,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_211,211 SC Tnnt1 Gli3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA,1,GABA
+WMB:CS20230722_SUBC_212,212 SCs Lef1 Gli3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA,1,GABA
+WMB:CS20230722_SUBC_213,213 SCsg Gabrr2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_214,214 IPN Otp Crisp1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_215,215 SNc-VTA-RAmb Foxa1 Dopa,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",43,False,,5,Dopa|Glut-GABA-Dopa|Glut-Dopa|GABA-Dopa|Glut-GABA
+WMB:CS20230722_SUBC_216,216 MB-MY Tph2 Glut-Sero,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",32,False,,5,Glut|GABA-Sero|Glut-Sero|Sero|Glut-GABA-Sero
+WMB:CS20230722_SUBC_090,090 BST-MPN Six3 Nrgn Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,GABA,1,GABA
+WMB:CS20230722_SUBC_080,080 CEA-AAA-BST Six3 Sp9 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",25,True,GABA,1,GABA
+WMB:CS20230722_SUBC_081,081 ACB-BST-FS D1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_082,082 CEA-BST Ebf1 Pdyn Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",23,True,GABA,1,GABA
+WMB:CS20230722_SUBC_083,083 CEA-BST Rai14 Pdyn Crh Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_084,084 BST-SI-AAA Six3 Slc22a3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,GABA,1,GABA
+WMB:CS20230722_SUBC_085,085 SI-MPO-LPO Lhx8 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",39,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_086,086 MPO-ADP Lhx8 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUBC_087,087 MPN-MPO-LPO Lhx6 Zfhx3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,GABA,1,GABA
+WMB:CS20230722_SUBC_088,088 BST Tac2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,GABA,1,GABA
+WMB:CS20230722_SUBC_089,089 PVR Six3 Sox3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",35,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUBC_091,091 ARH-PVi Six6 Dopa-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA|Dopa,1,GABA-Dopa
+WMB:CS20230722_SUBC_092,092 TMv-PMv Tbx3 Hist-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,GABA,2,GABA|GABA-Hist
+WMB:CS20230722_SUBC_093,093 RT-ZI Gnb3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",25,True,GABA,1,GABA
+WMB:CS20230722_SUBC_094,094 SCH Six6 Cdc14a Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,GABA,1,GABA
+WMB:CS20230722_SUBC_095,095 DMH Prdm13 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA,1,GABA
+WMB:CS20230722_SUBC_097,097 PVHd-SBPV Six3 Prox1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",21,True,GABA,1,GABA
+WMB:CS20230722_SUBC_098,098 AHN-SBPV-PVHd Pdrm12 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",36,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUBC_099,099 SBPV-PVa Six6 Satb2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUBC_060,060 OT D3 Folh1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_061,061 STR D1 Gaba CS20230722_SUBC_061,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,GABA,1,GABA
+WMB:CS20230722_SUBC_062,062 STR D2 Gaba CS20230722_SUBC_062,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",25,True,GABA,1,GABA
+WMB:CS20230722_SUBC_063,063 STR D1 Sema5a Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,1,GABA
+WMB:CS20230722_SUBC_064,064 STR-PAL Chst9 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,GABA,1,GABA
+WMB:CS20230722_SUBC_065,065 IA Mgp Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",12,True,GABA,1,GABA
+WMB:CS20230722_SUBC_066,066 NDB-SI-ant Prdm12 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,GABA,1,GABA
+WMB:CS20230722_SUBC_067,067 LSX Sall3 Pax6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA,1,GABA
+WMB:CS20230722_SUBC_068,068 LSX Otx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",24,True,GABA,1,GABA
+WMB:CS20230722_SUBC_069,069 LSX Nkx2-1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",41,True,GABA,2,GABA|GABA-Chol
+WMB:CS20230722_SUBC_070,070 LSX Prdm12 Slit2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",34,True,GABA,1,GABA
+WMB:CS20230722_SUBC_071,071 LSX Prdm12 Zeb2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",25,True,GABA,1,GABA
+WMB:CS20230722_SUBC_072,072 LSX Sall3 Lmo1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,GABA,1,GABA
+WMB:CS20230722_SUBC_073,073 MEA-BST Sox6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",50,True,GABA,1,GABA
+WMB:CS20230722_SUBC_074,074 MEA-BST Lhx6 Sp9 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,GABA,1,GABA
+WMB:CS20230722_SUBC_075,075 MEA-BST Lhx6 Nr2e1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",12,True,GABA,1,GABA
+WMB:CS20230722_SUBC_076,076 MEA-BST Lhx6 Nfib Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",34,True,GABA,1,GABA
+WMB:CS20230722_SUBC_077,077 CEA-BST Gal Avp Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA,1,GABA
+WMB:CS20230722_SUBC_078,078 SI-MA-ACB Ebf1 Bnc2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,GABA,1,GABA
+WMB:CS20230722_SUBC_079,079 CEA-BST Six3 Cyp26b1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",21,True,GABA,1,GABA
+WMB:CS20230722_SUBC_040,040 OB Trdn Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_041,041 OB-in Frmd7 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",36,True,GABA,1,GABA
+WMB:CS20230722_SUBC_042,042 OB-out Frmd7 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,1,GABA
+WMB:CS20230722_SUBC_043,043 OB-mi Frmd7 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_044,044 OB Dopa-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,3,GABA|GABA-Dopa|Glut-GABA
+WMB:CS20230722_SUBC_045,045 OB-STR-CTX Inh IMN,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,GABA,1,GABA
+WMB:CS20230722_SUBC_046,046 Vip Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",41,True,GABA,1,GABA
+WMB:CS20230722_SUBC_047,047 Sncg Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_048,048 RHP-COA Ndnf Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",20,True,GABA,2,GABA|Glut-GABA
+WMB:CS20230722_SUBC_049,049 Lamp5 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",18,True,GABA,1,GABA
+WMB:CS20230722_SUBC_050,050 Lamp5 Lhx6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA,1,GABA
+WMB:CS20230722_SUBC_051,051 Pvalb chandelier Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA,1,GABA
+WMB:CS20230722_SUBC_052,052 Pvalb Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,GABA,1,GABA
+WMB:CS20230722_SUBC_053,053 Sst Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",73,True,GABA,1,GABA
+WMB:CS20230722_SUBC_054,054 STR Prox1 Lhx6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,GABA,1,GABA
+WMB:CS20230722_SUBC_055,055 STR Lhx8 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA,1,GABA
+WMB:CS20230722_SUBC_056,056 Sst Chodl Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",18,True,GABA,1,GABA
+WMB:CS20230722_SUBC_057,057 NDB-SI-MA-STRv Lhx8 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",55,True,GABA,1,GABA
+WMB:CS20230722_SUBC_058,058 PAL-STR Gaba-Chol,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,False,,5,GABA|Glut-GABA-Chol|GABA-Chol|Chol|Glut-Chol
+WMB:CS20230722_SUBC_059,059 GPe-SI Sox6 Cyp26b1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,GABA,1,GABA
+WMB:CS20230722_SUBC_140,140 PMd-LHA Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_141,141 PH-SUM Foxa1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",28,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_143,143 MM-ant Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_144,144 MM Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_145,145 MH Tac2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",21,True,Glut,2,Glut-Chol|Glut
+WMB:CS20230722_SUBC_146,146 LH Pou4f1 Sox1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_147,147 AD Serpinb7 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_148,148 AV Col27a1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_149,149 PVT-PT Ntrk1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,True,Glut,1,Glut
+WMB:CS20230722_SUBC_150,150 CM-IAD-CL-PCN Sema5b Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,Glut,1,Glut
+WMB:CS20230722_SUBC_151,151 TH Prkcd Grin2c Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",42,True,Glut,1,Glut
+WMB:CS20230722_SUBC_152,152 RE-Xi Nox4 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_153,153 MG-POL-SGN Nts Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_154,154 PF Fzd5 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,True,Glut,1,Glut
+WMB:CS20230722_SUBC_155,155 PRC-PAG Pax6 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,True,Glut,1,Glut
+WMB:CS20230722_SUBC_156,156 MB-ant-ve Dmrta2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_158,158 MRN-PAG Nkx6-1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,2,Glut|Glut-GABA
+WMB:CS20230722_SUBC_159,159 IF-RL-CLI-PAG Foxa1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,3,Glut-Dopa|Glut|Glut-GABA-Dopa
+WMB:CS20230722_SUBC_129,129 VMH Nr5a1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,Glut,1,Glut
+WMB:CS20230722_SUBC_120,120 MEA Otp Foxp2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_121,121 MEA-BST Otp Zic2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,Glut,1,Glut
+WMB:CS20230722_SUBC_122,122 LHA-MEA Otp Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_123,123 DMH Nkx2-4 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_124,124 MPN-MPO-PVpo Hmx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",32,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_125,125 DMH Hmx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_126,126 ARH-PVp Tbx3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_127,127 DMH-LHA Vgll2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_128,128 VMH Fezf1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut
+WMB:CS20230722_SUBC_130,130 LHA Pmch Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_131,131 LHA-AHN-PVH Otp Trh Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_132,132 AHN-RCH-LHA Otp Fezf1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",24,True,Glut,1,Glut
+WMB:CS20230722_SUBC_133,133 PVH-SO-PVa Otp Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_134,134 PH-ant-LHA Otp Bsx Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",42,True,Glut,1,Glut
+WMB:CS20230722_SUBC_135,135 STN-PSTN Pitx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,Glut,1,Glut
+WMB:CS20230722_SUBC_136,136 PMv-TMv Pitx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_137,137 PH-an Pitx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_138,138 PH Pitx2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,Glut,2,Glut-Dopa|Glut
+WMB:CS20230722_SUBC_139,139 PH-LHA Foxb1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",24,True,Glut,1,Glut
+WMB:CS20230722_SUBC_107,107 DMH Hmx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",44,True,GABA,3,GABA|GABA-Dopa|Glut-GABA
+WMB:CS20230722_SUBC_108,108 ARH-PVp Tbx3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,1,GABA
+WMB:CS20230722_SUBC_109,109 LGv-ZI Otx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,GABA,1,GABA
+WMB:CS20230722_SUBC_100,100 AHN Onecut3 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,True,GABA,1,GABA
+WMB:CS20230722_SUBC_101,101 ZI Pax6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",73,True,GABA,2,GABA|GABA-Dopa
+WMB:CS20230722_SUBC_102,102 DMH-LHA Gsx1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",27,True,GABA,2,GABA|GABA-Chol
+WMB:CS20230722_SUBC_103,103 PVHd-DMH Lhx6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",23,True,GABA,1,GABA
+WMB:CS20230722_SUBC_104,104 TU-ARH Otp Six6 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",24,True,GABA,1,GABA
+WMB:CS20230722_SUBC_105,105 TMd-DMH Foxd2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,1,GABA
+WMB:CS20230722_SUBC_106,106 PVpo-VMPO-MPN Hmx2 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",47,True,GABA,3,GABA|Glut-GABA-Dopa|GABA-Dopa
+WMB:CS20230722_SUBC_118,118 ADP-MPO Trp73 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",20,True,Glut,1,Glut
+WMB:CS20230722_SUBC_119,119 SI-MA-LPO-LHA Skor1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",70,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_111,111 TRS-BAC Sln Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_112,112 GPi Tbr1 Cngb3 Gaba-Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut|GABA,1,Glut-GABA
+WMB:CS20230722_SUBC_113,113 MEA-COA-BMA Ccdc42 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,True,Glut,1,Glut
+WMB:CS20230722_SUBC_114,114 COAa-PAA-MEA Barhl2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",40,True,Glut,1,Glut
+WMB:CS20230722_SUBC_115,115 MS-SF Bsx Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",19,True,Glut,2,Glut-GABA|Glut
+WMB:CS20230722_SUBC_116,116 AVPV-MEPO-SFO Tbr1 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",26,True,Glut,1,Glut
+WMB:CS20230722_SUBC_117,117 LHA Barhl2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_283,283 PRP Otp Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_284,284 GRN-IRN-MDRNd Ikzf1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_285,285 MY Lhx1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",84,True,GABA,4,GABA|GABA-Glyc|Glut-GABA-Glyc|GABA-Glyc-Chol
+WMB:CS20230722_SUBC_286,286 PPY-PGRNl Vip Glyc-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_287,287 MV-SPIV-PRP Dmbx1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,GABA,3,GABA|GABA-Glyc|Glut-GABA-Glyc
+WMB:CS20230722_SUBC_288,288 MDRN Hoxb5 Ebf2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_289,289 MDRNd Prox1 Pax6 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_290,290 MY Prox1 Lmo7 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_291,291 NTS-MDRNd Prox1 Zic1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_292,292 MV Nkx6-1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",8,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_293,293 PAS-MV Ebf2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_294,294 MV Pax6 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_295,295 CBN Dmbx1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA,1,GABA
+WMB:CS20230722_SUBC_296,296 RPA Pax6 Hoxb5 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_298,298 PRP Gata3 Slc6a5 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_299,299 MARN-PPY Ngfr Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_305,305 SPVI-SPVC Sall3 Nfib Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",24,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_306,306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",20,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_307,307 RO-RPA Pkd2l1 Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,GABA,1,GABA
+WMB:CS20230722_SUBC_308,308 DCO Il22 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_309,309 CB PLI Gly-Gaba CS20230722_SUBC_309,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_300,300 PARN-MDRNd-NTS Gbx2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",48,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_303,303 IRN Dmbx1 Pax2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_304,304 NTS-PARN Neurod2 Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",48,True,GABA,2,GABA|GABA-Glyc
+WMB:CS20230722_SUBC_310,310 CBX Golgi Gly-Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,GABA|Glyc,1,GABA-Glyc
+WMB:CS20230722_SUBC_311,311 CBX MLI Megf11 Gaba CS20230722_SUBC_311,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_313,313 CBX Purkinje Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,GABA,1,GABA
+WMB:CS20230722_SUBC_314,314 CB Granule Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_315,315 DCO UBC Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",4,True,Glut,1,Glut
+WMB:CS20230722_SUBC_020,020 L2/3 IT RSP Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_021,021 L4 RSP-ACA Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",2,True,Glut,1,Glut
+WMB:CS20230722_SUBC_022,022 L5 ET CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",34,True,Glut,1,Glut
+WMB:CS20230722_SUBC_023,023 SUB-ProS Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",15,True,Glut,1,Glut
+WMB:CS20230722_SUBC_025,025 CA2-FC-IG Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_027,027 L6b EPd Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",7,True,Glut,1,Glut
+WMB:CS20230722_SUBC_028,028 L6b/CT ENT Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",14,True,Glut,1,Glut
+WMB:CS20230722_SUBC_029,029 L6b CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",12,True,Glut,1,Glut
+WMB:CS20230722_SUBC_030,030 L6 CT CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,Glut,1,Glut
+WMB:CS20230722_SUBC_031,031 CT SUB Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_032,032 L5 NP CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",16,True,Glut,1,Glut
+WMB:CS20230722_SUBC_033,033 NP SUB Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_034,034 NP PPP Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",3,True,Glut,1,Glut
+WMB:CS20230722_SUBC_035,035 OB Eomes Ms4a15 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut
+WMB:CS20230722_SUBC_036,036 HPF CR Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_037,037 DG Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_038,038 DG-PIR Ex IMN,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_039,039 OB Meis2 Thsd7b Gaba,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,GABA,1,GABA
+WMB:CS20230722_SUBC_008,008 L2/3 IT ENT Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,Glut,1,Glut
+WMB:CS20230722_SUBC_009,009 L2/3 IT PIR-ENTl Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",28,True,Glut,1,Glut
+WMB:CS20230722_SUBC_001,001 CLA-EPd-CTX Car3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",5,True,Glut,1,Glut
+WMB:CS20230722_SUBC_002,002 IT EP-CLA Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",17,True,Glut,1,Glut
+WMB:CS20230722_SUBC_003,003 L5/6 IT TPE-ENT Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",10,True,Glut,1,Glut
+WMB:CS20230722_SUBC_004,004 L6 IT CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,Glut,1,Glut
+WMB:CS20230722_SUBC_005,005 L5 IT CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut
+WMB:CS20230722_SUBC_006,006 L4/5 IT CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",37,True,Glut,1,Glut
+WMB:CS20230722_SUBC_007,007 L2/3 IT CTX Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",18,True,Glut,1,Glut
+WMB:CS20230722_SUBC_019,019 L2/3 IT PPP Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",13,True,Glut,1,Glut
+WMB:CS20230722_SUBC_010,010 IT AON-TT-DP Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",20,True,Glut,1,Glut
+WMB:CS20230722_SUBC_011,011 L2 IT ENT-po Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_012,012 MEA Slc17a7 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",23,True,Glut,1,Glut
+WMB:CS20230722_SUBC_013,013 COAp Grxcr2 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",6,True,Glut,1,Glut
+WMB:CS20230722_SUBC_014,014 LA-BLA-BMA-PA Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",31,True,Glut,1,Glut
+WMB:CS20230722_SUBC_015,015 ENTmv-PA-COAp Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",9,True,Glut,1,Glut
+WMB:CS20230722_SUBC_016,016 CA1-ProS Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",35,True,Glut,1,Glut
+WMB:CS20230722_SUBC_017,017 CA3 Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",22,True,Glut,1,Glut
+WMB:CS20230722_SUBC_018,018 L2 IT PPP-APr Glut,"['Entity', 'Cell_cluster', 'Individual', 'WMB', 'subclass']",11,True,Glut,1,Glut

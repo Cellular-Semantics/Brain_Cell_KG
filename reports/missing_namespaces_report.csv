@@ -1,0 +1,15 @@
+namespace_prefix,example_curie,example_iri,example_short_form,example_label,occurrence_count,suggested_iri_base,suggested_prefix,suggested_uri,lookup_source,status
+ns0,ns0:BSPO_0000096,http://purl.obolibrary.org/obo/BSPO_0000096,BSPO_0000096,BSPO_0000096,397,http://purl.obolibrary.org/obo/,,,,needs_manual_review
+ns1,ns1:EFO_0008992,http://www.ebi.ac.uk/efo/EFO_0008992,EFO_0008992,MERFISH,1,http://www.ebi.ac.uk/efo/,,,,needs_manual_review
+ns10,ns10:isRuleEnabled,http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled,isRuleEnabled,isRuleEnabled,1,http://swrl.stanford.edu/ontologies/3.3/swrla.owl#,,,,needs_manual_review
+ns11,ns11:depiction,http://xmlns.com/foaf/0.1/depiction,depiction,depiction,1,http://xmlns.com/foaf/0.1/,,,,needs_manual_review
+ns12,ns12:Confidence,https://neo4j.com/ontology/Confidence,Confidence,Confidence,1,https://neo4j.com/ontology/,,,,needs_manual_review
+ns13,ns13:mapping_justification,https://w3id.org/sssom/mapping_justification,mapping_justification,mapping_justification,1,https://w3id.org/sssom/,,,,needs_manual_review
+ns2,ns2:GeneralCellAnnotationOpenStandard,https://cellular-semantics.sanger.ac.uk/ontology/CAS/GeneralCellAnnotationOpenStandard,GeneralCellAnnotationOpenStandard,GeneralCellAnnotationOpenStandard,15,https://cellular-semantics.sanger.ac.uk/ontology/CAS/,,,,needs_manual_review
+ns3,ns3:DHBA_10153,https://purl.brain-bican.org/ontology/dhbao/DHBA_10153,DHBA_10153,neural plate,101,https://purl.brain-bican.org/ontology/dhbao/DHBA_,,,,needs_manual_review
+ns4,ns4:CCN20230722_CCF_acronym_freq,https://purl.brain-bican.org/taxonomy/CCN20230722#CCF_acronym_freq,CCN20230722_CCF_acronym_freq,CCF acronym freq,189,https://purl.brain-bican.org/taxonomy/,,,,needs_manual_review
+ns5,ns5:CS202210140_1,https://purl.brain-bican.org/ontology/AIT_CS202210140/CS202210140_1,CS202210140_1,Bcell_0,494,https://purl.brain-bican.org/ontology/AIT_CS202210140/CS202210140_,,,,needs_manual_review
+ns6,ns6:Q525,https://www.wikidata.org/wiki/Q525,Q525,Q525,1,https://www.wikidata.org/wiki/,,,,needs_manual_review
+ns7,ns7:contributor,http://purl.org/dc/elements/1.1/contributor,contributor,contributor,6,http://purl.org/dc/elements/1.1/,,,,needs_manual_review
+ns8,ns8:contributor,http://purl.org/dc/terms/contributor,contributor,contributor,12,http://purl.org/dc/terms/,,,,needs_manual_review
+ns9,ns9:citesAsAuthority,http://purl.org/spar/cito/citesAsAuthority,citesAsAuthority,citesAsAuthority,1,http://purl.org/spar/cito/,,,,needs_manual_review
