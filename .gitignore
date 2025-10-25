@@ -162,7 +162,8 @@ cython_debug/
 .idea/
 
 # Project specific
-
+# Allen Brain Atlas cache files (large datasets)
+src/scripts/cell_counts/resources/aba_cache/
 
 # OS specific
 .DS_Store

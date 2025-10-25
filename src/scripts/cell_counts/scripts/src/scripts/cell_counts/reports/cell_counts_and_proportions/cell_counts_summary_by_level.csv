@@ -1,0 +1,6 @@
+taxonomy_level,num_nodes,total_cells,mean_cells_per_node,median_cells_per_node,std_cells_per_node
+class,34,3739961,109998.85,37255.0,175928.61
+cluster,5274,3739961,709.13,71.0,6382.17
+neurotransmitter,9,2133196,237021.78,8352.0,474824.16
+subclass,338,3739961,11064.97,1692.0,39840.8
+supertype,1201,3739961,3114.04,428.0,18466.47

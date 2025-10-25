@@ -108,6 +108,16 @@ For neurotransmission - for each :class, :subclass or :supertype node, determine
 that neurotransmission. This can be tested via (clus:cluster:WMB) clus.CCN20230722_nt_type_combo_label 
 - split value on ':' to get each NT
 
+# Templates
+
+Two ROBOT templates:
+
+1. Linking cell types to anatomy via property <http://purl.obolibrary.org/obo/CLM_0010001>
+2. Linking cell types to genes via <http://purl.obolibrary.org/obo/CLM_0010003>
+
+These templates should be populated using the content of wmb_most_general_terms report 
+ID COLUMN of ROBOT template has cell_curie.  Gene/anatomy column (name matches table) has mapping_curie
+
 
 
 

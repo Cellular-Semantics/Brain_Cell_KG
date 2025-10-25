@@ -124,6 +124,42 @@ Creates templates linking:
 - Cell types to anatomical regions via `CLM_0010001`
 - Cell types to genes via `CLM_0010003`
 
+## Allen Brain Cell Atlas Analysis
+
+Comprehensive analysis of MERFISH single-cell spatial transcriptomics data from the Allen Brain Cell Atlas.
+
+### Cell Count and Proportion Analysis
+
+Generate detailed cell count reports and regional distribution analysis:
+
+```bash
+# Generate cell count and proportion reports from CCF data
+make cell-count-analysis
+```
+
+This produces:
+- **Cell count report**: Total cells for every taxonomy node (neurotransmitter, class, subclass, supertype, cluster)
+- **Proportion reports**: For each cell set, shows the proportion of cells in each brain structure
+- **Summary analysis**: Overview with top cell sets and regional specificity metrics
+
+### Complete Taxonomy × Region Matrices
+
+Generate full cross-tabulation matrices:
+
+```bash
+# Generate complete taxonomy × brain region matrices
+make taxonomy-matrices
+```
+
+Creates comprehensive matrices showing cell counts for each taxonomy level across all brain regions with detailed documentation and usage examples.
+
+### Data Caching
+
+- **Automatic download**: First run downloads ~1.5GB MERFISH dataset from Allen Brain Cell Atlas
+- **Smart caching**: Data cached locally in `src/scripts/cell_counts/resources/aba_cache/`
+- **Git-friendly**: Cache directory excluded from version control
+- **Reusable**: Same cached data used by both analysis pipelines
+
 ## CURIE Prefix Management
 
 All CURIE prefixes are managed in `src/utils/prefixes.json` (JSON-LD format) as the single source of truth.

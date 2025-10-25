@@ -1,0 +1,287 @@
+[
+  {
+    "filename": "neurotransmitter_proportions_by_division.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "division",
+    "num_cell_sets": 9,
+    "num_regions": 25,
+    "matrix_shape": [
+      9,
+      25
+    ],
+    "file_size_mb": 0.0,
+    "most_concentrated_cell_sets": {
+      "Hist": 0.986,
+      "Nora": 0.701,
+      "GABA-Glyc": 0.483,
+      "Dopa": 0.458,
+      "Glut": 0.433
+    }
+  },
+  {
+    "filename": "neurotransmitter_proportions_by_structure.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "structure",
+    "num_cell_sets": 9,
+    "num_regions": 354,
+    "matrix_shape": [
+      9,
+      354
+    ],
+    "file_size_mb": 0.04,
+    "most_concentrated_cell_sets": {
+      "Hist": 0.312,
+      "Chol": 0.247,
+      "GABA": 0.228,
+      "Nora": 0.227,
+      "Dopa": 0.176
+    }
+  },
+  {
+    "filename": "neurotransmitter_proportions_by_substructure.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "substructure",
+    "num_cell_sets": 9,
+    "num_regions": 669,
+    "matrix_shape": [
+      9,
+      669
+    ],
+    "file_size_mb": 0.06,
+    "most_concentrated_cell_sets": {
+      "Hist": 0.312,
+      "Chol": 0.247,
+      "GABA": 0.228,
+      "Nora": 0.227,
+      "Dopa": 0.176
+    }
+  },
+  {
+    "filename": "class_proportions_by_division.csv",
+    "taxonomy_level": "class",
+    "region_level": "division",
+    "num_cell_sets": 34,
+    "num_regions": 25,
+    "matrix_shape": [
+      34,
+      25
+    ],
+    "file_size_mb": 0.01,
+    "most_concentrated_cell_sets": {
+      "16 HY MM Glut": 0.983,
+      "04 DG-IMN Glut": 0.974,
+      "18 TH Glut": 0.965,
+      "17 MH-LH Glut": 0.929,
+      "14 HY Glut": 0.922
+    }
+  },
+  {
+    "filename": "class_proportions_by_structure.csv",
+    "taxonomy_level": "class",
+    "region_level": "structure",
+    "num_cell_sets": 34,
+    "num_regions": 354,
+    "matrix_shape": [
+      34,
+      354
+    ],
+    "file_size_mb": 0.12,
+    "most_concentrated_cell_sets": {
+      "17 MH-LH Glut": 0.774,
+      "04 DG-IMN Glut": 0.681,
+      "16 HY MM Glut": 0.672,
+      "05 OB-IMN GABA": 0.659,
+      "09 CNU-LGE GABA": 0.645
+    }
+  },
+  {
+    "filename": "class_proportions_by_substructure.csv",
+    "taxonomy_level": "class",
+    "region_level": "substructure",
+    "num_cell_sets": 34,
+    "num_regions": 670,
+    "matrix_shape": [
+      34,
+      670
+    ],
+    "file_size_mb": 0.21,
+    "most_concentrated_cell_sets": {
+      "17 MH-LH Glut": 0.774,
+      "09 CNU-LGE GABA": 0.645,
+      "25 Pineal Glut": 0.571,
+      "32 OEC": 0.551,
+      "10 LSX GABA": 0.541
+    }
+  },
+  {
+    "filename": "subclass_proportions_by_division.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "division",
+    "num_cell_sets": 338,
+    "num_regions": 25,
+    "matrix_shape": [
+      338,
+      25
+    ],
+    "file_size_mb": 0.09,
+    "most_concentrated_cell_sets": {
+      "236 IRN Vip Glut": 1.0,
+      "259 MDRNd Bves Glut": 1.0,
+      "274 PDTg Otp Shroom3 Gaba": 1.0,
+      "123 DMH Nkx2-4 Glut": 1.0,
+      "105 TMd-DMH Foxd2 Gaba": 1.0
+    }
+  },
+  {
+    "filename": "subclass_proportions_by_structure.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "structure",
+    "num_cell_sets": 338,
+    "num_regions": 354,
+    "matrix_shape": [
+      338,
+      354
+    ],
+    "file_size_mb": 0.71,
+    "most_concentrated_cell_sets": {
+      "021 L4 RSP-ACA Glut": 0.963,
+      "274 PDTg Otp Shroom3 Gaba": 0.961,
+      "275 PDTg Otp Olig3 Gaba": 0.954,
+      "145 MH Tac2 Glut": 0.938,
+      "040 OB Trdn Gaba": 0.896
+    }
+  },
+  {
+    "filename": "subclass_proportions_by_substructure.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "substructure",
+    "num_cell_sets": 338,
+    "num_regions": 670,
+    "matrix_shape": [
+      338,
+      670
+    ],
+    "file_size_mb": 1.24,
+    "most_concentrated_cell_sets": {
+      "274 PDTg Otp Shroom3 Gaba": 0.961,
+      "275 PDTg Otp Olig3 Gaba": 0.954,
+      "145 MH Tac2 Glut": 0.938,
+      "172 PAG Pou4f1 Ebf2 Glut": 0.884,
+      "147 AD Serpinb7 Glut": 0.871
+    }
+  },
+  {
+    "filename": "supertype_proportions_by_division.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "division",
+    "num_cell_sets": 1201,
+    "num_regions": 25,
+    "matrix_shape": [
+      1201,
+      25
+    ],
+    "file_size_mb": 0.26,
+    "most_concentrated_cell_sets": {
+      "0712 MRN Pou3f1 C1ql4 Glut_3": 1.0,
+      "1064 PDTg-PCG Pax6 Gaba_4": 1.0,
+      "0554 ARH-PVp Tbx3 Glut_1": 1.0,
+      "0444 PVHd-SBPV Six3 Prox1 Gaba_3": 1.0,
+      "0441 PVHd Gsc Gaba_1": 1.0
+    }
+  },
+  {
+    "filename": "supertype_proportions_by_structure.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "structure",
+    "num_cell_sets": 1201,
+    "num_regions": 354,
+    "matrix_shape": [
+      1201,
+      354
+    ],
+    "file_size_mb": 2.16,
+    "most_concentrated_cell_sets": {
+      "0401 SI-MPO-LPO Lhx8 Gaba_6": 1.0,
+      "0706 PAG-MRN Pou3f1 Glut_3": 1.0,
+      "0267 STR D1 Gaba_3": 0.992,
+      "0738 PAG Pou4f1 Ebf2 Glut_2": 0.987,
+      "0742 PAG Pou4f1 Ebf2 Glut_6": 0.984
+    }
+  },
+  {
+    "filename": "supertype_proportions_by_substructure.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "substructure",
+    "num_cell_sets": 1201,
+    "num_regions": 670,
+    "matrix_shape": [
+      1201,
+      670
+    ],
+    "file_size_mb": 3.85,
+    "most_concentrated_cell_sets": {
+      "0706 PAG-MRN Pou3f1 Glut_3": 1.0,
+      "0401 SI-MPO-LPO Lhx8 Gaba_6": 1.0,
+      "0267 STR D1 Gaba_3": 0.992,
+      "0738 PAG Pou4f1 Ebf2 Glut_2": 0.987,
+      "0742 PAG Pou4f1 Ebf2 Glut_6": 0.984
+    }
+  },
+  {
+    "filename": "cluster_proportions_by_division.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "division",
+    "num_cell_sets": 5274,
+    "num_regions": 25,
+    "matrix_shape": [
+      5274,
+      25
+    ],
+    "file_size_mb": 0.91,
+    "most_concentrated_cell_sets": {
+      "4919 MY Lhx1 Gly-Gaba_5": 1.0,
+      "2532 PMd-LHA Foxb1 Glut_2": 1.0,
+      "2522 PMd-LHA Foxb1 Glut_1": 1.0,
+      "2526 PMd-LHA Foxb1 Glut_2": 1.0,
+      "2527 PMd-LHA Foxb1 Glut_2": 1.0
+    }
+  },
+  {
+    "filename": "cluster_proportions_by_structure.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "structure",
+    "num_cell_sets": 5274,
+    "num_regions": 354,
+    "matrix_shape": [
+      5274,
+      354
+    ],
+    "file_size_mb": 8.34,
+    "most_concentrated_cell_sets": {
+      "4208 PRP-NI-PRNc-GRN Otp Glut_2": 1.0,
+      "4590 SPVC Nmu Glut_1": 1.0,
+      "4573 SPVC Mafa Glut_1": 1.0,
+      "4796 DTN-LDT-IPN Otp Pax3 Gaba_5": 1.0,
+      "4577 SPVC Mafa Glut_2": 1.0
+    }
+  },
+  {
+    "filename": "cluster_proportions_by_substructure.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "substructure",
+    "num_cell_sets": 5274,
+    "num_regions": 670,
+    "matrix_shape": [
+      5274,
+      670
+    ],
+    "file_size_mb": 15.11,
+    "most_concentrated_cell_sets": {
+      "3139 PAG Pou4f1 Ebf2 Glut_7": 1.0,
+      "3198 PAG Pou4f2 Mesi2 Glut_5": 1.0,
+      "3140 PAG Pou4f1 Ebf2 Glut_7": 1.0,
+      "4351 PGRN-PARN-MDRN Hoxb5 Glut_3": 1.0,
+      "4580 SPVC Ccdc172 Glut_1": 1.0
+    }
+  }
+]

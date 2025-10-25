@@ -1,0 +1,227 @@
+[
+  {
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "parcellation_division",
+    "matrix_shape": [
+      9,
+      25
+    ],
+    "total_combinations": 225,
+    "non_zero_combinations": 164,
+    "total_cells": 2133196,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:03.301386",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "parcellation_structure",
+    "matrix_shape": [
+      9,
+      354
+    ],
+    "total_combinations": 3186,
+    "non_zero_combinations": 1363,
+    "total_cells": 2133196,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:03.981877",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "parcellation_substructure",
+    "matrix_shape": [
+      9,
+      669
+    ],
+    "total_combinations": 6021,
+    "non_zero_combinations": 2190,
+    "total_cells": 2133196,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:04.714203",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "class",
+    "region_level": "parcellation_division",
+    "matrix_shape": [
+      34,
+      25
+    ],
+    "total_combinations": 850,
+    "non_zero_combinations": 545,
+    "total_cells": 3739961,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:05.617720",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "class",
+    "region_level": "parcellation_structure",
+    "matrix_shape": [
+      34,
+      354
+    ],
+    "total_combinations": 12036,
+    "non_zero_combinations": 4045,
+    "total_cells": 3739961,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:06.530664",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "class",
+    "region_level": "parcellation_substructure",
+    "matrix_shape": [
+      34,
+      670
+    ],
+    "total_combinations": 22780,
+    "non_zero_combinations": 6918,
+    "total_cells": 3739961,
+    "file_size_mb": 0.1,
+    "generated_date": "2025-10-16T18:07:07.536465",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "subclass",
+    "region_level": "parcellation_division",
+    "matrix_shape": [
+      338,
+      25
+    ],
+    "total_combinations": 8450,
+    "non_zero_combinations": 3093,
+    "total_cells": 3739961,
+    "file_size_mb": 0.0,
+    "generated_date": "2025-10-16T18:07:08.454222",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "subclass",
+    "region_level": "parcellation_structure",
+    "matrix_shape": [
+      338,
+      354
+    ],
+    "total_combinations": 119652,
+    "non_zero_combinations": 14638,
+    "total_cells": 3739961,
+    "file_size_mb": 0.2,
+    "generated_date": "2025-10-16T18:07:09.473994",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "subclass",
+    "region_level": "parcellation_substructure",
+    "matrix_shape": [
+      338,
+      670
+    ],
+    "total_combinations": 226460,
+    "non_zero_combinations": 21810,
+    "total_cells": 3739961,
+    "file_size_mb": 0.5,
+    "generated_date": "2025-10-16T18:07:10.472296",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "supertype",
+    "region_level": "parcellation_division",
+    "matrix_shape": [
+      1201,
+      25
+    ],
+    "total_combinations": 30025,
+    "non_zero_combinations": 7709,
+    "total_cells": 3739961,
+    "file_size_mb": 0.1,
+    "generated_date": "2025-10-16T18:07:11.463958",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "supertype",
+    "region_level": "parcellation_structure",
+    "matrix_shape": [
+      1201,
+      354
+    ],
+    "total_combinations": 425154,
+    "non_zero_combinations": 31615,
+    "total_cells": 3739961,
+    "file_size_mb": 0.9,
+    "generated_date": "2025-10-16T18:07:12.577834",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "supertype",
+    "region_level": "parcellation_substructure",
+    "matrix_shape": [
+      1201,
+      670
+    ],
+    "total_combinations": 804670,
+    "non_zero_combinations": 45984,
+    "total_cells": 3739961,
+    "file_size_mb": 1.6,
+    "generated_date": "2025-10-16T18:07:13.880209",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "cluster",
+    "region_level": "parcellation_division",
+    "matrix_shape": [
+      5274,
+      25
+    ],
+    "total_combinations": 131850,
+    "non_zero_combinations": 20384,
+    "total_cells": 3739961,
+    "file_size_mb": 0.4,
+    "generated_date": "2025-10-16T18:07:15.034833",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "cluster",
+    "region_level": "parcellation_structure",
+    "matrix_shape": [
+      5274,
+      354
+    ],
+    "total_combinations": 1866996,
+    "non_zero_combinations": 71494,
+    "total_cells": 3739961,
+    "file_size_mb": 3.7,
+    "generated_date": "2025-10-16T18:07:16.348604",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  },
+  {
+    "taxonomy_level": "cluster",
+    "region_level": "parcellation_substructure",
+    "matrix_shape": [
+      5274,
+      670
+    ],
+    "total_combinations": 3533580,
+    "non_zero_combinations": 96575,
+    "total_cells": 3739961,
+    "file_size_mb": 6.9,
+    "generated_date": "2025-10-16T18:07:17.876975",
+    "source_file": "cell_metadata_with_parcellation_annotation.csv",
+    "source_date": "2023-12-15"
+  }
+]

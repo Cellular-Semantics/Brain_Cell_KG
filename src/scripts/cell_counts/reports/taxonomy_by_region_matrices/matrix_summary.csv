@@ -1,0 +1,16 @@
+taxonomy_level,region_level,matrix_shape,total_combinations,non_zero_combinations,total_cells,file_size_mb,generated_date,source_file,source_date
+neurotransmitter,parcellation_division,"(9, 25)",225,164,2133196,0.0,2025-10-16T18:07:03.301386,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+neurotransmitter,parcellation_structure,"(9, 354)",3186,1363,2133196,0.0,2025-10-16T18:07:03.981877,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+neurotransmitter,parcellation_substructure,"(9, 669)",6021,2190,2133196,0.0,2025-10-16T18:07:04.714203,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+class,parcellation_division,"(34, 25)",850,545,3739961,0.0,2025-10-16T18:07:05.617720,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+class,parcellation_structure,"(34, 354)",12036,4045,3739961,0.0,2025-10-16T18:07:06.530664,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+class,parcellation_substructure,"(34, 670)",22780,6918,3739961,0.1,2025-10-16T18:07:07.536465,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+subclass,parcellation_division,"(338, 25)",8450,3093,3739961,0.0,2025-10-16T18:07:08.454222,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+subclass,parcellation_structure,"(338, 354)",119652,14638,3739961,0.2,2025-10-16T18:07:09.473994,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+subclass,parcellation_substructure,"(338, 670)",226460,21810,3739961,0.5,2025-10-16T18:07:10.472296,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+supertype,parcellation_division,"(1201, 25)",30025,7709,3739961,0.1,2025-10-16T18:07:11.463958,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+supertype,parcellation_structure,"(1201, 354)",425154,31615,3739961,0.9,2025-10-16T18:07:12.577834,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+supertype,parcellation_substructure,"(1201, 670)",804670,45984,3739961,1.6,2025-10-16T18:07:13.880209,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+cluster,parcellation_division,"(5274, 25)",131850,20384,3739961,0.4,2025-10-16T18:07:15.034833,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+cluster,parcellation_structure,"(5274, 354)",1866996,71494,3739961,3.7,2025-10-16T18:07:16.348604,cell_metadata_with_parcellation_annotation.csv,2023-12-15
+cluster,parcellation_substructure,"(5274, 670)",3533580,96575,3739961,6.9,2025-10-16T18:07:17.876975,cell_metadata_with_parcellation_annotation.csv,2023-12-15

@@ -117,7 +117,7 @@ reports: $(REPORT_OUTPUTS)
 
 # Template generation from source data
 .PHONY: generate-templates
-generate-templates: $(VENV_PYTHON)
+generate-templates: hierarchical-location-templates $(VENV_PYTHON)
 	@for source in $(wildcard $(SOURCE_DATA_DIR)/*/); do \
 		if [ -f "$$source/code/generate.py" ]; then \
 			echo "Processing $$source"; \
@@ -209,6 +209,27 @@ update-kg-continue: $(VENV_PYTHON)
 		--password $(NEO4J_PASS) \
 		--continue-on-error
 
+# Cell count and proportion analysis
+.PHONY: cell-count-analysis
+cell-count-analysis: $(VENV_PYTHON)
+	@echo "Generating cell count and proportion reports from CCF data..."
+	cd $(SRC_DIR)/scripts/cell_counts/scripts && ../../../../$(VENV_PYTHON) generate_cell_proportion_reports.py
+
+# Generate taxonomy × region matrices
+.PHONY: taxonomy-matrices
+taxonomy-matrices: $(VENV_PYTHON)
+	@echo "Generating complete taxonomy × brain region matrices..."
+	cd $(SRC_DIR)/scripts/cell_counts/scripts && ../../../../$(VENV_PYTHON) generate_full_matrices.py
+
+# Generate hierarchical location mapping templates
+.PHONY: hierarchical-location-templates
+hierarchical-location-templates: taxonomy-matrices $(VENV_PYTHON)
+	@echo "Generating hierarchical location mapping ROBOT templates..."
+	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
+		--input-dir $(SRC_DIR)/scripts/cell_counts/reports/taxonomy_by_region_matrices \
+		--output-dir templates \
+		--cutoff 0.05
+
 # Clean build artifacts
 .PHONY: clean
 clean:
@@ -243,6 +264,9 @@ help:
 	@echo "  wmb-token-mapping - Generate WMB cell cluster token mapping reports"
 	@echo "  wmb-additional-reports - Generate WMB hierarchical analysis reports"
 	@echo "  wmb-robot-templates - Generate ROBOT templates from WMB mapping results"
+	@echo "  cell-count-analysis - Generate cell count and proportion reports from CCF data"
+	@echo "  taxonomy-matrices - Generate complete taxonomy × brain region matrices"
+	@echo "  hierarchical-location-templates - Generate hierarchical location mapping ROBOT templates"
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"
 	@echo "  update-neo4j-prefixes - Update Neo4j config from prefixes.json"
