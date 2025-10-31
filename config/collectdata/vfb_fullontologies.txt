@@ -7,3 +7,7 @@ https://raw.githubusercontent.com/brain-bican/human-brain-cell-atlas_v1_non-neur
 https://github.com/brain-bican/human-brain-cell-atlas_v1_neurons/raw/refs/heads/main/CS202210140_neurons.owl
 https://github.com/brain-bican/whole_mouse_brain_taxonomy/raw/refs/heads/main/CCN20230722.rdf
 https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.rdf
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/class_location_mappings.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/subclass_location_mappings.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/supertype_location_mappings.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/cluster_location_mappings.owl
