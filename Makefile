@@ -51,12 +51,17 @@ GENERATED_TEMPLATES = $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv $(TEMPLATES_D
 # Corresponding OWL outputs
 GENERATED_OWL = $(OWL_DIR)/scFAIR_WHB2WMB_template.owl $(OWL_DIR)/BG2WMB_AT_map_template.owl
 
-# Static templates (if any exist)
+# Static templates in src/templates (if any exist)
 STATIC_TEMPLATE_FILES = $(wildcard $(TEMPLATES_DIR)/*.tsv)
 STATIC_OWL = $(STATIC_TEMPLATE_FILES:$(TEMPLATES_DIR)/%.tsv=$(OWL_DIR)/%.owl)
 
+# Generated templates in root templates/ (e.g. location mappings)
+ROOT_TEMPLATES_DIR = templates
+ROOT_TEMPLATE_FILES = $(wildcard $(ROOT_TEMPLATES_DIR)/*.tsv)
+ROOT_OWL = $(ROOT_TEMPLATE_FILES:$(ROOT_TEMPLATES_DIR)/%.tsv=$(OWL_DIR)/%.owl)
+
 # All OWL outputs
-ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL)
+ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL)
 
 # Generate scFAIR template from source data
 $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv: src/scripts/scFAIR_WHB_WMB/source_data/scFAIR_Siletti_AT_map.tsv $(VENV_PYTHON)
@@ -77,6 +82,12 @@ $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv: src/scripts/BG_WMB_AT/source_data/M
 
 # Process ROBOT templates with prefixes
 $(OWL_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
+	robot template \
+		--add-prefixes $(UTILS_DIR)/prefixes.json \
+		--template $< \
+		--output $@
+
+$(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \

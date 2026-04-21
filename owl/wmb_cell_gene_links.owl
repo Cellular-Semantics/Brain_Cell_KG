@@ -1,0 +1,1418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
+     xmlns:CL="http://purl.obolibrary.org/obo/CL_"
+     xmlns:GO="http://purl.obolibrary.org/obo/GO_"
+     xmlns:PR="http://purl.obolibrary.org/obo/PR_"
+     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
+     xmlns:SO="http://purl.obolibrary.org/obo/SO_"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:sc="https://schema.org/"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:ILX="http://uri.interlex.org/base/ilx_"
+     xmlns:MBA="https://purl.brain-bican.org/ontology/mbao/MBA_"
+     xmlns:OBI="http://purl.obolibrary.org/obo/OBI_"
+     xmlns:PCL="http://purl.obolibrary.org/obo/PCL_"
+     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
+     xmlns:WMB="https://purl.brain-bican.org/ontology/CCN20230722/"
+     xmlns:doi="https://doi.org/"
+     xmlns:n2o="http://n2o.neo/custom/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:PMID="http://www.ncbi.nlm.nih.gov/pubmed/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:MONDO="http://purl.obolibrary.org/obo/MONDO_"
+     xmlns:orcid="https://orcid.org/"
+     xmlns:GITHUB="https://github.com/"
+     xmlns:HsapDv="http://purl.obolibrary.org/obo/HsapDv_"
+     xmlns:MmusDv="http://purl.obolibrary.org/obo/MmusDv_"
+     xmlns:UBERON="http://purl.obolibrary.org/obo/UBERON_"
+     xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
+     xmlns:GITHUBH="http://github.com/"
+     xmlns:ensembl="http://identifiers.org/ensembl/"
+     xmlns:NCBIGene="http://identifiers.org/ncbigene/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:pato_rel="http://purl.obolibrary.org/obo/pato#"
+     xmlns:HANCESTRO="http://purl.obolibrary.org/obo/HANCESTRO_"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
+     xmlns:UniProtKB="https://identifiers.org/uniprot/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_0010003 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLM_0010003"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4300348 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CL_4300348">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000074695"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4300351 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CL_4300351">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000036466"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110061 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110061">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027559"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110072 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110072">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000070570"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110073 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110073">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000073574"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110095 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110095">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000032446"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000067571"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110099 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110099">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027210"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000042581"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110100 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110100">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000019787"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110101 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110101">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000036131"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110106 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110106">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000019772"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110107 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110107">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000023064"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110108 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110108">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000049001"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110109 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110109">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027270"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110112 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110112">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000005716"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110113 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110113">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000004366"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110114 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110114">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000010175"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026890"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110116 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110116">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000004366"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022860"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110117 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110117">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000096225"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110119 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110119">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000051910"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000063415"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110120 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110120">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001773"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110123 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110123">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022231"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110124 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110124">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000047161"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110125 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110125">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000030218"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110126 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110126">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000079466"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110127 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110127">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000024565"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027168"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110128 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110128">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021848"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110129 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110129">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001496"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110130 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110130">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000031558"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000079466"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110131 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110131">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026872"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110132 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110132">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000036111"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110133 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110133">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000051910"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110134 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110134">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000068859"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110135 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110135">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000019803"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026890"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110136 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110136">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000008575"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110138 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110138">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028487"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110139 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110139">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000063415"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110142 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110142">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000057098"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110143 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110143">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022246"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027400"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000049796"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110144 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110144">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000023828"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038805"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110145 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110145">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000096225"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110147 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110147">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038872"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110148 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110148">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000025400"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110149 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110149">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000045179"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110150 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110150">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000053310"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110153 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110153">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000023439"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110154 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110154">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000033502"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110155 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110155">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000040478"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110157 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110157">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000010175"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038805"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110159 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110159">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038331"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110160 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110160">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000045518"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110161 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110161">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027168"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110162 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110162">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000053129"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110163 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110163">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026890"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110164 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110164">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021099"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110167 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110167">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000050100"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110168 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110168">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000018604"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110169 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110169">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021848"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110171 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110171">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000042045"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110173 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110173">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000045915"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110174 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110174">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000034384"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110178 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110178">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000029026"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110179 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110179">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022245"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110181 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110181">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000061524"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110183 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110183">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000054160"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110184 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110184">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000050100"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110186 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110186">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000018604"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110187 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110187">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000049641"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110189 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110189">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026751"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110190 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110190">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035383"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110191 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110191">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000005892"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110192 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110192">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000029697"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110194 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110194">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000054360"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110198 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110198">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028023"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110199 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110199">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000059246"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110201 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110201">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035451"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110205 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110205">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000025400"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110206 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110206">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000048349"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000096014"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110209 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110209">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028072"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110210 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110210">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000052133"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110211 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110211">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000020734"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021948"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110212 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110212">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000030562"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110213 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110213">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000019890"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110214 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110214">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000045005"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110215 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110215">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027168"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110218 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110218">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035187"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110219 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110219">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035451"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110220 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110220">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027210"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110221 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110221">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000024497"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110222 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110222">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000000247"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110226 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110226">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001076"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000090125"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110227 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110227">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001504"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000024985"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110228 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110228">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000068859"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110229 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110229">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000032368"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110231 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110231">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028487"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110232 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110232">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022053"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000048349"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110240 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110240">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028023"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110241 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110241">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000042596"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000055435"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110242 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110242">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001815"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110247 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110247">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000053965"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110252 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110252">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000058665"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110253 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110253">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026976"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110254 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110254">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000012819"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000014030"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110255 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110255">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001988"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110256 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110256">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000061517"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110258 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110258">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000039095"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110259 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110259">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000037025"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110260 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110260">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000043013"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110261 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110261">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000005917"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027434"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110263 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110263">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000024985"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110264 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110264">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000091387"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110265 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110265">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000043969"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110267 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110267">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028707"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110268 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110268">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021848"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110269 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110269">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028565"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000028736"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110270 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110270">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110271 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110271">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000064179"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110272 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110272">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021318"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027985"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110273 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110273">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000023267"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110274 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110274">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000025431"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110275 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110275">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035451"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110276 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110276">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000006764"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110277 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110277">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026686"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110280 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110280">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000014030"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110281 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110281">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026468"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110282 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110282">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001815"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110284 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110284">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021239"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035187"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110285 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110285">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026826"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110286 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110286">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000025215"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110288 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110288">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000000247"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000005716"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110289 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110289">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000010476"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000012520"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038765"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110293 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110293">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000029304"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110297 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110297">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110298 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110298">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000012520"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110303 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110303">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038700"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110305 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110305">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000010476"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000040610"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110306 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110306">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000059246"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110307 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110307">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000025216"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110308 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110308">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000036972"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110311 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110311">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000000889"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110312 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110312">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000031965"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110318 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110318">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000029236"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110321 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110321">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000030666"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110323 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110323">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027210"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110325 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110325">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000004366"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110327 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110327">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026347"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110328 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110328">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000058665"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000074637"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110330 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110330">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000001911"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110331 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110331">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000026826"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110332 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110332">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000015619"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000018698"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110333 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110333">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000027168"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110336 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110336">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000033740"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110337 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110337">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000004872"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110339 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110339">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000004231"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110343 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110343">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000021685"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110351 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110351">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000010175"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000032368"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110352 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110352">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000035187"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110353 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110353">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000022053"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110360 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110360">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000034486"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110364 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110364">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000038255"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110365 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110365">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000008575"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110366 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110366">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000018698"/>
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000024565"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110368 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110368">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000074695"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0110371 -->
+
+    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110371">
+        <obo:CLM_0010003 rdf:resource="http://identifiers.org/ensembl/ENSMUSG00000036466"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

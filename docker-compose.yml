@@ -58,6 +58,8 @@ services:
   obask-dumps:
     image: ghcr.io/obasktools/pipeline-dumps:latest
     container_name: dumps
+    environment:
+      - ROBOT_JAVA_ARGS=-Xmx8G
     depends_on:
       obask-updatetriplestore:
         condition: service_completed_successfully
