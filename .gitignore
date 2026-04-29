@@ -175,5 +175,4 @@ ehthumbs.db
 Thumbs.db
 
 # Runtime-modified files (docker and triplestore config mutated by runs)
-docker-compose.yml
 config/updatetriplestore/rdf4j.txt
