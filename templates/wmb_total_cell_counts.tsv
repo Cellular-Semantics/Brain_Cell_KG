@@ -1,5 +1,5 @@
 ID	Type	cell_count
-ID	TYPE	A PCL:0010060^^xsd:integer
+ID	TYPE	AT PCL:0010060^^xsd:integer
 WMB:CS20230722_NEUR_Glut	owl:NamedIndividual	1323818
 WMB:CS20230722_NEUR_GABA	owl:NamedIndividual	745023
 WMB:CS20230722_NEUR_GABA_Glyc	owl:NamedIndividual	39401

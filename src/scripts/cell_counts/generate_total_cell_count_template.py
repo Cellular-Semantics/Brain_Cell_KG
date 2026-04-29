@@ -41,7 +41,7 @@ def main():
     }
 
     header = ["ID", "Type", "cell_count"]
-    types = ["ID", "TYPE", "A PCL:0010060^^xsd:integer"]
+    types = ["ID", "TYPE", "AT PCL:0010060^^xsd:integer"]
     rows = [header, types]
 
     missing = []
