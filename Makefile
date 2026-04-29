@@ -60,8 +60,12 @@ ROOT_TEMPLATES_DIR = templates
 ROOT_TEMPLATE_FILES = $(wildcard $(ROOT_TEMPLATES_DIR)/*.tsv)
 ROOT_OWL = $(ROOT_TEMPLATE_FILES:$(ROOT_TEMPLATES_DIR)/%.tsv=$(OWL_DIR)/%.owl)
 
+# Generated OWL outputs from root templates that may not exist at parse time
+# (must be listed explicitly because $(wildcard) is evaluated before recipes run)
+ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl
+
 # All OWL outputs
-ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL)
+ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL) $(ROOT_GENERATED_OWL)
 
 # Generate scFAIR template from source data
 $(TEMPLATES_DIR)/scFAIR_WHB2WMB_template.tsv: src/scripts/scFAIR_WHB_WMB/source_data/scFAIR_Siletti_AT_map.tsv $(VENV_PYTHON)
@@ -128,7 +132,7 @@ reports: $(REPORT_OUTPUTS)
 
 # Template generation from source data
 .PHONY: generate-templates
-generate-templates: hierarchical-location-templates $(VENV_PYTHON)
+generate-templates: hierarchical-location-templates wmb-total-cell-count-template $(VENV_PYTHON)
 	@for source in $(wildcard $(SOURCE_DATA_DIR)/*/); do \
 		if [ -f "$$source/code/generate.py" ]; then \
 			echo "Processing $$source"; \
@@ -241,6 +245,25 @@ hierarchical-location-templates: taxonomy-matrices $(VENV_PYTHON)
 		--output-dir templates \
 		--cutoff 0.05
 
+# Total cell count template (per WMB cell type, region-agnostic).
+# File-target rule so 'make owl' triggers regeneration if CSV inputs change.
+# Depends on the CSV file directly (NOT cell-count-analysis) so it does not
+# trigger the MERFISH dataset download. Run 'make cell-count-analysis' once
+# beforehand if cell_counts_by_taxonomy.csv is missing.
+$(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv: \
+		$(SRC_DIR)/scripts/cell_counts/reports/cell_counts_and_proportions/cell_counts_by_taxonomy.csv \
+		$(REPORTS_DIR)/cell_set_map.csv \
+		$(SRC_DIR)/scripts/cell_counts/generate_total_cell_count_template.py \
+		$(VENV_PYTHON)
+	@echo "Generating WMB total cell count ROBOT template..."
+	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_total_cell_count_template.py \
+		--counts $< \
+		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
+		--output $@
+
+.PHONY: wmb-total-cell-count-template
+wmb-total-cell-count-template: $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv
+
 # Clean build artifacts
 .PHONY: clean
 clean:
@@ -278,6 +301,7 @@ help:
 	@echo "  cell-count-analysis - Generate cell count and proportion reports from CCF data"
 	@echo "  taxonomy-matrices - Generate complete taxonomy × brain region matrices"
 	@echo "  hierarchical-location-templates - Generate hierarchical location mapping ROBOT templates"
+	@echo "  wmb-total-cell-count-template - Generate ROBOT template attaching total cell counts to WMB cell types"
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"
 	@echo "  update-neo4j-prefixes - Update Neo4j config from prefixes.json"
