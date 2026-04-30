@@ -34,6 +34,7 @@
      xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
      xmlns:GITHUBH="http://github.com/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:ensembl="http://identifiers.org/ensembl/"
      xmlns:NCBIGene="http://identifiers.org/ncbigene/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"

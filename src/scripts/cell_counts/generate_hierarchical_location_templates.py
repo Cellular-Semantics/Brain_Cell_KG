@@ -23,10 +23,14 @@ from typing import Dict, List, Tuple, Set
 import re
 
 class HierarchicalLocationMapper:
-    def __init__(self, cell_count_matrices_dir: str, output_dir: str, cutoff: float = 0.05):
+    def __init__(self, cell_count_matrices_dir: str, output_dir: str,
+                 cutoff: float = 0.05, source_doi: str = None,
+                 output_suffix: str = ""):
         self.cell_count_matrices_dir = Path(cell_count_matrices_dir)
         self.output_dir = Path(output_dir)
         self.cutoff = cutoff
+        self.source_doi = source_doi
+        self.output_suffix = output_suffix
 
         # Load metadata to understand data structure
         metadata_file = self.cell_count_matrices_dir / "matrix_metadata.json"
@@ -37,9 +41,6 @@ class HierarchicalLocationMapper:
         self.taxonomy_levels = ['cluster', 'supertype', 'subclass', 'class', 'neurotransmitter']
         self.region_levels = ['substructure', 'structure', 'division']
 
-        # Create mapping of unassigned terms to parent regions
-        self.unassigned_mapping = self._create_unassigned_mapping()
-
         # Load cell set and MBA mappings
         self.cell_set_mappings = self._load_cell_set_mappings()
         self.mba_mappings = self._load_mba_mappings()
@@ -48,50 +49,11 @@ class HierarchicalLocationMapper:
         print(f"  Input dir: {self.cell_count_matrices_dir}")
         print(f"  Output dir: {self.output_dir}")
         print(f"  Cutoff: {self.cutoff}")
+        print(f"  Source DOI: {self.source_doi or '(none)'}")
+        print(f"  Output suffix: {self.output_suffix or '(none)'}")
         print(f"  Found {len(self.metadata)} cell count matrix files")
         print(f"  Loaded {len(self.cell_set_mappings)} cell set mappings")
         print(f"  Loaded {len(self.mba_mappings)} MBA mappings")
-
-    def _create_unassigned_mapping(self) -> Dict[str, str]:
-        """Create mapping from {term}-unassigned to parent term"""
-        # This is a simplified mapping - in practice you might need to query the KG
-        # for the actual parent relationships
-        unassigned_mapping = {}
-
-        common_unassigned = [
-            ("CB-unassigned", "CB"),
-            ("CTXsp-unassigned", "CTXsp"),
-            ("HPF-unassigned", "HPF"),
-            ("HY-unassigned", "HY"),
-            ("MB-unassigned", "MB"),
-            ("MY-unassigned", "MY"),
-            ("OLF-unassigned", "OLF"),
-            ("P-unassigned", "P"),
-            ("PAL-unassigned", "PAL"),
-            ("STR-unassigned", "STR"),
-            ("TH-unassigned", "TH"),
-            ("brain-unassigned", "brain"),
-            ("fiber tracts-unassigned", "fiber tracts"),
-            ("cst-unassigned", "cst"),
-            ("rust-unassigned", "rust"),
-            ("scwm-unassigned", "scwm"),
-            ("ZI-unassigned", "ZI"),
-            ("V3-unassigned", "V3"),
-            ("V4-unassigned", "V4"),
-            ("VL-unassigned", "VL"),
-            ("PAG-unassigned", "PAG"),
-            ("PB-unassigned", "PB"),
-            ("IIIn-unassigned", "IIIn"),
-            ("IIn-unassigned", "IIn"),
-            ("IPN-unassigned", "IPN"),
-            ("MOB-unassigned", "MOB"),
-            ("VIIn-unassigned", "VIIn")
-        ]
-
-        for unassigned, parent in common_unassigned:
-            unassigned_mapping[unassigned] = parent
-
-        return unassigned_mapping
 
     def _load_cell_set_mappings(self) -> Dict[str, str]:
         """Load cell set label to CURIE mappings from reports/cell_set_map.csv"""
@@ -186,17 +148,11 @@ class HierarchicalLocationMapper:
 
                     proportion = cell_count / total_cells
 
-                    # Handle -unassigned terms
-                    if region.endswith('-unassigned'):
-                        if region in self.unassigned_mapping:
-                            mapped_region = self.unassigned_mapping[region]
-                            mappings.append((mapped_region, int(cell_count), proportion, region_level))
-                        else:
-                            # Unknown unassigned term, keep as is but warn
-                            print(f"Warning: Unknown unassigned term: {region}")
-                            mappings.append((region, int(cell_count), proportion, region_level))
-                    else:
-                        mappings.append((region, int(cell_count), proportion, region_level))
+                    # Fold any '<X>-unassigned' substructures back to the
+                    # parent region <X> (e.g. 'HY-unassigned' -> 'HY').
+                    # The parent acronym is expected to be in mba_symbol_map.
+                    mapped_region = region.removesuffix('-unassigned')
+                    mappings.append((mapped_region, int(cell_count), proportion, region_level))
 
                 # Stop here - found mappings at this level
                 break
@@ -206,11 +162,20 @@ class HierarchicalLocationMapper:
     def generate_robot_template(self, taxonomy_level: str, mappings: Dict[str, List[Tuple[str, float, str]]]) -> str:
         """Generate ROBOT template content for location mappings"""
 
-        # Template header
-        template_lines = [
-            "ID\tType\tPCL:0010063\tcell_count\tcell_ratio",
-            "ID\tTYPE\tAI PCL:0010063\t>AT PCL:0010060^^xsd:integer\t>AT PCL:0010065^^xsd:float"
-        ]
+        # Template header. If source_doi is set, add a third axiom annotation
+        # (dcterms:source) carrying the publication DOI on every edge.
+        # Use >AI so the DOI CURIE is resolved to an IRI rather than stored
+        # as a literal string.
+        if self.source_doi:
+            template_lines = [
+                "ID\tType\tPCL:0010063\tcell_count\tcell_ratio\tsource",
+                "ID\tTYPE\tAI PCL:0010063\t>AT PCL:0010060^^xsd:integer\t>AT PCL:0010065^^xsd:float\t>AI dcterms:source",
+            ]
+        else:
+            template_lines = [
+                "ID\tType\tPCL:0010063\tcell_count\tcell_ratio",
+                "ID\tTYPE\tAI PCL:0010063\t>AT PCL:0010060^^xsd:integer\t>AT PCL:0010065^^xsd:float",
+            ]
 
         # Generate data rows
         for cell_set, location_mappings in mappings.items():
@@ -232,7 +197,10 @@ class HierarchicalLocationMapper:
                 # Use actual cell count and proportion
                 cell_ratio = f"{proportion:.6f}"
 
-                template_lines.append(f"{cell_set_curie}\towl:NamedIndividual\t{region_curie}\t{cell_count}\t{cell_ratio}")
+                row = f"{cell_set_curie}\towl:NamedIndividual\t{region_curie}\t{cell_count}\t{cell_ratio}"
+                if self.source_doi:
+                    row += f"\t{self.source_doi}"
+                template_lines.append(row)
 
         return "\n".join(template_lines)
 
@@ -279,7 +247,7 @@ class HierarchicalLocationMapper:
             template_content = self.generate_robot_template(taxonomy_level, all_mappings)
 
             # Write template file
-            output_file = self.output_dir / f"{taxonomy_level}_location_mappings.tsv"
+            output_file = self.output_dir / f"{taxonomy_level}_location_mappings{self.output_suffix}.tsv"
             os.makedirs(self.output_dir, exist_ok=True)
 
             with open(output_file, 'w') as f:
@@ -317,13 +285,21 @@ def main():
     parser.add_argument('--taxonomy-levels', nargs='+',
                       choices=['cluster', 'supertype', 'subclass', 'class', 'neurotransmitter'],
                       help='Taxonomy levels to process (default: all)')
+    parser.add_argument('--source-doi', default=None,
+                      help='Publication DOI (CURIE form, e.g. doi:10.1038/...) '
+                           'to attach as dcterms:source axiom annotation on every edge')
+    parser.add_argument('--output-suffix', default="",
+                      help='Suffix appended to output template filenames before .tsv '
+                           '(e.g. "_zhuang"). Default: "" (no suffix).')
 
     args = parser.parse_args()
 
     mapper = HierarchicalLocationMapper(
         cell_count_matrices_dir=args.input_dir,
         output_dir=args.output_dir,
-        cutoff=args.cutoff
+        cutoff=args.cutoff,
+        source_doi=args.source_doi,
+        output_suffix=args.output_suffix,
     )
 
     mapper.run(taxonomy_levels=args.taxonomy_levels)

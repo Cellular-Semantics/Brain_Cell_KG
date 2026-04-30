@@ -35,6 +35,7 @@
      xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
      xmlns:GITHUBH="http://github.com/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:ensembl="http://identifiers.org/ensembl/"
      xmlns:NCBIGene="http://identifiers.org/ncbigene/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -75,6 +76,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/source -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -97,6 +104,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_961"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39705</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0604</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -113,6 +121,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1021"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9060</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05418</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_02"/>
@@ -120,6 +129,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_844"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9901</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05921</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -139,6 +149,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1016"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1259</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12958</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_03"/>
@@ -146,6 +157,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_10703"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">647</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.066591</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_03"/>
@@ -153,6 +165,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.19401</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_03"/>
@@ -160,6 +173,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2436</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25072</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_03"/>
@@ -167,6 +181,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1018</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.104776</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -187,6 +202,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_10703"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8584</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.238564</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_04"/>
@@ -194,6 +210,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_10704"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6177</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.171669</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_04"/>
@@ -201,6 +218,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_486"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2696</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.074926</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_04"/>
@@ -208,6 +226,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_495"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2416</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.067145</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_04"/>
@@ -215,6 +234,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_504"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2327</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.064671</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_04"/>
@@ -222,6 +242,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_632"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9738</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.270635</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -243,6 +264,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1016"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5933</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07508</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -250,6 +272,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_220"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19328</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24459</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -257,6 +280,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_228"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4104</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.051935</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -264,6 +288,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_236"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4331</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.054808</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -271,6 +296,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14313</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.181127</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -278,6 +304,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9996</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.126496</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_05"/>
@@ -285,6 +312,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8737</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.110564</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -301,6 +329,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_985"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2588</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.059882</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_06"/>
@@ -308,6 +337,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_993"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3175</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.073465</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -324,6 +354,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_985"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4996</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.058095</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_07"/>
@@ -331,6 +362,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_993"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5671</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065944</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -351,6 +383,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1022"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1493</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061264</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_08"/>
@@ -358,6 +391,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_342"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2911</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.11945</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_08"/>
@@ -365,6 +399,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_56"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1587</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065121</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_08"/>
@@ -372,6 +407,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_564"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1703</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.069881</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_08"/>
@@ -379,6 +415,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_596"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.090234</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_08"/>
@@ -386,6 +423,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5362</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.220025</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -403,6 +441,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_56"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34277</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.134455</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_09"/>
@@ -410,6 +449,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164508</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.645301</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_09"/>
@@ -417,6 +457,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_754"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25142</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.098622</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -434,6 +475,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_250"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1793</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.096819</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_10"/>
@@ -441,6 +483,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_258"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10024</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.541282</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_10"/>
@@ -448,6 +491,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_266"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3138</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.169448</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -468,6 +512,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2186</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056738</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_11"/>
@@ -475,6 +520,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_342"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2574</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.066809</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_11"/>
@@ -482,6 +528,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_351"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5312</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.137874</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_11"/>
@@ -489,6 +536,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_403"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4274</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.110932</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_11"/>
@@ -496,6 +544,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2472</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.064161</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_11"/>
@@ -503,6 +552,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_559"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2163</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056141</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -523,6 +573,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5122</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.130261</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_12"/>
@@ -530,6 +581,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_223"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2375</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0604</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_12"/>
@@ -537,6 +589,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_262"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6923</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.176064</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_12"/>
@@ -544,6 +597,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_797"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4195</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.106686</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_12"/>
@@ -551,6 +605,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_830"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2087</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.053076</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_12"/>
@@ -558,6 +613,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_88"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2214</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056306</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -575,6 +631,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1263</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.053749</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_13"/>
@@ -582,6 +639,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_327"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2333</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.099285</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_13"/>
@@ -589,6 +647,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_403"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3597</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.153077</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -608,6 +667,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4203</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.151569</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_14"/>
@@ -615,6 +675,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_194"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2752</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.099243</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_14"/>
@@ -622,6 +683,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_693"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3727</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.134403</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_14"/>
@@ -629,6 +691,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_830"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1479</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.053336</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_14"/>
@@ -636,6 +699,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_946"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2712</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0978</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -654,6 +718,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.157895</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_15"/>
@@ -661,6 +726,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_223"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.087719</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_15"/>
@@ -668,6 +734,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_263"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.052632</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_15"/>
@@ -675,6 +742,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_564"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.368421</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -694,6 +762,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1004"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.060565</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_16"/>
@@ -701,6 +770,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_606826647"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">791</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.216772</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_16"/>
@@ -708,6 +778,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_606826651"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">988</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.270759</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_16"/>
@@ -715,6 +786,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_732"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.115374</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_16"/>
@@ -722,6 +794,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_980"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">413</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.113182</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -738,6 +811,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_186"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.149748</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_17"/>
@@ -745,6 +819,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_483"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4463</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.774423</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -765,6 +840,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1020"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4545</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.077321</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_18"/>
@@ -772,6 +848,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_149"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3304</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056209</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_18"/>
@@ -779,6 +856,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_155"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3131</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.053266</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_18"/>
@@ -786,6 +864,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_218"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4342</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.073867</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_18"/>
@@ -793,6 +872,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_362"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5588</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.095065</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_18"/>
@@ -800,6 +880,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_733"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5926</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.100815</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -819,6 +900,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9593</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.118718</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_19"/>
@@ -826,6 +908,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_795"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10008</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.123854</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_19"/>
@@ -833,6 +916,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_811"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6023</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.074537</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_19"/>
@@ -840,6 +924,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_820"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8753</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.108323</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_19"/>
@@ -847,6 +932,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_828"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10770</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.133284</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -867,6 +953,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_10"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3666</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.069255</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_20"/>
@@ -874,6 +961,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_128"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4171</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078795</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_20"/>
@@ -881,6 +969,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_17"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3112</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.058789</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_20"/>
@@ -888,6 +977,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6329</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.119562</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_20"/>
@@ -895,6 +985,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_795"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4040</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07632</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_20"/>
@@ -902,6 +993,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_842"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6080</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.114858</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -921,6 +1013,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_12"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056442</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_21"/>
@@ -928,6 +1021,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1334</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.327362</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_21"/>
@@ -935,6 +1029,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_374"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056442</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_21"/>
@@ -942,6 +1037,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_381"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.066258</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_21"/>
@@ -949,6 +1045,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_749"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">646</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.158528</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -969,6 +1066,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061979</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_22"/>
@@ -976,6 +1074,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065978</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_22"/>
@@ -983,6 +1082,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_679"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07964</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_22"/>
@@ -990,6 +1090,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.111963</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_22"/>
@@ -997,6 +1098,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_795"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">318</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.105965</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_22"/>
@@ -1004,6 +1106,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_872"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">538</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.179274</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1022,6 +1125,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_867"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3329</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.102557</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_23"/>
@@ -1029,6 +1133,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_931"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3343</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.102988</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_23"/>
@@ -1036,6 +1141,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_7"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3106</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.095687</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_23"/>
@@ -1043,6 +1149,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5180</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.159581</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1061,6 +1168,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1921</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.067368</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_24"/>
@@ -1068,6 +1176,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1688</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.059197</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_24"/>
@@ -1075,6 +1184,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_437"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1558</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.054638</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_24"/>
@@ -1082,6 +1192,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_852"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1739</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.060985</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1097,6 +1208,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.380952</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1116,6 +1228,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1093"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">970</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.050919</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_26"/>
@@ -1123,6 +1236,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_146"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1931</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.101365</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_26"/>
@@ -1130,6 +1244,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_679"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1428</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.074961</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_26"/>
@@ -1137,6 +1252,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.104567</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_26"/>
@@ -1144,6 +1260,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_898"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1606</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.084304</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1162,6 +1279,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2100</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.080816</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_27"/>
@@ -1169,6 +1287,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1558</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.059958</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_27"/>
@@ -1176,6 +1295,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_437"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2362</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.090899</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_27"/>
@@ -1183,6 +1303,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_852"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1587</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061074</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1203,6 +1324,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63049</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1071</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30"/>
@@ -1210,6 +1332,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47396</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.080511</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30"/>
@@ -1217,6 +1340,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103636</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.176045</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30"/>
@@ -1224,6 +1348,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41208</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.069999</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30"/>
@@ -1231,6 +1356,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48523</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.082425</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30"/>
@@ -1238,6 +1364,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39709</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.067453</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1255,6 +1382,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1016"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5103</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.551259</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_32"/>
@@ -1262,6 +1390,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1328</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.143459</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_32"/>
@@ -1269,6 +1398,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1687</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18224</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
     
 
@@ -1284,6 +1414,7 @@
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3160</obo:PCL_0010060>
         <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061705</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
     </Axiom>
 </rdf:RDF>
 

@@ -97,32 +97,23 @@
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Chol">
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_483"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_661"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Chol"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_483"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2120</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.246741</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Chol"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_661"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.070647</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1881</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.201997</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Chol"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">686</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.079842</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1332</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.143041</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -130,42 +121,24 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa">
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1016"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_749"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1016"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">881</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.105484</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1467</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.175647</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3159</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.249881</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1046</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.125239</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Dopa"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_749"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">644</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.077107</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4559</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.360623</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -173,15 +146,24 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA">
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_220"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_220"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107471</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.125751</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_672"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170207</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.228459</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161902</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.189441</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -189,33 +171,24 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc">
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1048"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_437"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1048"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">985</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.050276</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2257</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057283</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_437"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2406</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061064</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_GABA_Glyc"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2071</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.052562</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2075</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.105911</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -224,7 +197,6 @@
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut">
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
@@ -233,41 +205,33 @@
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151902</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.114745</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76330</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057659</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195396</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.128446</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572818</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.432701</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">547818</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.360115</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167278</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12636</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">334486</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.219879</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97348</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.073536</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104974</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.069006</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -275,24 +239,33 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut_GABA -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut_GABA">
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_223"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_351"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut_GABA"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_223"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056673</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_244"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05307</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut_GABA"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_351"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.071166</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.071276</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Glut_GABA"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_507"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0552</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -300,7 +273,10 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist">
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1004"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_210"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_614"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_693"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_830"/>
@@ -308,34 +284,58 @@
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.116998</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1004"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.075055</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.235294</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1766</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_210"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.050773</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_614"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.113122</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.19426</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_693"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.072398</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0883</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Hist"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_830"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.312217</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.110375</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -343,51 +343,42 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora">
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1093"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_350"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_651"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_867"/>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_898"/>
     </NamedIndividual>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1093"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.060504</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.069259</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_350"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.052101</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_651"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.052101</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_202"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057108</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.226891</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.132442</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Nora"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_867"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17479</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_898"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.119077</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     
 
@@ -395,7 +386,6 @@
     <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero -->
 
     <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero">
-        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_679"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
@@ -405,50 +395,42 @@
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.062233</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
-    </Axiom>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
-        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076624</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.06918</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_679"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.082069</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.152196</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.10424</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.088205</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_795"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.10774</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078865</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_NEUR_Sero"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_872"/>
-        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</obo:PCL_0010060>
-        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.163361</obo:PCL_0010065>
-        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06812-z"/>
+        <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</obo:PCL_0010060>
+        <obo:PCL_0010065 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.111034</obo:PCL_0010065>
+        <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
 </rdf:RDF>
 
