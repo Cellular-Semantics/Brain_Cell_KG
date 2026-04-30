@@ -93,14 +93,14 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_0001 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0001 -->
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_0001">
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0001">
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_862"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_952"/>
     </NamedIndividual>
     <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_0001"/>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0001"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_862"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3586</obo:PCL_0010060>
@@ -108,7 +108,7 @@
         <dcterms:source rdf:resource="https://doi.org/10.1038/s41586-023-06808-9"/>
     </Axiom>
     <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_0001"/>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0001"/>
         <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_952"/>
         <obo:PCL_0010060 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1280</obo:PCL_0010060>

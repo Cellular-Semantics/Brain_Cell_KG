@@ -55,20 +55,26 @@ class HierarchicalLocationMapper:
         print(f"  Loaded {len(self.cell_set_mappings)} cell set mappings")
         print(f"  Loaded {len(self.mba_mappings)} MBA mappings")
 
-    def _load_cell_set_mappings(self) -> Dict[str, str]:
-        """Load cell set label to CURIE mappings from reports/cell_set_map.csv"""
-        mappings = {}
+    def _load_cell_set_mappings(self) -> Dict[Tuple[str, str], str]:
+        """Load (labelset, label) -> CURIE mappings from reports/cell_set_map.csv.
+
+        Keyed by (labelset, label) tuple because the same label can appear
+        across taxonomy levels (e.g. cluster '0001 X' and supertype '0001 X'
+        both exist) — collapsing on label alone causes the wrong CURIE to be
+        emitted for the colliding rows.
+        """
+        mappings: Dict[Tuple[str, str], str] = {}
         cell_set_map_file = Path("reports/cell_set_map.csv")
 
         if cell_set_map_file.exists():
             df = pd.read_csv(cell_set_map_file)
-            # Filter for WMB taxonomy
             wmb_df = df[df['dataset'] == 'Whole Mouse Brain Taxonomy']
             for _, row in wmb_df.iterrows():
+                labelset = row['labelset']
                 label = row['label']
                 curie = row['curie']
-                if pd.notna(label) and pd.notna(curie):
-                    mappings[label] = curie
+                if pd.notna(label) and pd.notna(curie) and pd.notna(labelset):
+                    mappings[(labelset, label)] = curie
         else:
             print(f"Warning: {cell_set_map_file} not found")
 
@@ -179,11 +185,11 @@ class HierarchicalLocationMapper:
 
         # Generate data rows
         for cell_set, location_mappings in mappings.items():
-            # Look up proper cell set CURIE
-            if cell_set in self.cell_set_mappings:
-                cell_set_curie = self.cell_set_mappings[cell_set]
-            else:
-                print(f"Warning: No CURIE found for cell set '{cell_set}', skipping")
+            # Look up proper cell set CURIE — keyed by (labelset, label) to
+            # disambiguate labels that collide across taxonomy levels.
+            cell_set_curie = self.cell_set_mappings.get((taxonomy_level, cell_set))
+            if cell_set_curie is None:
+                print(f"Warning: No CURIE found for {taxonomy_level} '{cell_set}', skipping")
                 continue
 
             for region, cell_count, proportion, region_level in location_mappings:
