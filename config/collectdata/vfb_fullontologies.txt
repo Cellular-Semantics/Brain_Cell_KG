@@ -12,3 +12,8 @@ https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/ma
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/supertype_location_mappings.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/cluster_location_mappings.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/wmb_total_cell_counts.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/cluster_location_mappings_zhuang.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/supertype_location_mappings_zhuang.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/subclass_location_mappings_zhuang.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/class_location_mappings_zhuang.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/neurotransmitter_location_mappings_zhuang.owl

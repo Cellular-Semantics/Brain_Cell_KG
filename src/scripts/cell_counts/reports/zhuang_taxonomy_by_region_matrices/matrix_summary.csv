@@ -1,0 +1,16 @@
+filename,taxonomy_level,region_level,matrix_shape,total_cells,non_zero_combinations,file_size_mb,sparsity
+neurotransmitter_by_division.csv,neurotransmitter,division,"[9, 24]",2426736,156,0.0,0.278
+neurotransmitter_by_structure.csv,neurotransmitter,structure,"[9, 356]",2426736,1399,0.01,0.563
+neurotransmitter_by_substructure.csv,neurotransmitter,substructure,"[9, 675]",2426736,2242,0.02,0.631
+class_by_division.csv,class,division,"[34, 24]",5305932,616,0.0,0.245
+class_by_structure.csv,class,structure,"[34, 356]",5305932,4578,0.03,0.622
+class_by_substructure.csv,class,substructure,"[34, 675]",5305932,7649,0.06,0.667
+subclass_by_division.csv,subclass,division,"[338, 24]",5305932,3206,0.03,0.605
+subclass_by_structure.csv,subclass,structure,"[338, 356]",5305932,15135,0.25,0.874
+subclass_by_substructure.csv,subclass,substructure,"[338, 675]",5305932,22626,0.46,0.901
+supertype_by_division.csv,supertype,division,"[1200, 24]",5305932,7899,0.09,0.726
+supertype_by_structure.csv,supertype,structure,"[1200, 356]",5305932,32202,0.86,0.925
+supertype_by_substructure.csv,supertype,substructure,"[1200, 675]",5305932,46715,1.6,0.942
+cluster_by_division.csv,cluster,division,"[5262, 24]",5305932,19684,0.39,0.844
+cluster_by_structure.csv,cluster,structure,"[5262, 356]",5305932,68917,3.73,0.963
+cluster_by_substructure.csv,cluster,substructure,"[5262, 675]",5305932,93406,6.94,0.974

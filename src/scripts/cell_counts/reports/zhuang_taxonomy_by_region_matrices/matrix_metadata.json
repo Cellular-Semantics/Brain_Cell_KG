@@ -1,0 +1,197 @@
+[
+  {
+    "filename": "neurotransmitter_by_division.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "division",
+    "matrix_shape": [
+      9,
+      24
+    ],
+    "total_cells": 2426736,
+    "non_zero_combinations": 156,
+    "file_size_mb": 0.0,
+    "sparsity": 0.278
+  },
+  {
+    "filename": "neurotransmitter_by_structure.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "structure",
+    "matrix_shape": [
+      9,
+      356
+    ],
+    "total_cells": 2426736,
+    "non_zero_combinations": 1399,
+    "file_size_mb": 0.01,
+    "sparsity": 0.563
+  },
+  {
+    "filename": "neurotransmitter_by_substructure.csv",
+    "taxonomy_level": "neurotransmitter",
+    "region_level": "substructure",
+    "matrix_shape": [
+      9,
+      675
+    ],
+    "total_cells": 2426736,
+    "non_zero_combinations": 2242,
+    "file_size_mb": 0.02,
+    "sparsity": 0.631
+  },
+  {
+    "filename": "class_by_division.csv",
+    "taxonomy_level": "class",
+    "region_level": "division",
+    "matrix_shape": [
+      34,
+      24
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 616,
+    "file_size_mb": 0.0,
+    "sparsity": 0.245
+  },
+  {
+    "filename": "class_by_structure.csv",
+    "taxonomy_level": "class",
+    "region_level": "structure",
+    "matrix_shape": [
+      34,
+      356
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 4578,
+    "file_size_mb": 0.03,
+    "sparsity": 0.622
+  },
+  {
+    "filename": "class_by_substructure.csv",
+    "taxonomy_level": "class",
+    "region_level": "substructure",
+    "matrix_shape": [
+      34,
+      675
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 7649,
+    "file_size_mb": 0.06,
+    "sparsity": 0.667
+  },
+  {
+    "filename": "subclass_by_division.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "division",
+    "matrix_shape": [
+      338,
+      24
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 3206,
+    "file_size_mb": 0.03,
+    "sparsity": 0.605
+  },
+  {
+    "filename": "subclass_by_structure.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "structure",
+    "matrix_shape": [
+      338,
+      356
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 15135,
+    "file_size_mb": 0.25,
+    "sparsity": 0.874
+  },
+  {
+    "filename": "subclass_by_substructure.csv",
+    "taxonomy_level": "subclass",
+    "region_level": "substructure",
+    "matrix_shape": [
+      338,
+      675
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 22626,
+    "file_size_mb": 0.46,
+    "sparsity": 0.901
+  },
+  {
+    "filename": "supertype_by_division.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "division",
+    "matrix_shape": [
+      1200,
+      24
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 7899,
+    "file_size_mb": 0.09,
+    "sparsity": 0.726
+  },
+  {
+    "filename": "supertype_by_structure.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "structure",
+    "matrix_shape": [
+      1200,
+      356
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 32202,
+    "file_size_mb": 0.86,
+    "sparsity": 0.925
+  },
+  {
+    "filename": "supertype_by_substructure.csv",
+    "taxonomy_level": "supertype",
+    "region_level": "substructure",
+    "matrix_shape": [
+      1200,
+      675
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 46715,
+    "file_size_mb": 1.6,
+    "sparsity": 0.942
+  },
+  {
+    "filename": "cluster_by_division.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "division",
+    "matrix_shape": [
+      5262,
+      24
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 19684,
+    "file_size_mb": 0.39,
+    "sparsity": 0.844
+  },
+  {
+    "filename": "cluster_by_structure.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "structure",
+    "matrix_shape": [
+      5262,
+      356
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 68917,
+    "file_size_mb": 3.73,
+    "sparsity": 0.963
+  },
+  {
+    "filename": "cluster_by_substructure.csv",
+    "taxonomy_level": "cluster",
+    "region_level": "substructure",
+    "matrix_shape": [
+      5262,
+      675
+    ],
+    "total_cells": 5305932,
+    "non_zero_combinations": 93406,
+    "file_size_mb": 6.94,
+    "sparsity": 0.974
+  }
+]

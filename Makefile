@@ -62,7 +62,14 @@ ROOT_OWL = $(ROOT_TEMPLATE_FILES:$(ROOT_TEMPLATES_DIR)/%.tsv=$(OWL_DIR)/%.owl)
 
 # Generated OWL outputs from root templates that may not exist at parse time
 # (must be listed explicitly because $(wildcard) is evaluated before recipes run)
-ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl
+ZHUANG_LOCATION_OWL = \
+	$(OWL_DIR)/cluster_location_mappings_zhuang.owl \
+	$(OWL_DIR)/supertype_location_mappings_zhuang.owl \
+	$(OWL_DIR)/subclass_location_mappings_zhuang.owl \
+	$(OWL_DIR)/class_location_mappings_zhuang.owl \
+	$(OWL_DIR)/neurotransmitter_location_mappings_zhuang.owl
+
+ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl $(ZHUANG_LOCATION_OWL)
 
 # All OWL outputs
 ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL) $(ROOT_GENERATED_OWL)
@@ -132,7 +139,7 @@ reports: $(REPORT_OUTPUTS)
 
 # Template generation from source data
 .PHONY: generate-templates
-generate-templates: hierarchical-location-templates wmb-total-cell-count-template $(VENV_PYTHON)
+generate-templates: hierarchical-location-templates zhuang-location-templates wmb-total-cell-count-template $(VENV_PYTHON)
 	@for source in $(wildcard $(SOURCE_DATA_DIR)/*/); do \
 		if [ -f "$$source/code/generate.py" ]; then \
 			echo "Processing $$source"; \
@@ -236,14 +243,70 @@ taxonomy-matrices: $(VENV_PYTHON)
 	@echo "Generating complete taxonomy × brain region matrices..."
 	cd $(SRC_DIR)/scripts/cell_counts/scripts && ../../../../$(VENV_PYTHON) generate_full_matrices.py
 
-# Generate hierarchical location mapping templates
+# Source DOIs attached as dcterms:source axiom annotations on every edge
+YAO_DOI = doi:10.1038/s41586-023-06812-z
+ZHUANG_DOI = doi:10.1038/s41586-023-06808-9
+
+# Generate hierarchical location mapping templates from Yao MERFISH matrices.
+# Edges are attributed to Yao 2023 via dcterms:source.
 .PHONY: hierarchical-location-templates
 hierarchical-location-templates: taxonomy-matrices $(VENV_PYTHON)
-	@echo "Generating hierarchical location mapping ROBOT templates..."
+	@echo "Generating Yao hierarchical location mapping ROBOT templates..."
 	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
 		--input-dir $(SRC_DIR)/scripts/cell_counts/reports/taxonomy_by_region_matrices \
 		--output-dir templates \
-		--cutoff 0.05
+		--cutoff 0.05 \
+		--source-doi $(YAO_DOI)
+
+ZHUANG_MATRICES_DIR = $(SRC_DIR)/scripts/cell_counts/reports/zhuang_taxonomy_by_region_matrices
+
+# Generate Zhuang taxonomy × region matrices (downloads ~3.5 GB on first run).
+# File-target on the metadata json so the matrix step is idempotent w.r.t.
+# the script and source data, not re-run unnecessarily.
+$(ZHUANG_MATRICES_DIR)/matrix_metadata.json: \
+		$(SRC_DIR)/scripts/cell_counts/scripts/generate_zhuang_matrices.py \
+		$(VENV_PYTHON)
+	@echo "Generating Zhuang taxonomy × brain region matrices..."
+	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/scripts/generate_zhuang_matrices.py
+
+.PHONY: zhuang-matrices
+zhuang-matrices: $(ZHUANG_MATRICES_DIR)/matrix_metadata.json
+
+# Generate hierarchical location mapping templates from Zhuang MERFISH matrices.
+# Output filenames are suffixed _zhuang to coexist with the Yao templates.
+# Edges are attributed to Zhang/Zhuang 2023 via dcterms:source.
+# All five TSVs are produced in a single script run; we make
+# cluster_location_mappings_zhuang.tsv the canonical target and have the
+# other four depend on it (empty-rule), so 'make owl' can satisfy each.
+ZHUANG_LOCATION_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv
+
+$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
+		$(ZHUANG_MATRICES_DIR)/matrix_metadata.json \
+		$(REPORTS_DIR)/cell_set_map.csv \
+		$(REPORTS_DIR)/mba_symbol_map.csv \
+		$(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
+		$(VENV_PYTHON)
+	@echo "Generating Zhuang hierarchical location mapping ROBOT templates..."
+	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
+		--input-dir $(ZHUANG_MATRICES_DIR) \
+		--output-dir $(ROOT_TEMPLATES_DIR) \
+		--cutoff 0.05 \
+		--source-doi $(ZHUANG_DOI) \
+		--output-suffix _zhuang
+
+$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
+		$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv
+
+.PHONY: zhuang-location-templates
+zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
 # Total cell count template (per WMB cell type, region-agnostic).
 # File-target rule so 'make owl' triggers regeneration if CSV inputs change.
@@ -300,7 +363,9 @@ help:
 	@echo "  wmb-robot-templates - Generate ROBOT templates from WMB mapping results"
 	@echo "  cell-count-analysis - Generate cell count and proportion reports from CCF data"
 	@echo "  taxonomy-matrices - Generate complete taxonomy × brain region matrices"
-	@echo "  hierarchical-location-templates - Generate hierarchical location mapping ROBOT templates"
+	@echo "  hierarchical-location-templates - Generate Yao hierarchical location mapping ROBOT templates"
+	@echo "  zhuang-matrices - Generate Zhuang taxonomy x region matrices (downloads ~3.5 GB on first run)"
+	@echo "  zhuang-location-templates - Generate Zhuang hierarchical location mapping ROBOT templates"
 	@echo "  wmb-total-cell-count-template - Generate ROBOT template attaching total cell counts to WMB cell types"
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"
