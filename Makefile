@@ -308,13 +308,25 @@ $(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
 .PHONY: zhuang-location-templates
 zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
-# Total cell count template (per WMB cell type, region-agnostic).
-# File-target rule so 'make owl' triggers regeneration if CSV inputs change.
-# Depends on the CSV file directly (NOT cell-count-analysis) so it does not
-# trigger the MERFISH dataset download. Run 'make cell-count-analysis' once
-# beforehand if cell_counts_by_taxonomy.csv is missing.
+# Per-taxonomy-node cell counts from the WMB-10X reference dataset
+# (~4M cells, defines the WMB taxonomy). Sibling to cell_counts_by_taxonomy.csv
+# (which is MERFISH-derived, ~2.4M spatially-resolved cells).
+WMB_10X_COUNTS_CSV = $(SRC_DIR)/scripts/cell_counts/reports/cell_counts_and_proportions/cell_counts_by_taxonomy_10x.csv
+
+$(WMB_10X_COUNTS_CSV): \
+		$(SRC_DIR)/scripts/cell_counts/scripts/generate_10x_cell_count_csv.py \
+		$(VENV_PYTHON)
+	@echo "Generating WMB-10X cell counts (downloads ~1.4 GB on first run)..."
+	$(VENV_PYTHON) $< --output $@
+
+.PHONY: wmb-10x-cell-counts
+wmb-10x-cell-counts: $(WMB_10X_COUNTS_CSV)
+
+# Total cell count template (per WMB cell type, region-agnostic), sourced
+# from the WMB-10X reference dataset. File-target rule so 'make owl'
+# triggers regeneration if CSV inputs change.
 $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv: \
-		$(SRC_DIR)/scripts/cell_counts/reports/cell_counts_and_proportions/cell_counts_by_taxonomy.csv \
+		$(WMB_10X_COUNTS_CSV) \
 		$(REPORTS_DIR)/cell_set_map.csv \
 		$(SRC_DIR)/scripts/cell_counts/generate_total_cell_count_template.py \
 		$(VENV_PYTHON)
