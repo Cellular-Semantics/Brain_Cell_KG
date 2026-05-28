@@ -91,18 +91,23 @@ $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv: src/scripts/BG_WMB_AT/source_data/M
 		--input $< \
 		--output $@
 
-# Process ROBOT templates with prefixes
+# Process ROBOT templates with prefixes. Output is OWL Functional Syntax (OFN)
+# rather than ROBOT's default RDF/XML: same semantics, ~50% smaller on disk so
+# templates with hundreds of thousands of edges (e.g. cluster_proximity) stay
+# under GitHub's 100 MB per-file limit. The OWL API auto-detects serialization
+# by content, so we keep the .owl extension and downstream loaders are
+# unaffected.
 $(OWL_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \
-		--output $@
+	      convert --format ofn --output $@
 
 $(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \
-		--output $@
+	      convert --format ofn --output $@
 
 # Mock build target for testing without ROBOT
 .PHONY: mock-templates

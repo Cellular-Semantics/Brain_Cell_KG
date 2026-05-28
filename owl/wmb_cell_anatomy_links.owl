@@ -1,200 +1,91 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
-     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
-     xmlns:CL="http://purl.obolibrary.org/obo/CL_"
-     xmlns:GO="http://purl.obolibrary.org/obo/GO_"
-     xmlns:PR="http://purl.obolibrary.org/obo/PR_"
-     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
-     xmlns:SO="http://purl.obolibrary.org/obo/SO_"
-     xmlns:cc="http://creativecommons.org/ns#"
-     xmlns:sc="https://schema.org/"
-     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
-     xmlns:ILX="http://uri.interlex.org/base/ilx_"
-     xmlns:MBA="https://purl.brain-bican.org/ontology/mbao/MBA_"
-     xmlns:OBI="http://purl.obolibrary.org/obo/OBI_"
-     xmlns:PCL="http://purl.obolibrary.org/obo/PCL_"
-     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
-     xmlns:WMB="https://purl.brain-bican.org/ontology/CCN20230722/"
-     xmlns:doi="https://doi.org/"
-     xmlns:n2o="http://n2o.neo/custom/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:PMID="http://www.ncbi.nlm.nih.gov/pubmed/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:MONDO="http://purl.obolibrary.org/obo/MONDO_"
-     xmlns:orcid="https://orcid.org/"
-     xmlns:GITHUB="https://github.com/"
-     xmlns:HsapDv="http://purl.obolibrary.org/obo/HsapDv_"
-     xmlns:MmusDv="http://purl.obolibrary.org/obo/MmusDv_"
-     xmlns:UBERON="http://purl.obolibrary.org/obo/UBERON_"
-     xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
-     xmlns:GITHUBH="http://github.com/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:ensembl="http://identifiers.org/ensembl/"
-     xmlns:NCBIGene="http://identifiers.org/ncbigene/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:pato_rel="http://purl.obolibrary.org/obo/pato#"
-     xmlns:HANCESTRO="http://purl.obolibrary.org/obo/HANCESTRO_"
-     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
-     xmlns:UniProtKB="https://identifiers.org/uniprot/">
-    <Ontology/>
-    
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+Ontology(
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/CL_4300359>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110002>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110003>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110005>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110006>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110007>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110008>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110009>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110064>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110071>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110090>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110092>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110220>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110265>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/PCL_0110379>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLM_0010001>))
 
-    
+############################
+#   Named Individuals
+############################
 
+# Individual: <http://purl.obolibrary.org/obo/CL_4300359> (<http://purl.obolibrary.org/obo/CL_4300359>)
 
-    <!-- http://purl.obolibrary.org/obo/CLM_0010001 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/CL_4300359> <http://purl.obolibrary.org/obo/UBERON_0001893>)
 
-    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLM_0010001"/>
-    
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110002> (<http://purl.obolibrary.org/obo/PCL_0110002>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110002> <http://purl.obolibrary.org/obo/UBERON_8440003>)
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110003> (<http://purl.obolibrary.org/obo/PCL_0110003>)
 
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110003> <http://purl.obolibrary.org/obo/UBERON_0002264>)
 
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110005> (<http://purl.obolibrary.org/obo/PCL_0110005>)
 
-    <!-- http://purl.obolibrary.org/obo/CL_4300359 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110005> <http://purl.obolibrary.org/obo/UBERON_0002264>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CL_4300359">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001893"/>
-    </NamedIndividual>
-    
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110006> (<http://purl.obolibrary.org/obo/PCL_0110006>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110006> <http://purl.obolibrary.org/obo/UBERON_0004026>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110002 -->
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110007> (<http://purl.obolibrary.org/obo/PCL_0110007>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110002">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440003"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110007> <http://purl.obolibrary.org/obo/UBERON_0004024>)
 
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110008> (<http://purl.obolibrary.org/obo/PCL_0110008>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110003 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110008> <http://purl.obolibrary.org/obo/UBERON_0004024>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110003">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002264"/>
-    </NamedIndividual>
-    
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110009> (<http://purl.obolibrary.org/obo/PCL_0110009>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110009> <http://purl.obolibrary.org/obo/UBERON_0004025>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110005 -->
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110064> (<http://purl.obolibrary.org/obo/PCL_0110064>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110005">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002264"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110064> <http://purl.obolibrary.org/obo/UBERON_0005395>)
 
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110071> (<http://purl.obolibrary.org/obo/PCL_0110071>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110006 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110071> <http://purl.obolibrary.org/obo/UBERON_0005391>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110006">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004026"/>
-    </NamedIndividual>
-    
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110090> (<http://purl.obolibrary.org/obo/PCL_0110090>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110090> <http://purl.obolibrary.org/obo/UBERON_0005395>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110007 -->
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110092> (<http://purl.obolibrary.org/obo/PCL_0110092>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110007">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004024"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110092> <http://purl.obolibrary.org/obo/UBERON_0005394>)
 
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110220> (<http://purl.obolibrary.org/obo/PCL_0110220>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110008 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110220> <http://purl.obolibrary.org/obo/UBERON_0001945>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110008">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004024"/>
-    </NamedIndividual>
-    
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110265> (<http://purl.obolibrary.org/obo/PCL_0110265>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110265> <http://purl.obolibrary.org/obo/UBERON_0001945>)
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110009 -->
+# Individual: <http://purl.obolibrary.org/obo/PCL_0110379> (<http://purl.obolibrary.org/obo/PCL_0110379>)
 
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110009">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004025"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/CLM_0010001> <http://purl.obolibrary.org/obo/PCL_0110379> <http://purl.obolibrary.org/obo/UBERON_0001893>)
 
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0110064 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110064">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110071 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110071">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110090 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110090">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110092 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110092">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110220 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110220">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001945"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110265 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110265">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001945"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0110379 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PCL_0110379">
-        <obo:CLM_0010001 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001893"/>
-    </NamedIndividual>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
-
+)

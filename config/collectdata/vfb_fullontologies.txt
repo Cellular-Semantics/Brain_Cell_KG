@@ -23,4 +23,4 @@ https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/ma
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/class_proximity_mappings.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/subclass_proximity_mappings.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/supertype_proximity_mappings.owl
-https://github.com/Cellular-Semantics/Brain_Cell_KG/releases/latest/download/cluster_proximity_mappings.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/cluster_proximity_mappings.owl

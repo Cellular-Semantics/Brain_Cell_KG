@@ -1,654 +1,392 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
-     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
-     xmlns:CL="http://purl.obolibrary.org/obo/CL_"
-     xmlns:GO="http://purl.obolibrary.org/obo/GO_"
-     xmlns:PR="http://purl.obolibrary.org/obo/PR_"
-     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
-     xmlns:SO="http://purl.obolibrary.org/obo/SO_"
-     xmlns:cc="http://creativecommons.org/ns#"
-     xmlns:sc="https://schema.org/"
-     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
-     xmlns:ILX="http://uri.interlex.org/base/ilx_"
-     xmlns:MBA="https://purl.brain-bican.org/ontology/mbao/MBA_"
-     xmlns:OBI="http://purl.obolibrary.org/obo/OBI_"
-     xmlns:PCL="http://purl.obolibrary.org/obo/PCL_"
-     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
-     xmlns:WMB="https://purl.brain-bican.org/ontology/CCN20230722/"
-     xmlns:doi="https://doi.org/"
-     xmlns:n2o="http://n2o.neo/custom/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:PMID="http://www.ncbi.nlm.nih.gov/pubmed/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:MONDO="http://purl.obolibrary.org/obo/MONDO_"
-     xmlns:orcid="https://orcid.org/"
-     xmlns:GITHUB="https://github.com/"
-     xmlns:HsapDv="http://purl.obolibrary.org/obo/HsapDv_"
-     xmlns:MmusDv="http://purl.obolibrary.org/obo/MmusDv_"
-     xmlns:UBERON="http://purl.obolibrary.org/obo/UBERON_"
-     xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
-     xmlns:GITHUBH="http://github.com/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:ensembl="http://identifiers.org/ensembl/"
-     xmlns:NCBIGene="http://identifiers.org/ncbigene/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:pato_rel="http://purl.obolibrary.org/obo/pato#"
-     xmlns:HANCESTRO="http://purl.obolibrary.org/obo/HANCESTRO_"
-     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
-     xmlns:UniProtKB="https://identifiers.org/uniprot/">
-    <Ontology/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
-    
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#broadMatch>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#exactMatch>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#relatedMatch>))
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_338>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1198>)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_335>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1195>)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0259>)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_049>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0199>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0200>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005>)
 
-    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_050>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0203>)
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008>)
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_119>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0530>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0533>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0534>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009>)
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1181>)
 
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_333>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1193>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_338"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1198"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1175>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1176>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_059>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0257>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_335"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1195"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_057>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0247>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0259"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_101>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0461>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_112>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0504>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_049"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0199"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0200"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_050"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0203"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_334>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1194>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_057>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_119"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0530"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0533"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0534"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_336>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1196>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1181"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0262>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0263>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0264>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_333"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1193"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1175"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1176"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_331>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1191>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_059"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0257"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_332>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1192>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_057"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0247"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0882>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0880>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0887>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_101"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0461"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_195>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0800>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0801>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_112"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0504"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_197>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0806>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0883>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0884>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017"/>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_202>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0829>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_135>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0602>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_318>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_334"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1194"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_054>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0234>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_057"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_052>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0212>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_053>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0248>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0261>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_336"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1196"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_056>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0238>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0239>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_053>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0228>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_055>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0236>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0024">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0262"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0263"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0264"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_055>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0236>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_046>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0175>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0177>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0260>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0267>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_331"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1191"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0268>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_063>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0281>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0282>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0283>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0284>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_332"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1192"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0277>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0882"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0279>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0279>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030"/>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0260>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0880"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0887"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0271>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0272>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_064>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0285>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0286>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0287>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0288>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0289>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_195"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0800"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0801"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0274>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0275>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_197"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0806"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_338>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1201>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1188>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034"/>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_082>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_215"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0883"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0884"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_135>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_243>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0611>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0974>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_081>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0382>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0383>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_202"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0829"/>
-    </NamedIndividual>
-    
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066>)
 
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_082>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0384>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038 -->
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_135"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0602"/>
-    </NamedIndividual>
-    
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#broadMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_044>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0163>)
 
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068>)
 
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039 -->
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_041>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0151>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#relatedMatch> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0154>)
 
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039">
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_318"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319"/>
-    </NamedIndividual>
-    
 
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_054"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0234"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_052"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0212"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_053"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0248"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0261"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_056"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0238"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0239"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_053"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0228"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0045">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_055"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0236"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_055"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0236"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_046"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0175"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0177"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0048">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0260"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0049">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0267"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0050">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0268"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0051">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_063"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0281"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0282"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0283"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0284"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0052">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0277"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0279"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0054">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0279"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0260"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0271"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0272"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_064"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0285"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0286"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0287"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0288"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0289"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0274"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0275"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_338"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1201"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1188"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_082"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064">
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_135"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_243"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0611"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0974"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_081"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0382"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0383"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_082"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0384"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067">
-        <skos:broadMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_044"/>
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0163"/>
-    </NamedIndividual>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068 -->
-
-    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068">
-        <skos:exactMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_041"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0151"/>
-        <skos:relatedMatch rdf:resource="https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_0154"/>
-    </NamedIndividual>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
-
+)
