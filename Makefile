@@ -69,7 +69,7 @@ ZHUANG_LOCATION_OWL = \
 	$(OWL_DIR)/class_location_mappings_zhuang.owl \
 	$(OWL_DIR)/neurotransmitter_location_mappings_zhuang.owl
 
-ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl $(ZHUANG_LOCATION_OWL)
+ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl $(ZHUANG_LOCATION_OWL) $(CCF_SPATIAL_OWL)
 
 # All OWL outputs
 ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL) $(ROOT_GENERATED_OWL)
@@ -255,7 +255,6 @@ hierarchical-location-templates: taxonomy-matrices $(VENV_PYTHON)
 	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
 		--input-dir $(SRC_DIR)/scripts/cell_counts/reports/taxonomy_by_region_matrices \
 		--output-dir templates \
-		--cutoff 0.05 \
 		--source-doi $(YAO_DOI)
 
 ZHUANG_MATRICES_DIR = $(SRC_DIR)/scripts/cell_counts/reports/zhuang_taxonomy_by_region_matrices
@@ -295,7 +294,6 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
 	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
 		--input-dir $(ZHUANG_MATRICES_DIR) \
 		--output-dir $(ROOT_TEMPLATES_DIR) \
-		--cutoff 0.05 \
 		--source-doi $(ZHUANG_DOI) \
 		--output-suffix _zhuang
 
@@ -338,6 +336,123 @@ $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv: \
 
 .PHONY: wmb-total-cell-count-template
 wmb-total-cell-count-template: $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv
+
+# ---- CCF spatial proximity (MBA) ---------------------------------------------
+# Region<->region adjacency from the painted Allen-CCF-2020 parcellation, and
+# per-type "located near" stats from registered MERFISH coordinates. See
+# src/scripts/ccf_spatial/ and the n2o: measure annotations in templates.
+
+CCF_ABA_CACHE       = $(SRC_DIR)/scripts/cell_counts/resources/aba_cache
+CCF_ANNOTATION      = $(CCF_ABA_CACHE)/image_volumes/Allen-CCF-2020/20250331/annotation_25.nii.gz
+CCF_MEMBERSHIP      = $(CCF_ABA_CACHE)/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv
+CCF_SPATIAL_SCRIPTS = $(SRC_DIR)/scripts/ccf_spatial/scripts
+CCF_BRIDGE          = $(UTILS_DIR)/ccf_parcellation.py
+
+# Yao WMB MERFISH per-cell metadata (used by both matrix and proximity pipelines).
+# Path matches what generate_full_matrices.py expects; this rule provides an
+# explicit dependency target so the proximity step doesn't silently use a stale
+# or absent cache.
+YAO_CCF_CSV = $(CCF_ABA_CACHE)/metadata/MERFISH-C57BL6J-638850-CCF/20231215/views/cell_metadata_with_parcellation_annotation.csv
+
+$(CCF_ANNOTATION):
+	@echo "Downloading Allen-CCF-2020 annotation_25.nii.gz (~3.6 MB)..."
+	mkdir -p $(@D)
+	curl -L -o $@ "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/image_volumes/Allen-CCF-2020/20250331/annotation_25.nii.gz"
+
+$(CCF_MEMBERSHIP):
+	@echo "Downloading Allen-CCF-2020 parcellation membership table..."
+	mkdir -p $(@D)
+	curl -L -o $@ "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv"
+
+$(YAO_CCF_CSV):
+	@echo "Downloading Yao WMB cell metadata (large, multi-GB)..."
+	mkdir -p $(@D)
+	curl -L -o $@ "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/MERFISH-C57BL6J-638850-CCF/20231215/views/cell_metadata_with_parcellation_annotation.csv"
+
+# Region adjacency: one script run produces division/structure/substructure
+# together. Substructure tsv is the canonical target; the others depend on it.
+CCF_ADJACENCY_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/region_adjacency_substructure.tsv \
+	$(ROOT_TEMPLATES_DIR)/region_adjacency_structure.tsv \
+	$(ROOT_TEMPLATES_DIR)/region_adjacency_division.tsv
+
+$(ROOT_TEMPLATES_DIR)/region_adjacency_substructure.tsv: \
+		$(CCF_ANNOTATION) \
+		$(CCF_MEMBERSHIP) \
+		$(REPORTS_DIR)/mba_symbol_map.csv \
+		$(CCF_SPATIAL_SCRIPTS)/compute_region_adjacency.py \
+		$(CCF_BRIDGE) \
+		$(VENV_PYTHON)
+	@echo "Computing CCF region adjacency (all three levels)..."
+	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_region_adjacency.py \
+		--annotation $(CCF_ANNOTATION) \
+		--membership $(CCF_MEMBERSHIP) \
+		--mba-map $(REPORTS_DIR)/mba_symbol_map.csv \
+		--reports-dir $(REPORTS_DIR) \
+		--templates-dir $(ROOT_TEMPLATES_DIR)
+
+$(ROOT_TEMPLATES_DIR)/region_adjacency_structure.tsv \
+$(ROOT_TEMPLATES_DIR)/region_adjacency_division.tsv: \
+		$(ROOT_TEMPLATES_DIR)/region_adjacency_substructure.tsv
+
+.PHONY: ccf-region-adjacency
+ccf-region-adjacency: $(CCF_ADJACENCY_TEMPLATES)
+
+# Cell proximity: 'locatedInOrNear' edges per taxonomy level, all three CCF
+# region levels (division / structure / substructure) emitted in one pass via
+# a canonical-level filter so each region appears at exactly one granularity.
+# Cluster tsv is canonical; the script writes all five tsvs together.
+CCF_PROXIMITY_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/supertype_proximity_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/subclass_proximity_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/class_proximity_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/neurotransmitter_proximity_mappings.tsv
+
+$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv: \
+		$(CCF_ANNOTATION) \
+		$(CCF_MEMBERSHIP) \
+		$(REPORTS_DIR)/mba_symbol_map.csv \
+		$(REPORTS_DIR)/cell_set_map.csv \
+		$(YAO_CCF_CSV) \
+		$(ZHUANG_MATRICES_DIR)/matrix_metadata.json \
+		$(CCF_SPATIAL_SCRIPTS)/compute_cell_proximity.py \
+		$(CCF_BRIDGE) \
+		$(VENV_PYTHON)
+	@echo "Computing cell proximity (all five taxonomy levels x three region levels)..."
+	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_cell_proximity.py \
+		--annotation $(CCF_ANNOTATION) \
+		--membership $(CCF_MEMBERSHIP) \
+		--mba-map $(REPORTS_DIR)/mba_symbol_map.csv \
+		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
+		--yao-csv $(YAO_CCF_CSV) \
+		--aba-cache $(CCF_ABA_CACHE) \
+		--reports-dir $(REPORTS_DIR) \
+		--templates-dir $(ROOT_TEMPLATES_DIR)
+
+$(ROOT_TEMPLATES_DIR)/supertype_proximity_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/subclass_proximity_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/class_proximity_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/neurotransmitter_proximity_mappings.tsv: \
+		$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv
+
+.PHONY: ccf-cell-proximity
+ccf-cell-proximity: $(CCF_PROXIMITY_TEMPLATES)
+
+.PHONY: ccf-spatial
+ccf-spatial: ccf-region-adjacency ccf-cell-proximity
+
+# CCF spatial OWL outputs (built from templates above via the existing
+# $(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv robot template rule).
+CCF_SPATIAL_OWL = \
+	$(OWL_DIR)/region_adjacency_division.owl \
+	$(OWL_DIR)/region_adjacency_structure.owl \
+	$(OWL_DIR)/region_adjacency_substructure.owl \
+	$(OWL_DIR)/cluster_proximity_mappings.owl \
+	$(OWL_DIR)/supertype_proximity_mappings.owl \
+	$(OWL_DIR)/subclass_proximity_mappings.owl \
+	$(OWL_DIR)/class_proximity_mappings.owl \
+	$(OWL_DIR)/neurotransmitter_proximity_mappings.owl
 
 # Clean build artifacts
 .PHONY: clean

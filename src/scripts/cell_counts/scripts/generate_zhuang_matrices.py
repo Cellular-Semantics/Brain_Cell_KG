@@ -29,6 +29,7 @@ import json
 import os
 import shutil
 import ssl
+import sys
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -36,6 +37,10 @@ from pathlib import Path
 import certifi
 import numpy as np
 import pandas as pd
+
+# Shared CCF parcellation bridge lives in src/utils (sibling-import convention).
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "utils"))
+from ccf_parcellation import load_parcellation_lookup as _shared_load_parcellation_lookup  # noqa: E402
 
 # Build a single SSL context using the certifi CA bundle so downloads work
 # on systems without a system-level CA bundle (e.g. fresh python.org Python).
@@ -86,7 +91,12 @@ def download_to_cache(url: str, target: Path) -> Path:
 
 
 def load_parcellation_lookup(cache_dir: Path) -> dict:
-    """parcellation_index -> {division, structure, substructure} acronyms."""
+    """parcellation_index -> {division, structure, substructure} acronyms.
+
+    Thin wrapper: ensures the membership CSV is cached (downloading if needed),
+    then delegates the parse to the shared utility so the matrix and spatial
+    pipelines stay in lock-step on bridge semantics.
+    """
     base = f"{S3}/metadata/Allen-CCF-2020/{PARCELLATION_RELEASE}"
     rel = Path("metadata/Allen-CCF-2020") / PARCELLATION_RELEASE / "views"
     acro_path = cache_dir / rel / "parcellation_to_parcellation_term_membership_acronym.csv"
@@ -94,20 +104,7 @@ def load_parcellation_lookup(cache_dir: Path) -> dict:
         f"{base}/views/parcellation_to_parcellation_term_membership_acronym.csv",
         acro_path,
     )
-
-    lookup: dict[int, dict[str, str]] = {}
-    with open(acro_path) as f:
-        for row in csv.DictReader(f):
-            try:
-                pi = int(row["parcellation_index"])
-            except (KeyError, ValueError):
-                continue
-            lookup[pi] = {
-                "division": row.get("division") or "",
-                "structure": row.get("structure") or "",
-                "substructure": row.get("substructure") or "",
-            }
-    return lookup
+    return _shared_load_parcellation_lookup(acro_path)
 
 
 def load_zhuang_dataset(dataset: str, cache_dir: Path) -> pd.DataFrame:

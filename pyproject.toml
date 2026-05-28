@@ -17,6 +17,8 @@ dependencies = [
     "pathlib",
     "jupyter>=1.0.0",
     "openpyxl>=3.0.0",
+    "nibabel>=5.0.0",
+    "scipy>=1.10.0",
 ]
 
 [project.optional-dependencies]

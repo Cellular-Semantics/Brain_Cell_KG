@@ -1,0 +1,2606 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:BG="https://purl.brain-bican.org/ontology/CS20250428/"
+     xmlns:CL="http://purl.obolibrary.org/obo/CL_"
+     xmlns:GO="http://purl.obolibrary.org/obo/GO_"
+     xmlns:PR="http://purl.obolibrary.org/obo/PR_"
+     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
+     xmlns:SO="http://purl.obolibrary.org/obo/SO_"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:sc="https://schema.org/"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:ILX="http://uri.interlex.org/base/ilx_"
+     xmlns:MBA="https://purl.brain-bican.org/ontology/mbao/MBA_"
+     xmlns:OBI="http://purl.obolibrary.org/obo/OBI_"
+     xmlns:PCL="http://purl.obolibrary.org/obo/PCL_"
+     xmlns:WHB="https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/"
+     xmlns:WMB="https://purl.brain-bican.org/ontology/CCN20230722/"
+     xmlns:doi="https://doi.org/"
+     xmlns:n2o="http://n2o.neo/custom/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:PMID="http://www.ncbi.nlm.nih.gov/pubmed/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:MONDO="http://purl.obolibrary.org/obo/MONDO_"
+     xmlns:orcid="https://orcid.org/"
+     xmlns:GITHUB="https://github.com/"
+     xmlns:HsapDv="http://purl.obolibrary.org/obo/HsapDv_"
+     xmlns:MmusDv="http://purl.obolibrary.org/obo/MmusDv_"
+     xmlns:UBERON="http://purl.obolibrary.org/obo/UBERON_"
+     xmlns:ro_rel="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:so_rel="http://purl.obolibrary.org/obo/so#"
+     xmlns:GITHUBH="http://github.com/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ensembl="http://identifiers.org/ensembl/"
+     xmlns:NCBIGene="http://identifiers.org/ncbigene/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:pato_rel="http://purl.obolibrary.org/obo/pato#"
+     xmlns:HANCESTRO="http://purl.obolibrary.org/obo/HANCESTRO_"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
+     xmlns:UniProtKB="https://identifiers.org/uniprot/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://n2o.neo/custom/centroidDistance -->
+
+    <AnnotationProperty rdf:about="http://n2o.neo/custom/centroidDistance"/>
+    
+
+
+    <!-- http://n2o.neo/custom/contactArea -->
+
+    <AnnotationProperty rdf:about="http://n2o.neo/custom/contactArea"/>
+    
+
+
+    <!-- http://n2o.neo/custom/minDistance -->
+
+    <AnnotationProperty rdf:about="http://n2o.neo/custom/minDistance"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_1000 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_1000">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3932.355</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">358750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4048.998</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">644375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3275.192</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3448.458</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2760000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2683.761</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8006250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1660.368</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5235E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">327.627</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0061875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4649.21</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1388125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2056.163</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2086875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4354.377</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">213750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_1009 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_1009">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3275.192</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2246.329</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1404375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">843.336</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1668125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1342.435</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">414375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3000.625</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">871875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1668.551</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3669375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1189.582</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9667500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">652.515</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">535625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1480.017</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2336250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1638.934</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1645625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1145.999</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2976876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1596.938</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0855E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1998.04</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5559375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_1089 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_1089">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2246.329</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1404375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2131.353</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">257500.02</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">765.736</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">468125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2931.561</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.86825E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3475.148</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">319375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2060.248</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">106250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1535.2</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1592500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5189.613</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6266250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2812.643</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4890625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1370.122</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">213750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3285.526</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">161250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1692.882</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.165625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1607.956</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.307626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_1097 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_1097">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3448.458</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2760000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">843.336</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1668125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2086.992</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7692500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3723.779</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1745625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1836.028</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2545625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2028.283</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2859375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1272.348</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1385626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2479.838</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1063.854</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1589375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2416.672</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">469375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2828.244</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9310625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_129 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_129">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1342.435</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">414375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2131.353</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">257500.02</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2086.992</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7692500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3870.881</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2847.496</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1275625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1559.036</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1464.582</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">631875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">623.958</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4226875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1916.231</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1208750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">827.645</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4597500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1638.571</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53750.004</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">934.976</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2722500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_140 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_140">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3870.881</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2193.909</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63750.004</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1024.448</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5159375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1595.999</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1603750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_145 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_145">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2193.909</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63750.004</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1558.186</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2716.449</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1261.694</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3835625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1365.078</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1758.87</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2901250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4456.891</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.365875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">683.285</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2993125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5743.827</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_164 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_164">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1558.186</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1079.678</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_313 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_313">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2683.761</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8006250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3000.625</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">871875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">765.736</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">468125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3723.779</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1745625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2847.496</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1275625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1024.448</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5159375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2716.449</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3427.099</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26250.002</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2523.846</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.352375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2275.008</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.844125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2377.381</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.62025E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2235.184</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5816875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4051.108</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0305626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2368.375</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.17925E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2193.377</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8160000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_315 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_315">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1349.089</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7464376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2931.561</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.86825E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1559.036</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3427.099</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26250.002</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2418.716</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">640000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1021.6</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9501876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3565.076</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.82625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3459.605</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4934375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2956.21</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1490.93</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6513126E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_354 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_354">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1660.368</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5235E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1261.694</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3835625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_164"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1079.678</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2572.544</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6161250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1908.967</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.10875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5177.044</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">508125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1943.889</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3655626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6014.23</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1320628E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5458.473</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1105E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_477 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_477">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1668.551</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3669375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3475.148</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">319375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1836.028</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2545625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1464.582</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">631875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2418.716</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">640000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2875.702</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1720.309</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.452875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1782.916</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7674376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">793.479</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9605E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2280.512</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">794.167</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7115625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2005.731</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1501876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2381.537</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3633125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_484682512 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_484682512">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2060.248</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">106250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1021.6</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9501876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2875.702</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3383.075</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1149.864</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0591252E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">760.79</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2408125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_512 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_512">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_140"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1595.999</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1603750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1365.078</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2523.846</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.352375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2572.544</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6161250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2800.2</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1515625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4545.164</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">726250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">820.679</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9678189E8</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6281.257</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1827500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_549 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_549">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1189.582</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9667500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1535.2</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1592500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2028.283</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2859375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">623.958</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4226875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2275.008</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.844125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2232.774</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3946250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">453.461</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">486875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1909.301</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3043750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">460.34</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.638625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">816.365</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2871875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_698 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_698">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5189.613</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6266250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3565.076</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.82625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1720.309</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.452875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3201.984</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8065E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1908.293</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2043750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3944.397</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">377500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2188.629</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.624626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3644.451</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2832500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3970.958</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">480000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_703 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_703">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">652.515</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">535625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2812.643</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4890625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3459.605</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4934375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1782.916</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7674376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3383.075</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3201.984</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8065E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2290.506</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1098750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1043.232</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2233.482</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.509875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2642.536</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22825E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_771 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_771">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">327.627</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0061875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1758.87</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2901250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2377.381</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.62025E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1908.967</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.10875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2800.2</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1515625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1989.827</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1056876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4132.956</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.272125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3619.633</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3205000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_803 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_803">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4649.21</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1388125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1480.017</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2336250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1272.348</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1385626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1916.231</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1208750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">793.479</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9605E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2232.774</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3946250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1908.293</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2043750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2640.127</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">151875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.917</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2330625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2428.16</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.654375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2845.011</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4922500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_81 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_81">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1638.934</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1645625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1370.122</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">213750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2479.838</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">827.645</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4597500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4456.891</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.365875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5177.044</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">508125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2280.512</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4545.164</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">726250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">453.461</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">486875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3944.397</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">377500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2290.506</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1098750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2640.127</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">151875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4131.265</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">276875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2327.203</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">324.682</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2218125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">416.941</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.804625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_960 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_960">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2056.163</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2086875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">683.285</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2993125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2235.184</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5816875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1943.889</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3655626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">820.679</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9678189E8</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1989.827</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1056876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4131.265</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">276875.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5661.655</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.03025E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_967 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_967">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4354.377</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">213750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1145.999</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2976876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3285.526</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">161250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1063.854</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1589375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1638.571</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53750.004</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_145"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5743.827</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4051.108</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0305626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2956.21</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91250.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6014.23</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1320628E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">794.167</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7115625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6281.257</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1827500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1909.301</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3043750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2188.629</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.624626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1043.232</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4132.956</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.272125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.917</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2330625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2327.203</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.355</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_960"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5661.655</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.03025E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2131.918</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1610000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2554.363</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2349375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_983 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_983">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3932.355</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">358750.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1596.938</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0855E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1692.882</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.165625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2416.672</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">469375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2368.375</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.17925E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1490.93</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6513126E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_354"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5458.473</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1105E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2005.731</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1501876E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1149.864</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0591252E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">460.34</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.638625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3644.451</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2832500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2233.482</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.509875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_771"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3619.633</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3205000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2428.16</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.654375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">324.682</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2218125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2131.918</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1610000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">427.118</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.269626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_991 -->
+
+    <NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_991">
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <obo:RO_0002220 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+    </NamedIndividual>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1000"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4048.998</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">644375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1009"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1998.04</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5559375E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1089"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1607.956</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.307626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_1097"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2828.244</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9310625.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_129"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">934.976</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2722500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_313"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2193.377</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8160000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_315"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1349.089</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7464376E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_477"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2381.537</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3633125E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_484682512"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">760.79</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2408125.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_549"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">816.365</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2871875E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_698"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3970.958</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">480000.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_703"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2642.536</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22825E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_803"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2845.011</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4922500.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_81"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">416.941</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.804625E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_967"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2554.363</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2349375.0</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_991"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+        <annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_983"/>
+        <n2o:centroidDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">427.118</n2o:centroidDistance>
+        <n2o:contactArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.269626E7</n2o:contactArea>
+        <n2o:minDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</n2o:minDistance>
+    </Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
