@@ -226,11 +226,17 @@ def main():
         if len(z):
             frames.append(z)
     cells = pd.concat(frames, ignore_index=True)
-    cells = cells[cells["parcellation_index"] != 0].reset_index(drop=True)
+    # Cells with parcellation_index == 0 are inside the CCF coordinate frame but
+    # outside any parcellated region (~1.8% of WMB MERFISH cells, mostly at the
+    # brain boundary). Keep them: their `region_<lvl>` becomes NaN so they never
+    # match `in_B` (n_in_X stays 0) but they still contribute to n_total and to
+    # n_in_or_near_100 when they fall within 100 um of a region's surface.
     for lvl in REGION_LEVELS:
         cells[f"region_{lvl}"] = cells["parcellation_index"].map(idx2curie_all[lvl])
     cells = cells.dropna(subset=["x", "y", "z"]).reset_index(drop=True)
-    print(f"  pooled & coord-valid: {len(cells):,} cells")
+    n_outside = int((cells["parcellation_index"] == 0).sum())
+    print(f"  pooled & coord-valid: {len(cells):,} cells "
+          f"({n_outside:,} of these have no CCF region assignment)")
     cells_xyz = cells[["x", "y", "z"]].to_numpy(dtype=np.float32)
 
     # --- alignment self-check at substructure level (clearest signal) ---
