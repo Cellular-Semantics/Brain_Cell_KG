@@ -144,7 +144,7 @@ reports: $(REPORT_OUTPUTS)
 
 # Template generation from source data
 .PHONY: generate-templates
-generate-templates: hierarchical-location-templates zhuang-location-templates wmb-total-cell-count-template $(VENV_PYTHON)
+generate-templates: yao-location-templates zhuang-location-templates wmb-total-cell-count-template $(VENV_PYTHON)
 	@for source in $(wildcard $(SOURCE_DATA_DIR)/*/); do \
 		if [ -f "$$source/code/generate.py" ]; then \
 			echo "Processing $$source"; \
@@ -248,25 +248,15 @@ taxonomy-matrices: $(VENV_PYTHON)
 	@echo "Generating complete taxonomy × brain region matrices..."
 	cd $(SRC_DIR)/scripts/cell_counts/scripts && ../../../../$(VENV_PYTHON) generate_full_matrices.py
 
-# Source DOIs attached as dcterms:source axiom annotations on every edge
+# Source DOIs (informational; the unified-location script picks the right DOI
+# from --dataset, so the recipes do not pass these directly).
 YAO_DOI = doi:10.1038/s41586-023-06812-z
 ZHUANG_DOI = doi:10.1038/s41586-023-06808-9
 
-# Generate hierarchical location mapping templates from Yao MERFISH matrices.
-# Edges are attributed to Yao 2023 via dcterms:source.
-.PHONY: hierarchical-location-templates
-hierarchical-location-templates: taxonomy-matrices $(VENV_PYTHON)
-	@echo "Generating Yao hierarchical location mapping ROBOT templates..."
-	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
-		--input-dir $(SRC_DIR)/scripts/cell_counts/reports/taxonomy_by_region_matrices \
-		--output-dir templates \
-		--source-doi $(YAO_DOI)
-
+# Zhuang per-taxonomy matrices feed downstream reports (separate from the
+# unified location templates, which read raw coordinates directly).
 ZHUANG_MATRICES_DIR = $(SRC_DIR)/scripts/cell_counts/reports/zhuang_taxonomy_by_region_matrices
 
-# Generate Zhuang taxonomy × region matrices (downloads ~3.5 GB on first run).
-# File-target on the metadata json so the matrix step is idempotent w.r.t.
-# the script and source data, not re-run unnecessarily.
 $(ZHUANG_MATRICES_DIR)/matrix_metadata.json: \
 		$(SRC_DIR)/scripts/cell_counts/scripts/generate_zhuang_matrices.py \
 		$(VENV_PYTHON)
@@ -275,41 +265,6 @@ $(ZHUANG_MATRICES_DIR)/matrix_metadata.json: \
 
 .PHONY: zhuang-matrices
 zhuang-matrices: $(ZHUANG_MATRICES_DIR)/matrix_metadata.json
-
-# Generate hierarchical location mapping templates from Zhuang MERFISH matrices.
-# Output filenames are suffixed _zhuang to coexist with the Yao templates.
-# Edges are attributed to Zhang/Zhuang 2023 via dcterms:source.
-# All five TSVs are produced in a single script run; we make
-# cluster_location_mappings_zhuang.tsv the canonical target and have the
-# other four depend on it (empty-rule), so 'make owl' can satisfy each.
-ZHUANG_LOCATION_TEMPLATES = \
-	$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv \
-	$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
-	$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
-	$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
-	$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv
-
-$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
-		$(ZHUANG_MATRICES_DIR)/matrix_metadata.json \
-		$(REPORTS_DIR)/cell_set_map.csv \
-		$(REPORTS_DIR)/mba_symbol_map.csv \
-		$(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
-		$(VENV_PYTHON)
-	@echo "Generating Zhuang hierarchical location mapping ROBOT templates..."
-	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_hierarchical_location_templates.py \
-		--input-dir $(ZHUANG_MATRICES_DIR) \
-		--output-dir $(ROOT_TEMPLATES_DIR) \
-		--source-doi $(ZHUANG_DOI) \
-		--output-suffix _zhuang
-
-$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
-$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
-$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
-$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
-		$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv
-
-.PHONY: zhuang-location-templates
-zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
 # Per-taxonomy-node cell counts from the WMB-10X reference dataset
 # (~4M cells, defines the WMB taxonomy). Sibling to cell_counts_by_taxonomy.csv
@@ -403,61 +358,93 @@ $(ROOT_TEMPLATES_DIR)/region_adjacency_division.tsv: \
 .PHONY: ccf-region-adjacency
 ccf-region-adjacency: $(CCF_ADJACENCY_TEMPLATES)
 
-# Cell proximity: 'locatedInOrNear' edges per taxonomy level, all three CCF
-# region levels (division / structure / substructure) emitted in one pass via
-# a canonical-level filter so each region appears at exactly one granularity.
-# Cluster tsv is canonical; the script writes all five tsvs together.
-CCF_PROXIMITY_TEMPLATES = \
-	$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv \
-	$(ROOT_TEMPLATES_DIR)/supertype_proximity_mappings.tsv \
-	$(ROOT_TEMPLATES_DIR)/subclass_proximity_mappings.tsv \
-	$(ROOT_TEMPLATES_DIR)/class_proximity_mappings.tsv \
-	$(ROOT_TEMPLATES_DIR)/neurotransmitter_proximity_mappings.tsv
+# Unified location templates: one PCL:0010063 "has soma location" edge per
+# (cell type, region) carrying cell_count, cell_ratio, and an in_or_near_100
+# axiom annotation (counts cells inside the region OR within 100 um of its
+# painted surface). All five taxonomy-level TSVs come out of a single script
+# run per dataset; the cluster TSV is the canonical target and the other four
+# empty-depend on it. The script picks the dataset DOI from --dataset.
 
-$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv: \
+YAO_LOCATION_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/supertype_location_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/subclass_location_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/class_location_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings.tsv
+
+$(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv: \
 		$(CCF_ANNOTATION) \
 		$(CCF_MEMBERSHIP) \
 		$(REPORTS_DIR)/mba_symbol_map.csv \
 		$(REPORTS_DIR)/cell_set_map.csv \
 		$(YAO_CCF_CSV) \
-		$(ZHUANG_MATRICES_DIR)/matrix_metadata.json \
-		$(CCF_SPATIAL_SCRIPTS)/compute_cell_proximity.py \
+		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
 		$(CCF_BRIDGE) \
 		$(VENV_PYTHON)
-	@echo "Computing cell proximity (all five taxonomy levels x three region levels)..."
-	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_cell_proximity.py \
+	@echo "Generating Yao unified location templates (all five taxonomy levels)..."
+	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
+		--dataset yao \
 		--annotation $(CCF_ANNOTATION) \
 		--membership $(CCF_MEMBERSHIP) \
 		--mba-map $(REPORTS_DIR)/mba_symbol_map.csv \
 		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
 		--yao-csv $(YAO_CCF_CSV) \
+		--reports-dir $(REPORTS_DIR) \
+		--templates-dir $(ROOT_TEMPLATES_DIR)
+
+$(ROOT_TEMPLATES_DIR)/supertype_location_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/subclass_location_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/class_location_mappings.tsv \
+$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings.tsv: \
+		$(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv
+
+.PHONY: yao-location-templates
+yao-location-templates: $(YAO_LOCATION_TEMPLATES)
+
+ZHUANG_LOCATION_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
+	$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv
+
+$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
+		$(CCF_ANNOTATION) \
+		$(CCF_MEMBERSHIP) \
+		$(REPORTS_DIR)/mba_symbol_map.csv \
+		$(REPORTS_DIR)/cell_set_map.csv \
+		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
+		$(CCF_BRIDGE) \
+		$(VENV_PYTHON)
+	@echo "Generating Zhuang unified location templates (all five taxonomy levels)..."
+	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
+		--dataset zhuang \
+		--annotation $(CCF_ANNOTATION) \
+		--membership $(CCF_MEMBERSHIP) \
+		--mba-map $(REPORTS_DIR)/mba_symbol_map.csv \
+		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
 		--aba-cache $(CCF_ABA_CACHE) \
 		--reports-dir $(REPORTS_DIR) \
 		--templates-dir $(ROOT_TEMPLATES_DIR)
 
-$(ROOT_TEMPLATES_DIR)/supertype_proximity_mappings.tsv \
-$(ROOT_TEMPLATES_DIR)/subclass_proximity_mappings.tsv \
-$(ROOT_TEMPLATES_DIR)/class_proximity_mappings.tsv \
-$(ROOT_TEMPLATES_DIR)/neurotransmitter_proximity_mappings.tsv: \
-		$(ROOT_TEMPLATES_DIR)/cluster_proximity_mappings.tsv
+$(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/class_location_mappings_zhuang.tsv \
+$(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
+		$(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv
 
-.PHONY: ccf-cell-proximity
-ccf-cell-proximity: $(CCF_PROXIMITY_TEMPLATES)
+.PHONY: zhuang-location-templates
+zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
 .PHONY: ccf-spatial
-ccf-spatial: ccf-region-adjacency ccf-cell-proximity
+ccf-spatial: ccf-region-adjacency yao-location-templates zhuang-location-templates
 
 # CCF spatial OWL outputs (built from templates above via the existing
 # $(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv robot template rule).
 CCF_SPATIAL_OWL = \
 	$(OWL_DIR)/region_adjacency_division.owl \
 	$(OWL_DIR)/region_adjacency_structure.owl \
-	$(OWL_DIR)/region_adjacency_substructure.owl \
-	$(OWL_DIR)/cluster_proximity_mappings.owl \
-	$(OWL_DIR)/supertype_proximity_mappings.owl \
-	$(OWL_DIR)/subclass_proximity_mappings.owl \
-	$(OWL_DIR)/class_proximity_mappings.owl \
-	$(OWL_DIR)/neurotransmitter_proximity_mappings.owl
+	$(OWL_DIR)/region_adjacency_substructure.owl
 
 # Clean build artifacts
 .PHONY: clean
@@ -495,9 +482,11 @@ help:
 	@echo "  wmb-robot-templates - Generate ROBOT templates from WMB mapping results"
 	@echo "  cell-count-analysis - Generate cell count and proportion reports from CCF data"
 	@echo "  taxonomy-matrices - Generate complete taxonomy × brain region matrices"
-	@echo "  hierarchical-location-templates - Generate Yao hierarchical location mapping ROBOT templates"
+	@echo "  yao-location-templates - Generate Yao unified location templates (PCL:0010063 with in_or_near_100)"
 	@echo "  zhuang-matrices - Generate Zhuang taxonomy x region matrices (downloads ~3.5 GB on first run)"
-	@echo "  zhuang-location-templates - Generate Zhuang hierarchical location mapping ROBOT templates"
+	@echo "  zhuang-location-templates - Generate Zhuang unified location templates (PCL:0010063 with in_or_near_100)"
+	@echo "  ccf-region-adjacency - Generate CCF region adjacency templates (all three levels)"
+	@echo "  ccf-spatial - Generate adjacency + unified location templates (yao + zhuang)"
 	@echo "  wmb-total-cell-count-template - Generate ROBOT template attaching total cell counts to WMB cell types"
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"

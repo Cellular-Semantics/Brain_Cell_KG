@@ -19,8 +19,3 @@ https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/ma
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_division.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_structure.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_substructure.owl
-https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/neurotransmitter_proximity_mappings.owl
-https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/class_proximity_mappings.owl
-https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/subclass_proximity_mappings.owl
-https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/supertype_proximity_mappings.owl
-https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/cluster_proximity_mappings.owl

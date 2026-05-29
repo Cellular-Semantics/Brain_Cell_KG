@@ -4,8 +4,10 @@ Generate taxonomy x brain-region cell-count matrices from the Zhuang lab
 ABCA MERFISH datasets (Zhang et al. 2023, doi:10.1038/s41586-023-06808-9).
 
 Output is a sibling directory to the existing Yao matrices (produced by
-generate_full_matrices.py) with the same file shape, so it can be fed into
-generate_hierarchical_location_templates.py without modification.
+generate_full_matrices.py) with the same file shape. Used by downstream
+report consumers; the unified location templates are computed directly from
+raw coordinates by compute_unified_location_templates.py and do not consume
+these matrices.
 
 Steps:
   1. For each of the four Zhuang-ABCA-N datasets:

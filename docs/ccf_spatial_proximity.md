@@ -27,7 +27,7 @@ the brain*. The Brain Cell KG already records this at the *discrete-
 assignment* level: each MERFISH cell carries a `parcellation_index` from
 the painted Allen CCF, and aggregated per cell type this becomes a count of
 cells in each named region (the existing
-[`PCL:0010063` location edge](src/scripts/cell_counts/generate_hierarchical_location_templates.py)
+[`PCL:0010063` "has soma location" edge](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py)
 with `cell_count` and `cell_ratio` axiom annotations). That answers *"how
 many cells of type X were observed inside region A?"*.
 
@@ -141,9 +141,11 @@ painted volume itself, so the graph carries explicit *measured* "next-to"
 relations between named regions rather than relying on latent anatomy
 knowledge.
 
-The remainder of this paper describes both products, the schema we chose,
-the filtering decisions (with their explicit trade-offs), and the
-validation patterns.
+The remainder of this paper describes the two outputs (region adjacency and
+the unified per-type location edge), the schema we chose, the filtering
+decision, and the validation patterns. The boundary-band count is carried as
+an extra axiom annotation on the existing `PCL:0010063` "has soma location"
+edge — one fact per (type, region) rather than two parallel edges.
 
 ## 2. Data sources
 
@@ -166,7 +168,7 @@ existing cell-count matrix script
 [`generate_zhuang_matrices.py`](src/scripts/cell_counts/scripts/generate_zhuang_matrices.py)
 was refactored to share it.
 
-## 3. Two products
+## 3. Two outputs sharing one edge
 
 ### 3.1 Region adjacency
 
@@ -185,29 +187,37 @@ vectorised pass: 25 regions, 339 structures, 574 substructures, ~2 seconds.
 Outputs land in [`templates/region_adjacency_{level}.tsv`](templates/) →
 [`owl/region_adjacency_{level}.owl`](owl/).
 
-### 3.2 Per-type "located in or near" proximity
+### 3.2 Per-type unified location edge
 
-For every (cell type, region X) pair we emit an
-**`n2o:locatedInOrNear`** edge carrying three integer counts:
+For every (cell type, region X) pair we emit a single
+**`PCL:0010063` "has soma location"** edge carrying three axiom annotations:
 
-| axiom annotation | meaning |
-|---|---|
-| `n2o:typeCellTotal` | total cells of this type observed (whole brain) |
-| `n2o:countInRegion` | cells whose painted resident region is X |
-| `n2o:countInOrNear100um` | `countInRegion` **plus** cells observed within 100 µm of X's painted surface but residing outside X |
+| axiom annotation | property | meaning |
+|---|---|---|
+| `cell_count` | `PCL:0010060` (xsd:integer) | cells of the type whose painted resident region is X |
+| `cell_ratio` | `PCL:0010065` (xsd:float) | `cell_count` / total cells of the type (per dataset) |
+| `in_or_near_100` | `n2o:countInOrNear100um` (xsd:integer) | `cell_count` **plus** cells of the type observed within 100 µm of X's painted surface but residing outside X |
+
+This collapses what was, in an earlier iteration, two parallel edges per
+(type, region) — a `PCL:0010063` "has soma location" edge and a separate
+`n2o:locatedInOrNear` proximity edge — into one fact. The interior count
+keeps the strict soma-location semantics; the boundary-band count carries
+the "or near" registration-noise aspect alongside it.
 
 Computed by
-[`compute_cell_proximity.py`](src/scripts/ccf_spatial/scripts/compute_cell_proximity.py).
-The distance from each cell to a region's surface is measured against a KD-tree
-built from the region's *painted boundary voxels* — robust to MERFISH section
-spacing (sections are ~100–200 µm apart in z, but the surface is dense).
+[`compute_unified_location_templates.py`](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py),
+once per dataset (Yao / Zhuang) so the source DOI is unambiguous. Distance
+from each cell to a region's surface is measured against a KD-tree built
+from the region's *painted boundary voxels* — robust to MERFISH section
+spacing (~100–200 µm in z; the surface is dense). The dataset's total cells
+per type (the implicit denominator of `cell_ratio`) lives in the
+[per-type total-cell-count template](src/scripts/cell_counts/generate_total_cell_count_template.py).
 
-A literature-match agent can read two questions directly off these counts:
+A literature-match agent reads two questions off the same edge:
 
-- *"Is this type really there?"* → `countInOrNear100um` above its noise floor.
-- *"Is most of this type there?"* → `countInOrNear100um / typeCellTotal` close to 1.
-
-The fractions are derivable, so the OWL carries only the integers.
+- *"Is this type really there?"* → `in_or_near_100` above its noise floor.
+- *"Is most of this type there?"* → `cell_ratio` close to 1, or
+  `in_or_near_100 / total_cells_of_type` close to 1.
 
 ### Why 100 µm?
 
@@ -221,27 +231,42 @@ biologically a sensible "abutting" scale.
 
 A region acronym's *native level* in the CCF hierarchy is the first column in
 the membership table where it appears without a `-unassigned` suffix. `MB` is
-a division, `ZI` a structure, `DG-mo` a substructure. We restrict each
-region-level's proximity table to regions canonical at that level, so:
+a division, `ZI` a structure, `DG-mo` a substructure. Each (type, region) row
+is emitted at the region's canonical level only, so:
 
-- the **division** table contains only divisions (`HY`, `MB`, `Isocortex`, …);
-- the **structure** table contains only structures (`ZI`, `SNr`, `MOs`, …);
-- the **substructure** table contains only substructures (`MOs6a`, `CA1so`, …).
+- divisions (`HY`, `MB`, `Isocortex`, …) only appear in division-level rows;
+- structures (`ZI`, `SNr`, `MOs`, …) only at structure-level;
+- substructures (`MOs6a`, `CA1so`, …) only at substructure-level.
 
 No region is duplicated across levels; an agent that resolves a literature
 term to a CURIE pulls the edges at that CURIE's native level directly. The
 canonical-level helper lives in
 [`load_canonical_levels()`](src/utils/ccf_parcellation.py).
 
+### Template row shape
+
+Each row in `templates/{tax}_location_mappings[_zhuang].tsv` is a single
+`PCL:0010063` ROBOT-template edge with the standard 7-column layout:
+
+| col | header | ROBOT type | from |
+|---|---|---|---|
+| 1 | `ID` | `ID` | cell-type CURIE |
+| 2 | `Type` | `TYPE` | `owl:NamedIndividual` |
+| 3 | `PCL:0010063` | `AI PCL:0010063` | region CURIE (`MBA:nnn`) |
+| 4 | `cell_count` | `>AT PCL:0010060^^xsd:integer` | interior count |
+| 5 | `cell_ratio` | `>AT PCL:0010065^^xsd:float` | interior fraction |
+| 6 | `in_or_near_100` | `>AT n2o:countInOrNear100um^^xsd:integer` | boundary-band count |
+| 7 | `source` | `>AI dcterms:source` | dataset DOI |
+
 ### Boundary cells (`parcellation_index = 0`)
 
 About **1.8 %** of cells with valid CCF coordinates sit *outside* any
 parcellated region (boundary slivers, CSF). The script keeps them: their
-`region_<level>` is `NaN` so they never increment `countInRegion`, but they
-do contribute to `typeCellTotal` (the denominator the agent uses) and to
-`countInOrNear100um` when they fall within 100 µm of a region surface. The
-alternative (drop them up-front) silently undercounts every type and
-slightly inflates every fraction.
+`region_<level>` is `NaN` so they never increment `cell_count`, but they
+do contribute to the per-type total (the implicit denominator of
+`cell_ratio`) and to `in_or_near_100` when they fall within 100 µm of a
+region surface. The alternative (drop them up-front) silently undercounts
+every type and slightly inflates every fraction.
 
 ### `<X>-unassigned` cells
 
@@ -250,82 +275,63 @@ About **10 %** of cells at substructure granularity sit in regions like
 correctly captured *without* needing CURIEs for `-unassigned` placeholders:
 the shared bridge folds them to the parent acronym, the cells appear in the
 global cells KD-tree, and when queried against a canonical substructure B
-nearby they classify as "near B but not in B" — contributing to `n_100`. They
-also appear at the parent's canonical level (e.g. as residents of `HY` at
-the division-level table), where they belong.
+nearby they classify as "near B but not in B" — contributing to
+`in_or_near_100`. They also appear at the parent's canonical level (e.g. as
+residents of `HY` at the division-level row), where they belong.
 
-## 5. Filtering choices
+## 5. Filtering choice
 
-Three filters survive in production. They were chosen to preserve two
-distinct match patterns the literature-match agent depends on:
+A single emit rule survives in production: keep a (type, region) row when
+the fractional share of the type's cells inside or within 100 µm of the
+region clears a per-taxonomy floor.
 
-- **small focal cluster** — a small transcriptomic type with most of its
-  cells in or against a single region. High fraction, low absolute count.
-  *"Almost every cell of cluster X sits at region Y."*
-- **broad cluster × narrow literature term** — a large transcriptomic
-  type spread across many regions, where literature picks out one of
-  those regions specifically. Modest fraction, high absolute count.
-  *"A substantial chunk of cluster X lives at region Y."*
+### 5.1 The graded cutoff
 
-### 5.1 What we filter
+| taxonomy level | floor on `in_or_near_100 / total_cells_of_type` |
+|---|---|
+| neurotransmitter | 0.005 (0.5 %) |
+| class | 0.0075 (0.75 %) |
+| subclass | 0.01 (1 %) |
+| supertype | 0.015 (1.5 %) |
+| cluster | 0.025 (2.5 %) |
 
-| filter | rule | what it removes |
-|---|---|---|
-| **Count-or-fraction (OR)** | `countInOrNear100um ≥ 10`  **OR**  `frac_in_or_near_100 ≥ 0.05` | rows where *both* the absolute count is small (< 10 cells) *and* the fractional share is small (< 5 %). |
-| **Canonical level** | each region acronym appears in exactly one region-level table | duplication and the cross-level fold-through described in §4 |
-| **Empty rows** | implicit: rows with `countInOrNear100um = 0` are not emitted | uninformative (essentially every type × every distant region) |
+Coarser levels spread across more regions, so a flat cutoff would
+over-prune broad types (a broad subclass's hippocampal share falls below
+the cluster floor even when its child clusters are clearly hippocampal).
+The graded scale mirrors the existing
+[`DEFAULT_GRADED_CUTOFFS`](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py)
+matches what the prior `cell_count`-only template used, so KG consumers see
+the same emit-decision behaviour they tuned to.
 
-Each branch of the OR rule targets one of the two match patterns above:
+### 5.2 Why one cutoff, not an OR
 
-- The **count branch** (`n ≥ 10`) preserves the *broad cluster × narrow
-  literature term* case. Cluster `0364 L5 ET CTX Glut_2` (12 832 cells)
-  has 3 749 cells in or near MOs — only 29 % of the cluster but
-  unmistakably a match for "L5 motor cortical glutamatergic neurons" by
-  absolute weight. A fraction-only cutoff would either erase this (high
-  cutoff) or admit much weaker types (low cutoff).
-- The **fraction branch** (`frac ≥ 0.05`) preserves the *small focal
-  cluster*. Cluster `1728 ZI Pax6 Gaba_2` (96 cells, 88 of which are in
-  ZI and all 96 within 100 µm of ZI) clears the fraction branch trivially
-  even though 96 cells is small in absolute terms.
+The previous draft applied an OR rule
+(`count ≥ 10`  **OR**  `frac ≥ 0.05`) to preserve two distinct match
+patterns: small focal clusters (fraction branch) and broad clusters with
+significant absolute presence (count branch). With the unified edge, the
+boundary-band count `in_or_near_100` itself rescues the focal-edge case:
+a 96-cell cluster all of whose cells sit at ZI clears the cluster-level
+2.5 % floor on `in_or_near_100 / total` trivially (96 / 96 = 1.0), even
+when only 88 of those cells are strictly *in* ZI. The broad-cluster case is
+covered by the lower coarse-level floors. The two branches collapse into
+one rule once the denominator and numerator both account for the boundary
+band.
 
-Both thresholds are exposed on the CLI (`--min-n-in-or-near`,
-`--min-frac-in-or-near`) and combine as an unconditional OR.
+### 5.3 What we deliberately do not filter
 
-The OR rule cuts the cluster proximity table from **153 082 edges** (under
-the prior plain `n ≥ 3` floor) to **112 870** — a ~26 % trim concentrated
-in the long low-fraction, low-count tail.
-
-### 5.2 What we deliberately do not filter
-
-We considered, and dropped, a further filter that was attractive on size
-but punitive on signal.
-
-**A minimum-denominator floor on cells in the neighbourhood.** An earlier
-draft computed a "local concentration" fraction with a denominator of *cells
-of the type that live in regions adjacent to B*. Filtering rows where that
-denominator was below 50 would have shrunk the cluster table sharply, but
-it would also have silently dropped every small focal cluster — clusters
-with 5 cells, all of which sit at one region. We replaced the local
-denominator with the global `typeCellTotal` and dropped the floor; the
-fraction branch of the OR rule above now preserves those small focal
-clusters by construction.
-
-### 5.3 If the table still needs trimming later
-
-If downstream queries are ever slowed by the residue (low-fraction
-substructure-level edges in particular), a single-knob tighten would be to
-raise the count floor to `n ≥ 20` and the fraction floor to `frac ≥ 0.10`.
-Measured against the same input table, that cuts the cluster proximity
-table by a further ~25 % — but it begins eating into small focal clusters
-(the example `1728 ZI Pax6 Gaba_2` drops from 10 surviving rows to 6), so
-the trade-off is no longer monotone. We do not recommend it unless
-necessary; the current defaults stay where focal clusters survive intact.
+We considered, and dropped, a further filter on a *local* denominator —
+counting cells of the type that live in regions adjacent to B — because it
+silently drops small focal clusters whose home is the only region they
+appear in. The global per-type total is the only denominator used.
 
 ## 6. Examples
 
-All examples below pool Yao + Zhuang (9.14 M cells) and read from
-[`reports/cell_proximity_*.csv`](reports/) (the inspection CSV; the OWL
-template carries the same numbers as axiom annotations).
+All examples below show pooled Yao + Zhuang numbers for readability (the
+production pipeline runs per-dataset; the OWL templates carry the same
+`cell_count` / `cell_ratio` / `in_or_near_100` values as axiom annotations,
+one DOI per edge). The inspection CSV
+[`reports/cell_proximity_*.csv`](reports/) carries the same columns plus
+the per-row total used as denominator.
 
 ### 6.1 Focal exact-match: large type, one home
 
@@ -343,29 +349,28 @@ molecular layer" pulls the substructure edge: 81 % of the subclass is *in or
 within 100 µm of* DG-mo (most cells sit one layer deep in DG-sg, the granule
 layer, which abuts DG-mo).
 
-### 6.2 Focal small cluster — preserved by the fraction branch
+### 6.2 Focal small cluster — preserved by the graded cutoff
 
 **`1728 ZI Pax6 Gaba_2`** — a 96-cell cluster name-tagged as a zona
 incerta Pax6 GABAergic type.
 
-| level | near | n_total | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
+| level | near | n_total | cell_count | in_or_near_100 | frac_in_or_near_100 |
 |---|---|---|---|---|---|
 | division | `HY` (hypothalamus) | 96 | 95 | 96 | **1.000** |
 | structure | `ZI` (zona incerta) | 96 | 88 | 96 | **1.000** |
 
-Every single one of this cluster's 96 cells lives in or within 100 µm of
-ZI. Although the absolute count is small, the fraction branch of the OR
-filter (`frac ≥ 0.05`) keeps every row trivially: a literature description
-of a ZI Pax6 type matches this cluster cleanly. An earlier "neighbourhood
-denominator ≥ 50" filter we considered would have dropped these rows
-entirely; the OR design is precisely what preserves them.
+Every one of this cluster's 96 cells lives in or within 100 µm of ZI.
+Although the absolute count is small, the fractional share is 1.0 and
+clears the cluster-level 2.5 % floor by an enormous margin. The earlier
+draft worried that an absolute-count floor would erase rows like this; the
+graded fractional rule keeps them by construction.
 
-### 6.3 Broad distributed type — preserved by the count branch
+### 6.3 Broad distributed type — covered by lower coarse-level floors
 
 **`0364 L5 ET CTX Glut_2`** — a layer-5 extratelencephalic cortical
 glutamatergic cluster (12 832 cells across pooled Yao + Zhuang).
 
-| level | near | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
+| level | near | cell_count | in_or_near_100 | frac_in_or_near_100 |
 |---|---|---|---|---|
 | division | `Isocortex` | 12 826 | 12 828 | **1.000** |
 | structure | `MOs` (secondary motor) | 2 943 | 3 749 | 0.292 |
@@ -383,19 +388,18 @@ Reading these together (the broad-match pattern): every cell of this
 cluster is cortical (division: `Isocortex` = 1.0), distributed across
 motor and somatosensory areas (structure), specifically in deep cortical
 layers 5/6a (substructure). No single edge is *the* match — the family
-of edges describes the type. Many of these rows have
-`frac_in_or_near_100` well below 0.05 (e.g. `SSp-ll` at 0.10, several
-substructures around 0.10–0.20), yet they all clear the count branch of
-the filter (`n ≥ 10`) and are retained. *A fraction-only cutoff would
-either erase this broad pattern (high cutoff) or admit far weaker types
-(low cutoff)*; the OR rule's count branch is what keeps it intact.
+of edges describes the type. Several of these rows have
+`frac_in_or_near_100` around 0.1; they clear their respective floors
+(structure 0.75 %, substructure 2.5 %) comfortably. The graded scale is
+what lets the structure-level rows past while still trimming
+sub-percent noise at cluster level.
 
 ### 6.4 Border-only — the case proximity exists to capture
 
 **`3550 PAG-ND-PCG Onecut1 Gaba_3`** — a 120-cell cluster name-tagged to
 PAG / ND / PCG.
 
-| level | near | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
+| level | near | cell_count | in_or_near_100 | frac_in_or_near_100 |
 |---|---|---|---|---|
 | division | `P` (pons) | 99 | 110 | **0.917** |
 | structure | `PCG` (pontine central grey) | 38 | 85 | **0.708** |
@@ -404,14 +408,17 @@ PAG / ND / PCG.
 | structure | `PDTg` (posterodorsal tegmental nucleus) | 0 | 24 | 0.200 |
 | structure | `PAG` (periaqueductal grey) | 13 | 19 | 0.158 |
 
-Only 38 of the 120 cells are *in* PCG (32 %). By location alone the
-cluster looks more DTN than PCG. The proximity layer reveals that **85 of
+Only 38 of the 120 cells are *in* PCG (32 %). By `cell_count` alone the
+cluster looks more DTN than PCG. The unified edge reveals that **85 of
 the 120 cells (71 %) sit within 100 µm of PCG's painted surface** — the
 cluster lives squarely on the PCG / DTN boundary. The taxonomy name's
-inclusion of PCG is substantively correct, and only the proximity edge
-surfaces it. Note also `PDTg` (`n_in_X = 0`, but 24 cells within 100 µm,
-20 % of the cluster): a region the location count misses entirely, picked
-up by the count branch of the OR filter.
+inclusion of PCG is substantively correct, and only the `in_or_near_100`
+annotation surfaces it. Note also `PDTg`: `cell_count = 0` but 24 cells
+within 100 µm (20 % of the cluster). With only the `cell_count` column
+this row would have been dropped entirely (no cells inside the region);
+under the unified schema the boundary-band fraction (0.200) clears the
+cluster-level 2.5 % floor and the edge is retained — the headline
+behaviour the unification was built to deliver.
 
 ## 7. Validation
 
@@ -425,11 +432,12 @@ End-to-end checks against the pooled run:
   check, accounting for the gap).
 - **Adjacency spot-checks**: HPF↔TH, HPF↔CTXsp, Isocortex↔OLF, CB↔MB all
   present with substantial contact areas.
-- **DOI attribution**: 99.9 % of proximity edges cite both Yao and Zhuang
-  DOIs; the handful of single-source edges sit in regions one dataset
-  undersamples.
-- **ROBOT compilation**: all 8 spatial templates compile end-to-end through
-  the OFN-serialising pipeline; cluster OWL builds in ~13 s.
+- **DOI attribution**: each edge carries exactly one source DOI (the
+  dataset the script was run for). Yao and Zhuang templates coexist as
+  separate files so a downstream consumer can pick either set or merge.
+- **ROBOT compilation**: all 13 spatial templates (3 adjacency + 5 Yao +
+  5 Zhuang location) compile end-to-end through the OFN-serialising
+  pipeline; cluster OWL builds in ~13 s.
 
 ## 8. Implementation
 
@@ -437,9 +445,9 @@ End-to-end checks against the pooled run:
 |---|---|
 | volume → region CURIE bridge (shared) | [`src/utils/ccf_parcellation.py`](src/utils/ccf_parcellation.py) |
 | region adjacency | [`src/scripts/ccf_spatial/scripts/compute_region_adjacency.py`](src/scripts/ccf_spatial/scripts/compute_region_adjacency.py) |
-| per-cell proximity | [`src/scripts/ccf_spatial/scripts/compute_cell_proximity.py`](src/scripts/ccf_spatial/scripts/compute_cell_proximity.py) |
-| build orchestration | new targets `ccf-region-adjacency`, `ccf-cell-proximity`, `ccf-spatial` in the [Makefile](Makefile) |
-| KG configuration | new OWL URLs added to [`config/collectdata/vfb_fullontologies.txt`](config/collectdata/vfb_fullontologies.txt) |
+| unified per-type location templates | [`src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py`](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py) |
+| build orchestration | targets `ccf-region-adjacency`, `yao-location-templates`, `zhuang-location-templates`, `ccf-spatial` in the [Makefile](Makefile) |
+| KG configuration | per-level OWL URLs in [`config/collectdata/vfb_fullontologies.txt`](config/collectdata/vfb_fullontologies.txt) |
 
 OWL outputs are serialised in OWL Functional Syntax (OFN) with the `.owl`
 extension; the OWL API auto-detects format from content. This keeps every
@@ -456,12 +464,6 @@ drop-in replacement at every downstream consumer.
   here. The Developing Human Brain Atlas (DHBA v2) under Allen's CCF-MAP
   framework will need a separate pass with its own hierarchy and an
   equivalent shared bridge.
-- **Further trimming**: the OR-rule defaults
-  (`n ≥ 10` or `frac ≥ 0.05`) hit a balance between size and small-cluster
-  preservation. If downstream KG queries are eventually slowed by the tail,
-  tightening both branches (`n ≥ 20` and `frac ≥ 0.10`) is a one-flag
-  change that further trims the cluster table by ~25 %, at the cost of
-  losing some small-focal-cluster rows (see §5.3).
 - **Region-region adjacency tolerance**: the current adjacency layer emits
   face-touching pairs only. A second pass could capture pairs separated by
   thin (≤ 50 µm) intervening territories (typically fibre tracts and CSF
