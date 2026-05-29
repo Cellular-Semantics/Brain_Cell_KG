@@ -57,7 +57,14 @@ from ccf_parcellation import (  # noqa: E402
 
 TAXONOMY_LEVELS = ["neurotransmitter", "class", "subclass", "supertype", "cluster"]
 PROXIMITY_BAND_UM = 100.0
-DEFAULT_MIN_N_IN_OR_NEAR = 3
+# Default emit-time filter: keep rows where EITHER the absolute count
+# (n_in_or_near_100) clears the count floor OR the fractional share clears
+# the fraction floor. The OR keeps two complementary kinds of match:
+#   - small focal clusters with high fraction but few cells (frac branch)
+#   - large/broad clusters with substantial absolute count but modest
+#     fraction (count branch, broad-taxonomy -> narrow-literature match)
+DEFAULT_MIN_N_IN_OR_NEAR = 10
+DEFAULT_MIN_FRAC_IN_OR_NEAR = 0.05
 
 YAO_DOI = "doi:10.1038/s41586-023-06812-z"
 ZHUANG_DOI = "doi:10.1038/s41586-023-06808-9"
@@ -189,7 +196,14 @@ def main():
     ap.add_argument("--zhuang-cluster-release", default="20231215")
     ap.add_argument("--zhuang-ccf-release", default="20230830")
     ap.add_argument("--min-n-in-or-near", type=int, default=DEFAULT_MIN_N_IN_OR_NEAR,
-                    help="Drop rows where n_in_or_near_100 < this (noise floor)")
+                    help="Absolute-count branch of the emit filter: keep row "
+                         "if n_in_or_near_100 >= this. Default 10.")
+    ap.add_argument("--min-frac-in-or-near", type=float,
+                    default=DEFAULT_MIN_FRAC_IN_OR_NEAR,
+                    help="Fractional branch of the emit filter: keep row "
+                         "if frac_in_or_near_100 (= n_in_or_near_100/n_total) "
+                         ">= this. Default 0.05. Combined with --min-n-in-or-near "
+                         "as an OR; a row is kept if EITHER threshold is met.")
     args = ap.parse_args()
 
     import nibabel as nib
@@ -341,10 +355,23 @@ def main():
                     .agg(n_in_X=("in_B", "sum"),
                          n_in_or_near=("in_B", "count")) \
                     .reset_index()
-                df = df[df["n_in_or_near"] >= args.min_n_in_or_near]
+                tot = n_total_per_tax[tax]
+                # OR-rule filter: keep if EITHER the absolute count clears the
+                # count floor OR the fractional share clears the fraction floor.
+                # The two branches preserve complementary match patterns:
+                #   - count branch    -> 'significant chunk of a large cluster'
+                #   - fraction branch -> 'all of a small focal cluster lives here'
+                df["n_total_lookup"] = df["label"].map(tot).fillna(0).astype(int)
+                with np.errstate(divide="ignore", invalid="ignore"):
+                    frac = np.where(df["n_total_lookup"] > 0,
+                                    df["n_in_or_near"] / df["n_total_lookup"],
+                                    0.0)
+                df = df[
+                    (df["n_in_or_near"] >= args.min_n_in_or_near)
+                    | (frac >= args.min_frac_in_or_near)
+                ]
                 if df.empty:
                     continue
-                tot = n_total_per_tax[tax]
                 for _, r in df.iterrows():
                     label = r["label"]
                     curie = type_curie.get((tax, label))

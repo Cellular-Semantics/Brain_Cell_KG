@@ -254,72 +254,72 @@ nearby they classify as "near B but not in B" — contributing to `n_100`. They
 also appear at the parent's canonical level (e.g. as residents of `HY` at
 the division-level table), where they belong.
 
-## 5. Filtering choices — the deliberate minimalism
+## 5. Filtering choices
 
-Three filters survive in production. Everything else is left to the agent.
+Three filters survive in production. They were chosen to preserve two
+distinct match patterns the literature-match agent depends on:
+
+- **small focal cluster** — a small transcriptomic type with most of its
+  cells in or against a single region. High fraction, low absolute count.
+  *"Almost every cell of cluster X sits at region Y."*
+- **broad cluster × narrow literature term** — a large transcriptomic
+  type spread across many regions, where literature picks out one of
+  those regions specifically. Modest fraction, high absolute count.
+  *"A substantial chunk of cluster X lives at region Y."*
 
 ### 5.1 What we filter
 
 | filter | rule | what it removes |
 |---|---|---|
-| **Noise floor** | `countInOrNear100um ≥ 3` | rows where fewer than 3 cells of the type are in or within 100 µm of the region — anecdotal at MERFISH registration noise |
-| **Canonical level** | each region acronym in exactly one region-level table | duplication and the cross-level fold-through described above |
-| **Empty rows** | implicit: rows with `countInOrNear100um = 0` are not emitted | uninformative (the rows would just say "this type has zero cells near this region", which is essentially every type × every distant region) |
+| **Count-or-fraction (OR)** | `countInOrNear100um ≥ 10`  **OR**  `frac_in_or_near_100 ≥ 0.05` | rows where *both* the absolute count is small (< 10 cells) *and* the fractional share is small (< 5 %). |
+| **Canonical level** | each region acronym appears in exactly one region-level table | duplication and the cross-level fold-through described in §4 |
+| **Empty rows** | implicit: rows with `countInOrNear100um = 0` are not emitted | uninformative (essentially every type × every distant region) |
+
+Each branch of the OR rule targets one of the two match patterns above:
+
+- The **count branch** (`n ≥ 10`) preserves the *broad cluster × narrow
+  literature term* case. Cluster `0364 L5 ET CTX Glut_2` (12 832 cells)
+  has 3 749 cells in or near MOs — only 29 % of the cluster but
+  unmistakably a match for "L5 motor cortical glutamatergic neurons" by
+  absolute weight. A fraction-only cutoff would either erase this (high
+  cutoff) or admit much weaker types (low cutoff).
+- The **fraction branch** (`frac ≥ 0.05`) preserves the *small focal
+  cluster*. Cluster `1728 ZI Pax6 Gaba_2` (96 cells, 88 of which are in
+  ZI and all 96 within 100 µm of ZI) clears the fraction branch trivially
+  even though 96 cells is small in absolute terms.
+
+Both thresholds are exposed on the CLI (`--min-n-in-or-near`,
+`--min-frac-in-or-near`) and combine as an unconditional OR.
+
+The OR rule cuts the cluster proximity table from **153 082 edges** (under
+the prior plain `n ≥ 3` floor) to **112 870** — a ~26 % trim concentrated
+in the long low-fraction, low-count tail.
 
 ### 5.2 What we deliberately do not filter
 
-We considered, and dropped, two further filters that were attractive on size
+We considered, and dropped, a further filter that was attractive on size
 but punitive on signal.
 
-**A minimum-denominator floor on cells in the neighbourhood.** The earliest
-version computed a "local concentration" fraction with a denominator of
-*cells of the type that live in regions adjacent to B*. Filtering rows where
-that denominator was below 50 would have cut the cluster table from 153 k
-edges to about 31 k. But it would also have silently dropped every small
-focal cluster — clusters with 5 cells, all of which sit at one region. Those
-are *the strongest possible match signal* for a literature description, not
-the weakest. We replaced the local denominator with the global
-`typeCellTotal` and dropped the floor.
+**A minimum-denominator floor on cells in the neighbourhood.** An earlier
+draft computed a "local concentration" fraction with a denominator of *cells
+of the type that live in regions adjacent to B*. Filtering rows where that
+denominator was below 50 would have shrunk the cluster table sharply, but
+it would also have silently dropped every small focal cluster — clusters
+with 5 cells, all of which sit at one region. We replaced the local
+denominator with the global `typeCellTotal` and dropped the floor; the
+fraction branch of the OR rule above now preserves those small focal
+clusters by construction.
 
-**A graded fraction cutoff on `frac_in_or_near_100`.** The location-mapping
-script applies graded cutoffs (0.5–2.5 %) keyed to taxonomy level. We chose
-not to mirror that here because the proximity numbers serve two opposite
-queries:
+### 5.3 If the table still needs trimming later
 
-- For an *exact-match* query the agent wants edges where the fraction is
-  high (e.g. ≥ 0.5).
-- For a *broad-match* query the agent wants to see *every* region where the
-  type has any presence — including 2–3 % edges that together establish a
-  distributed pattern (e.g. an Lamp5 interneuron type across six cortical
-  areas, none of them dominant).
-
-A single fraction floor cannot simultaneously serve both queries; we keep
-the absolute count floor (which is symmetric) and let the agent apply its
-own threshold per query.
-
-### 5.3 The honest counterpoint
-
-The current cluster proximity table has 153 082 edges, of which:
-
-- 31 % have `frac_in_or_near_100 < 1 %` — very weak fractional signal,
-- 59 % have `frac_in_or_near_100 < 5 %`.
-
-A defensible refinement would be to add an additional emit-time filter such
-as `frac_in_or_near_100 ≥ 0.005` (drop the bottom 5 %, keep the rest). It
-would shrink the table by ~30 % and lose only edges where one in every 200
-cells of a type touches the region — arguably below the broad-match
-threshold of interest. We have not made that change because:
-
-1. The KG already loads cleanly (cluster OWL = 86 MB in OFN serialisation,
-   well under platform limits).
-2. The decision of *what fractional threshold counts* depends on context
-   the agent has and the script does not.
-3. Once trimmed at emit time, that information cannot be recovered without
-   a re-run; whereas downstream filtering is a one-line query.
-
-That said: if downstream KG queries turn out to be slowed by the long
-low-fraction tail, dropping `frac_in_or_near_100 < 0.005` would be the
-narrowest reasonable cut.
+If downstream queries are ever slowed by the residue (low-fraction
+substructure-level edges in particular), a single-knob tighten would be to
+raise the count floor to `n ≥ 20` and the fraction floor to `frac ≥ 0.10`.
+Measured against the same input table, that cuts the cluster proximity
+table by a further ~25 % — but it begins eating into small focal clusters
+(the example `1728 ZI Pax6 Gaba_2` drops from 10 surviving rows to 6), so
+the trade-off is no longer monotone. We do not recommend it unless
+necessary; the current defaults stay where focal clusters survive intact.
 
 ## 6. Examples
 
@@ -343,61 +343,75 @@ molecular layer" pulls the substructure edge: 81 % of the subclass is *in or
 within 100 µm of* DG-mo (most cells sit one layer deep in DG-sg, the granule
 layer, which abuts DG-mo).
 
-### 6.2 Focal small cluster — would be lost without the absolute-count approach
+### 6.2 Focal small cluster — preserved by the fraction branch
 
-**`1728 ZI Pax6 Gaba_2`** — a 49-cell cluster name-tagged as a zona incerta
-Pax6 GABAergic type.
+**`1728 ZI Pax6 Gaba_2`** — a 96-cell cluster name-tagged as a zona
+incerta Pax6 GABAergic type.
 
 | level | near | n_total | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
 |---|---|---|---|---|---|
-| division | `HY` (hypothalamus) | 49 | 48 | 49 | **1.000** |
-| structure | `ZI` (zona incerta) | 49 | 44 | 49 | **1.000** |
+| division | `HY` (hypothalamus) | 96 | 95 | 96 | **1.000** |
+| structure | `ZI` (zona incerta) | 96 | 88 | 96 | **1.000** |
 
-Every single cell of this 49-cell cluster lives in or within 100 µm of ZI.
-The earlier filter that demanded a 50-cell "neighbourhood denominator" would
-have dropped this row entirely. Under the current schema it is the cleanest
-possible match for a literature description of a ZI Pax6 type.
+Every single one of this cluster's 96 cells lives in or within 100 µm of
+ZI. Although the absolute count is small, the fraction branch of the OR
+filter (`frac ≥ 0.05`) keeps every row trivially: a literature description
+of a ZI Pax6 type matches this cluster cleanly. An earlier "neighbourhood
+denominator ≥ 50" filter we considered would have dropped these rows
+entirely; the OR design is precisely what preserves them.
 
-### 6.3 Broad distributed type — many partial matches
+### 6.3 Broad distributed type — preserved by the count branch
 
 **`0364 L5 ET CTX Glut_2`** — a layer-5 extratelencephalic cortical
-glutamatergic cluster (3 740 cells).
+glutamatergic cluster (12 832 cells across pooled Yao + Zhuang).
 
 | level | near | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
 |---|---|---|---|---|
-| division | `Isocortex` | 3 739 | 3 740 | **1.000** |
-| structure | `MOs` (secondary motor) | 1 070 | 1 351 | 0.361 |
-| structure | `MOp` (primary motor) | 900 | 1 136 | 0.304 |
-| structure | `SSp-ul` (somatosensory, upper limb) | 298 | 431 | 0.115 |
-| structure | `SSp-ll` (somatosensory, lower limb) | 276 | 401 | 0.107 |
-| substructure | `MOs6a` | 642 | 1 101 | 0.294 |
-| substructure | `MOp6a` | 564 | 1 021 | 0.273 |
-| substructure | `MOs5` | 428 | 874 | 0.234 |
-| substructure | `MOp5` | 336 | 769 | 0.206 |
+| division | `Isocortex` | 12 826 | 12 828 | **1.000** |
+| structure | `MOs` (secondary motor) | 2 943 | 3 749 | 0.292 |
+| structure | `MOp` (primary motor) | 2 594 | 3 340 | 0.260 |
+| structure | `ACAd` (anterior cingulate, dorsal) | 862 | 1 347 | 0.105 |
+| structure | `SSp-ll` (somatosensory, lower limb) | 945 | 1 342 | 0.105 |
+| structure | `SSp-ul` (somatosensory, upper limb) | 868 | 1 271 | 0.099 |
+| substructure | `MOs5` | 1 702 | 2 996 | 0.233 |
+| substructure | `MOp5` | 1 638 | 2 852 | 0.222 |
+| substructure | `MOs6a` | 1 234 | 2 736 | 0.213 |
+| substructure | `MOp6a` | 953 | 2 417 | 0.188 |
+| substructure | `SSp-ll5` | 872 | 1 323 | 0.103 |
 
-Reading these together (the broad-match pattern): every cell of this cluster
-is cortical (division: Isocortex = 1.0), distributed across motor and
-somatosensory areas (structure), specifically in deep cortical layers 5/6a
-(substructure). No single edge is the "match" — the family of edges
-describes the type. *Any fraction cutoff would either erase the broad
-pattern (high cutoff) or admit far weaker types (low cutoff).*
+Reading these together (the broad-match pattern): every cell of this
+cluster is cortical (division: `Isocortex` = 1.0), distributed across
+motor and somatosensory areas (structure), specifically in deep cortical
+layers 5/6a (substructure). No single edge is *the* match — the family
+of edges describes the type. Many of these rows have
+`frac_in_or_near_100` well below 0.05 (e.g. `SSp-ll` at 0.10, several
+substructures around 0.10–0.20), yet they all clear the count branch of
+the filter (`n ≥ 10`) and are retained. *A fraction-only cutoff would
+either erase this broad pattern (high cutoff) or admit far weaker types
+(low cutoff)*; the OR rule's count branch is what keeps it intact.
 
 ### 6.4 Border-only — the case proximity exists to capture
 
-**`3550 PAG-ND-PCG Onecut1 Gaba_3`** — an 11-cell cluster name-tagged to
-PAG/ND/PCG.
+**`3550 PAG-ND-PCG Onecut1 Gaba_3`** — a 120-cell cluster name-tagged to
+PAG / ND / PCG.
 
-| near | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
-|---|---|---|---|
-| `PCG` (pontine central grey) | 1 | 11 | **1.000** |
-| `DTN` (dorsal tegmental nucleus) | 7 | 10 | 0.909 |
-| `PAG` (periaqueductal grey) | 2 | 3 | 0.273 |
+| level | near | n_in_X | n_in_or_near_100 | frac_in_or_near_100 |
+|---|---|---|---|---|
+| division | `P` (pons) | 99 | 110 | **0.917** |
+| structure | `PCG` (pontine central grey) | 38 | 85 | **0.708** |
+| structure | `DTN` (dorsal tegmental nucleus) | 56 | 79 | 0.658 |
+| division | `MB` (midbrain) | 19 | 27 | 0.225 |
+| structure | `PDTg` (posterodorsal tegmental nucleus) | 0 | 24 | 0.200 |
+| structure | `PAG` (periaqueductal grey) | 13 | 19 | 0.158 |
 
-Only 1 of the 11 cells is *in* PCG. By cell counts alone this looks like a
-DTN cluster. The proximity layer reveals that all 11 sit within 100 µm of
-PCG's surface — the cluster lives at the PCG/DTN boundary. The taxonomy
-name's mention of PCG turns out to be substantively correct, and only the
-proximity edge surfaces it.
+Only 38 of the 120 cells are *in* PCG (32 %). By location alone the
+cluster looks more DTN than PCG. The proximity layer reveals that **85 of
+the 120 cells (71 %) sit within 100 µm of PCG's painted surface** — the
+cluster lives squarely on the PCG / DTN boundary. The taxonomy name's
+inclusion of PCG is substantively correct, and only the proximity edge
+surfaces it. Note also `PDTg` (`n_in_X = 0`, but 24 cells within 100 µm,
+20 % of the cluster): a region the location count misses entirely, picked
+up by the count branch of the OR filter.
 
 ## 7. Validation
 
@@ -442,9 +456,12 @@ drop-in replacement at every downstream consumer.
   here. The Developing Human Brain Atlas (DHBA v2) under Allen's CCF-MAP
   framework will need a separate pass with its own hierarchy and an
   equivalent shared bridge.
-- **Fraction floor**: as discussed in §5.3, an optional
-  `frac_in_or_near_100 ≥ 0.005` filter would tighten the long low-fraction
-  tail by ~30 % if downstream query performance demands it.
+- **Further trimming**: the OR-rule defaults
+  (`n ≥ 10` or `frac ≥ 0.05`) hit a balance between size and small-cluster
+  preservation. If downstream KG queries are eventually slowed by the tail,
+  tightening both branches (`n ≥ 20` and `frac ≥ 0.10`) is a one-flag
+  change that further trims the cluster table by ~25 %, at the cost of
+  losing some small-focal-cluster rows (see §5.3).
 - **Region-region adjacency tolerance**: the current adjacency layer emits
   face-touching pairs only. A second pass could capture pairs separated by
   thin (≤ 50 µm) intervening territories (typically fibre tracts and CSF
