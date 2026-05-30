@@ -10,7 +10,7 @@ NamedIndividuals.
 
 The cell_count is attached as a direct annotation (PCL:0010060) on the
 individual, distinct from the per-region cell_count annotations on
-location-mapping axioms produced by generate_hierarchical_location_templates.py.
+location-mapping axioms produced by compute_unified_location_templates.py.
 """
 
 import argparse
