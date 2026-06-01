@@ -1,0 +1,27 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(
+Declaration(NamedIndividual(<http://n2o.neo/custom/CCF2020>))
+Declaration(AnnotationProperty(<http://n2o.neo/custom/atlasVersionTag>))
+Declaration(AnnotationProperty(<http://n2o.neo/custom/dataSource>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/source>))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://n2o.neo/custom/CCF2020> (Allen Mouse Brain CCF v3 painted parcellation)
+
+AnnotationAssertion(<http://n2o.neo/custom/atlasVersionTag> <http://n2o.neo/custom/CCF2020> "Allen-CCF-2020/20230630")
+AnnotationAssertion(<http://n2o.neo/custom/dataSource> <http://n2o.neo/custom/CCF2020> <https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/Allen-CCF-2020/20230630/>)
+AnnotationAssertion(<http://purl.org/dc/terms/source> <http://n2o.neo/custom/CCF2020> <https://doi.org/10.1016/j.cell.2020.04.007>)
+AnnotationAssertion(rdfs:label <http://n2o.neo/custom/CCF2020> "Allen Mouse Brain CCF v3 painted parcellation")
+
+
+)

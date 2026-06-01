@@ -186,17 +186,20 @@ def test_template_schema(tmp_path: Path) -> None:
          "n_in_X": 42, "n_in_or_near_100": 91, "frac_in_X": 0.014,
          "source": "doi:10.1038/s41586-023-06812-z"},
     ])
-    ccp.emit_template(df, out)
+    ccp.emit_template(df, out, "n2o:CCF2020")
     lines = out.read_text().splitlines()
     assert lines[0].split("\t") == [
         "ID", "Type", "PCL:0010063",
-        "cell_count", "cell_ratio", "in_or_near_100", "source",
+        "cell_count", "cell_ratio", "in_or_near_100",
+        "completeness", "spatial_atlas", "source",
     ]
     assert lines[1].split("\t") == [
         "ID", "TYPE", "AI PCL:0010063",
         ">AT PCL:0010060^^xsd:integer",
         ">AT PCL:0010065^^xsd:float",
         ">AT n2o:countInOrNear100um^^xsd:integer",
+        ">AT n2o:cellCountCompleteness^^xsd:string",
+        ">AI n2o:spatialReferenceAtlas",
         ">AI dcterms:source",
     ]
     row = lines[2].split("\t")
@@ -205,7 +208,9 @@ def test_template_schema(tmp_path: Path) -> None:
     assert row[3] == "42"
     assert row[4] == "0.014000"
     assert row[5] == "91"
-    assert row[6] == "doi:10.1038/s41586-023-06812-z"
+    assert row[6] == ""              # completeness blank for directly-measured
+    assert row[7] == "n2o:CCF2020"
+    assert row[8] == "doi:10.1038/s41586-023-06812-z"
 
 
 def test_per_dataset_doi(tmp_path: Path) -> None:
@@ -213,12 +218,143 @@ def test_per_dataset_doi(tmp_path: Path) -> None:
     zh_out = tmp_path / "z.tsv"
     base = {"type_curie": "WMB:X", "near_region": "MBA:1",
             "n_in_X": 1, "n_in_or_near_100": 1, "frac_in_X": 0.01}
-    ccp.emit_template(pd.DataFrame([{**base, "source": ccp.DATASET_DOI["yao"]}]), yao_out)
-    ccp.emit_template(pd.DataFrame([{**base, "source": ccp.DATASET_DOI["zhuang"]}]), zh_out)
+    ccp.emit_template(pd.DataFrame([{**base, "source": ccp.DATASET_DOI["yao"]}]),
+                      yao_out, "n2o:CCF2020")
+    ccp.emit_template(pd.DataFrame([{**base, "source": ccp.DATASET_DOI["zhuang"]}]),
+                      zh_out, "n2o:CCF2020")
     assert ccp.DATASET_DOI["yao"] in yao_out.read_text()
     assert ccp.DATASET_DOI["zhuang"] not in yao_out.read_text()
     assert ccp.DATASET_DOI["zhuang"] in zh_out.read_text()
     assert ccp.DATASET_DOI["yao"] not in zh_out.read_text()
+
+
+# --------------------------------------------------------------------------- #
+# Rollup row generation                                                       #
+# --------------------------------------------------------------------------- #
+def test_spatial_atlas_annotation(tmp_path: Path) -> None:
+    """Every emitted row carries the atlas CURIE in the spatial_atlas column."""
+    out = tmp_path / "out.tsv"
+    df = pd.DataFrame([
+        {"type_curie": "WMB:X", "near_region": "MBA:1",
+         "n_in_X": 1, "n_in_or_near_100": 1, "frac_in_X": 0.01,
+         "source": "doi:1"},
+        {"type_curie": "WMB:Y", "near_region": "MBA:2",
+         "n_in_X": 5, "n_in_or_near_100": 7, "frac_in_X": 0.05,
+         "source": "doi:1"},
+    ])
+    ccp.emit_template(df, out, "n2o:CCF2020")
+    lines = out.read_text().splitlines()
+    # spatial_atlas is the 8th column (index 7)
+    for data_line in lines[2:]:
+        cols = data_line.split("\t")
+        assert cols[7] == "n2o:CCF2020"
+
+
+def test_completeness_flag_passthrough(tmp_path: Path) -> None:
+    """Rollup rows carrying completeness='lower_bound' surface that flag in
+    the cellCountCompleteness column; direct rows leave it blank."""
+    out = tmp_path / "out.tsv"
+    df = pd.DataFrame([
+        # rollup row, partial coverage
+        {"type_curie": "WMB:X", "near_region": "MBA:909",
+         "n_in_X": 100, "n_in_or_near_100": 120, "frac_in_X": 0.10,
+         "completeness": "lower_bound", "source": "doi:1"},
+        # rollup row, complete coverage
+        {"type_curie": "WMB:Y", "near_region": "MBA:918",
+         "n_in_X": 80, "n_in_or_near_100": 90, "frac_in_X": 0.08,
+         "completeness": "exact", "source": "doi:1"},
+        # directly-measured row
+        {"type_curie": "WMB:Z", "near_region": "MBA:20",
+         "n_in_X": 50, "n_in_or_near_100": 60, "frac_in_X": 0.05,
+         "source": "doi:1"},
+    ])
+    ccp.emit_template(df, out, "n2o:CCF2020")
+    lines = out.read_text().splitlines()
+    rows = [ln.split("\t") for ln in lines[2:]]
+    completeness_col = {r[0]: r[6] for r in rows}
+    assert completeness_col["WMB:X"] == "lower_bound"
+    assert completeness_col["WMB:Y"] == "exact"
+    assert completeness_col["WMB:Z"] == ""
+
+
+def test_load_rollup_targets(tmp_path: Path) -> None:
+    """Synthetic membership CSV: only descendants_painted rows become rollups,
+    with completeness flag mapped from coverage."""
+    csv_path = tmp_path / "membership.csv"
+    csv_path.write_text(
+        "curie,painted_level,descendant_coverage,painted_descendants\n"
+        "MBA:painted,structure,,\n"           # painted: skip
+        "MBA:complete,,complete,MBA:c1|MBA:c2\n"   # rollup: exact
+        "MBA:partial,,partial,MBA:p1\n"        # rollup: lower_bound
+        "MBA:none,,none,\n"                    # unavailable: skip
+    )
+    # canonical_of_curie maps the descendant CURIEs to canonical levels.
+    canonical = {
+        "MBA:c1": "substructure",
+        "MBA:c2": "substructure",
+        "MBA:p1": "structure",
+    }
+    targets = ccp.load_rollup_targets(csv_path, canonical)
+    by_curie = {t["curie"]: t for t in targets}
+    assert set(by_curie) == {"MBA:complete", "MBA:partial"}
+    assert by_curie["MBA:complete"]["completeness"] == "exact"
+    assert by_curie["MBA:partial"]["completeness"] == "lower_bound"
+    # MBA:complete groups both descendants under substructure
+    assert sorted(by_curie["MBA:complete"]["desc_by_level"]["substructure"]) \
+        == ["MBA:c1", "MBA:c2"]
+    assert by_curie["MBA:partial"]["desc_by_level"]["structure"] == ["MBA:p1"]
+
+
+def test_rollup_merged_surface_count(tmp_path: Path) -> None:
+    """End-to-end rollup compute on a tiny synthetic volume.
+
+    Two painted substructure regions A1 (PI=1) and A2 (PI=2) rolled up to
+    parent A. Cells are positioned so that:
+      - 2 cells sit inside A1 (interior)
+      - 1 cell sits inside A2 (interior)
+      - 1 cell sits 1 voxel outside A2's surface (boundary band, ≤ 100 µm)
+      - 1 cell sits far away (outside band)
+    Expected: in_X = 3, in_or_near_100 = 4 (3 interior + 1 boundary).
+    """
+    from scipy.spatial import cKDTree
+
+    voxel_mm = 0.025
+    vol = np.zeros((8, 4, 4), dtype=np.int32)
+    vol[0:2, :, :] = 1   # region A1 (x voxels 0..1)
+    vol[2:4, :, :] = 2   # region A2 (x voxels 2..3)
+    idx2curie_all = {
+        "division": {},
+        "structure": {},
+        "substructure": {1: "MBA:A1", 2: "MBA:A2"},
+    }
+    # Cells (CCF mm coordinates). region_substructure is set by hand to
+    # reflect what the bridge would assign.
+    cells = pd.DataFrame({
+        # 2 in A1 (x voxels 0,1), 1 in A2 (x voxel 3), 1 boundary (~1 voxel
+        # outside A2's +x face, i.e. x ≈ 4*voxel_mm = 0.1 mm), 1 far away.
+        "x": [0.0, 0.025, 0.075, 0.10, 0.50],
+        "y": [0.05, 0.05, 0.05, 0.05, 0.05],
+        "z": [0.05, 0.05, 0.05, 0.05, 0.05],
+        "region_division":    [None, None, None, None, None],
+        "region_structure":   [None, None, None, None, None],
+        "region_substructure": ["MBA:A1", "MBA:A1", "MBA:A2", None, None],
+    })
+    cells_tree = cKDTree(cells[["x", "y", "z"]].to_numpy(dtype=np.float32))
+    band_mm = 100.0 / 1000.0
+
+    rollups = [{
+        "curie": "MBA:A",
+        "completeness": "exact",
+        "desc_by_level": {"division": [], "structure": [],
+                          "substructure": ["MBA:A1", "MBA:A2"]},
+    }]
+    pool = ccp.compute_rollup_in_or_near(
+        rollups, vol, voxel_mm, idx2curie_all, cells, cells_tree, band_mm)
+    assert "MBA:A" in pool
+    info = pool["MBA:A"]
+    assert len(info["in_X_idx"]) == 3                    # 3 interior cells
+    assert len(info["in_or_near_idx"]) == 4              # 3 interior + 1 boundary
+    assert info["completeness"] == "exact"
 
 
 # --------------------------------------------------------------------------- #

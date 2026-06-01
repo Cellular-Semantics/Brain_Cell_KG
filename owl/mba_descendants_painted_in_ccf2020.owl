@@ -1,0 +1,433 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1008>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1009>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1014>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1065>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1073>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1080>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1083>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1099>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1100>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1117>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1129>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_1132>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_138>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_141>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_154>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_157>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_165>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_21>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_239>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_242>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_247>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_254>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_275>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_278>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_290>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_31>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_322>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_323>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_331>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_339>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_343>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_348>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_370>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_375>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_379>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_386>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_406>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_444>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_453>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_46>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_467>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_485>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_493>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_500>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_51>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_519>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_528>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_557>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_567>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_571>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_607>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_618>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_623>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_631>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_637>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_645>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_669>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_688>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_695>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_701>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_709>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_714>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_720>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_73>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_737>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_8>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_809>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_818>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_822>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_826>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_835>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_856>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_864>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_904>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_909>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_932>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_938>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_942>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_948>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_95>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_958>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_987>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/mbao/MBA_997>))
+Declaration(AnnotationProperty(<http://n2o.neo/custom/descendantCoverage>))
+Declaration(AnnotationProperty(<http://n2o.neo/custom/descendantsPaintedIn>))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1008> (<https://purl.brain-bican.org/ontology/mbao/MBA_1008>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1008> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1009> (<https://purl.brain-bican.org/ontology/mbao/MBA_1009>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1009> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1014> (<https://purl.brain-bican.org/ontology/mbao/MBA_1014>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1014> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1065> (<https://purl.brain-bican.org/ontology/mbao/MBA_1065>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1065> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1073> (<https://purl.brain-bican.org/ontology/mbao/MBA_1073>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1073> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1080> (<https://purl.brain-bican.org/ontology/mbao/MBA_1080>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1080> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1083> (<https://purl.brain-bican.org/ontology/mbao/MBA_1083>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1083> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1099> (<https://purl.brain-bican.org/ontology/mbao/MBA_1099>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1099> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1100> (<https://purl.brain-bican.org/ontology/mbao/MBA_1100>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1100> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1117> (<https://purl.brain-bican.org/ontology/mbao/MBA_1117>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1117> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1129> (<https://purl.brain-bican.org/ontology/mbao/MBA_1129>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1129> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_1132> (<https://purl.brain-bican.org/ontology/mbao/MBA_1132>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_1132> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_138> (<https://purl.brain-bican.org/ontology/mbao/MBA_138>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_138> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_141> (<https://purl.brain-bican.org/ontology/mbao/MBA_141>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_141> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_154> (<https://purl.brain-bican.org/ontology/mbao/MBA_154>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_154> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_157> (<https://purl.brain-bican.org/ontology/mbao/MBA_157>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_157> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_165> (<https://purl.brain-bican.org/ontology/mbao/MBA_165>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_165> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_21> (<https://purl.brain-bican.org/ontology/mbao/MBA_21>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_21> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_239> (<https://purl.brain-bican.org/ontology/mbao/MBA_239>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_239> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_242> (<https://purl.brain-bican.org/ontology/mbao/MBA_242>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_242> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_247> (<https://purl.brain-bican.org/ontology/mbao/MBA_247>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_247> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_254> (<https://purl.brain-bican.org/ontology/mbao/MBA_254>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_254> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_275> (<https://purl.brain-bican.org/ontology/mbao/MBA_275>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_275> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_278> (<https://purl.brain-bican.org/ontology/mbao/MBA_278>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_278> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_290> (<https://purl.brain-bican.org/ontology/mbao/MBA_290>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_290> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_31> (<https://purl.brain-bican.org/ontology/mbao/MBA_31>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_31> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_322> (<https://purl.brain-bican.org/ontology/mbao/MBA_322>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_322> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_323> (<https://purl.brain-bican.org/ontology/mbao/MBA_323>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_323> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_331> (<https://purl.brain-bican.org/ontology/mbao/MBA_331>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_331> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_339> (<https://purl.brain-bican.org/ontology/mbao/MBA_339>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_339> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_343> (<https://purl.brain-bican.org/ontology/mbao/MBA_343>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_343> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_348> (<https://purl.brain-bican.org/ontology/mbao/MBA_348>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_348> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_370> (<https://purl.brain-bican.org/ontology/mbao/MBA_370>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_370> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_375> (<https://purl.brain-bican.org/ontology/mbao/MBA_375>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_375> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_379> (<https://purl.brain-bican.org/ontology/mbao/MBA_379>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_379> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_386> (<https://purl.brain-bican.org/ontology/mbao/MBA_386>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_386> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_406> (<https://purl.brain-bican.org/ontology/mbao/MBA_406>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_406> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_444> (<https://purl.brain-bican.org/ontology/mbao/MBA_444>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_444> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_453> (<https://purl.brain-bican.org/ontology/mbao/MBA_453>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_453> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_46> (<https://purl.brain-bican.org/ontology/mbao/MBA_46>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_46> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_467> (<https://purl.brain-bican.org/ontology/mbao/MBA_467>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_467> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_485> (<https://purl.brain-bican.org/ontology/mbao/MBA_485>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_485> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_493> (<https://purl.brain-bican.org/ontology/mbao/MBA_493>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_493> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_500> (<https://purl.brain-bican.org/ontology/mbao/MBA_500>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_500> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_51> (<https://purl.brain-bican.org/ontology/mbao/MBA_51>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_51> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_519> (<https://purl.brain-bican.org/ontology/mbao/MBA_519>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_519> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_528> (<https://purl.brain-bican.org/ontology/mbao/MBA_528>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_528> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_557> (<https://purl.brain-bican.org/ontology/mbao/MBA_557>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_557> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_567> (<https://purl.brain-bican.org/ontology/mbao/MBA_567>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_567> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_571> (<https://purl.brain-bican.org/ontology/mbao/MBA_571>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_571> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_607> (<https://purl.brain-bican.org/ontology/mbao/MBA_607>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_607> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_618> (<https://purl.brain-bican.org/ontology/mbao/MBA_618>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_618> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_623> (<https://purl.brain-bican.org/ontology/mbao/MBA_623>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_623> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_631> (<https://purl.brain-bican.org/ontology/mbao/MBA_631>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_631> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_637> (<https://purl.brain-bican.org/ontology/mbao/MBA_637>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_637> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_645> (<https://purl.brain-bican.org/ontology/mbao/MBA_645>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_645> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_669> (<https://purl.brain-bican.org/ontology/mbao/MBA_669>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_669> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_688> (<https://purl.brain-bican.org/ontology/mbao/MBA_688>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_688> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_695> (<https://purl.brain-bican.org/ontology/mbao/MBA_695>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_695> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_701> (<https://purl.brain-bican.org/ontology/mbao/MBA_701>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_701> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_709> (<https://purl.brain-bican.org/ontology/mbao/MBA_709>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_709> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_714> (<https://purl.brain-bican.org/ontology/mbao/MBA_714>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_714> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_720> (<https://purl.brain-bican.org/ontology/mbao/MBA_720>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_720> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_73> (<https://purl.brain-bican.org/ontology/mbao/MBA_73>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_73> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_737> (<https://purl.brain-bican.org/ontology/mbao/MBA_737>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_737> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_8> (<https://purl.brain-bican.org/ontology/mbao/MBA_8>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_8> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_809> (<https://purl.brain-bican.org/ontology/mbao/MBA_809>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_809> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_818> (<https://purl.brain-bican.org/ontology/mbao/MBA_818>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_818> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_822> (<https://purl.brain-bican.org/ontology/mbao/MBA_822>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_822> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_826> (<https://purl.brain-bican.org/ontology/mbao/MBA_826>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_826> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_835> (<https://purl.brain-bican.org/ontology/mbao/MBA_835>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_835> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_856> (<https://purl.brain-bican.org/ontology/mbao/MBA_856>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_856> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_864> (<https://purl.brain-bican.org/ontology/mbao/MBA_864>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_864> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_904> (<https://purl.brain-bican.org/ontology/mbao/MBA_904>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_904> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_909> (<https://purl.brain-bican.org/ontology/mbao/MBA_909>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_909> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_932> (<https://purl.brain-bican.org/ontology/mbao/MBA_932>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_932> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_938> (<https://purl.brain-bican.org/ontology/mbao/MBA_938>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_938> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_942> (<https://purl.brain-bican.org/ontology/mbao/MBA_942>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_942> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_948> (<https://purl.brain-bican.org/ontology/mbao/MBA_948>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_948> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_95> (<https://purl.brain-bican.org/ontology/mbao/MBA_95>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "complete") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_95> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_958> (<https://purl.brain-bican.org/ontology/mbao/MBA_958>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_958> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_987> (<https://purl.brain-bican.org/ontology/mbao/MBA_987>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_987> <http://n2o.neo/custom/CCF2020>)
+
+# Individual: <https://purl.brain-bican.org/ontology/mbao/MBA_997> (<https://purl.brain-bican.org/ontology/mbao/MBA_997>)
+
+AnnotationAssertion(Annotation(<http://n2o.neo/custom/descendantCoverage> "partial") <http://n2o.neo/custom/descendantsPaintedIn> <https://purl.brain-bican.org/ontology/mbao/MBA_997> <http://n2o.neo/custom/CCF2020>)
+
+
+)
