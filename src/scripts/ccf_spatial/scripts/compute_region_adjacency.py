@@ -161,21 +161,26 @@ def region_adjacency(labeled, code2curie, voxel_um, centroids, tolerance_um):
     return pd.DataFrame(rows)
 
 
-def write_adjacency_template(df: pd.DataFrame, out_path: Path):
-    """ROBOT template: region->region 'adjacent to' with n2o: measure annotations.
+def write_adjacency_template(df: pd.DataFrame, out_path: Path, atlas_curie: str):
+    """ROBOT template: region->region 'adjacent to' with n2o: measure annotations
+    plus a ``n2o:spatialReferenceAtlas`` axiom annotation declaring which atlas
+    the measurement was made against.
 
     Emits both directions (adjacency is symmetric)."""
-    header = ["ID", "Type", "RO:0002220", "contact_um2", "min_dist_um", "centroid_um"]
+    header = ["ID", "Type", "RO:0002220",
+              "contact_um2", "min_dist_um", "centroid_um", "spatial_atlas"]
     types = ["ID", "TYPE", "AI RO:0002220",
              ">AT n2o:contactArea^^xsd:float",
              ">AT n2o:minDistance^^xsd:float",
-             ">AT n2o:centroidDistance^^xsd:float"]
+             ">AT n2o:centroidDistance^^xsd:float",
+             ">AI n2o:spatialReferenceAtlas"]
     lines = ["\t".join(header), "\t".join(types)]
     for _, r in df.iterrows():
         for src, dst in ((r["region_a"], r["region_b"]), (r["region_b"], r["region_a"])):
             lines.append("\t".join([
                 src, "owl:NamedIndividual", dst,
-                f"{r['contact_um2']:.3f}", f"{r['min_dist_um']:.3f}", f"{r['centroid_um']:.3f}",
+                f"{r['contact_um2']:.3f}", f"{r['min_dist_um']:.3f}",
+                f"{r['centroid_um']:.3f}", atlas_curie,
             ]))
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text("\n".join(lines) + "\n")
@@ -192,6 +197,9 @@ def main():
                     help="reports/mba_symbol_map.csv (acronym -> MBA CURIE)")
     ap.add_argument("--reports-dir", required=True, type=Path)
     ap.add_argument("--templates-dir", required=True, type=Path)
+    ap.add_argument("--atlas-curie", required=True,
+                    help="Atlas individual CURIE (e.g. n2o:CCF2020), attached as "
+                         "n2o:spatialReferenceAtlas axiom annotation on every edge.")
     ap.add_argument("--levels", nargs="+", choices=REGION_LEVELS, default=list(REGION_LEVELS))
     ap.add_argument("--tolerance-um", type=float, default=50.0,
                     help="Max surface distance (um) for two regions to count as adjacent")
@@ -238,7 +246,8 @@ def main():
         print(f"  {len(adj_df)} adjacency pairs (face-touching)")
 
         write_adjacency_template(
-            adj_df, args.templates_dir / f"region_adjacency_{level}.tsv")
+            adj_df, args.templates_dir / f"region_adjacency_{level}.tsv",
+            args.atlas_curie)
 
     print("\nRegion adjacency complete.")
 

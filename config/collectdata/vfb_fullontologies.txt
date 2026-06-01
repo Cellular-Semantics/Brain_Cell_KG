@@ -19,3 +19,7 @@ https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/ma
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_division.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_structure.owl
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/region_adjacency_substructure.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/atlases.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/mba_painted_in_ccf2020.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/mba_descendants_painted_in_ccf2020.owl
+https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/mba_not_represented_in_ccf2020.owl

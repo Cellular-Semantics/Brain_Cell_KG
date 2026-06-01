@@ -302,6 +302,7 @@ wmb-total-cell-count-template: $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv
 # per-type "located near" stats from registered MERFISH coordinates. See
 # src/scripts/ccf_spatial/ and the n2o: measure annotations in templates.
 
+CCF_ATLAS           = n2o:CCF2020
 CCF_ABA_CACHE       = $(SRC_DIR)/scripts/cell_counts/resources/aba_cache
 CCF_ANNOTATION      = $(CCF_ABA_CACHE)/image_volumes/Allen-CCF-2020/20250331/annotation_25.nii.gz
 CCF_MEMBERSHIP      = $(CCF_ABA_CACHE)/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv
@@ -349,7 +350,8 @@ $(ROOT_TEMPLATES_DIR)/region_adjacency_substructure.tsv: \
 		--membership $(CCF_MEMBERSHIP) \
 		--mba-map $(REPORTS_DIR)/mba_symbol_map.csv \
 		--reports-dir $(REPORTS_DIR) \
-		--templates-dir $(ROOT_TEMPLATES_DIR)
+		--templates-dir $(ROOT_TEMPLATES_DIR) \
+		--atlas-curie $(CCF_ATLAS)
 
 $(ROOT_TEMPLATES_DIR)/region_adjacency_structure.tsv \
 $(ROOT_TEMPLATES_DIR)/region_adjacency_division.tsv: \
@@ -377,6 +379,7 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv: \
 		$(CCF_MEMBERSHIP) \
 		$(REPORTS_DIR)/mba_symbol_map.csv \
 		$(REPORTS_DIR)/cell_set_map.csv \
+		$(REPORTS_DIR)/mba_ccf_membership.csv \
 		$(YAO_CCF_CSV) \
 		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
 		$(CCF_BRIDGE) \
@@ -390,7 +393,9 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv: \
 		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
 		--yao-csv $(YAO_CCF_CSV) \
 		--reports-dir $(REPORTS_DIR) \
-		--templates-dir $(ROOT_TEMPLATES_DIR)
+		--templates-dir $(ROOT_TEMPLATES_DIR) \
+		--atlas-curie $(CCF_ATLAS) \
+		--mba-membership-csv $(REPORTS_DIR)/mba_ccf_membership.csv
 
 $(ROOT_TEMPLATES_DIR)/supertype_location_mappings.tsv \
 $(ROOT_TEMPLATES_DIR)/subclass_location_mappings.tsv \
@@ -413,6 +418,7 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
 		$(CCF_MEMBERSHIP) \
 		$(REPORTS_DIR)/mba_symbol_map.csv \
 		$(REPORTS_DIR)/cell_set_map.csv \
+		$(REPORTS_DIR)/mba_ccf_membership.csv \
 		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
 		$(CCF_BRIDGE) \
 		$(VENV_PYTHON)
@@ -425,7 +431,9 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
 		--cell-set-map $(REPORTS_DIR)/cell_set_map.csv \
 		--aba-cache $(CCF_ABA_CACHE) \
 		--reports-dir $(REPORTS_DIR) \
-		--templates-dir $(ROOT_TEMPLATES_DIR)
+		--templates-dir $(ROOT_TEMPLATES_DIR) \
+		--atlas-curie $(CCF_ATLAS) \
+		--mba-membership-csv $(REPORTS_DIR)/mba_ccf_membership.csv
 
 $(ROOT_TEMPLATES_DIR)/supertype_location_mappings_zhuang.tsv \
 $(ROOT_TEMPLATES_DIR)/subclass_location_mappings_zhuang.tsv \
@@ -436,15 +444,49 @@ $(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
 .PHONY: zhuang-location-templates
 zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
+# Per-MBA-term atlas-membership templates declaring which MBA terms are
+# directly painted in CCF 2020 (with level), have descendants painted
+# (with coverage), or have no CCF representation at all. Drives the
+# downstream agent's three-way "read directly / sum descendants / no
+# signal" decision.
+MBA_ATLAS_MEMBERSHIP_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/mba_painted_in_ccf2020.tsv \
+	$(ROOT_TEMPLATES_DIR)/mba_descendants_painted_in_ccf2020.tsv \
+	$(ROOT_TEMPLATES_DIR)/mba_not_represented_in_ccf2020.tsv
+
+$(ROOT_TEMPLATES_DIR)/mba_painted_in_ccf2020.tsv: \
+		$(REPORTS_DIR)/mba_ccf_membership.csv \
+		$(CCF_SPATIAL_SCRIPTS)/generate_anatomy_atlas_membership_templates.py \
+		$(VENV_PYTHON)
+	@echo "Generating MBA atlas-membership templates (painted / descendants_painted / not_represented)..."
+	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/generate_anatomy_atlas_membership_templates.py \
+		--membership-csv $(REPORTS_DIR)/mba_ccf_membership.csv \
+		--atlas-curie $(CCF_ATLAS) \
+		--ontology-prefix mba \
+		--atlas-prefix ccf2020 \
+		--templates-dir $(ROOT_TEMPLATES_DIR)
+
+$(ROOT_TEMPLATES_DIR)/mba_descendants_painted_in_ccf2020.tsv \
+$(ROOT_TEMPLATES_DIR)/mba_not_represented_in_ccf2020.tsv: \
+		$(ROOT_TEMPLATES_DIR)/mba_painted_in_ccf2020.tsv
+
+.PHONY: mba-atlas-membership-templates
+mba-atlas-membership-templates: $(MBA_ATLAS_MEMBERSHIP_TEMPLATES)
+
 .PHONY: ccf-spatial
-ccf-spatial: ccf-region-adjacency yao-location-templates zhuang-location-templates
+ccf-spatial: ccf-region-adjacency yao-location-templates zhuang-location-templates \
+	mba-atlas-membership-templates $(ROOT_TEMPLATES_DIR)/atlases.tsv
 
 # CCF spatial OWL outputs (built from templates above via the existing
 # $(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv robot template rule).
 CCF_SPATIAL_OWL = \
 	$(OWL_DIR)/region_adjacency_division.owl \
 	$(OWL_DIR)/region_adjacency_structure.owl \
-	$(OWL_DIR)/region_adjacency_substructure.owl
+	$(OWL_DIR)/region_adjacency_substructure.owl \
+	$(OWL_DIR)/atlases.owl \
+	$(OWL_DIR)/mba_painted_in_ccf2020.owl \
+	$(OWL_DIR)/mba_descendants_painted_in_ccf2020.owl \
+	$(OWL_DIR)/mba_not_represented_in_ccf2020.owl
 
 # Clean build artifacts
 .PHONY: clean
