@@ -190,13 +190,16 @@ Outputs land in [`templates/region_adjacency_{level}.tsv`](templates/) →
 ### 3.2 Per-type unified location edge
 
 For every (cell type, region X) pair we emit a single
-**`PCL:0010063` "has soma location"** edge carrying three axiom annotations:
+**`PCL:0010063` "has soma location"** edge carrying up to five axiom
+annotations:
 
 | axiom annotation | property | meaning |
 |---|---|---|
 | `cell_count` | `PCL:0010060` (xsd:integer) | cells of the type whose painted resident region is X |
 | `cell_ratio` | `PCL:0010065` (xsd:float) | `cell_count` / total cells of the type (per dataset) |
 | `in_or_near_100` | `n2o:countInOrNear100um` (xsd:integer) | `cell_count` **plus** cells of the type observed within 100 µm of X's painted surface but residing outside X |
+| `spatial_atlas` | `n2o:spatialReferenceAtlas` (IRI) | the spatial reference atlas the measurement was made against — currently `n2o:CCF2020` |
+| `completeness` | `n2o:cellCountCompleteness` (xsd:string) | only on rollup rows (see §6): `"exact"` when X's painted territory is fully covered by CCF-canonical descendants; `"lower_bound"` when some descendants are unpainted. Directly-measured rows omit this annotation. |
 
 This collapses what was, in an earlier iteration, two parallel edges per
 (type, region) — a `PCL:0010063` "has soma location" edge and a separate
@@ -246,7 +249,7 @@ canonical-level helper lives in
 ### Template row shape
 
 Each row in `templates/{tax}_location_mappings[_zhuang].tsv` is a single
-`PCL:0010063` ROBOT-template edge with the standard 7-column layout:
+`PCL:0010063` ROBOT-template edge with the standard 9-column layout:
 
 | col | header | ROBOT type | from |
 |---|---|---|---|
@@ -256,7 +259,9 @@ Each row in `templates/{tax}_location_mappings[_zhuang].tsv` is a single
 | 4 | `cell_count` | `>AT PCL:0010060^^xsd:integer` | interior count |
 | 5 | `cell_ratio` | `>AT PCL:0010065^^xsd:float` | interior fraction |
 | 6 | `in_or_near_100` | `>AT n2o:countInOrNear100um^^xsd:integer` | boundary-band count |
-| 7 | `source` | `>AI dcterms:source` | dataset DOI |
+| 7 | `completeness` | `>AT n2o:cellCountCompleteness^^xsd:string` | `"exact"` or `"lower_bound"` on rollup rows; blank on directly-measured rows |
+| 8 | `spatial_atlas` | `>AI n2o:spatialReferenceAtlas` | atlas individual (`n2o:CCF2020`) |
+| 9 | `source` | `>AI dcterms:source` | dataset DOI |
 
 ### Boundary cells (`parcellation_index = 0`)
 
@@ -420,7 +425,162 @@ under the unified schema the boundary-band fraction (0.200) clears the
 cluster-level 2.5 % floor and the edge is retained — the headline
 behaviour the unification was built to deliver.
 
-## 7. Validation
+## 7. Reaching MBA terms that are not directly painted in CCF
+
+### 7.1 The problem
+
+Some anatomy terms an agent will encounter in the literature do not appear
+as painted regions in the CCF parcellation. The canonical case is
+**Entorhinal area** (`MBA:909`, ENT): it exists as a node in the MBA
+ontology, but CCF paints only its lateral and medial parts (`ENTl` /
+`ENTm` at structure level, plus their layer-resolved substructures). No
+voxel in the volume carries the bare acronym `ENT`. Searching the
+location templates for `MBA:909` returns nothing.
+
+Pooled MBA × CCF closure (one row per MBA term, derived by
+[`src/cypher/mba_ccf_membership.cypher`](src/cypher/mba_ccf_membership.cypher)
+against the live KG) gives the breakdown:
+
+| status | MBA terms | example |
+|---|---|---|
+| directly painted in CCF (CCF level label set) | **568** | `ENTl`, `ZI`, `MOs6a` |
+| not painted, but every subtree leaf is painted | **59** | `ENT` = `ENTl` ∪ `ENTm`, no `<ENT>-unassigned` |
+| not painted, some painted descendants + some unpainted leaves | **24** | coarse anatomical groupings mixing painted and unpainted territories |
+| not painted, no painted descendants anywhere in subtree | **87** | deep MBA terms CCF did not paint at any granularity |
+
+The downstream agent needs to be able to (a) read a location signal for
+the 59 + 24 cases, and (b) tell apart "no cells of this type here" from
+"no spatial information available for this region" for the 87 case.
+
+### 7.2 Atlas individual
+
+The Allen CCF 2020 painted parcellation is reified as a named individual
+in the KG, [`templates/atlases.tsv`](templates/atlases.tsv):
+
+```turtle
+n2o:CCF2020 a n2o:SpatialReferenceAtlas ;
+    rdfs:label  "Allen Mouse Brain CCF v3 painted parcellation"@en ;
+    dcterms:source <https://doi.org/10.1016/j.cell.2020.04.007> ;
+    n2o:atlasVersionTag  "Allen-CCF-2020/20230630" ;
+    n2o:dataSource <https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/Allen-CCF-2020/20230630/> .
+```
+
+Every `PCL:0010063` and `RO:0002220` edge in the spatial layer carries a
+`n2o:spatialReferenceAtlas` axiom annotation pointing at this individual,
+so each measurement explicitly declares which atlas it was made against.
+Adding a second atlas (CCF v4, DHBA, HBA) is one extra row in
+`atlases.tsv` plus a per-atlas membership cypher; the schema does not
+need to change.
+
+### 7.3 Per-MBA-term atlas-membership edges
+
+Exactly one of three edges is emitted per (MBA term, atlas) pair, derived
+from the closure cypher:
+
+| edge | axiom annotation | when emitted | count |
+|---|---|---|---|
+| `n2o:paintedIn` → `n2o:CCF2020` | `n2o:atlasLevel` ∈ {"division","structure","substructure"} | term carries a CCF level label | **568** |
+| `n2o:descendantsPaintedIn` → `n2o:CCF2020` | `n2o:descendantCoverage` ∈ {"complete","partial"} | term has CCF-canonical descendants but no direct CCF label | **83** |
+| `n2o:notRepresentedIn` → `n2o:CCF2020` | (none) | term has no CCF-canonical descendants anywhere in its subtree | **87** |
+
+Generated by
+[`generate_anatomy_atlas_membership_templates.py`](src/scripts/ccf_spatial/scripts/generate_anatomy_atlas_membership_templates.py)
+into three sibling ROBOT templates. The script is ontology- and
+atlas-agnostic — a future DHBA × CCF v4 build reuses it with different
+prefixes.
+
+The `n2o:notRepresentedIn` edge is the schema's positive answer to "no
+spatial signal possible for this term", distinct from the absence of any
+spatial edge (which could mean either "no signal" or "computation hasn't
+been run").
+
+### 7.4 Rollup `PCL:0010063` rows
+
+For every MBA term with `descendant_coverage ∈ {"complete","partial"}` the
+pipeline emits a set of `PCL:0010063` rows alongside the directly-measured
+ones in the same `templates/{tax}_location_mappings[_zhuang].tsv` file.
+The rollup row's region URI is the **parent** MBA term (e.g. `MBA:909`,
+`ENT`), and `cell_count` / `in_or_near_100` are computed by:
+
+1. **Merging the painted territory** — union the voxel masks of every
+   CCF-canonical descendant of the parent term. For `ENT` that is
+   `ENTl` ∪ `ENTm`, expanded down to the full set of painted layer
+   substructures via the parcellation membership table.
+2. **Re-deriving the surface** — erode the merged mask by one voxel to
+   get the parent term's *merged* painted boundary surface. Adjacent
+   sibling boundaries that were interior to the parent's territory are
+   eliminated by the merge; only the outer surface remains.
+3. **Re-querying the global cells KD-tree** with the merged surface
+   points → boundary-band cells within 100 µm.
+4. **Interior cells** = union over the descendant CURIE sets at each
+   descendant's canonical level (`region_<lvl>` columns already on the
+   cells DataFrame from the canonical-level pass).
+5. **Per-taxonomy graded cutoff** identical to the directly-measured pass.
+
+Each rollup row carries a `n2o:cellCountCompleteness` axiom annotation:
+
+- `"exact"` when descendant coverage is `complete` — the rollup is the
+  full count over the parent's anatomical territory.
+- `"lower_bound"` when coverage is `partial` — some descendants of the
+  parent term aren't painted in CCF, so their cells are folded into an
+  ancestor's `<ancestor>-unassigned` bucket and are not recoverable at
+  the parent's granularity. The rollup gives a floor on the true count.
+
+Directly-measured rows omit `cellCountCompleteness` entirely; absence
+implies `exact`-by-construction.
+
+Volume produced by the rollup pass against pooled Yao + Zhuang data:
+
+| taxonomy level | rollup edges (Yao) | rollup edges (Zhuang) |
+|---|---|---|
+| neurotransmitter | 301 | 282 |
+| class | 772 | 764 |
+| subclass | 5 193 | 5 130 |
+| supertype | 15 717 | 15 803 |
+| cluster | 56 492 | 55 842 |
+| **total per dataset** | **78 475** | **77 821** |
+
+Rollup growth at cluster level is ~66 % over directly-measured rows
+(rollup MBA terms are coarser than typical CCF leaves and match more
+cell types per region).
+
+### 7.5 Worked example — `MBA:909` (ENT)
+
+For cluster `WMB:CS20230722_CLUS_0002` in the Yao build:
+
+| level | region | cell_count | in_or_near_100 | completeness | source |
+|---|---|---|---|---|---|
+| structure (direct) | `MBA:918` ENTl | 69 | 122 | *(blank)* | Yao |
+| structure (direct) | `MBA:926` ENTm | (below cutoff at this level) | — | — | — |
+| rollup | `MBA:909` ENT | 69 | 122 | `exact` | Yao |
+
+For this particular cluster every cell is in `ENTl` (none in `ENTm`), so
+the rollup row's counts coincide with the `ENTl` row's. Other clusters
+that distribute across both lateral and medial entorhinal sub-regions
+will show a strict sum at the `ENT` rollup row — and crucially that row
+exists at all, where in the prior schema the agent had no signal for
+`MBA:909` whatsoever.
+
+### 7.6 Agent decision tree
+
+For a literature-resolved region CURIE *X*, the spatial-signal lookup is:
+
+1. Does *X* carry `n2o:paintedIn n2o:CCF2020`? → read its `PCL:0010063`
+   edges at the level named by `n2o:atlasLevel`. **Authoritative.**
+2. Does *X* carry `n2o:descendantsPaintedIn n2o:CCF2020`?
+   → read its `PCL:0010063` rollup rows.
+   - `cellCountCompleteness = "exact"` → authoritative.
+   - `cellCountCompleteness = "lower_bound"` → use with awareness that
+     unpainted descendant territory is unmeasured at this granularity.
+3. Does *X* carry `n2o:notRepresentedIn n2o:CCF2020`? → no spatial signal
+   available; step up to the nearest `paintedIn` ancestor of *X*, accept
+   reduced specificity, and document the fallback.
+
+The three cases are mutually exclusive and exhaustive over all MBA terms
+in the KG, so an agent can decide its strategy with a single property
+query.
+
+## 8. Validation
 
 End-to-end checks against the pooled run:
 
@@ -439,14 +599,17 @@ End-to-end checks against the pooled run:
   5 Zhuang location) compile end-to-end through the OFN-serialising
   pipeline; cluster OWL builds in ~13 s.
 
-## 8. Implementation
+## 9. Implementation
 
 | concern | code |
 |---|---|
 | volume → region CURIE bridge (shared) | [`src/utils/ccf_parcellation.py`](src/utils/ccf_parcellation.py) |
 | region adjacency | [`src/scripts/ccf_spatial/scripts/compute_region_adjacency.py`](src/scripts/ccf_spatial/scripts/compute_region_adjacency.py) |
-| unified per-type location templates | [`src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py`](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py) |
-| build orchestration | targets `ccf-region-adjacency`, `yao-location-templates`, `zhuang-location-templates`, `ccf-spatial` in the [Makefile](Makefile) |
+| unified per-type location templates + rollup pass | [`src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py`](src/scripts/ccf_spatial/scripts/compute_unified_location_templates.py) |
+| MBA × atlas closure (run against live KG) | [`src/cypher/mba_ccf_membership.cypher`](src/cypher/mba_ccf_membership.cypher) |
+| MBA × atlas membership templates (generic emitter) | [`src/scripts/ccf_spatial/scripts/generate_anatomy_atlas_membership_templates.py`](src/scripts/ccf_spatial/scripts/generate_anatomy_atlas_membership_templates.py) |
+| atlas individual (hand-curated) | [`templates/atlases.tsv`](templates/atlases.tsv) |
+| build orchestration | targets `ccf-region-adjacency`, `yao-location-templates`, `zhuang-location-templates`, `mba-atlas-membership-templates`, `ccf-spatial` in the [Makefile](Makefile) |
 | KG configuration | per-level OWL URLs in [`config/collectdata/vfb_fullontologies.txt`](config/collectdata/vfb_fullontologies.txt) |
 
 OWL outputs are serialised in OWL Functional Syntax (OFN) with the `.owl`
@@ -454,7 +617,7 @@ extension; the OWL API auto-detects format from content. This keeps every
 generated `.owl` under the 100 MB git per-file limit while remaining a
 drop-in replacement at every downstream consumer.
 
-## 9. Limitations and next steps
+## 10. Limitations and next steps
 
 - **Distance bands**: only the 100 µm band is emitted. A future revision
   could add 50 µm and 200 µm as additional `n2o:countInOrNearXum`
