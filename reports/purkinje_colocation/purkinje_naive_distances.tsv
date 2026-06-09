@@ -1,0 +1,11 @@
+label	level	n_in_universe	median_d_PC_um	median_d_VLMC_um	mean_d_PC_um	mean_d_VLMC_um
+1144 CB PLI Gly-Gaba_1	supertype	3376	28.3	161.9	87.5	153.6
+309 CB PLI Gly-Gaba	subclass	4229	33.7	161.4	102.2	153.2
+1145 CB PLI Gly-Gaba_2	supertype	207	48.1	186.2	110.5	174.2
+310 CBX Golgi Gly-Gaba	subclass	1487	76.9	183.0	107.9	175.5
+1147 CB PLI Gly-Gaba_4	supertype	324	79.0	137.1	175.6	138.4
+311 CBX MLI Megf11 Gaba	subclass	76167	97.7	109.1	110.3	116.5
+314 CB Granule Glut	subclass	183974	114.9	182.7	128.1	173.1
+312 CBX MLI Cdh22 Gaba	subclass	17455	128.7	98.7	134.1	108.2
+1146 CB PLI Gly-Gaba_3	supertype	322	157.9	155.5	177.2	150.4
+315 DCO UBC Glut	subclass	1742	328.3	128.8	331.6	132.6
