@@ -425,6 +425,35 @@ under the unified schema the boundary-band fraction (0.200) clears the
 cluster-level 2.5 % floor and the edge is retained — the headline
 behaviour the unification was built to deliver.
 
+### 6.5 Boundary-band rescue — the pattern across small clusters
+
+§6.4 shows one boundary-only case (PAG-ND-PCG Onecut1 Gaba_3 × PDTg).
+The pattern recurs across many small focal clusters whose
+registered cells land just outside the painted territory of an
+anatomically-relevant region. A handful of cases from the Yao build
+(`reports/cell_proximity_cluster.csv`):
+
+| cluster | near | level | n_total | cell_count | in_or_near_100 | frac_in_X | frac_band |
+|---|---|---|---|---|---|---|---|
+| `3802 SCsg Gabrr2 Gaba_1` | `SCop` (superior colliculus, optic) | substructure | 5 | 0 | 5 | 0.000 | **1.000** |
+| `3901 MB-MY Tph2 Glut-Sero_3` | `PAG` (periaqueductal grey) | structure | 8 | 0 | 7 | 0.000 | **0.875** |
+| `3248 SCig-an-PPT Foxb1 Glut_1` | `SCiw` (SC, intermediate white) | substructure | 14 | 1 | 11 | 0.071 | **0.786** |
+| `1668 AHN-SBPV-PVHd Pdrm12 Gaba_5` | `PVa` (periventricular hypothalamic, anterior) | structure | 24 | 2 | 22 | 0.083 | **0.917** |
+
+These rows would all have been **dropped** by a strict-`cell_count`-only
+schema (no cells inside the painted region) or downweighted to noise by
+a coarse "boundary discount" heuristic. Under the unified schema each
+row clears its level's graded cutoff via the band fraction alone, and
+the agent sees a clean signal that the cluster lives at the region's
+anatomical address even when registration has scattered its cells to
+the wrong side of the painted boundary.
+
+These four cases were spot-checked from the historical small-cluster
+exploration table; many more exist in the cluster CSV across the
+hippocampal, brainstem and superior-colliculus regions, all sharing the
+same shape (small `n_total`, `frac_in_X` near zero, `frac_band` near
+one).
+
 ## 7. Reaching MBA terms that are not directly painted in CCF
 
 ### 7.1 The problem
