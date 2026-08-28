@@ -190,6 +190,8 @@ The OWL/RDF files loaded into the KG are listed in `config/collectdata/vfb_fullo
 
 > **Note on taxonomy vs ontology imports:** Full ontology files (wmbo-full, bgo-full) do not currently expose named taxonomy individuals in a form usable by the `make update-kg` Cypher updates. Those Cypher statements traverse links that only exist in the raw taxonomy RDF files (CCN20230722.rdf, CS20250428.rdf), so both the ontology and taxonomy must be loaded separately. The taxonomy import can be dropped for a given ontology once its full OWL file exposes equivalent named individual links.
 
+> **Note on duplicated BG cell sets:** `bgo-full.owl` asserts every HMBA BG cell set twice — once under `https://purl.brain-bican.org/ontology/CS20250428/` (the CAS taxonomy export, which the `BG:` prefix maps to) and once under `https://purl.brain-bican.org/ontology/CCN20250428/` (the ontology build). The accessions are identical; only the ID base differs, so the two copies load as separate nodes with the properties split between them — crucially, the `has_exemplar_data` links from the cell-type classes that carry soma locations and marker sets land on the CCN copy. `src/cypher_updates/01_merge_bg_duplicate_cell_sets.cypher` merges them at `make update-kg` time, keeping the `BG:`-curied node. This is a workaround: the fix belongs upstream in `Cellular-Semantics/hmba_basal_ganglia_ontology`, and note the merge only repairs Neo4j — the triplestore and Solr indexes still carry both copies.
+
 > **Note on generated OWL files:** Because this repo's own OWL outputs are fetched from the remote `main` branch, changes to templates or mapping scripts must be pushed and merged before a KG rebuild will pick them up.
 
 ## CURIE Prefix Management
