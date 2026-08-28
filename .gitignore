@@ -174,5 +174,3 @@ src/scripts/cell_counts/resources/aba_cache/
 ehthumbs.db
 Thumbs.db
 
-# Runtime-modified files (docker and triplestore config mutated by runs)
-config/updatetriplestore/rdf4j.txt
