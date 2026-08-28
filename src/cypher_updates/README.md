@@ -19,7 +19,6 @@ make update-kg
 
 | File | Purpose |
 |---|---|
-| `01_merge_bg_duplicate_cell_sets.cypher` | Merges the duplicated HMBA BG cell-set nodes that `bgo-full.owl` asserts under two ID bases (`CCN20250428` / `CS20250428`). Runs first so later updates see one node per cell set. Workaround for an upstream bug — verify with `src/cypher/BG_duplicate_check.cypher`. |
 | `add_neo_labels.cypher` | Taxonomy/labelset node labels; MBA granularity labels (Division / Structure / Substructure). |
 
 ## Guidelines

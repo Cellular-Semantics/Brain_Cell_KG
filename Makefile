@@ -17,6 +17,12 @@ SOURCE_DATA_DIR = $(SRC_DIR)/source_data
 REPORTS_DIR = reports
 BUILD_DIR = build
 OWL_DIR = owl
+SPARQL_DIR = $(SRC_DIR)/sparql
+LOCAL_ONTOLOGIES_DIR = config/collectdata/local_ontologies
+
+# Upstream sources pre-processed before ingest (see bgo-local below)
+BGO_URL = https://github.com/Cellular-Semantics/hmba_basal_ganglia_ontology/raw/refs/heads/main/bgo-full.owl
+BGO_LOCAL = $(LOCAL_ONTOLOGIES_DIR)/bgo-full.owl
 
 # Python environment
 PYTHON = python3
@@ -202,6 +208,43 @@ suggest-missing-prefixes: detect-missing-namespaces $(VENV_PYTHON)
 		--host $(NEO4J_HOST) --port $(NEO4J_PORT) \
 		--user $(NEO4J_USER) --password $(NEO4J_PASS) \
 		--suggest
+
+# Pre-ingest fix for the HMBA Basal Ganglia ontology.
+#
+# bgo-full.owl asserts every BG cell set twice, under two ID bases with identical
+# accessions (CCN20250428 and CS20250428), which splits the taxonomy metadata and the
+# cell-type links -- including the soma locations and marker sets -- across two
+# unconnected nodes. See src/sparql/bgo_unify_id_base.ru and the README.
+#
+# This target rewrites the CCN base onto the CS base and drops the result in
+# config/collectdata/local_ontologies/, which the OBASK collectdata container picks up
+# from its bind mount and merges alongside the URL downloads. bgo-full.owl is therefore
+# NOT listed in config/collectdata/vfb_fullontologies.txt -- run this target before
+# rebuilding the KG, and re-run it to pick up a new upstream release.
+#
+# Delete this target, the .ru and the local_ontologies file once upstream emits a single
+# ID base, and restore the bgo-full.owl URL to vfb_fullontologies.txt.
+.PHONY: bgo-local
+bgo-local: $(BGO_LOCAL)
+
+$(BGO_LOCAL): $(SPARQL_DIR)/bgo_unify_id_base.ru | $(BUILD_DIR)
+	mkdir -p $(LOCAL_ONTOLOGIES_DIR)
+	@echo "Downloading upstream bgo-full.owl..."
+	curl -sSL $(BGO_URL) -o $(BUILD_DIR)/bgo-full-upstream.owl
+	@echo "Unifying BG cell-set ID bases (CCN20250428 -> CS20250428)..."
+	robot query --input $(BUILD_DIR)/bgo-full-upstream.owl --update $< --output $@
+	@remaining=$$(grep -c CCN20250428 $@ || true); \
+	if [ "$$remaining" != "0" ]; then \
+		echo "ERROR: $$remaining CCN20250428 IRIs remain in $@ -- upstream layout may have changed"; \
+		rm -f $@; exit 1; \
+	fi
+	@echo "OK: $@ has a single ID base for BG cell sets"
+
+# Force a refresh of the pre-processed bgo-full.owl (e.g. after an upstream release)
+.PHONY: bgo-local-refresh
+bgo-local-refresh:
+	rm -f $(BGO_LOCAL)
+	$(MAKE) bgo-local
 
 # Knowledge graph updates from Cypher statements
 .PHONY: update-kg
@@ -533,6 +576,8 @@ help:
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"
 	@echo "  update-neo4j-prefixes - Update Neo4j config from prefixes.json"
+	@echo "  bgo-local        - Pre-process upstream bgo-full.owl (unify BG ID bases) for ingest"
+	@echo "  bgo-local-refresh - Re-download and re-process bgo-full.owl"
 	@echo "  update-kg        - Execute knowledge graph update statements"
 	@echo "  update-kg-dry-run - Show what KG updates would be executed"
 	@echo "  test-neo4j       - Test Neo4j database connection"

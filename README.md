@@ -179,7 +179,7 @@ The OWL/RDF files loaded into the KG are listed in `config/collectdata/vfb_fullo
 |---|---|
 | `cl.owl` | Cell Ontology |
 | `wmbo-full.owl` | Whole Mouse Brain Ontology — tracks `releases/latest` |
-| `bgo-full.owl` | HMBA Basal Ganglia Ontology — tracks `main` |
+| `bgo-full.owl` | HMBA Basal Ganglia Ontology — **not fetched by URL**; pre-processed by `make bgo-local` into `config/collectdata/local_ontologies/` (see note below) |
 | `CCN20230722.rdf` | WMB taxonomy (named individuals) |
 | `CS20250428.rdf` | BG consensus taxonomy (named individuals) |
 | `CS202210140_non_neuronal.owl` | Human Brain Cell Atlas non-neuronal |
@@ -190,7 +190,11 @@ The OWL/RDF files loaded into the KG are listed in `config/collectdata/vfb_fullo
 
 > **Note on taxonomy vs ontology imports:** Full ontology files (wmbo-full, bgo-full) do not currently expose named taxonomy individuals in a form usable by the `make update-kg` Cypher updates. Those Cypher statements traverse links that only exist in the raw taxonomy RDF files (CCN20230722.rdf, CS20250428.rdf), so both the ontology and taxonomy must be loaded separately. The taxonomy import can be dropped for a given ontology once its full OWL file exposes equivalent named individual links.
 
-> **Note on duplicated BG cell sets:** `bgo-full.owl` asserts every HMBA BG cell set twice — once under `https://purl.brain-bican.org/ontology/CS20250428/` (the CAS taxonomy export, which the `BG:` prefix maps to) and once under `https://purl.brain-bican.org/ontology/CCN20250428/` (the ontology build). The accessions are identical; only the ID base differs, so the two copies load as separate nodes with the properties split between them — crucially, the `has_exemplar_data` links from the cell-type classes that carry soma locations and marker sets land on the CCN copy. `src/cypher_updates/01_merge_bg_duplicate_cell_sets.cypher` merges them at `make update-kg` time, keeping the `BG:`-curied node. This is a workaround: the fix belongs upstream in `Cellular-Semantics/hmba_basal_ganglia_ontology`, and note the merge only repairs Neo4j — the triplestore and Solr indexes still carry both copies.
+> **Note on duplicated BG cell sets — `bgo-full.owl` needs `make bgo-local` before a rebuild:** upstream asserts every HMBA BG cell set twice, under two ID bases with identical accessions: `…/ontology/CS20250428/CS20250428_GROUP_0052` (the CAS taxonomy export, which the `BG:` prefix maps to) and `…/ontology/CCN20250428/CS20250428_GROUP_0052` (the ontology build). Only the base differs, so the two copies load as separate nodes/subjects with the content split between them — the taxonomy metadata, marker gene symbols and this repo's BG2WMB mappings on the CS copy, and all 178 `has_exemplar_data` links from the cell-type classes (the classes carrying the `CLM:0010001` soma locations and `CLM:0010003` marker sets) on the CCN copy. Loaded as-is, a `BG:` cell set cannot reach its locations or markers.
+>
+> `make bgo-local` downloads upstream `bgo-full.owl`, rewrites the CCN base onto the CS base with `src/sparql/bgo_unify_id_base.ru` (`robot query --update`), and writes the result to `config/collectdata/local_ontologies/`, which the collectdata container merges from its bind mount. **`bgo-full.owl` is therefore not listed in `vfb_fullontologies.txt`** — if you rebuild without running the target, BG is missing from the KG entirely. Re-run `make bgo-local-refresh` after an upstream release. Verify a build with `src/cypher/BG_duplicate_check.cypher`.
+>
+> This is a workaround; the fix belongs upstream in `Cellular-Semantics/hmba_basal_ganglia_ontology`. When it lands, delete the target, the `.ru` and the local file, and restore the `bgo-full.owl` URL to `vfb_fullontologies.txt`.
 
 > **Note on generated OWL files:** Because this repo's own OWL outputs are fetched from the remote `main` branch, changes to templates or mapping scripts must be pushed and merged before a KG rebuild will pick them up.
 
