@@ -194,6 +194,14 @@ The OWL/RDF files loaded into the KG are listed in `config/collectdata/vfb_fullo
 >
 > `make bgo-local` downloads upstream `bgo-full.owl`, rewrites the CCN base onto the CS base with `src/sparql/bgo_unify_id_base.ru` (`robot query --update`), and writes the result to `config/collectdata/local_ontologies/`, which the collectdata container merges from its bind mount. **`bgo-full.owl` is therefore not listed in `vfb_fullontologies.txt`** — if you rebuild without running the target, BG is missing from the KG entirely. Re-run `make bgo-local-refresh` after an upstream release. Verify a build with `src/cypher/BG_duplicate_check.cypher`.
 >
+> On the first rebuild after this change, start from clean volumes so previously-loaded CCN copies are purged — nothing in the pipeline deletes. The triplestore self-cleans (`rdf4j.txt` drops and recreates the `obask` repository each run), but `updatesolr` only upserts into the `ontology` core (no delete-by-query) and `updateprod` replays node/relationship transactions without a wipe, so stale copies survive in Solr and in a reused KB container:
+>
+> ```bash
+> make bgo-local
+> docker compose down -v      # drops obask_data, solr_data, triplestore_data and the KB's anonymous /data
+> docker compose up
+> ```
+>
 > This is a workaround; the fix belongs upstream in `Cellular-Semantics/hmba_basal_ganglia_ontology`. When it lands, delete the target, the `.ru` and the local file, and restore the `bgo-full.owl` URL to `vfb_fullontologies.txt`.
 
 > **Note on generated OWL files:** Because this repo's own OWL outputs are fetched from the remote `main` branch, changes to templates or mapping scripts must be pushed and merged before a KG rebuild will pick them up.
