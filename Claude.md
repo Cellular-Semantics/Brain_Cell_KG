@@ -8,6 +8,12 @@ This repository defines:
 
 Unless explicitly instructed DO NOT EDIT ANYTHING UNDER CONFIG or touch  docker_compose.yml.  This is for the OBASK KG build.
 
+The one exception is `config/dumps/neo4j2owl-config.yaml`'s `curie_map`, which is **generated**, not authored. CURIE prefixes live in `src/utils/prefixes.json` as the single source of truth; propagate them with `make update-neo4j-prefixes`. Never hand-edit the `curie_map` — the next sync silently reverts it.
+
+When a new template introduces an IRI base the KG has not seen, add the prefix to `prefixes.json` and run that target **in the same commit**. A missing prefix does not error: the affected nodes just load as `ns{n}:...` and nobody notices until after a rebuild. `src/cypher_updates/tmp_dhba_clm_curies.cypher` exists only to repair a KG built during one such gap, and is the kind of file worth not creating again. Prefixes are needed for every IRI base in a template, including annotation values (e.g. an assay CURIE on an axiom annotation), not just node identifiers.
+
+The sync replaces the whole `curie_map`, so anything present only in the config is dropped — check `git diff` on the config before committing.
+
 Content and reports are built by a Makefile that lives at the top level. 
 This drives ROBOT template commands and scripts that explicitly require input and output paths so that these can be set as Makefile goals and dependencies. 
 i.e. No script should hard-wire input or output paths.

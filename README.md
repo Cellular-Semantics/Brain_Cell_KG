@@ -214,10 +214,19 @@ All CURIE prefixes are managed in `src/utils/prefixes.json` (JSON-LD format) as 
 
 ### Managing Prefixes
 
-Update Neo4j export configuration after modifying prefixes:
+Add or change a prefix in `src/utils/prefixes.json`, then propagate it to the Neo4j export config:
 ```bash
 make update-neo4j-prefixes
 ```
+
+This regenerates the `curie_map` in `config/dumps/neo4j2owl-config.yaml` from `prefixes.json`. **Never hand-edit that `curie_map`** — it is generated, and a hand-added entry will be silently reverted by the next sync. It is the one part of `config/` that is not hand-authored.
+
+Two things to know about the sync:
+
+- **It replaces the whole `curie_map`.** Any entry present only in the config and not in `prefixes.json` is dropped. Check with `git diff config/dumps/neo4j2owl-config.yaml` before committing.
+- **Drift is silent and only shows up after a rebuild.** A prefix missing from the `curie_map` does not error; the affected nodes just load with generated `ns{n}:` CURIEs. `DHBA`, `CLM`, `EFO` and `dcterms` had all drifted this way at various points — `src/cypher_updates/tmp_dhba_clm_curies.cypher` exists purely to repair a KG built during one such gap. Run the target as part of the same commit that adds the prefix and the problem does not arise.
+
+Prefixes are needed for **any** IRI base appearing in a ROBOT template, including annotation values such as the `EFO:0008992` assay on the BG location edges — not just for the node identifiers.
 
 ### Finding Missing Namespaces
 
