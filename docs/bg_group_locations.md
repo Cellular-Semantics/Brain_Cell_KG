@@ -143,11 +143,15 @@ https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/ma
 https://raw.githubusercontent.com/Cellular-Semantics/Brain_Cell_KG/refs/heads/main/owl/bg_group_adjacent_cell_ratio.owl
 ```
 
-`EFO` and `n2o:adjacentCellRatio` also want to resolve cleanly in Neo4j. `EFO`
-has been added to `src/utils/prefixes.json`; propagating it to the KG curie_map
-(`config/dumps/neo4j2owl-config.yaml`) is the same pending job as the `DHBA`/
-`CLM` entries covered by `src/cypher_updates/tmp_dhba_clm_curies.cypher` —
-without it `EFO:0008992` loads as `ns{n}:EFO_0008992`.
+The evidence targets need `EFO` in the KG curie_map or they load as
+`ns{n}:EFO_0008992`. `EFO` was added to `src/utils/prefixes.json` (the single
+source of truth) and propagated to `config/dumps/neo4j2owl-config.yaml` with:
+
+```bash
+make update-neo4j-prefixes
+```
+
+Run that after any prefix addition rather than hand-editing the curie_map.
 
 ## Refreshing after an upstream release
 

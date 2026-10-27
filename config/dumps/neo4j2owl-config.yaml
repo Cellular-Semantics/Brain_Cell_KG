@@ -69,6 +69,7 @@ curie_map:
   MBA: https://purl.brain-bican.org/ontology/mbao/MBA_
   DHBA: https://purl.brain-bican.org/ontology/dhbao/DHBA_
   CLM: http://purl.obolibrary.org/obo/CLM_
+  EFO: http://www.ebi.ac.uk/efo/EFO_
   ensembl: http://identifiers.org/ensembl/
   NCBIGene: http://identifiers.org/ncbigene/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
@@ -84,6 +85,7 @@ curie_map:
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   PMID: http://www.ncbi.nlm.nih.gov/pubmed/
   doi: https://doi.org/
+  dcterms: http://purl.org/dc/terms/
   orcid: https://orcid.org/
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
