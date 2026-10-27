@@ -1,0 +1,282 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068>))
+Declaration(AnnotationProperty(<http://n2o.neo/custom/adjacentCellRatio>))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0000> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0001> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0003> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0004> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0005> "0.5"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0008> "0.7"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0009> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0011> "0.2"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0012> "0.8"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0013> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0014> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0015> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0016> "0.2"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0017> "0.2"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0018> "0.5"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0019> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0020> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0022> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0023> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0025> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0026> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0027> "0.2"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0028> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0029> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0030> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0031> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0032> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0033> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0034> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0035> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0037> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0038> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0039> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0040> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0041> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0042> "0.9"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0043> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0044> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0046> "0.3"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0047> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0053> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0055> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0056> "0.1"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0057> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0058> "0.2"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0059> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0062> "0.4"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0063> "0.5"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0064> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0065> "0.6"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0066> "0.9"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0067> "0.5"^^xsd:float)
+
+# Individual: <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> (<https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068>)
+
+AnnotationAssertion(Annotation(rdfs:comment "Fraction of cells assigned to the 'Adj' (adjacent) category in the HMBA basal ganglia consensus annotation: tissue adjacent to the dissected nucleus, not localised to a named anatomical structure. Not a soma location assertion.") <http://n2o.neo/custom/adjacentCellRatio> <https://purl.brain-bican.org/ontology/CS20250428/CS20250428_GROUP_0068> "0.4"^^xsd:float)
+
+
+)

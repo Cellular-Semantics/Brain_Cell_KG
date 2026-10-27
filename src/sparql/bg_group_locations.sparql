@@ -1,0 +1,49 @@
+# Named soma-location assignments for HMBA basal ganglia Group-level cell sets.
+#
+# BGO pushes the taxonomy's spatial proportions onto the *cell type class* as
+# CLM:0010001 (some soma located in) annotation assertions, with the cell
+# fraction, a provenance comment and the assay on the reifying owl:Axiom. The
+# taxonomy node (the BG: cell set) carries none of it, so this repo transfers
+# the assignments across the has_exemplar_data link.
+#
+# The join is 1:1 at Group level: 61 Group cell sets, 61 distinct exemplar
+# classes, no class with more than one BG exemplar. Only Group rows carry
+# spatial data upstream, so nothing is emitted for Subclass / Class /
+# Neighborhood (ratios are not roll-up-able without per-group cell counts,
+# which no available source provides).
+#
+# Note has_exemplar_data (RO:0015001) is asserted as an OWL hasValue
+# restriction, not a plain triple -- hence the subClassOf/onProperty pattern.
+#
+# Run against config/collectdata/local_ontologies/bgo-full.owl (i.e. AFTER
+# `make bgo-local` has unified the CCN20250428 / CS20250428 ID bases; on the
+# raw upstream file the exemplar links sit on the CCN copy and this returns
+# nothing).
+#
+# Expected result: 86 rows over 61 distinct cell sets.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX CLM: <http://purl.obolibrary.org/obo/CLM_>
+PREFIX RO: <http://purl.obolibrary.org/obo/RO_>
+
+SELECT ?cell_set ?region ?ratio ?comment ?evidence ?exemplar_class
+WHERE {
+  ?exemplar_class rdfs:subClassOf [ owl:onProperty RO:0015001 ;
+                                    owl:hasValue ?cell_set ] .
+  FILTER(STRSTARTS(STR(?cell_set), "https://purl.brain-bican.org/ontology/CS20250428/"))
+
+  ?exemplar_class CLM:0010001 ?region .
+
+  OPTIONAL {
+    ?ax a owl:Axiom ;
+        owl:annotatedSource ?exemplar_class ;
+        owl:annotatedProperty CLM:0010001 ;
+        owl:annotatedTarget ?region .
+    OPTIONAL { ?ax CLM:0010002 ?ratio }
+    OPTIONAL { ?ax rdfs:comment ?comment }
+    OPTIONAL { ?ax oboInOwl:evidence ?evidence }
+  }
+}
+ORDER BY ?cell_set ?region

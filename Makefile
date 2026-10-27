@@ -75,7 +75,12 @@ ZHUANG_LOCATION_OWL = \
 	$(OWL_DIR)/class_location_mappings_zhuang.owl \
 	$(OWL_DIR)/neurotransmitter_location_mappings_zhuang.owl
 
-ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl $(ZHUANG_LOCATION_OWL) $(CCF_SPATIAL_OWL)
+BG_GROUP_LOCATION_OWL = \
+	$(OWL_DIR)/bg_group_location_mappings.owl \
+	$(OWL_DIR)/bg_group_adjacent_cell_ratio.owl
+
+ROOT_GENERATED_OWL = $(OWL_DIR)/wmb_total_cell_counts.owl $(ZHUANG_LOCATION_OWL) \
+	$(CCF_SPATIAL_OWL) $(BG_GROUP_LOCATION_OWL)
 
 # All OWL outputs
 ALL_OWL_OUTPUTS = $(GENERATED_OWL) $(STATIC_OWL) $(ROOT_OWL) $(ROOT_GENERATED_OWL)
@@ -103,13 +108,19 @@ $(TEMPLATES_DIR)/BG2WMB_AT_map_template.tsv: src/scripts/BG_WMB_AT/source_data/M
 # under GitHub's 100 MB per-file limit. The OWL API auto-detects serialization
 # by content, so we keep the .owl extension and downstream loaders are
 # unaffected.
-$(OWL_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
+# NB: no `| $(OWL_DIR)` order-only prereq here. $(OWL_DIR) is `owl`, which is
+# also a .PHONY target (see below), so a phony prereq makes every .owl target
+# circular -- make drops the dependency and silently refuses to build the file.
+# The recipes create the directory themselves instead.
+$(OWL_DIR)/%.owl: $(TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json
+	@mkdir -p $(@D)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \
 	      convert --format ofn --output $@
 
-$(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json | $(OWL_DIR)
+$(OWL_DIR)/%.owl: $(ROOT_TEMPLATES_DIR)/%.tsv $(UTILS_DIR)/prefixes.json
+	@mkdir -p $(@D)
 	robot template \
 		--add-prefixes $(UTILS_DIR)/prefixes.json \
 		--template $< \
@@ -487,6 +498,48 @@ $(ROOT_TEMPLATES_DIR)/neurotransmitter_location_mappings_zhuang.tsv: \
 .PHONY: zhuang-location-templates
 zhuang-location-templates: $(ZHUANG_LOCATION_TEMPLATES)
 
+# HMBA basal ganglia Group-level spatial data, transferred from the cell type
+# class onto the taxonomy node.
+#
+# BGO asserts the taxonomy's spatial proportions on the CL/PCL class via
+# CLM:0010001, but they are a property of the taxonomy Group, so they are
+# pulled across the has_exemplar_data link onto the BG: cell set. Two outputs:
+# the named-region edges (PCL:0010063, matching the WMB *_location_mappings
+# templates), and the upstream 'Adj' (adjacent-tissue) fraction, which BGO
+# drops and which is recorded as a plain n2o:adjacentCellRatio annotation
+# rather than a location edge. See docs/bg_group_locations.md.
+#
+# Depends on $(BGO_LOCAL): on the raw upstream bgo-full.owl the exemplar links
+# sit on the CCN20250428 copy and the query returns nothing.
+BG_LOCATION_SRC = $(SOURCE_DATA_DIR)/bg_group_locations
+BG_CONSENSUS_CSV = $(BG_LOCATION_SRC)/data/HMBA_BG_consensus_annotation.csv
+BG_LOCATION_QUERY = $(SPARQL_DIR)/bg_group_locations.sparql
+
+BG_GROUP_LOCATION_TEMPLATES = \
+	$(ROOT_TEMPLATES_DIR)/bg_group_location_mappings.tsv \
+	$(ROOT_TEMPLATES_DIR)/bg_group_adjacent_cell_ratio.tsv
+
+$(BUILD_DIR)/bg_group_locations.tsv: $(BGO_LOCAL) $(BG_LOCATION_QUERY) | $(BUILD_DIR)
+	@echo "Extracting BG Group soma locations from bgo-full.owl..."
+	robot query --input $(BGO_LOCAL) --query $(BG_LOCATION_QUERY) $@
+
+$(ROOT_TEMPLATES_DIR)/bg_group_location_mappings.tsv: \
+		$(BUILD_DIR)/bg_group_locations.tsv \
+		$(BG_CONSENSUS_CSV) \
+		$(BG_LOCATION_SRC)/code/generate_bg_group_location_templates.py \
+		$(VENV_PYTHON)
+	@echo "Generating BG Group location templates..."
+	$(VENV_PYTHON) $(BG_LOCATION_SRC)/code/generate_bg_group_location_templates.py \
+		--locations $(BUILD_DIR)/bg_group_locations.tsv \
+		--consensus $(BG_CONSENSUS_CSV) \
+		--templates-dir $(ROOT_TEMPLATES_DIR)
+
+$(ROOT_TEMPLATES_DIR)/bg_group_adjacent_cell_ratio.tsv: \
+		$(ROOT_TEMPLATES_DIR)/bg_group_location_mappings.tsv
+
+.PHONY: bg-location-templates
+bg-location-templates: $(BG_GROUP_LOCATION_TEMPLATES)
+
 # Per-MBA-term atlas-membership templates declaring which MBA terms are
 # directly painted in CCF 2020 (with level), have descendants painted
 # (with coverage), or have no CCF representation at all. Drives the
@@ -572,6 +625,7 @@ help:
 	@echo "  zhuang-location-templates - Generate Zhuang unified location templates (PCL:0010063 with in_or_near_100)"
 	@echo "  ccf-region-adjacency - Generate CCF region adjacency templates (all three levels)"
 	@echo "  ccf-spatial - Generate adjacency + unified location templates (yao + zhuang)"
+	@echo "  bg-location-templates - Transfer HMBA BG Group spatial data onto taxonomy nodes"
 	@echo "  wmb-total-cell-count-template - Generate ROBOT template attaching total cell counts to WMB cell types"
 	@echo "  detect-missing-namespaces - Find missing CURIE prefixes (ns{n}: patterns)"
 	@echo "  suggest-missing-prefixes - Generate prefix suggestions via prefix commons"

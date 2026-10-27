@@ -15,6 +15,7 @@
     "MBA": "https://purl.brain-bican.org/ontology/mbao/MBA_",
     "DHBA": "https://purl.brain-bican.org/ontology/dhbao/DHBA_",
     "CLM": "http://purl.obolibrary.org/obo/CLM_",
+    "EFO": "http://www.ebi.ac.uk/efo/EFO_",
     "ensembl": "http://identifiers.org/ensembl/",
     "NCBIGene": "http://identifiers.org/ncbigene/",
     "NCBITaxon": "http://purl.obolibrary.org/obo/NCBITaxon_",
