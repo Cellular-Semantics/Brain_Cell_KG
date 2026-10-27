@@ -67,6 +67,8 @@ curie_map:
   WHB: https://purl.brain-bican.org/taxonomy/WH_Transcriptomic/
   PCL: http://purl.obolibrary.org/obo/PCL_
   MBA: https://purl.brain-bican.org/ontology/mbao/MBA_
+  DHBA: https://purl.brain-bican.org/ontology/dhbao/DHBA_
+  CLM: http://purl.obolibrary.org/obo/CLM_
   ensembl: http://identifiers.org/ensembl/
   NCBIGene: http://identifiers.org/ncbigene/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_

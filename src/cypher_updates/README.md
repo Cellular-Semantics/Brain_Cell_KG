@@ -20,6 +20,7 @@ make update-kg
 | File | Purpose |
 |---|---|
 | `add_neo_labels.cypher` | Taxonomy/labelset node labels; MBA granularity labels (Division / Structure / Substructure). |
+| `tmp_dhba_clm_curies.cypher` | **Temporary.** Sets `DHBA:` / `CLM:` CURIEs on a KG built before those prefixes joined the curie_map (BG soma locations and marker sets otherwise get generated `ns{n}:` CURIEs). No-op on later builds; delete after the next full rebuild. |
 
 ## Guidelines
 
