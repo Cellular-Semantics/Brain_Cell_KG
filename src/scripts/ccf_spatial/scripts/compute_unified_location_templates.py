@@ -50,6 +50,7 @@ from ccf_parcellation import (  # noqa: E402
     build_index_to_curie,
     load_canonical_levels,
 )
+from cell_set_map import load_type_curies  # noqa: E402
 
 TAXONOMY_LEVELS = ["neurotransmitter", "class", "subclass", "supertype", "cluster"]
 PROXIMITY_BAND_UM = 100.0
@@ -357,6 +358,18 @@ def emit_template(df: pd.DataFrame, out_path: Path, atlas_curie: str):
     out_path.write_text("\n".join(lines) + "\n")
 
 
+def report_unmapped_types(cells: pd.DataFrame, type_curie: dict) -> None:
+    """Warn about cell-type labels in ``cells`` with no CURIE; their rows are
+    dropped from the templates, so the count must be visible."""
+    for tax in TAXONOMY_LEVELS:
+        labels = set(cells[tax].dropna().unique())
+        missing = sorted(l for l in labels if (tax, l) not in type_curie)
+        if missing:
+            print(f"  WARNING {tax}: {len(missing)}/{len(labels)} labels have no "
+                  f"WMB CURIE in cell_set_map.csv and will be skipped, e.g. "
+                  f"{missing[:5]}", file=sys.stderr)
+
+
 # --------------------------------------------------------------------------- #
 # Main                                                                        #
 # --------------------------------------------------------------------------- #
@@ -472,11 +485,8 @@ def main():
         del labeled_check, remap
 
     # --- type CURIE lookup ((labelset,label) -> CURIE), WMB ---
-    csmap = pd.read_csv(args.cell_set_map)
-    csmap = csmap[csmap["dataset"] == "Whole Mouse Brain Taxonomy"]
-    type_curie = {(r["labelset"], r["label"]): r["curie"]
-                  for _, r in csmap.iterrows()
-                  if pd.notna(r["label"]) and pd.notna(r["curie"])}
+    type_curie = load_type_curies(args.cell_set_map)
+    report_unmapped_types(cells, type_curie)
 
     # --- global cells KD-tree (queried with each region's surface points) ---
     # Building once and querying with surface points is cheaper than building a
