@@ -323,6 +323,7 @@ zhuang-matrices: $(ZHUANG_MATRICES_DIR)/matrix_metadata.json
 # Per-taxonomy-node cell counts from the WMB-10X reference dataset
 # (~4M cells, defines the WMB taxonomy). Sibling to cell_counts_by_taxonomy.csv
 # (which is MERFISH-derived, ~2.4M spatially-resolved cells).
+CELL_SET_MAP_LIB = $(UTILS_DIR)/cell_set_map.py
 WMB_10X_COUNTS_CSV = $(SRC_DIR)/scripts/cell_counts/reports/cell_counts_and_proportions/cell_counts_by_taxonomy_10x.csv
 
 $(WMB_10X_COUNTS_CSV): \
@@ -341,6 +342,7 @@ $(ROOT_TEMPLATES_DIR)/wmb_total_cell_counts.tsv: \
 		$(WMB_10X_COUNTS_CSV) \
 		$(REPORTS_DIR)/cell_set_map.csv \
 		$(SRC_DIR)/scripts/cell_counts/generate_total_cell_count_template.py \
+		$(CELL_SET_MAP_LIB) \
 		$(VENV_PYTHON)
 	@echo "Generating WMB total cell count ROBOT template..."
 	$(VENV_PYTHON) $(SRC_DIR)/scripts/cell_counts/generate_total_cell_count_template.py \
@@ -437,6 +439,7 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings.tsv: \
 		$(YAO_CCF_CSV) \
 		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
 		$(CCF_BRIDGE) \
+		$(CELL_SET_MAP_LIB) \
 		$(VENV_PYTHON)
 	@echo "Generating Yao unified location templates (all five taxonomy levels)..."
 	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
@@ -475,6 +478,7 @@ $(ROOT_TEMPLATES_DIR)/cluster_location_mappings_zhuang.tsv: \
 		$(REPORTS_DIR)/mba_ccf_membership.csv \
 		$(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \
 		$(CCF_BRIDGE) \
+		$(CELL_SET_MAP_LIB) \
 		$(VENV_PYTHON)
 	@echo "Generating Zhuang unified location templates (all five taxonomy levels)..."
 	$(VENV_PYTHON) $(CCF_SPATIAL_SCRIPTS)/compute_unified_location_templates.py \

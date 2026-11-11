@@ -15,9 +15,12 @@ location-mapping axioms produced by compute_unified_location_templates.py.
 
 import argparse
 import sys
+from pathlib import Path
+
 import pandas as pd
 
-WMB_DATASET = "Whole Mouse Brain Taxonomy"
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "utils"))
+from cell_set_map import load_type_curies  # noqa: E402
 
 
 def main():
@@ -31,14 +34,7 @@ def main():
     args = parser.parse_args()
 
     counts = pd.read_csv(args.counts)
-    cell_map = pd.read_csv(args.cell_set_map)
-
-    wmb_map = cell_map[cell_map["dataset"] == WMB_DATASET]
-    label_to_curie = {
-        (row["labelset"], row["label"]): row["curie"]
-        for _, row in wmb_map.iterrows()
-        if pd.notna(row["label"]) and pd.notna(row["curie"])
-    }
+    label_to_curie = load_type_curies(args.cell_set_map)
 
     header = ["ID", "Type", "cell_count"]
     types = ["ID", "TYPE", "AT PCL:0010060^^xsd:integer"]
