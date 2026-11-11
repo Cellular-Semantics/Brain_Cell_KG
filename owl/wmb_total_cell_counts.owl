@@ -33,7 +33,10 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_25>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_26>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_27>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_28>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_29>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_31>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_32>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_33>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_34>))
@@ -5228,6 +5231,7 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5189>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5190>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5191>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5192>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5193>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5194>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5195>))
@@ -5243,18 +5247,34 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5205>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5206>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5207>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5208>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5209>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5210>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5211>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5212>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5213>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5214>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5215>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5216>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5217>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5218>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5219>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5220>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5221>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5222>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5223>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5224>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5225>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5226>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5227>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5228>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5229>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5230>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5231>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5232>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5233>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5234>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5235>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5236>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5237>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5238>))
@@ -5262,7 +5282,14 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5240>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5241>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5242>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5243>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5244>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5245>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5246>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5247>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5248>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5249>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5250>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5251>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5252>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5253>))
@@ -5276,19 +5303,32 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5261>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5262>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5263>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5264>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5265>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5266>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5267>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5268>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5269>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5270>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5271>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5272>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5273>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5274>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5275>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5276>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5277>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5278>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5279>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5280>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5281>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5282>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5283>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5284>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5285>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5286>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5287>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5288>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5289>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5290>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5291>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5292>))
@@ -5311,6 +5351,8 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5309>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5310>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5311>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5312>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5313>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5314>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5315>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5316>))
@@ -5389,6 +5431,8 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_058>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_059>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_063>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_064>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_065>))
@@ -5635,7 +5679,9 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_306>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_307>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_308>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_309>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_310>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_311>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_312>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_313>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_314>))
@@ -5643,12 +5689,18 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_316>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_317>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_318>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_320>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_321>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_322>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_324>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_325>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_328>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_329>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_331>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_332>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_333>))
@@ -6797,16 +6849,29 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1138>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1139>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1140>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1141>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1142>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1143>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1144>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1145>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1146>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1147>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1148>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1149>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1150>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1151>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1152>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1153>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1154>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1155>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1156>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1157>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1158>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1159>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1160>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1161>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1162>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1163>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1164>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1165>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1166>))
@@ -6821,10 +6886,15 @@ Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/C
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1175>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1176>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1177>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1178>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1180>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1181>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1182>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1183>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1185>))
+Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1186>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1187>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1188>))
 Declaration(NamedIndividual(<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1189>))
@@ -6955,9 +7025,21 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_27> "33311"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_28> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_28>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_28> "51226"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_29> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_29>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_29> "141106"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_30> "308681"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_31> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_31>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_31> "545179"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_32> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLAS_32>)
 
@@ -27735,6 +27817,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5191> "116"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5192> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5192>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5192> "13098"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5193> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5193>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5193> "47"^^xsd:integer)
@@ -27795,6 +27881,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5207> "1716"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5208> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5208>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5208> "192"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5209> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5209>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5209> "718"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5210> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5210>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5210> "140"^^xsd:integer)
@@ -27811,6 +27905,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5213> "18"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5214> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5214>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5214> "108101"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5215> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5215>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5215> "10325"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5216> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5216>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5216> "20018"^^xsd:integer)
@@ -27818,6 +27920,30 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5217> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5217>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5217> "761"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5218> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5218>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5218> "2759"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5219> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5219>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5219> "647"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5220> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5220>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5220> "132"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5221> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5221>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5221> "1225"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5222> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5222>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5222> "413"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5223> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5223>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5223> "10"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5224> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5224>)
 
@@ -27827,6 +27953,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5225> "131046"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5226> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5226>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5226> "7734"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5227> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5227>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5227> "7503"^^xsd:integer)
@@ -27835,6 +27965,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5228> "982"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5229> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5229>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5229> "773"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5230> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5230>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5230> "564"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5231> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5231>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5231> "991"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5232> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5232>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5232> "202"^^xsd:integer)
@@ -27842,6 +27984,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5233> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5233>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5233> "384"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5234> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5234>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5234> "235"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5235> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5235>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5235> "424"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5236> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5236>)
 
@@ -27871,9 +28021,37 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5242> "215"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5243> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5243>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5243> "97"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5244> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5244>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5244> "38"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5245> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5245>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5245> "198"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5246> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5246>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5246> "94"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5247> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5247>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5247> "331"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5248> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5248>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5248> "36"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5249> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5249>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5249> "237"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5250> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5250>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5250> "41"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5251> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5251>)
 
@@ -27927,6 +28105,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5263> "139"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5264> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5264>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5264> "305"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5265> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5265>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5265> "171"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5266> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5266>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5266> "483"^^xsd:integer)
@@ -27935,17 +28121,37 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5267> "210"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5268> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5268>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5268> "1342"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5269> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5269>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5269> "117304"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5270> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5270>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5270> "2328"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5271> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5271>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5271> "938"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5272> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5272>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5272> "7130"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5273> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5273>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5273> "5971"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5274> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5274>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5274> "172"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5275> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5275>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5275> "2168"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5276> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5276>)
 
@@ -27955,9 +28161,25 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5277> "193"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5278> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5278>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5278> "15"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5279> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5279>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5279> "913"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5280> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5280>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5280> "1793"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5281> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5281>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5281> "708"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5282> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5282>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5282> "6615"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5283> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5283>)
 
@@ -27966,6 +28188,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5284> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5284>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5284> "120642"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5285> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5285>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5285> "264669"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5286> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5286>)
 
@@ -27978,6 +28204,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5288> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5288>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5288> "787"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5289> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5289>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5289> "119"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5290> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5290>)
 
@@ -28066,6 +28296,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5311> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5311>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5311> "30159"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5312> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5312>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5312> "86232"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5313> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5313>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5313> "2812"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5314> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_CLUS_5314>)
 
@@ -28378,6 +28616,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_060> "12366"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_061> "36287"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_062> "36963"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_063> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_063>)
 
@@ -29363,9 +29609,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_308> "1367"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_309> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_309>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_309> "4471"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_310> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_310>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_310> "291"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_311> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_311>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_311> "31619"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_312> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_312>)
 
@@ -29395,6 +29649,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_318> "140669"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_319> "154311"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_320> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_320>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_320> "2486"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_321> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_321>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_321> "1232"^^xsd:integer)
@@ -29402,6 +29664,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_322> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_322>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_322> "1072"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_323> "3259"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_324> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_324>)
 
@@ -29411,6 +29677,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_325> "476"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_326> "122605"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_327> "422574"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_328> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_328>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_328> "1132"^^xsd:integer)
@@ -29418,6 +29692,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_329> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_329>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_329> "857"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_330> "9104"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_331> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUBC_331>)
 
@@ -34011,13 +34289,25 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1140> "448"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1141> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1141>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1141> "872"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1142> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1142>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1142> "123"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1143> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1143>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1143> "372"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1144> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1144>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1144> "3646"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1145> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1145>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1145> "254"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1146> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1146>)
 
@@ -34027,6 +34317,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1147> "442"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1148> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1148>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1148> "291"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1149> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1149>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1149> "31249"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1150> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1150>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1150> "370"^^xsd:integer)
@@ -34034,6 +34332,26 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1151> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1151>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1151> "13098"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1152> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1152>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1152> "153"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1153> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1153>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1153> "227"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1154> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1154>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1154> "17649"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1155> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1155>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1155> "116129"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1156> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1156>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1156> "7328"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1157> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1157>)
 
@@ -34050,6 +34368,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1160> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1160>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1160> "139205"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1161> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1161>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1161> "4763"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1162> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1162>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1162> "423"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1163> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1163>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1163> "146806"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1164> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1164>)
 
@@ -34107,6 +34437,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1177> "139"^^xsd:integer)
 
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1178> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1178>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1178> "476"^^xsd:integer)
+
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1179> "121667"^^xsd:integer)
@@ -34122,6 +34456,22 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.b
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1182> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1182>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1182> "3429"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1183> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1183>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1183> "7528"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1184> "395554"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1185> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1185>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1185> "1132"^^xsd:integer)
+
+# Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1186> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1186>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/PCL_0010060> <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1186> "857"^^xsd:integer)
 
 # Individual: <https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1187> (<https://purl.brain-bican.org/ontology/CCN20230722/CS20230722_SUPT_1187>)
 
